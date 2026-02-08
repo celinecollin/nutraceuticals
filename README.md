@@ -23,9 +23,10 @@ Comprehensive equity research report analyzing the global animal nutraceuticals 
 ├── sources/                       # Source materials
 │   ├── academic/                  # Academic papers, regulatory docs
 │   ├── datasets/                  # Excel/CSV data files
+│   ├── reports/                   # Corporate filings and market reports
 │   └── internal/                  # Internal analysis files
 ├── _registry/
-│   └── source_registry.xlsx       # 120 sources, 49 verified claims, 37 figures
+│   └── source_registry.xlsx       # 120 sources, 49 tracked claims, 37 figures
 ├── _figures/exports/              # 106 chart exports (PNG)
 ├── _output/                       # Generated DOCX outputs
 ├── _scripts/                      # Automation scripts
@@ -42,7 +43,7 @@ All claims, figures, and sources tracked in **`_registry/source_registry.xlsx`**
 - **Figures tab:** 37 figures mapped to Master Excel data
 - **Sections tab:** 6 sections tracked
 
-**Verification Status:** ⚠ In progress (author review pending on `[AUTHOR-CHECK]` claims and unresolved source files).
+**Verification Status:** ⚠ In progress (author review pending on `[AUTHOR-CHECK]` claims).
 
 ---
 

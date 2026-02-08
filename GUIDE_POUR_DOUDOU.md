@@ -27,9 +27,10 @@ Instead of one huge Markdown file, each section of the report is now its own fil
 
 ```
 sections/01_executive_summary.md
-sections/02_introduction.md
-sections/03_market_overview.md
-...etc
+sections/02_part_i_structural_bifurcation.md
+sections/03_part_ii_strategic_bifurcation.md
+sections/04_part_iii_value_chain.md
+sections/05_appendices.md
 ```
 
 **Why this helps you:** When you ask the agent to update Section 3, it only opens and edits that one file. It can't accidentally mess up Section 7 while it's in there. And when you review changes, you only see what changed in that section.
@@ -44,7 +45,8 @@ In the Markdown files, you'll see things like:
 
 That `[S023, p.8]` means: this number comes from Source S023, page 8. You can look up S023 in your Excel's Sources tab to find the actual file.
 
-If you ever see `[UNVERIFIED]` — that means the agent added a number but couldn't find the source. **That's your cue to check it.** It might be real (the source just wasn't registered yet) or it might be made up. Either way, it's flagged for you.
+If you ever see `[AUTHOR-CHECK]` — that means the claim needs your explicit validation before finalization.  
+If you ever see `[UNVERIFIED]` — that means no source was identified and it must be resolved before sending.
 
 ---
 
@@ -155,11 +157,11 @@ Git has your back. And the conversion script only uses what's listed in `report_
 **"The agent reformatted my whole section again!"**
 This shouldn't happen anymore because sections are now separate files. But if it does: the AGENTS.md file explicitly tells the agent not to do this. You can literally say "You violated Rule 2 in AGENTS.md — revert your changes to only the specific edit I asked for."
 
-**"I see [UNVERIFIED] in the report and I'm not sure what to do"**
-It means the agent wrote something but couldn't find a source. Three possibilities:
-1. The fact is correct but the source wasn't registered yet → find it, register it, replace `[UNVERIFIED]` with `[SXXX]`
-2. The fact is approximately correct but needs a better source → find a better source
-3. The agent made it up → delete it or rewrite with a real source
+**"I see [AUTHOR-CHECK] or [UNVERIFIED] in the report and I'm not sure what to do"**
+It means the claim is not final-source-verified. Three possibilities:
+1. The fact is correct and a strong source exists → replace with a proper `[SXXX]` citation
+2. The fact is directionally right but the number/source needs adjustment → revise text and cite correctly
+3. The claim can't be validated → delete it
 
 ---
 

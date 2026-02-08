@@ -226,3 +226,15 @@ All notable changes to this project will be documented in this file.
   - `PRD_SOURCE_REGISTRY.md`
   - `UNVERIFIED_CLAIMS.md`
 - **Reason:** Author confirmed both documents remain active references for ongoing verification workflow.
+
+### [2026-02-08] - Root Markdown Documentation Refresh
+- **What:** Updated root markdown guidance to reflect current live project state.
+- **Files modified:**
+  - `README.md`
+  - `GUIDE_POUR_DOUDOU.md`
+- **Changes made:**
+  - Updated source folder structure in `README.md` to include `sources/reports/`.
+  - Corrected registry summary wording (`49 tracked claims` instead of `49 verified claims`).
+  - Updated verification status note to remove outdated unresolved-source language.
+  - Replaced outdated section filename examples in `GUIDE_POUR_DOUDOU.md` with current section files.
+  - Clarified `[AUTHOR-CHECK]` vs `[UNVERIFIED]` handling in user guidance.
