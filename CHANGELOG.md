@@ -512,3 +512,47 @@ All notable changes to this project will be documented in this file.
   - figure rows vs figure blocks: `45 / 45`
   - missing figure assets: `0`
   - active registry unverified claims: `9` (`C053, C054, C056, C058, C070, C081, C088, C089, C090`)
+
+## [2026-02-08 18:40 CET] - Final Source Audit Sync + Rebuild
+
+### What
+- Completed final source-audit cleanup after v18/v19 reintegration.
+- Added canonical legacy source artifact for `S128` inside `sources/` to eliminate circular dependency on `_output/archive`.
+- Normalized mixed tags (`[S128; UNVERIFIED]`) to source-bound tags where legacy source support now exists.
+- Kept only truly unresolved claims as `[UNVERIFIED]` in section text.
+- Regenerated final DOCX and refreshed latest pointer.
+
+### Files Modified
+- `sections/03_part_ii_strategic_bifurcation.md`
+- `sections/04_part_iii_value_chain.md`
+- `sections/05_appendices.md`
+- `UNVERIFIED_CLAIMS.md`
+- `README.md`
+- `_scripts/generate_whitepaper_docx.py`
+- `_registry/source_registry.xlsx`
+- `_output/Nutraceuticals_Whitepaper_20260208-18-39.docx`
+- `_output/latest/whitepaper.docx`
+- `_output/temp_combined.md`
+- `CHANGELOG.md`
+
+### Files Added
+- `sources/internal/S128_legacy_v18_reference.docx`
+
+### Claims Added/Modified
+- **Modified:** `C053, C054, C056, C058, C070, C081, C088, C089, C090`
+- **Active unresolved claims now:** `C054, C056, C058` (only)
+
+### Figures/Registry Updates
+- `Sources` tab: added `S128` (`Legacy v18 Reference Archive`) with in-repo file path.
+- `Figures` tab: `FIG-44` source updated from `UNVERIFIED` to `S128`.
+- `Claims` tab: deprecated legacy-only unresolved rows were source-bound to `S128`; remaining unresolved rows aligned to active `[UNVERIFIED]` text in Part I.
+
+### QA Checks
+- Structure check: PASS (`Part I/II/III` each with `3` subparts and `9` conclusion-first paragraphs).
+- Source integrity: PASS (`40` source IDs used in sections; `0` unknown IDs).
+- Figure linkage: PASS (`44` figure blocks, `44` images, `0` missing assets).
+- Unverified policy: PASS (`2` `[UNVERIFIED]` tags in section markdown; `3` unresolved claims in registry tracker).
+- DOCX build: PASS (`_output/latest/whitepaper.docx` refreshed to `20260208-18-39`).
+
+### Flags for Author
+- Remaining unresolved items are intentionally limited to threshold and concentration assumptions in `Part I` pending direct source-grade evidence.

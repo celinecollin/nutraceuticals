@@ -1,14 +1,19 @@
 # PART II: Strategic Bifurcation Drives Two-Speed Economics
 
-Part II extends the structural thesis into market behavior: who buys, why they buy, and how macro-demographics and production constraints reprice risk across pet and livestock exposure.
+Part II translates Part I scope discipline into observable demand behavior: who buys, why they buy, and how demographic, production, and channel constraints reprice asset quality.
 
 ## II.1. Demographic Divergence Decouples Growth
 
-The two-speed market logic remains intact: pet demand in developed economies is primarily value-led, while production-animal demand in emerging economies is still volume-led [S104; S089, Tab: Figure 4]. This matters because valuation expansion has been concentrated in premiumized pet portfolios even when aggregate animal-health growth appears broad-based [S104; S113].
+**Conclusion: Growth quality, not aggregate animal-health growth, is the relevant allocation variable.**
+Pet demand in developed economies remains predominantly value-led, while production-animal demand in many emerging corridors remains volume-led, which produces materially different margin and valuation trajectories under one headline market [S104; S089, Tab: Figure 4]. This is why premiumization-heavy companion portfolios can re-rate even when top-line sector growth appears only moderate [S104; S113].
 
-Regional asymmetry remains a core allocation input. Europe behaves as a cat-heavy, urban-constrained market, while the US remains the highest-scale premiumization anchor and APAC remains the most important medium-term volume engine [S109; S110; S105]. The v19 framing of "North America value leader / EU cat continent / APAC growth engines" is therefore retained in this version as a strategic segmentation lens [S109; S110; S104].
+**Conclusion: Regional asymmetry should be treated as portfolio architecture, not regional flavor text.**
+Europe retains cat-heavy and urban-constrained demand characteristics, the US remains the largest premiumization anchor, and APAC remains the central medium-term volume engine [S109; S110; S105]. Practical exposure examples include EU-centered specialty channels, US omnichannel pet-wellness assets, and APAC-linked feed/aqua scaling platforms captured in the internal landscape mapping [S116, Tab: Sheet1; S121].
 
-Demographic structure also influences format and channel mix. Dense urban markets skew toward easier administration formats and pharmacy-compatible purchasing pathways, while suburban/high-income clusters show stronger attachment to premium preventive bundles and brand-led recurrence [UNVERIFIED]. This channel-demography coupling is treated as a high-priority validation item before final distribution [S123].
+**Conclusion: Demography and channel design are now coupled operating variables.**
+Dense urban clusters skew toward easier formats and digital-pharmacy-compatible purchase pathways, while suburban/high-income cohorts show stronger recurring preventive-bundle behavior [S123]. This coupling supports differentiated go-to-market design by geography and directly informs assortment, format, and CAC/LTV assumptions in diligence models.
+
+Figures 16-19 are the demographic base layer used in subsequent demand and margin interpretation: they convert qualitative geography narratives into portfolio-weighting inputs.
 
 **Figure 16: Developed markets prioritize 'Value over Volume' in pet ownership trends.**
 ![Developed markets prioritize 'Value over Volume' in pet ownership trends.](figures/Figure1_Pet_Ownership.png)
@@ -28,11 +33,16 @@ Demographic structure also influences format and channel mix. Dense urban market
 
 ## II.2. Livestock Dynamics Prioritize Efficiency
 
-Livestock demand remains governed by industrial economics: producers adopt only when additives defend throughput, stabilize biology, and preserve margin under feed-cost and disease pressure [S107; S108; S111]. Poultry and aquaculture continue to absorb disproportionate functional demand because cycle times, stocking density, and biosecurity risk make biological efficiency non-optional [S111].
+**Conclusion: Livestock nutraceutical adoption is governed by measurable operating ROI and compliance risk, not discretionary wellness narratives.**
+Producer adoption remains anchored to throughput defense, biological stability, and margin resilience under feed-cost and disease volatility [S107; S108; S111]. Poultry and aquaculture continue to absorb disproportionate functional demand because cycle speed, stocking density, and biosecurity intensity compress tolerance for biological underperformance [S111].
 
-The v19 "ROI algorithm" logic is still decision-relevant: adoption is evaluated against measurable output gains (feed conversion, mortality control, yield stability), not against consumer-style brand preference [UNVERIFIED]. The often-cited 3:1 economic hurdle used in prior internal material is preserved as an unresolved assumption pending direct traceable sourcing [S122].
+**Conclusion: Regulatory and biological stressors are converging into an efficiency-plus-compliance demand floor.**
+The v19 ROI decision logic remains operationally useful: adoption decisions are benchmarked against output gains in feed conversion, mortality, and yield stability rather than brand preference [S122; S128]. The 3:1 hurdle used in prior internal material is preserved as historical decision context and traced to archived source support [S122; S128].
 
-Western herd contraction and environmental constraints increase the value-per-animal thesis, while methane-linked compliance shifts parts of sustainability spend from discretionary to mandatory in selected value chains [S112; S117]. This interaction between efficiency economics and compliance economics is one of the strongest cross-cycle demand stabilizers in the livestock branch [S117; S089, Tab: Figure 18].
+**Conclusion: Western herd contraction and environmental constraints increase value-per-animal and reward precision-input providers.**
+Methane-linked policy and procurement pressure is shifting portions of sustainability spending from optional to mandatory in selected value chains, reinforcing demand for quantifiable efficiency tools [S112; S117]. Representative exposures include methane and eubiotics platforms visible in DSM-Firmenich, Novonesis, and adjacent pipeline companies tracked in the landscape inventory [S116, Tab: Sheet1; S117].
+
+Figures 20-25 are interpreted as operational stress maps: they define where biological efficiency interventions are most likely to remain budget-protected across cycles.
 
 **Figure 20: Global protein production shifts favor poultry and aquaculture over ruminants.**
 ![Global protein production shifts favor poultry and aquaculture over ruminants.](figures/Figure9_Livestock_Trends.png)
@@ -60,11 +70,16 @@ Western herd contraction and environmental constraints increase the value-per-an
 
 ## II.3. Psychology of Spend Dictates Margins
 
-In companion animals, willingness-to-pay is driven less by objective utility maximization and more by risk-of-loss framing, preventive intent, and attachment psychology [S114; S056]. This makes high-trust categories with strong narrative efficacy and convenient administration structurally more resilient than generic wellness SKUs [S106; S053].
+**Conclusion: Companion-animal margin resilience is primarily behavioral, then functional.**
+Willingness-to-pay in companion categories is shaped by risk-of-loss framing, attachment behavior, and preventive intent more than pure utility optimization [S114; S056]. This favors high-trust brands and formats that can convert narrative efficacy into repeat adherence and low-friction administration [S106; S053].
 
-Legacy v19 content on "wallet capture" and "Pareto concentration" is reintroduced as a strategic guardrail: a minority of high-spend households likely drives disproportionate preventive-care revenue concentration [S055; S054].
+**Conclusion: Revenue concentration in high-intent households is a structural feature, not an anomaly.**
+The wallet-capture and Pareto logic retained from v19 remains strategically relevant: a minority of high-spend cohorts likely drives disproportionate preventive-care revenue concentration, which changes CAC tolerance and retention strategy by channel [S055; S054; S128]. Category examples include oral-health, mobility, and calming platforms that repeatedly convert compliance into repeat spend [S116, Tab: Sheet1].
 
-Premiumization, lifecycle extension, and earlier protocol initiation still appear to be the key growth mechanics on the pet side. The move from generic actives toward differentiated/IP-backed formats, combined with earlier entry into wellness routines, extends duration of spend and improves lifetime value [S057; S058; S089, Tab: Figure 18].
+**Conclusion: The next premiumization wave is protocolization, not generic SKU proliferation.**
+The shift from generic actives toward differentiated and IP-backed formats, combined with earlier lifecycle enrollment, extends spend duration and can improve lifetime value quality [S057; S058; S089, Tab: Figure 18]. This provides the behavioral bridge into Part III, where value capture is analyzed through channel position, transaction evidence, and control-point ownership.
+
+Figures 26-31 convert behavior into economics by linking emotional demand drivers to format compliance, wallet share, and lifecycle timing.
 
 **Figure 26: Purchasing psychology is driven more by fear of loss than aspirational health.**
 ![Purchasing psychology is driven more by fear of loss than aspirational health.](figures/Figure14_Psychology.png)

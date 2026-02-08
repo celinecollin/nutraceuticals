@@ -5,6 +5,7 @@ Works with restructured project (sections/*.md → final DOCX).
 """
 
 import os
+import re
 import subprocess
 from datetime import datetime
 from docx import Document
@@ -24,6 +25,121 @@ OUTPUT_DOCX = os.path.join(OUTPUT_DIR, f"Nutraceuticals_Whitepaper_{TIMESTAMP}.d
 TEMP_MD = os.path.join(OUTPUT_DIR, "temp_combined.md")
 
 REPORT_MASTER = os.path.join(BASE_DIR, "report_master.md")
+REGISTRY_XLSX = os.path.join(BASE_DIR, "_registry", "source_registry.xlsx")
+
+DEFAULT_SOURCE_NAME_MAP = {
+    "S015": "EU/US Nutraceutical Regulatory Framework",
+    "S085": "US vs EU Regulatory Dataset",
+    "S086": "Regulatory Timeline Dataset",
+    "S089": "Whitepaper Master Data Workbook",
+    "S104": "Grand View Research 2024 (Modeled Dataset)",
+    "S105": "Euromonitor 2024 (Modeled Dataset)",
+    "S106": "NBJ 2023 (Modeled Dataset)",
+    "S107": "Future Market Insights 2024 (Modeled Dataset)",
+    "S108": "MarketsandMarkets 2023 (Modeled Dataset)",
+    "S109": "FEDIAF Facts & Figures",
+    "S110": "APPA Survey (Modeled Dataset)",
+    "S111": "FAO SOFIA",
+    "S112": "Eurostat Livestock Dataset",
+    "S113": "Mordor Intelligence (Modeled Dataset)",
+    "S114": "Nicotra et al. (2025)",
+    "S115": "Zoetis 10-K / Filing",
+    "S116": "Internal PE/VC Portfolio Mapping",
+    "S117": "DSM-Firmenich Annual Report",
+    "S118": "Swedencare Annual / Transaction Context",
+    "S119": "Virbac Annual Report",
+    "S120": "Dechra Annual Report",
+    "S121": "Global Antigravity Landscape Composite",
+    "S122": "Phytogenic ROI Article Pack",
+    "S123": "Urban/Suburban Pet Habits Article",
+    "S124": "MARA 194 Regulatory Pack",
+    "S125": "Sector Deal Multiples Pack",
+    "S126": "EU Green Claims Directive Pack",
+    "S127": "Nutrigenomics Review Pack",
+    "S128": "Legacy v18 Reference Archive",
+}
+
+
+def load_source_name_map():
+    """Load source_id -> short_name from registry with safe fallback."""
+    source_map = dict(DEFAULT_SOURCE_NAME_MAP)
+    try:
+        from openpyxl import load_workbook  # type: ignore
+    except Exception:
+        return source_map
+
+    if not os.path.exists(REGISTRY_XLSX):
+        return source_map
+
+    try:
+        wb = load_workbook(REGISTRY_XLSX, data_only=True)
+        if "Sources" not in wb.sheetnames:
+            return source_map
+        ws = wb["Sources"]
+        headers = [cell.value for cell in ws[1]]
+        if "source_id" not in headers or "short_name" not in headers:
+            return source_map
+        sid_idx = headers.index("source_id")
+        name_idx = headers.index("short_name")
+        for row in ws.iter_rows(min_row=2, values_only=True):
+            if not row:
+                continue
+            sid = str(row[sid_idx] or "").strip()
+            short_name = str(row[name_idx] or "").strip()
+            if sid and short_name:
+                source_map[sid] = short_name
+    except Exception:
+        return source_map
+
+    return source_map
+
+
+def format_source_reference_block(raw_block, source_map):
+    """
+    Convert source block content into human-readable source names plus source IDs.
+    Example:
+      "S089, Tab: Figure 18; S115" ->
+      "Whitepaper Master Data Workbook [S089, Tab: Figure 18]; Zoetis 10-K / Filing [S115]"
+    """
+    parts = [part.strip() for part in raw_block.split(";") if part.strip()]
+    normalized_parts = []
+    for part in parts:
+        # Expand compact lists like "S115, S116" into two references.
+        if re.fullmatch(r"S\d{3}(?:\s*,\s*S\d{3})+", part):
+            normalized_parts.extend([token.strip() for token in part.split(",") if token.strip()])
+        else:
+            normalized_parts.append(part)
+
+    formatted_parts = []
+    for part in normalized_parts:
+        if "UNVERIFIED" in part.upper():
+            formatted_parts.append("Unverified [UNVERIFIED]")
+            continue
+        match = re.search(r"(S\d{3})", part)
+        if not match:
+            formatted_parts.append(f"[{part}]")
+            continue
+        sid = match.group(1)
+        short_name = source_map.get(sid, sid)
+        formatted_parts.append(f"{short_name} [{part}]")
+    return "; ".join(formatted_parts)
+
+
+def expand_source_lines(markdown_content, source_map):
+    """Expand markdown source lines with human-readable source names."""
+    output_lines = []
+    for line in markdown_content.splitlines():
+        stripped = line.strip()
+        if stripped.startswith("*Source:") and "[" in stripped and "]" in stripped:
+            start = stripped.find("[")
+            end = stripped.rfind("]")
+            if start != -1 and end != -1 and end > start:
+                inner = stripped[start + 1:end]
+                expanded = format_source_reference_block(inner, source_map)
+                output_lines.append(f"*Source: {expanded}*")
+                continue
+        output_lines.append(line)
+    return "\n".join(output_lines)
 
 def load_section_files_from_master():
     """Load section order from report_master.md."""
@@ -55,6 +171,7 @@ COLORS = {
 def combine_sections():
     """Combine all section files into single markdown."""
     section_files = load_section_files_from_master()
+    source_map = load_source_name_map()
     print(f"Combining {len(section_files)} sections...")
     
     combined_content = []
@@ -67,6 +184,7 @@ def combine_sections():
         
         with open(section_path, 'r', encoding='utf-8') as f:
             content = f.read()
+        content = expand_source_lines(content, source_map)
         
         # Add page break between main sections (not front matter)
         if section_file != "00_front_matter.md":

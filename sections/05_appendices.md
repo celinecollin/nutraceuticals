@@ -1,78 +1,177 @@
 # Appendices
 
-## A. Methodology & Data Sources
-This report triangulates primary regulatory filings (FDA, EFSA, MARA) with corporate financial disclosures (10-K, Annual Reports) and scientific literature. Market sizing models account for the "Grey Zone" by strictly filtering for functional/active ingredients and excluding generic commodities.
+## A. Report Conclusion: Investment Roadmap to 2030
 
-## B. Key Industry Players
+**Conclusion: The market should be underwritten as two linked but economically distinct systems.**
+Animal nutraceuticals now behave as a bifurcated asset class where companion-animal value pools are driven by evidence-backed premiumization and channel trust, while livestock value pools are driven by measurable efficiency and compliance-linked adoption [S089, Tab: Figure 39; S086]. Treating both systems under one underwriting model systematically misprices risk, durability, and exit probability.
 
-- **Zoetis:** The global standard for the "Continuum of Care".
-- **DSM-Firmenich:** The leader in upstream nutritional IP and sustainability (Bovaer).
-- **Swedencare:** The aggregator of premium functional pet brands.
-- **Elanco:** The pure-play challenge in livestock efficiency.
-- **Purina / Mars:** The consumer giants defining the "Wellness" shelf.
+**Conclusion: The highest-quality returns are concentrated at control points that combine evidence, delivery, and distribution leverage.**
+Across the report, the recurring winners are not generic category participants but platforms that integrate validated claims, manufacturing and formulation control, and privileged route-to-market access [S118, Table III.1; S116, Tab: Sheet1]. This logic supports a two-track portfolio approach: therapeutic-adjacent and protocolized pet platforms on one side, and biology-plus-compliance livestock infrastructure on the other [S089, Tab: Figure 18; S117].
 
-## C. Regulatory Reference
+**Conclusion: The forward edge of value creation is now governed by proof architecture as much as by innovation architecture.**
+Green-claim substantiation standards, nutrigenomics-enabled precision, and APAC policy pathways are likely to determine the next leg of valuation dispersion [S124; S126; S127]. The practical implication for investors is clear: prioritize platforms that can industrialize biological outcomes into auditable economics.
 
-- **US:** FDA GFI #293 (AFIA), Innovative FEED Act.
-- **EU:** Reg (EC) 1831/2003 (Zootechnical Additives).
-- **China:** MARA Decree 20 (Feed Additives Catalogue).
+## B. Glossary and Acronyms
 
-## Disclaimer
-*This document is a strategic whitepaper simulating an Equity Research "Initiation of Coverage" report. It is for informational purposes only and does not constitute financial advice.*
+| Acronym / Term | Meaning |
+|:---|:---|
+| **AGP** | Antibiotic Growth Promoter |
+| **AUM** | Assets Under Management |
+| **B2B / B2C** | Business-to-Business / Business-to-Consumer |
+| **CAC** | Customer Acquisition Cost |
+| **CDMO** | Contract Development and Manufacturing Organization |
+| **CAGR** | Compound Annual Growth Rate |
+| **DTC** | Direct-to-Consumer |
+| **EBITDA** | Earnings Before Interest, Taxes, Depreciation, and Amortization |
+| **EFSA** | European Food Safety Authority |
+| **FDA-CVM** | U.S. Food and Drug Administration - Center for Veterinary Medicine |
+| **FCR** | Feed Conversion Ratio |
+| **FMT** | Fecal Microbiota Transplant |
+| **LCA** | Life Cycle Assessment |
+| **LTV** | Customer Lifetime Value |
+| **M&A** | Mergers and Acquisitions |
+| **MARA** | Ministry of Agriculture and Rural Affairs (China) |
+| **MRV** | Measurement, Reporting, and Verification |
+| **PE / VC** | Private Equity / Venture Capital |
+| **SAM** | Serviceable Available Market |
+| **SOM** | Serviceable Obtainable Market |
+| **TAM** | Total Addressable Market |
+| **VMP** | Veterinary Medicinal Product |
 
-## D. Comprehensive Industry Players & References
+## C. Key Market Players (Expanded Strategic Coverage)
 
-### Key Market Players (Detailed)
+### Table C.1: Priority Platform Coverage
 
-| Company | Country | Category | Key Product/Focus | Target Species | Strategic Summary | 
-| --- | --- | --- | --- | --- | --- | 
-| **AB Vista** | UK | Livestock Feed | Econase XT | Poultry | Performance |
-| **Agrivida** | USA | Biotech | GraINzyme | Poultry | Corn-embedded enzymes |
-| **Alltech** | USA | Additives | Yea-Sacc | Multi | Yeast culture leader |
-| **Anizome** | UK/USA | Microbiome | Therapeutic Disc. | Multi | Microbiome therapeutics |
-| **AnimalBiome** | USA | Pet Health | FMT Capsules | Pet | Microbiome restoration |
-| **Axiota** | USA | Immunology | Multimin 90 | Cattle | Injectable minerals |
-| **Balchem** | USA | Encapsulation | ReaShure | Dairy | Choline precision delivery |
-| **BioAtla** | USA | Biotech | Conditional Antibodies | Pet | Oncology therapeutics |
-| **Biofeyn** | France | Aquaculture | Bio-encapsulation | Aqua | Nutrient delivery |
-| **BiomEdit** | USA | Synthetic Bio | Biome-Actives | Livestock | Living medicines |
-| **Bond Pet Foods** | USA | Biotech | Brewed Protein | Pet | Cruelty-free protein |
-| **Ceva** | France | Animal Health | Feliway | Pet | Pheromone behavior |
-| **Dechra** | UK | Pharma | Specific Diets | Pet | Therapeutic nutrition |
-| **DSM-Firmenich** | Swiss | Ingredients | Bovaer (3-NOP) | Ruminants | Methane reduction |
-| **Elanco** | USA | Pharma | Experior | Cattle | Ammonia reduction |
-| **Gnubiotics** | Swiss | Biotech | Glycans | Pet | HMO analogs |
-| **H&H Group** | HK | Consumer | Zesty Paws | Pet | Premium supplements |
-| **Hill's** | USA | Pet Food | Prescription Diet | Pet | Clinical nutrition |
-| **Innovafeed** | France | Insect Protein | Black Soldier Fly | Aqua/Pet | Sustainable protein |
-| **Kemin** | USA | Ingredients | Betafin | Multi | Natural preservation |
-| **Loyal** | USA | Biotech | LOY-001 | Dog | Longevity metrics |
-| **Mars Petcare** | USA | Conglomerate | Royal Canin | Pet | Health nutrition |
-| **MicroHarvest** | Germany | Biotech | Single Cell Protein | Aqua/Pet | Fast protein |
-| **Mootral** | Swiss | AgTech | Mootral Ruminant | Cattle | Natural methane red. |
-| **Native Microbials**| USA | Biotech | Galaxis | Dairy | Rumen native microbes |
-| **Native Pet** | USA | Consumer | Clean Label | Pet | Minimalist supplements |
-| **Nestlé Purina** | Swiss | Conglomerate | Pro Plan | Pet | Fortified nutrition |
-| **Novonesis** | Denmark | Biosolutions | Probiotics | Multi | Enzyme/Microbe leader |
-| **Nutramax** | USA | Consumer | Cosequin | Pet | Joint health standard |
-| **Phibro** | USA | Additives | OmniGen | Dairy | Immunity |
-| **Phytobiotics** | Germany | Additives | Sangrovit | Swine | Phytogenic inflammation |
-| **Proteon** | Poland | Biotech | BAFASAL | Poultry | Bacteriophages |
-| **Roquette** | France | Ingredients | Pea Protein | Multi | Plant-based ingredients |
-| **Rumin8** | Australia| Climate Tech | Methane Reducer | Cattle | Oil-based delivery |
-| **Swedencare** | Sweden | Consumer | ProDen PlaqueOff | Pet | Oral health patent |
-| **Symbrosia** | USA | Climate Tech | SeaGraze | Cattle | Seaweed methane red. |
-| **Symrise** | Germany | Ingredients | Palatability | Pet | Taste/Flavor |
-| **Vetoquinol** | France | Pharma | Flexadin | Pet | Joint supports |
-| **Veramaris** | Dutch | Ingredients | Algal Oil | Aqua/Pet | Sustainable Omega-3 |
-| **Vetnique** | USA | Consumer | Glandex | Pet | Anal gland health |
-| **Virbac** | France | Pharma | HPM Diets | Pet | Veterinary nutrition |
-| **Wild Earth** | USA | Consumer | Koji Protein | Pet | Fungi-based protein |
-| **YuMOVE** | UK | Consumer | Mobility Chews | Pet | Clinical joint leader |
-| **Zesty Paws** | USA | Consumer | Multifunctional | Pet | E-commerce leader |
-| **Zoetis** | USA | Pharma | Clarify (Dx) | Multi | Continuum of care |
+| Company | Country | Category | Key Product/Focus | Target Species | Strategic Summary | Source |
+|:---|:---|:---|:---|:---|:---|:---|
+| **Zoetis** | USA | Pharma | Clarify (Dx), Companion portfolio | Multi | Continuum-of-care scale platform combining diagnostics, therapeutics, and premium care pathways. | [S115; S116] |
+| **DSM-Firmenich** | Switzerland | Ingredients | Bovaer (3-NOP), Vitamins | Ruminants, Multi | Upstream biosolutions leader with methane-abatement exposure and strong compliance-linked demand tailwinds. | [S117; S116] |
+| **Novonesis** | Denmark | Biosolutions | Enzymes, microbial platforms | Multi | Large fermentation and microbial library platform with high strategic relevance for feed efficiency and substitution economics. | [S125; S116] |
+| **Elanco** | USA | Animal Health | Experior, livestock health lines | Cattle, Livestock | Livestock-exposed platform levered to industrial efficiency and post-antibiotic operating needs. | [S115; S116] |
+| **Swedencare** | Sweden | Consumer/Pet Nutra | ProDen PlaqueOff, NaturVet platform | Pet | Premium pet nutraceutical consolidator with strong manufacturing leverage and oral-health adjacency. | [S118; S125] |
+| **Nutramax** | USA | Consumer/Pet Nutra | Cosequin | Pet | Category-defining mobility brand with long-standing veterinary credibility and recurring demand. | [S116; S128] |
+| **Mars Petcare** | USA | Conglomerate | Royal Canin, ecosystem brands | Pet | Large integrated ecosystem strategy linking food, services, and data-enabled retention economics. | [S116; S128] |
+| **Nestle Purina** | Switzerland | Conglomerate | Pro Plan, FortiFlora | Pet | Scale incumbent in premium and veterinary-adjacent pet nutrition with broad channel control. | [S116; S128] |
+| **Hill's** | USA | Pet Nutrition | Prescription Diet | Pet | Clinical-positioned therapeutic nutrition leader with strong veterinary-channel defensibility. | [S116; S128] |
+| **Dechra** | UK | Pharma | Specific Diets | Pet | Specialist veterinary platform with therapeutic-channel know-how and chronic-care exposure. | [S116; S119] |
+| **Virbac** | France | Pharma | HPM Diets | Pet | Vet-focused therapeutic nutrition exposure with cross-border distribution depth. | [S120; S116] |
+| **Phibro** | USA | Additives | OmniGen, MFA portfolio | Dairy, Livestock | Industrial nutrition platform strengthened by acquisition of Zoetis MFA assets. | [S115; S125] |
+| **H&H Group** | HK | Consumer | Zesty Paws | Pet | Digital-first premium supplement exposure validated by strategic acquisition at scale. | [S125; S118] |
+| **Gryphon-backed Vetnique/Lintbells** | USA/UK | Platform | Glandex, YuMOVE | Pet | Cross-border chronic-care platform spanning gut-health and mobility categories. | [S116, Tab: Sheet2; S128] |
+| **FoodScience** | USA | Pet Nutra / Manufacturing | VetriScience, Pet Naturals | Pet | Vertically integrated manufacturer-brand model with sponsor-backed platform optionality. | [S116, Tab: Sheet2; S128] |
+| **Innovafeed** | France | Novel Ingredients | BSF protein | Aqua/Pet | Industrial insect-protein platform positioned for fishmeal substitution and sustainability-linked demand. | [S116; S128] |
+| **Veramaris** | Netherlands | Ingredients | Algal omega-3 | Aqua/Pet | Strategic omega-3 supply de-risking platform for aquaculture and premium pet formulations. | [S116; S128] |
+| **Rumin8** | Australia | Climate Tech | Methane-reduction solutions | Cattle | High-optionality methane-abatement exposure tied to emerging compliance procurement trends. | [S116; S128] |
+| **Mootral** | Switzerland | AgTech | Ruminant methane solutions | Cattle | Biological mitigation play in enteric-emissions efficiency and compliance positioning. | [S116; S128] |
+| **Symbrosia** | USA | Climate Tech | SeaGraze | Cattle | Seaweed-linked methane mitigation platform with climate-compliance narrative leverage. | [S116; S128] |
+| **Gnubiotics** | Switzerland | Biotech | Glycans/HMO analogs | Pet | Precision-microbiome and immunity-adjacent platform with differentiated ingredient profile. | [S116; S128] |
+| **MicroHarvest** | Germany | Biotech | Single-cell protein | Aqua/Pet | Fermentation-based alternative protein route with attractive production-speed economics. | [S116; S128] |
+| **AnimalBiome** | USA | Pet Health | FMT Capsules, microbiome diagnostics | Pet | Microbiome restoration and data-enabled care platform aligned with preventive protocolization. | [S116; S128] |
+| **Native Microbials** | USA | Biotech | Galaxis | Dairy | Rumen-native microbiome strategy linked to biological productivity improvements. | [S116; S128] |
+| **Loyal** | USA | Biotech | LOY-001 | Dog | Longevity thesis exposure at the intersection of therapeutic design and companion-animal demand. | [S116; S128] |
+| **Kemin** | USA | Ingredients | Betafin and preservation systems | Multi | Ingredient platform with functional systems positioning across multiple production environments. | [S116; S128] |
+| **Roquette** | France | Ingredients | Pea-protein ingredients | Multi | Plant-based ingredient platform with broad formulation optionality across feed and pet applications. | [S116; S128] |
+| **Proteon** | Poland | Biotech | BAFASAL | Poultry | Bacteriophage platform aligned with antimicrobial-substitution and biosecurity themes. | [S116; S128] |
+| **Vetoquinol** | France | Pharma | Flexadin | Pet | Joint-health therapeutic-adjacent exposure in vet-trusted chronic-care categories. | [S116; S128] |
+| **YuMOVE** | UK | Consumer/Pet Nutra | Mobility formulations | Pet | Mobility leader with strong adherence profile and platform-combination relevance. | [S116, Tab: Sheet2] |
 
-### Comprehensive References & Market Data
+## D. Extended Legacy Player Universe (Ported from v18)
+
+### Table D.1: Additional Companies Reinstated from Legacy Coverage
+
+| Company | Category | Key Product/Focus | Target Species | Strategic Summary | Source |
+|:---|:---|:---|:---|:---|:---|
+| **ADM** | Livestock Feed & Additives | Protexin, DE111 | Multi | Fermentation and scale distribution capabilities in feed and additive channels. | [S128] |
+| **Adisseo** | Livestock Feed & Additives | Rovabio, Selisseo | Poultry, Swine, Ruminants | Selenium and enzyme portfolio with immunity and efficiency positioning. | [S128] |
+| **Anpario** | Livestock Feed & Additives | Orego-Stim, Optomega | Poultry, Swine, Ruminants, Aqua | Phytogenic and natural additive strategy for antibiotic-free production systems. | [S128] |
+| **Ark Naturals** | Pet Supplements | Gray Muzzle line | Dogs, Cats | Senior-care and mobility-oriented supplement architecture. | [S128] |
+| **Audevard** | Equine/Pet Supplements | Ekyflex Arthro | Horses | Equine performance and joint-health specialist in premium sub-segment. | [S128] |
+| **Austin and Kat** | Pet Supplements | CBD hemp formulations | Dogs, Cats | Behavioral and calming focused premium niche player. | [S128] |
+| **Aviform** | Pet/Bird Supplements | Prolyte, Ultimate Max | Birds | Specialized digestive and electrolyte functional nutrition focus. | [S128] |
+| **Beneo** | Ingredients | Orafti inulin | Pets, Livestock | Prebiotic ingredient platform supporting gut-health formulations. | [S128] |
+| **BioAtlantis** | Livestock Feed & Additives | Seaweed-derived prebiotics | Piglets, Poultry, Calves | Gut resilience and immune support positioning via marine bioactives. | [S128] |
+| **Bioiberica** | Pet Supplements | Condrovet, Nucleoforce | Dogs, Cats | Joint and immunity portfolio with differentiated ingredient positioning. | [S128] |
+| **Bioriginal** | Pet Supplements | Antromax | Pet | Medicinal mushroom and immune-support nutraceutical focus. | [S128] |
+| **Candioli** | Pet Supplements | Florentero ACT | Dogs, Cats | Gastrointestinal support platform with probiotic/postbiotic emphasis. | [S128] |
+| **Canna-Pet** | Pet Supplements | Advanced Capsules | Dogs, Cats | Cannabinoid-led calming and wellness proposition. | [S128] |
+| **Canvit** | Pet Supplements | Chondro Maxi | Dogs | Mobility-focused high-strength supplement positioning. | [S128] |
+| **Cargill Animal Nutrition** | Feed & Additives | Diamond V, Provimi | Multi | Large-scale feed platform with vertical integration advantages. | [S128] |
+| **Diamond V** | Feed & Additives | XPC yeast culture | Multi | Yeast-derived postbiotic technology linked to performance and resilience. | [S128] |
+| **Dr. Eckel** | Feed & Additives | AntaPhyt | Poultry, Swine | Phytogenic anti-inflammatory and gut-function additive proposition. | [S128] |
+| **Evonik** | Feed & Additives | Ecobiol, MetAMINO | Poultry | Performance and amino-acid-linked productivity platform. | [S128] |
+| **Farmina** | Pet Nutrition | Joint-support formulas | Dogs, Cats | Premium nutrition brand with therapeutic-adjacent extensions. | [S128] |
+| **Farnam** | Equine/Pet Supplements | Performance electrolyte lines | Horses | Equine performance and recovery focus in high-value niche channels. | [S128] |
+| **Freshpet** | Pet Nutrition | Fresh refrigerated meals | Dogs, Cats | Fresh-format disruptor with high recurring-consumption profile. | [S128] |
+| **Gelita** | Ingredients | Petagile collagen peptides | Dogs | Bioactive collagen ingredient positioning for mobility categories. | [S128] |
+| **Grizzly Pet Products** | Pet Supplements | Salmon oil lines | Dogs, Cats | Omega-3 focused brand in mainstream preventive-care segment. | [S128] |
+| **Hamlet Protein** | Feed & Additives | HP 300 | Piglets | Processed soy protein strategy for gut-health and growth consistency. | [S128] |
+| **Herbsmith** | Pet Supplements | Sound Dog Viscosity | Dogs | Multi-active mobility blend in veterinary and specialty channels. | [S128] |
+| **HolistaPet** | Pet Supplements | Hemp calming chews | Dogs | Behavioral support niche with direct consumer traction. | [S128] |
+| **Honest Paws** | Pet Supplements | Calm bites | Dogs | Anxiety-focused cannabinoid and botanicals formulation line. | [S128] |
+| **Huvepharma** | Feed & Additives | B-Act | Poultry, Swine | Bacillus-driven gut-function additive portfolio. | [S128] |
+| **Innovet** | Pet Supplements | Redonyl (PEA) | Pet | Pain and inflammation-adjacent therapeutic supplementation strategy. | [S128] |
+| **FoodScience Corporation** | Pet Supplements | VetriScience, Pet Naturals | Pet | Scale formulator and private-label manufacturing control point. | [S128] |
+
+*Source for reinstated legacy coverage: [S128, Appendix B / Part IV-V excerpts].*
+
+## E. Annexed Supporting Tables (Ported from v18)
+
+### Table E.1: Functional Segment Matrix (Condensed from v18 Table II series)
+
+| Segment | Strategic Use Case | Representative Ingredients/Platforms | Strategic Note | Source |
+|:---|:---|:---|:---|:---|
+| **Mobility and Joint Health** | Chronic pain and quality-of-life extension | Omega-3, collagen, glucosamine systems | Highest-monetized companion segment with strong premiumization history. | [S089, Tab: Figure 18; S128] |
+| **Gut Health and Microbiome** | Antibiotic replacement and resilience | Probiotics, prebiotics, synbiotics, postbiotics | Central to post-AGP operating model in livestock and preventive care in pets. | [S089, Tab: Figure 18; S111; S128] |
+| **Immunity and Resilience** | Disease pressure mitigation | Yeast derivatives, immune-modulating actives | Budget-protected in high-biosecurity systems. | [S089, Tab: Figure 18; S128] |
+| **Cognitive and Longevity Support** | Aging and lifecycle protocolization | DHA, antioxidants, longevity adjuncts | Core axis of the Silver Economy demand profile. | [S089, Tab: Figure 18; S114; S128] |
+| **Behavioral Wellness** | Anxiety and compliance improvement | Cannabinoids, L-theanine, calming blends | High-adherence category in premium companion channels. | [S089, Tab: Figure 18; S128] |
+| **Performance / FCR** | Throughput and cost-per-kg output defense | Enzymes, phytogenics, yeast cultures | Economic foundation of livestock adoption logic. | [S089, Tab: Figure 18; S111; S128] |
+| **Nutrigenomics / Precision** | Mechanism-linked targeting | Biomarker-guided formulations and molecular targeting | Frontier category with high optionality and evidence burden. | [S127; S128] |
+| **Sustainability and Green Claims** | Emissions and procurement compliance | Methane modulators, low-impact proteins | Converts ESG narrative into procurement and regulatory filter. | [S117; S126; S128] |
+
+### Table E.2: Major Transactions >$100M (Legacy Cross-Check)
+
+| Year | Target | Acquirer | Deal Value | Category | Source |
+|:---|:---|:---|:---|:---|:---|
+| **2018** | Blue Buffalo | General Mills | $8.0B | Pet Nutrition (Mass Premium) | [S125; S128] |
+| **2018** | Neovia | ADM | EUR1.5B | Livestock Premix & Additives | [S125; S128] |
+| **2020** | Erber Group | DSM | EUR980M | Eubiotics & Mycotoxin Risk | [S125; S128] |
+| **2021** | Zesty Paws | H&H Group | $610M | Pet Supplements (E-commerce) | [S125; S118] |
+| **2022** | Nom Nom | Mars Petcare | ~$1.0B (est.) | Fresh Pet Food | [S125; S128] |
+| **2022** | NaturVet | Swedencare | $447M | Pet Supplements (Manufacturing) | [S125; S118] |
+| **2024** | Aker BioMarine Feed Ingredients | AIP | $590M EV | Upstream Ingredients | [S125; S128] |
+| **2024** | Zoetis MFA | Phibro | $350M | Medicated Feed Additives | [S115; S125] |
+
+### Table E.3: Extended Investor Coverage (Legacy Cross-Check)
+
+| Investor | Representative Assets | Strategic Focus | Source |
+|:---|:---|:---|:---|
+| **JAB Holding** | NVA, Ethos | Veterinary services consolidation | [S116; S128] |
+| **EQT Group** | IVC Evidensia, Zooplus, Dechra | Care-continuum and channel ownership | [S116; S128] |
+| **Cinven** | Arcaplanet, Partner in Pet Food | Retail and pet-food platform strategy | [S116; S128] |
+| **BC Partners** | PetSmart, Gambol | Consumer scale and distribution assets | [S116; S128] |
+| **Gryphon** | Vetnique, YuMOVE | Chronic-care brand platforming | [S116; S128] |
+| **MSCP** | FoodScience | Manufacturing and brand control points | [S116; S128] |
+| **Ani.VC** | Vetmab, MI:RNA | Early-stage animal-health optionality | [S116; S128] |
+| **Aqua-Spark** | Protix, Sea6 Energy | Aquaculture innovation and feed transition | [S128] |
+| **S2G Investments** | Enthos, Pasture Bio | Sustainable food-system transition | [S128] |
+| **Seventure Partners** | ViroVet, Proteon | Microbiome and biotech pathways | [S128] |
+
+## F. Methodology & Data Sources
+
+This report triangulates regulatory filings, corporate disclosures, curated datasets, and internal strategic mapping. Scope controls exclude generic commodities and non-adjacent prescription revenues to preserve comparability in value-pool and transaction analysis [S089, Tab: Figure 4]. Legacy v18 content reinstated in this version is explicitly labeled and linked to archived internal reference material for audit traceability [S128].
+
+## G. Regulatory Reference
+
+- **United States:** FDA guidance and feed/supplement pathway conventions [S085]
+- **European Union:** Reg (EC) 1831/2003 framework and associated claim controls [S015]
+- **China:** MARA licensing and post-AGP policy implementation context [S124]
+
+## H. Disclaimer
+
+*This document is a strategic whitepaper simulating an equity-research initiation framework. It is provided for informational and analytical purposes and does not constitute investment advice.*
+
+## I. Comprehensive References & Market Data
 
 ### Market Intelligence Sources
 
@@ -102,7 +201,7 @@ This report triangulates primary regulatory filings (FDA, EFSA, MARA) with corpo
 - **Zoetis Inc.** (Form 10-K).
 - **Elanco Animal Health** (Investor Presentations).
 - **DSM-Firmenich** (Integrated Annual Report).
-- **Nestlé Purina** (Creating Shared Value).
+- **Nestle Purina** (Creating Shared Value).
 - **Swedencare** (Year-End Report).
 - **Virbac** (Annual Financial Report).
 - **Dechra Pharmaceuticals** (Annual Report).
