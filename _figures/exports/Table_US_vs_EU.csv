@@ -1,5 +1,5 @@
-Feature,United States (US),European Union (EU)
-Nutraceutical Def.,Undefined (Food vs Drug),Undefined (Feed vs VMP)
-Regulatory Body,FDA-CVM & AAFCO,EFSA & National Agencies
-Disease Claims,Prohibited (Drug only),Prohibited (PARNUTs exception)
-Market Entry,Fast (Notification),Slow (Dossier Approval)
+Feature,United States (US),European Union (EU),United Kingdom (UK),China
+Nutraceutical Definition,Undefined (Food vs Drug),Undefined (Feed vs VMP),Undefined (Feed vs VMP),Undefined (Feed Additive vs VMP)
+Regulatory Body,FDA-CVM & AAFCO,EFSA & National Agencies,VMD & FSA,MARA & SAMR
+Disease Claims,Prohibited (Drug only),Prohibited (PARNUTs exception),Prohibited (Drug only),Restricted by registration class
+Market Entry Speed,Fast (Notification),Slow (Dossier Approval),Medium (Route-dependent),Medium-Slow (Registration dependent)

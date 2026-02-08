@@ -736,3 +736,131 @@ All notable changes to this project will be documented in this file.
 
 ### Claims Added/Modified
 - None.
+
+## [2026-02-08 20:57 CET] - Editorial Flow + Figure QA Enhancement Pass (Author Review Resolution)
+
+### What
+- Implemented broad author-review fixes across structure, prose flow, figure narration, and key chart assets.
+- Added one-sentence nutraceutical definition in the Executive Summary with first-use year and source.
+- Removed the front-matter sentence beginning `The document is intentionally ...`.
+- Removed explicit `Conclusion:` prefixes at the start of paragraphs across report sections.
+- Removed explicit `v19` references from section prose and replaced with neutral archive language.
+- Added transition sentences to improve flow between parts/subparts.
+- Added post-figure interpretation lines (`_Figure takeaway:_`) across section figures and added `_Calculation note:_` where internal normalization/modeling is used.
+
+### Figures Updated/Regenerated
+- Regenerated `Figure 1` regulatory table to include **US, EU, UK, China**:
+  - `_figures/exports/Table_US_vs_EU.png`
+  - `_figures/exports/Table_US_vs_EU.csv`
+  - `sources/datasets/Table_US_vs_EU.csv`
+- Regenerated `Figure 5` innovation-premium scatter with corrected quadrant cue and full 15-company labeling:
+  - `_figures/exports/Figure_II_0_1_Innovation_Matrix.png`
+- Regenerated `Figure 16` demographic chart with **Mexico removed**:
+  - `_figures/exports/Figure1_Pet_Ownership.png`
+  - `_figures/exports/Figure1_Pet_Ownership.csv`
+  - `sources/datasets/Figure1_Pet_Ownership.csv`
+- Regenerated `Figure 35` funnel with explicit axis labels:
+  - `_figures/exports/Figure21_Pharma_Funnel.png`
+- Added simplified archive-derived figures requested for readability:
+  - `_figures/exports/Figure_II_1_Simplified.png`
+  - `_figures/exports/Figure_II_12_Simplified.png`
+
+### Content/Structure Updates
+- Added `Figure II.1 (Simplified)` and `Figure II.12 (Simplified)` in `Part I` and in Appendix index pack.
+- Replaced old Appendix condensed segment matrix block with:
+  - `Table E.1: Index of Tables II.1 to II.11`
+  - `Table E.2: Index of Figures II.1 to II.12`
+- Enriched Part I segment prose with explicit values (e.g., Mobility `776M`, Gut Health `2,913M`, Immunity `1,841M`, Performance/FCR `1,426M`) and added market-size/CAGR context (`USD 2.26B`, `5.9% CAGR`) where sourced.
+- Increased variety of company examples in narrative (e.g., Vetoquinol, Virbac, Innovafeed, Protix, Rumin8 alongside existing references).
+
+### Registry / Master Excel Updates
+- `_registry/source_registry.xlsx`:
+  - `Sources` tab: refined short names for ES-1 sources (`S116`, `S121`) for clearer source rendering in DOCX.
+  - `Figures` tab: updated source mappings for regenerated figures and added:
+    - `FIG-II-1-S`
+    - `FIG-II-12-S`
+  - `Claims` tab: appended `C092`, `C093`, `C094`, `C095` (`agent_generated=Y`, `verified=N`).
+- `_figures/figures_data.xlsx`:
+  - Updated `Figure 1` tab to four-jurisdiction layout.
+  - Updated source/notes fields on `Figure 5`, `Figure 6`, and `Figure 35` tabs for calculation/context clarity.
+
+### Files Modified
+- `sections/00_front_matter.md`
+- `sections/01_executive_summary.md`
+- `sections/02_part_i_structural_bifurcation.md`
+- `sections/03_part_ii_strategic_bifurcation.md`
+- `sections/04_part_iii_value_chain.md`
+- `sections/05_appendices.md`
+- `_figures/figures_data.xlsx`
+- `_figures/exports/Table_US_vs_EU.csv`
+- `_figures/exports/Table_US_vs_EU.png`
+- `_figures/exports/Figure_II_0_1_Innovation_Matrix.png`
+- `_figures/exports/Figure1_Pet_Ownership.csv`
+- `_figures/exports/Figure1_Pet_Ownership.png`
+- `_figures/exports/Figure21_Pharma_Funnel.png`
+- `_figures/exports/Figure_II_1_Simplified.png`
+- `_figures/exports/Figure_II_12_Simplified.png`
+- `sources/datasets/Table_US_vs_EU.csv`
+- `sources/datasets/Figure1_Pet_Ownership.csv`
+- `_registry/source_registry.xlsx`
+- `report_master.md`
+- `README.md`
+- `CHANGELOG.md`
+- `_scripts/regenerate_key_figures.py`
+
+### Build / QA
+- Rebuilt DOCX: `_output/Nutraceuticals_Whitepaper_20260208-20-56.docx`
+- Refreshed latest pointer: `_output/latest/whitepaper.docx`
+- QA checks:
+  - unknown `Sxxx` in sections: `0`
+  - unresolved tags in sections (`[UNVERIFIED]`, `[AUTHOR-CHECK]`): `0`
+  - missing source file paths in registry: `0`
+  - circular source paths in registry: `0`
+  - unknown source IDs in claims: `0`
+  - missing section image assets: `0`
+  - figures with missing workbook tabs: `0`
+
+### Claims Added/Modified
+- Added: `C092`, `C093`, `C094`, `C095`
+- Modified (registry mappings): figure-source rows for ES-1, Figure 1, Figure 5, Figure 16-aligned ownership chart, and Figure 35 funnel.
+
+### Notes for Author
+- This pass prioritizes your review items on flow clarity, figure readability, and traceability.
+- Remaining archive-linked framing is intentionally kept as neutral "archive" wording rather than version labels.
+
+### [2026-02-08] - Root Markdown Sync + Final Integrity Pass + Rebuild
+- **Timestamp:** 2026-02-08 21:01 CET
+- **What:** Finalized root markdown/status consistency, revalidated registry integrity, and regenerated the final DOCX before commit/push.
+
+### Root Markdown Updates
+- `README.md`
+  - Corrected export wording to reflect actual asset composition:
+    - `109` PNG charts in `_figures/exports/`
+    - `157` total export files (PNG + CSV/data artifacts)
+  - Updated status table figure line accordingly.
+
+### Tracking Excel / Registry Validation
+- Re-ran full registry integrity checks against `_registry/source_registry.xlsx` and section markdown:
+  - `Sources` rows: `462`
+  - `Claims` rows: `95`
+  - `Figures` rows: `47`
+  - `Sections` rows: `6`
+  - Missing source file paths: `0`
+  - Circular source paths: `0`
+  - Unknown source IDs in sections: `0`
+  - Unknown source IDs in claims: `0`
+  - Unknown figure IDs in sections: `0`
+  - Missing image assets referenced by sections: `0`
+  - Active unresolved tags (`[UNVERIFIED]`, `[AUTHOR-CHECK]`): `0`
+
+### Build / Output
+- Rebuilt report: `_output/Nutraceuticals_Whitepaper_20260208-21-01.docx`
+- Refreshed latest pointer: `_output/latest/whitepaper.docx`
+
+### Files Modified
+- `README.md`
+- `CHANGELOG.md`
+- `_output/latest/whitepaper.docx`
+
+### Claims Added/Modified
+- None in this pass.

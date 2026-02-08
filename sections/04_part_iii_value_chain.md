@@ -1,80 +1,98 @@
 # PART III: The Value Chain Favours Vertical Integration
 
-Part III converts Parts I and II into executable strategy: where value accrues across the chain, which transaction patterns are durable, and which forward scenarios are most material for 2026-2035 positioning.
+Part III converts Parts I and II into executable strategy: where value accrues across the chain, which transaction patterns are durable, and which forward scenarios are most material for 2026-2035 positioning. This section links market structure to investable control points and likely exit pathways.
 
 ## III.1. The Value Chain Privileges IP Holders
 
-**Conclusion: Value capture is structurally asymmetric and consistently rewards control points rather than interchangeable volume.**
+**Value capture is structurally asymmetric and consistently rewards control points rather than interchangeable volume.**
 Upstream science, branded formulation control, and specialized manufacturing continue to capture superior economics relative to undifferentiated downstream resale [S089, Tab: Figure 36; S089, Tab: Figure 39]. In operating terms, the middle layer compresses when claims are weakly protected, while integrated science-plus-channel models preserve margin integrity over cycle turns [S089, Tab: Figure 36].
 
-**Conclusion: Channel architecture is now a direct valuation variable, not a distribution afterthought.**
-The downstream split retained from v19 remains decision-relevant: pet-side value is captured through trust, adherence, and omnichannel control, while livestock-side value is captured through measurable biological performance and procurement fit [S089, Tab: Figure 39; S060]. Figure 34 is built from comparative channel-economics data and should be read as a warning against pure-play single-channel exposure: when retail/media costs rise and conversion quality decays, DTC-only models can lose margin faster than integrated channel portfolios [S060; S089, Tab: Figure 37].
+**Channel architecture is now a direct valuation variable, not a distribution afterthought.**
+The downstream split remains decision-relevant: pet-side value is captured through trust, adherence, and omnichannel control, while livestock-side value is captured through measurable biological performance and procurement fit [S089, Tab: Figure 39; S060]. Figure 34 is built from comparative channel-economics data and should be read as a warning against pure-play single-channel exposure: when retail/media costs rise and conversion quality decays, DTC-only models can lose margin faster than integrated channel portfolios [S060; S089, Tab: Figure 37].
 
-**Conclusion: Portfolio targeting should prioritize defensible SOM pathways with evidence-backed control points.**
-The TAM-to-SAM-to-SOM framing remains the correct decision scaffold for capital deployment [S104; S089, Tab: Figure 4]. The specific legacy SOM point estimate used in prior internal work is retained as a legacy benchmark from v18/v19 source material [S128].
+**Portfolio targeting should prioritize defensible SOM pathways with evidence-backed control points.**
+The TAM-to-SAM-to-SOM framing remains the correct decision scaffold for capital deployment [S104; S089, Tab: Figure 4]. The specific legacy SOM point estimate used in prior internal work is retained as an archive benchmark [S128].
 
 Figures 32-38 should be read jointly as a value-capture diagnostics set: waterfall and smile-curve mechanics, channel sensitivity, risk-reward posture, transaction valuation behavior, and executable opportunity funnel.
 
 **Figure 32: Pricing power erodes as products move from IP owners to generic retailers.**
 ![Pricing power erodes as products move from IP owners to generic retailers.](figures/Figure19_Value_Waterfall.png)
 *Source: [S061; S089, Tab: Figure 36]*
+_Figure takeaway:_ Pricing power decays along the chain unless the company controls an evidence-backed or IP-protected bottleneck.
+_Calculation note:_ Waterfall levels are internal normalized economics designed to compare relative value capture by chain position.
 
 **Figure 33: Margin capture shifts upstream to IP holders and downstream to specialized CDMOs.**
 ![Margin capture shifts upstream to IP holders and downstream to specialized CDMOs.](figures/Figure33_Smile_Curve.png)
 *Source: [S089, Tab: Figure 33]*
+_Figure takeaway:_ Margin concentration is barbelled toward upstream science assets and downstream execution specialists.
+_Calculation note:_ Smile-curve values are directional modeled ranges for comparative strategy screening.
 
 **Figure 34: Channel economics favor omnichannel dominance but penalize pure-play DTC.**
 ![Channel economics favor omnichannel dominance but penalize pure-play DTC.](figures/Figure18_Channel_Economics.png)
 *Source: [S060; S089, Tab: Figure 37]*
+_Figure takeaway:_ Channel diversification improves resilience when CAC inflation and conversion volatility increase.
+_Calculation note:_ Channel scores combine observed retail/e-commerce economics with internal scenario normalization.
 
 **Figure 35: Incumbents use nutraceuticals as a low-cost acquisition funnel for future banking.**
 ![Incumbents use nutraceuticals as a low-cost acquisition funnel for future banking.](figures/Figure21_Pharma_Funnel.png)
 *Source: [S115, S116]*
+_Figure takeaway:_ The funnel illustrates how broad trial volume converts into smaller high-value therapeutic and Rx opportunities.
 
 **Figure 36: Strategic categorization defines the risk-reward profile for market entrants.**
 ![Strategic categorization defines the risk-reward profile for market entrants.](figures/Figure20_Risk_Reward.png)
 *Source: [S063]*
+_Figure takeaway:_ Segment positioning should be read through a risk-adjusted lens, not just top-line TAM.
 
 **Figure 37: M&A valuation matrix favors de-risked assets over internal R&D development.**
 ![M&A valuation matrix favors de-risked assets over internal R&D development.](figures/Figure_MA_Matrix.png)
 *Source: [S118, S115]*
+_Figure takeaway:_ Transaction history supports a premium for derisked assets with proven commercial execution.
 
 **Figure 38: Strategic opportunity funnel from broad TAM to executable SOM.**
 ![Strategic opportunity funnel from broad TAM to executable SOM.](figures/Figure_TAM_SAM_SOM.png)
 *Source: [S089, Tab: Figure 38]*
+_Figure takeaway:_ Opportunity should be underwritten from executable SOM backward, not from headline TAM forward.
+_Calculation note:_ Funnel cut-down uses internal filters to isolate realistically captureable pools.
 
 ## III.2. Consolidation Favors Vertical Titans
 
-**Conclusion: The market is consolidating around a barbell of integrated scale platforms and specialist IP platforms.**
+**The market is consolidating around a barbell of integrated scale platforms and specialist IP platforms.**
 Large integrated incumbents continue to control access-heavy care pathways, while specialist innovators control high-value biological and formulation moats [S115; S118; S117]. This structure leaves weakly differentiated middle-layer assets most exposed to multiple compression, especially when channel access is rented rather than owned [S089, Tab: Figure 39].
 
-**Conclusion: Transaction evidence confirms a durable two-speed valuation regime across pet and livestock exposures.**
-Premium outcomes continue to cluster around assets with brand defensibility, manufacturing control, and validated claims, while lower-differentiation or commodity-adjacent deals clear materially lower bands [S118, Table III.1; S115; S125]. The expanded transaction stack from legacy v18 is reinstated below to restore full comparative context for sponsor and strategic behavior across 2018-2025 [S125; S128].
+**Transaction evidence confirms a durable two-speed valuation regime across pet and livestock exposures.**
+Premium outcomes continue to cluster around assets with brand defensibility, manufacturing control, and validated claims, while lower-differentiation or commodity-adjacent deals clear materially lower bands [S118, Table III.1; S115; S125]. The expanded transaction stack is retained below to preserve full comparative context for sponsor and strategic behavior across 2018-2025 [S125; S128].
 
-**Conclusion: Sponsor profiling should be treated as a strategic signal layer for future exits and roll-up velocity.**
+**Sponsor profiling should be treated as a strategic signal layer for future exits and roll-up velocity.**
 Investor participation remains heterogeneous by thesis type: channel-consolidation PE, specialist growth investors, and biosolutions/food-tech funds each cluster around different moat types and time horizons [S116, Tab: Sheet1; S128]. The extended investor table is restored below to recover the missing institutional map from prior versions.
 
 **Figure 39: Revenue architecture across pharma-linked, feed-linked, and consumer-led models.**
 ![Revenue architecture across pharma-linked, feed-linked, and consumer-led models.](figures/Figure_IV_5_Revenue_Comparison.png)
 *Source: [S115, S117, S118, S119, S120]*
+_Figure takeaway:_ Revenue durability differs by model architecture, with integrated science and channel assets showing stronger quality.
 
 **Figure 40: Capability matrix across the Continuum of Care.**
 ![Capability matrix across the Continuum of Care.](figures/Figure_IV_6_Capability_Matrix.png)
 *Source: [S115, S117, S118, S119, S120]*
+_Figure takeaway:_ Capability gaps identify where inorganic moves are more efficient than internal build-out.
 
 **Figure 41: Pet category structure and disruption long-tail dynamics.**
 ![Pet category structure and disruption long-tail dynamics.](figures/Figure_IV_3_Pet.png)
 *Source: [S105]*
+_Figure takeaway:_ Category fragmentation creates selective roll-up opportunities but not uniform quality.
 
 **Figure 42: Margin ladder by value-chain position and model quality.**
 ![Margin ladder by value-chain position and model quality.](figures/Figure_IV_4_Margins.png)
 *Source: [S089, Tab: Figure 44]*
+_Figure takeaway:_ Margin expansion is linked to control-point depth rather than simple downstream scale.
+_Calculation note:_ Margin ladder values are scenario-based estimates for strategic comparison.
 
 **Figure 43: Strategic capital-allocation matrix for risk/reward positioning.**
 ![Strategic capital-allocation matrix for risk/reward positioning.](figures/Figure_IV_5_Strategic_matrix.png)
 *Source: [S089, Tab: Figure 45]*
+_Figure takeaway:_ Allocation priority should favor assets where evidence depth and scale reinforce each other.
+_Calculation note:_ Matrix coordinates use internal scoring calibrated from reported commercial and clinical indicators.
 
-**Table III.1: Expanded Benchmark Transactions (Ported and Updated from v18).**
+**Table III.1: Expanded Benchmark Transactions (Archive-Ported and Updated).**
 
 | Year | Target | Acquirer | Deal Value | Implied Valuation / Multiple | Strategic Rationale | Reference |
 |:---|:---|:---|:---|:---|:---|:---|
@@ -91,7 +109,7 @@ Investor participation remains heterogeneous by thesis type: channel-consolidati
 | **2024** | **Novozymes + Chr. Hansen (Novonesis)** | Strategic Merger | **~$12.3B** | **Merger Value** | Microbial/enzyme library consolidation | [S125; S128] |
 | **n/a** | **Veramaris JV** | DSM + Evonik | **~$200M (CapEx)** | **n/a** | Algal omega-3 supply-chain de-risking | [S128] |
 
-**Table III.2: Expanded Investor Profiles and Portfolio Signals (Ported from v18).**
+**Table III.2: Expanded Investor Profiles and Portfolio Signals (Archive-Ported).**
 
 | Investor Platform | Representative Assets | Strategic Focus | Indicative Scale | Reference |
 |:---|:---|:---|:---|:---|
@@ -120,16 +138,16 @@ Investor participation remains heterogeneous by thesis type: channel-consolidati
 
 ## III.3. Deep Tech Defines the Future Frontier
 
-**Conclusion: Outlook quality now depends on evidence governance as much as on technology promise.**
+**Outlook quality now depends on evidence governance as much as on technology promise.**
 Green-claim institutionalization is tightening the acceptable claim perimeter, especially where lifecycle and substantiation standards are being formalized [S015; S117]. The practical implication is that platforms with auditable evidence stacks, not just sustainability messaging, are likely to retain pricing and distribution access as compliance thresholds rise [S126].
 
-**Conclusion: The highest-optionality frontier combines nutrigenomics, precision-biological formulation, and longevity protocol design.**
-Value is shifting toward platforms that can connect mechanism, phenotype, and repeatable delivery economics, with company-level examples ranging from biomarker/data-driven approaches to fermentation-enabled ingredient control [S089, Tab: Figure 18; S114; S127]. Legacy frontier examples from v18 are reinstated below as scenario context [S128].
+**The highest-optionality frontier combines nutrigenomics, precision-biological formulation, and longevity protocol design.**
+Value is shifting toward platforms that can connect mechanism, phenotype, and repeatable delivery economics, with company-level examples ranging from biomarker/data-driven approaches to fermentation-enabled ingredient control [S089, Tab: Figure 18; S114; S127]. Archive frontier examples are retained below as scenario context [S128].
 
-**Conclusion: Asia AGP scenarios are the largest medium-term upside lever for global TAM re-rating, but dispersion is high and path-dependent.**
+**Asia AGP scenarios are the largest medium-term upside lever for global TAM re-rating, but dispersion is high and path-dependent.**
 The APAC AGP-dividend thesis remains a credible scenario lens: tighter antibiotic constraints in China and India can expand long-run functional additive demand and alter global TAM composition [S124]. The scenario table below is retained from legacy work and should be treated as a directional scenario range [S128].
 
-**Table III.3: Green-Claim Evidence Hierarchy (Ported from v18).**
+**Table III.3: Green-Claim Evidence Hierarchy (Archive-Ported).**
 
 | Tier | Claim Category | Risk Level | Evidence Requirement | Typical Example | Reference |
 |:---|:---|:---|:---|:---|:---|
@@ -150,3 +168,5 @@ The APAC AGP-dividend thesis remains a credible scenario lens: tighter antibioti
 **Figure 44: Opportunity matrix for post-commodity technology bets.**
 ![Opportunity matrix for post-commodity technology bets.](figures/Opportunity_Matrix.png)
 *Source: [S128]*
+_Figure takeaway:_ The strongest forward optionality sits in evidence-intensive categories with low direct commodity substitution risk.
+_Calculation note:_ Opportunity quadrants are internal strategic scores intended for comparative prioritization.

@@ -2,13 +2,13 @@
 
 ## A. Report Conclusion: Investment Roadmap to 2030
 
-**Conclusion: The market should be underwritten as two linked but economically distinct systems.**
+**The market should be underwritten as two linked but economically distinct systems.**
 Animal nutraceuticals now behave as a bifurcated asset class where companion-animal value pools are driven by evidence-backed premiumization and channel trust, while livestock value pools are driven by measurable efficiency and compliance-linked adoption [S089, Tab: Figure 39; S086]. Treating both systems under one underwriting model systematically misprices risk, durability, and exit probability.
 
-**Conclusion: The highest-quality returns are concentrated at control points that combine evidence, delivery, and distribution leverage.**
+**The highest-quality returns are concentrated at control points that combine evidence, delivery, and distribution leverage.**
 Across the report, the recurring winners are not generic category participants but platforms that integrate validated claims, manufacturing and formulation control, and privileged route-to-market access [S118, Table III.1; S116, Tab: Sheet1]. This logic supports a two-track portfolio approach: therapeutic-adjacent and protocolized pet platforms on one side, and biology-plus-compliance livestock infrastructure on the other [S089, Tab: Figure 18; S117].
 
-**Conclusion: The forward edge of value creation is now governed by proof architecture as much as by innovation architecture.**
+**The forward edge of value creation is now governed by proof architecture as much as by innovation architecture.**
 Green-claim substantiation standards, nutrigenomics-enabled precision, and APAC policy pathways are likely to determine the next leg of valuation dispersion [S124; S126; S127]. The practical implication for investors is clear: prioritize platforms that can industrialize biological outcomes into auditable economics.
 
 ## B. Glossary and Acronyms
@@ -75,7 +75,7 @@ Green-claim substantiation standards, nutrigenomics-enabled precision, and APAC 
 | **Vetoquinol** | France | Pharma | Flexadin | Pet | Joint-health therapeutic-adjacent exposure in vet-trusted chronic-care categories. | [S116; S128] |
 | **YuMOVE** | UK | Consumer/Pet Nutra | Mobility formulations | Pet | Mobility leader with strong adherence profile and platform-combination relevance. | [S116, Tab: Sheet2] |
 
-## D. Extended Legacy Player Universe (Ported from v18)
+## D. Extended Legacy Player Universe (Archive-Ported)
 
 ### Table D.1: Additional Companies Reinstated from Legacy Coverage
 
@@ -112,24 +112,54 @@ Green-claim substantiation standards, nutrigenomics-enabled precision, and APAC 
 | **Innovet** | Pet Supplements | Redonyl (PEA) | Pet | Pain and inflammation-adjacent therapeutic supplementation strategy. | [S128] |
 | **FoodScience Corporation** | Pet Supplements | VetriScience, Pet Naturals | Pet | Scale formulator and private-label manufacturing control point. | [S128] |
 
-*Source for reinstated legacy coverage: [S128, Appendix B / Part IV-V excerpts].*
+*Source for reinstated archive coverage: [S128, Appendix B / Part IV-V excerpts].*
 
-## E. Annexed Supporting Tables (Ported from v18)
+## E. Part II Index Pack (Tables and Figures)
 
-### Table E.1: Functional Segment Matrix (Condensed from v18 Table II series)
+### Table E.1: Index of Tables II.1 to II.11
 
-| Segment | Strategic Use Case | Representative Ingredients/Platforms | Strategic Note | Source |
-|:---|:---|:---|:---|:---|
-| **Mobility and Joint Health** | Chronic pain and quality-of-life extension | Omega-3, collagen, glucosamine systems | Highest-monetized companion segment with strong premiumization history. | [S089, Tab: Figure 18; S128] |
-| **Gut Health and Microbiome** | Antibiotic replacement and resilience | Probiotics, prebiotics, synbiotics, postbiotics | Central to post-AGP operating model in livestock and preventive care in pets. | [S089, Tab: Figure 18; S111; S128] |
-| **Immunity and Resilience** | Disease pressure mitigation | Yeast derivatives, immune-modulating actives | Budget-protected in high-biosecurity systems. | [S089, Tab: Figure 18; S128] |
-| **Cognitive and Longevity Support** | Aging and lifecycle protocolization | DHA, antioxidants, longevity adjuncts | Core axis of the Silver Economy demand profile. | [S089, Tab: Figure 18; S114; S128] |
-| **Behavioral Wellness** | Anxiety and compliance improvement | Cannabinoids, L-theanine, calming blends | High-adherence category in premium companion channels. | [S089, Tab: Figure 18; S128] |
-| **Performance / FCR** | Throughput and cost-per-kg output defense | Enzymes, phytogenics, yeast cultures | Economic foundation of livestock adoption logic. | [S089, Tab: Figure 18; S111; S128] |
-| **Nutrigenomics / Precision** | Mechanism-linked targeting | Biomarker-guided formulations and molecular targeting | Frontier category with high optionality and evidence burden. | [S127; S128] |
-| **Sustainability and Green Claims** | Emissions and procurement compliance | Methane modulators, low-impact proteins | Converts ESG narrative into procurement and regulatory filter. | [S117; S126; S128] |
+| Table ID | Focus | Current Placement | Primary Source |
+|:---|:---|:---|:---|
+| **Table II.1** | Mobility and Joint Health Targets | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S128] |
+| **Table II.2** | Gut Health and Microbiome Targets | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S128] |
+| **Table II.3** | Immunity and Resilience Targets | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S128] |
+| **Table II.4** | Cognitive Support and Aging Targets | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S128] |
+| **Table II.5** | Calming and Behavioral Wellness Targets | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S128] |
+| **Table II.6** | Performance and Efficiency Targets | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S128] |
+| **Table II.7** | Special Niches Targets | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S128] |
+| **Table II.8** | Natural Ectoparasite Defense Targets | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S128] |
+| **Table II.9** | Nutrigenomics Targets | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S127; S128] |
+| **Table II.10** | Advanced Delivery Systems | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S128] |
+| **Table II.11** | Sustainability and Green Claim Targets | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S126; S128] |
 
-### Table E.2: Major Transactions >$100M (Legacy Cross-Check)
+### Table E.2: Index of Figures II.1 to II.12
+
+| Figure ID | Focus | Current Placement | Primary Source |
+|:---|:---|:---|:---|
+| **Figure II.1** | Functional needs across companion and production species | Part I (I.3 extended) | [S089, Tab: Figure 18; S116, Tab: Sheet1] |
+| **Figure II.2** | Gut Health positioning | Part I Figure 10 | [S089, Tab: Figure 18] |
+| **Figure II.3** | Immunity positioning | Part I Figure 11 | [S089, Tab: Figure 18] |
+| **Figure II.4** | Cognitive positioning | Part I Figure 8 | [S089, Tab: Figure 18] |
+| **Figure II.5** | Behavioral positioning | Part I Figure 9 | [S089, Tab: Figure 18] |
+| **Figure II.6** | Performance/FCR positioning | Part I Figure 12 | [S089, Tab: Figure 18] |
+| **Figure II.7** | Special niches positioning | Part I matrix pack | [S089, Tab: Figure 18] |
+| **Figure II.8** | Ectoparasite positioning | Part I matrix pack | [S089, Tab: Figure 18] |
+| **Figure II.9** | Nutrigenomics positioning | Part I Figure 13 | [S089, Tab: Figure 18] |
+| **Figure II.10** | Delivery systems positioning | Part I Figure 14 | [S089, Tab: Figure 18] |
+| **Figure II.11** | Sustainability positioning | Part I Figure 15 | [S089, Tab: Figure 18] |
+| **Figure II.12** | Comparative economic value by segment and primary sector | Part I (I.3 extended) | [S089, Tab: Figure 18; S089, Tab: Figure 39] |
+
+**Figure II.1 (Simplified): Functional needs across companion and production species.**
+![Functional needs across companion and production species (simplified).](figures/Figure_II_1_Simplified.png)
+*Source: [S089, Tab: Figure 18; S116, Tab: Sheet1]*
+_Figure takeaway:_ Companion and production species share biological needs but differ in value-capture logic, which changes product and channel strategy.
+
+**Figure II.12 (Simplified): Comparative economic value by functional segment and primary sector.**
+![Comparative economic value by functional segment and primary sector (simplified).](figures/Figure_II_12_Simplified.png)
+*Source: [S089, Tab: Figure 18; S089, Tab: Figure 39]*
+_Figure takeaway:_ Segment economics are uneven, so allocation should prioritize clusters with both scale and defensibility.
+
+### Table E.3: Major Transactions >$100M (Legacy Cross-Check)
 
 | Year | Target | Acquirer | Deal Value | Category | Source |
 |:---|:---|:---|:---|:---|:---|
@@ -142,7 +172,7 @@ Green-claim substantiation standards, nutrigenomics-enabled precision, and APAC 
 | **2024** | Aker BioMarine Feed Ingredients | AIP | $590M EV | Upstream Ingredients | [S125; S128] |
 | **2024** | Zoetis MFA | Phibro | $350M | Medicated Feed Additives | [S115; S125] |
 
-### Table E.3: Extended Investor Coverage (Legacy Cross-Check)
+### Table E.4: Extended Investor Coverage (Legacy Cross-Check)
 
 | Investor | Representative Assets | Strategic Focus | Source |
 |:---|:---|:---|:---|
@@ -159,7 +189,7 @@ Green-claim substantiation standards, nutrigenomics-enabled precision, and APAC 
 
 ## F. Methodology & Data Sources
 
-This report triangulates regulatory filings, corporate disclosures, curated datasets, and internal strategic mapping. Scope controls exclude generic commodities and non-adjacent prescription revenues to preserve comparability in value-pool and transaction analysis [S089, Tab: Figure 4]. Legacy v18 content reinstated in this version is explicitly labeled and linked to archived internal reference material for audit traceability [S128].
+This report triangulates regulatory filings, corporate disclosures, curated datasets, and internal strategic mapping. Scope controls exclude generic commodities and non-adjacent prescription revenues to preserve comparability in value-pool and transaction analysis [S089, Tab: Figure 4]. Archive-derived content is explicitly labeled and linked to internal reference material for audit traceability [S128].
 
 ## G. Regulatory Reference
 
