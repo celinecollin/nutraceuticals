@@ -1,0 +1,26 @@
+Source: Public Financial Data / Transaction Announcements (2018-2024)
+URLs:
+- Zesty Paws: https://www.prnewswire.com/news-releases/hh-group-acquires-zesty-paws-301361559.html
+- Blue Buffalo: https://www.generalmills.com/news/press-releases/2018/general-mills-completes-acquisition-of-blue-buffalo-pet-products
+- NaturVet: https://www.nasdaq.com/articles/swedencare-acquires-naturvet-for-447.5-million
+- Zoetis MFA (Phibro): https://investor.zoetis.com/news/news-details/2024/Zoetis-to-Sell-Medicated-Feed-Additive-Portfolio-to-Phibro-Animal-Health/default.aspx
+- Erber Group (DSM): https://www.dsm.com/corporate/news/news-archive/2020/2020-06-12-dsm-to-acquire-erber-group.html
+Title: Sector Deal Multiples Analysis: Pet vs Livestock
+Accessed: 2026-02-08
+
+Exhibits:
+
+1. Pet Health / Nutrition Transactions:
+   - Zesty Paws (2021): Acquired by H&H Group for $610M. LTM EBITDA ~$17.2M. Multiple: ~35.5x EBITDA.
+   - Blue Buffalo (2018): Acquired by General Mills for $8B. LTM EBITDA ~$319M. Multiple: ~25.1x EBITDA.
+   - NaturVet (2022): Acquired by Swedencare for $447.5M. LTM EBITDA ~$19M. Multiple: ~23x EBITDA.
+
+2. Livestock / Feed Transactions:
+   - Erber Group (Biomin/Romer) (2020): Acquired by DSM for €980M. EBITDA Multiple: ~14x.
+   - Zoetis MFA divestiture (2024): Acquired by Phibro for $350M. Est. EBITDA ~$80M. Multiple: ~4.4x EBITDA.
+
+3. Analysis:
+   - Pet assets trade at a significant premium (20x-35x+) driven by consumer brand value.
+   - Livestock assets trade at industrial/specialty chemical multiples (4x-14x) depending on technology differentiation.
+
+This file supports claims regarding valuation dispersion and the "two-speed" multiple framework.

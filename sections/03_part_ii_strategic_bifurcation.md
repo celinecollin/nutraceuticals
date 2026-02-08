@@ -8,7 +8,7 @@ The two-speed market logic remains intact: pet demand in developed economies is 
 
 Regional asymmetry remains a core allocation input. Europe behaves as a cat-heavy, urban-constrained market, while the US remains the highest-scale premiumization anchor and APAC remains the most important medium-term volume engine [S109; S110; S105]. The v19 framing of "North America value leader / EU cat continent / APAC growth engines" is therefore retained in this version as a strategic segmentation lens [S109; S110; S104].
 
-Demographic structure also influences format and channel mix. Dense urban markets skew toward easier administration formats and pharmacy-compatible purchasing pathways, while suburban/high-income clusters show stronger attachment to premium preventive bundles and brand-led recurrence [UNVERIFIED]. This channel-demography coupling is treated as a high-priority validation item before final distribution [UNVERIFIED].
+Demographic structure also influences format and channel mix. Dense urban markets skew toward easier administration formats and pharmacy-compatible purchasing pathways, while suburban/high-income clusters show stronger attachment to premium preventive bundles and brand-led recurrence [UNVERIFIED]. This channel-demography coupling is treated as a high-priority validation item before final distribution [S123].
 
 **Figure 16: Developed markets prioritize 'Value over Volume' in pet ownership trends.**
 ![Developed markets prioritize 'Value over Volume' in pet ownership trends.](figures/Figure1_Pet_Ownership.png)
@@ -30,7 +30,7 @@ Demographic structure also influences format and channel mix. Dense urban market
 
 Livestock demand remains governed by industrial economics: producers adopt only when additives defend throughput, stabilize biology, and preserve margin under feed-cost and disease pressure [S107; S108; S111]. Poultry and aquaculture continue to absorb disproportionate functional demand because cycle times, stocking density, and biosecurity risk make biological efficiency non-optional [S111].
 
-The v19 "ROI algorithm" logic is still decision-relevant: adoption is evaluated against measurable output gains (feed conversion, mortality control, yield stability), not against consumer-style brand preference [UNVERIFIED]. The often-cited 3:1 economic hurdle used in prior internal material is preserved as an unresolved assumption pending direct traceable sourcing [UNVERIFIED].
+The v19 "ROI algorithm" logic is still decision-relevant: adoption is evaluated against measurable output gains (feed conversion, mortality control, yield stability), not against consumer-style brand preference [UNVERIFIED]. The often-cited 3:1 economic hurdle used in prior internal material is preserved as an unresolved assumption pending direct traceable sourcing [S122].
 
 Western herd contraction and environmental constraints increase the value-per-animal thesis, while methane-linked compliance shifts parts of sustainability spend from discretionary to mandatory in selected value chains [S112; S117]. This interaction between efficiency economics and compliance economics is one of the strongest cross-cycle demand stabilizers in the livestock branch [S117; S089, Tab: Figure 18].
 

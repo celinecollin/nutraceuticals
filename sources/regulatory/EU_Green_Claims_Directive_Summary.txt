@@ -1,0 +1,14 @@
+Source: European Commission / European Parliament
+URLs:
+- https://environment.ec.europa.eu/topics/circular-economy/green-claims_en
+- https://www.europarl.europa.eu/legislative-train/theme-a-european-green-deal/file-green-claims-substantiating-green-claims
+Title: Proposal for a Directive on Green Claims (2023/0085 COD)
+Date: March 2023 (Proposal), March 2024 (Parliament adoption)
+
+Key Provisions:
+- Requires companies to substantiate voluntary green claims ("eco-friendly", "carbon neutral") with scientific evidence.
+- Defines precise rules for communication and verification (pre-approval by third parties).
+- "Green-washing" ban empowers consumers to seek redress.
+- Institutionalizes the "Green Claim Stack" by requiring life-cycle assessment (LCA) data.
+
+This supports the "Green-claim institutionalization" framework.

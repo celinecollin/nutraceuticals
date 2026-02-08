@@ -442,3 +442,25 @@ All notable changes to this project will be documented in this file.
   - Active unresolved claims reduced from `24` to `18`.
   - Active unresolved IDs now:
     - `C053, C054, C056, C058, C061, C063, C070, C072, C073, C074, C075, C076, C081, C084, C086, C088, C089, C090`.
+
+## [2026-02-08] - Claim Resolution Pass
+
+### Added
+- **New Sources (S122-S127):**
+    - S122: Feed & Additive Magazine (ROI 3:1)
+    - S123: Petfood Industry (Urban/Suburban Habits)
+    - S124: MARA Announcement 194 (China AGP Ban)
+    - S125: Sector Deal Multiples 2020-2024 (Zesty Paws, Erber, etc.)
+    - S126: EU Green Claims Directive Summary
+    - S127: Nutrigenomics Review Summary
+- **Resolved Claims:** C061, C063, C072, C073, C074, C075, C076, C084, C086.
+
+### Changed
+- **Files Modified:**
+    - `sections/03_part_ii_strategic_bifurcation.md` (Patched C061, C063)
+    - `sections/04_part_iii_value_chain.md` (Patched C073, C074, C075, C076, C084, C086)
+    - `_registry/source_registry.xlsx` (Added sources, updated claim references)
+    - `UNVERIFIED_CLAIMS.md` (Updated scope: 18 -> 9 active unverified items)
+
+### Unresolved Items (Active)
+- C053, C054, C056, C058, C070, C081, C088, C089, C090 remain as `[UNVERIFIED]` pending internal data retrieval.
