@@ -404,3 +404,41 @@ All notable changes to this project will be documented in this file.
 - **Claims/Figures touched in this pass:**
   - Claims updated: `C090` (metadata location refinement only).
   - Figures unchanged in this pass (no new figure IDs beyond prior `FIG-ES-1` addition).
+
+### [2026-02-08] - UNVERIFIED Cleanup Pass (Keep Only Truly Unsourced)
+- **Timestamp:** 2026-02-08 16:15 CET
+- **What:** Performed targeted claim cleanup to remove `UNVERIFIED` tags where traceable in-repo sources exist, while retaining `UNVERIFIED` only for genuinely unresolved assertions.
+- **Files modified:**
+  - `sections/03_part_ii_strategic_bifurcation.md`
+  - `sections/04_part_iii_value_chain.md`
+  - `_registry/source_registry.xlsx`
+  - `UNVERIFIED_CLAIMS.md`
+  - `_output/Nutraceuticals_Whitepaper_20260208-16-14.docx`
+  - `_output/latest/whitepaper.docx`
+  - `_archive/output/temp_combined_20260208-16-14.md`
+  - `CHANGELOG.md`
+- **Section cleanup actions:**
+  - Removed unresolved tail sentence in Part II (`II.3`) where concentration signal is already supported by `S055/S054`.
+  - Resolved Figure 38/42/43 source lines in Part III from `[UNVERIFIED]` to source-mapped tags:
+    - Figure 38 -> `[S089, Tab: Figure 38]`
+    - Figure 42 -> `[S089, Tab: Figure 44]`
+    - Figure 43 -> `[S089, Tab: Figure 45]`
+  - Replaced two table rationales with source-traceable wording using internal portfolio mapping (`S116, Tab: Sheet2`) for FoodScience and Vetnique/Lintbells entries.
+  - Removed unresolved gatekeeper-hypothesis sentence in `III.2` and retained only source-mapped gatekeeper mapping statement.
+- **Claims tracker updates (Claims tab):**
+  - Reclassified from `UNVERIFIED` to sourced:
+    - `C066 -> S055, S054`
+    - `C077 -> S089`
+    - `C078 -> S116`
+    - `C079 -> S089`
+    - `C080 -> S089`
+    - `C083 -> S116`
+  - Updated `claim_text/source_location/notes` for the above to reflect resolved linkage.
+- **Figures tracker updates (Figures tab):**
+  - `FIG-38`: `data_source_ids = S089`, `excel_tab = Figure 38`
+  - `FIG-42`: `data_source_ids = S089`, `excel_tab = Figure 44`
+  - `FIG-43`: `data_source_ids = S089`, `excel_tab = Figure 45`
+- **UNVERIFIED tracker updates:**
+  - Active unresolved claims reduced from `24` to `18`.
+  - Active unresolved IDs now:
+    - `C053, C054, C056, C058, C061, C063, C070, C072, C073, C074, C075, C076, C081, C084, C086, C088, C089, C090`.

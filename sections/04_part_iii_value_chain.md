@@ -36,11 +36,11 @@ The strategic-opportunity framing from v19 is also retained: broad animal-health
 
 **Figure 38: Strategic opportunity funnel from broad TAM to executable SOM.**
 ![Strategic opportunity funnel from broad TAM to executable SOM.](figures/Figure_TAM_SAM_SOM.png)
-*Source: [UNVERIFIED]*
+*Source: [S089, Tab: Figure 38]*
 
 ## III.2. Consolidation Favors Vertical Titans
 
-The competitive landscape still fits a barbell structure: large integrated incumbents controlling distribution and care-continuum access on one side, and specialist innovators controlling biological or formulation IP on the other [S115; S118; S117]. The middle layer remains the most exposed to multiple compression where differentiation is weak and substitution risk is high [S089, Tab: Figure 39]. The v19 distribution-gatekeeper layer is reinstated here: corporatized veterinary networks, specialty retail chains, and scaled e-commerce platforms (including IVC Evidensia, Zooplus, PetSmart, and Musti) increasingly mediate demand access [S116, Tab: Sheet1]. The degree to which this gatekeeper concentration systematically reallocates margin toward owned-label portfolios remains a legacy thesis pending direct source-level quantification [UNVERIFIED].
+The competitive landscape still fits a barbell structure: large integrated incumbents controlling distribution and care-continuum access on one side, and specialist innovators controlling biological or formulation IP on the other [S115; S118; S117]. The middle layer remains the most exposed to multiple compression where differentiation is weak and substitution risk is high [S089, Tab: Figure 39]. The v19 distribution-gatekeeper layer is reinstated here: corporatized veterinary networks, specialty retail chains, and scaled e-commerce platforms (including IVC Evidensia, Zooplus, PetSmart, and Musti) increasingly mediate demand access [S116, Tab: Sheet1].
 
 Transaction evidence supports this consolidation logic. High-quality assets with brand defensibility, channel access, or manufacturing optionality continue to attract premium outcomes, as reflected by benchmark transactions including Zesty Paws and NaturVet and the Zoetis MFA divestiture [S118, Table III.1; S115]. The broader v19 transaction stack is reinstated in this version (including Blue Buffalo, Neovia, Erber Group, Nom Nom, and Aker BioMarine Feed Ingredients) as a historical map of where strategic and sponsor capital has concentrated [UNVERIFIED]. Legacy platform signals around Vetnique-Lintbells (YuMOVE) and FoodScience are also carried forward for continuity, with sponsor mapping tied to the in-repo PE/VC portfolio file [S116, Tab: Sheet1] and unresolved valuation specifics retained as unverified [UNVERIFIED]. The v19 two-speed multiple framing (Pet roughly 15x-25x EBITDA versus Livestock/Feed roughly 8x-12x EBITDA) is reinstated as a directional benchmark pending direct source remapping [UNVERIFIED].
 
@@ -60,11 +60,11 @@ Valuation dispersion remains linked to four recurring drivers: evidence depth, c
 
 **Figure 42: Margin ladder by value-chain position and model quality.**
 ![Margin ladder by value-chain position and model quality.](figures/Figure_IV_4_Margins.png)
-*Source: [UNVERIFIED]*
+*Source: [S089, Tab: Figure 44]*
 
 **Figure 43: Strategic capital-allocation matrix for risk/reward positioning.**
 ![Strategic capital-allocation matrix for risk/reward positioning.](figures/Figure_IV_5_Strategic_matrix.png)
-*Source: [UNVERIFIED]*
+*Source: [S089, Tab: Figure 45]*
 
 **Table III.1: Benchmark Transactions Define the Premium**
 
@@ -72,14 +72,14 @@ Valuation dispersion remains linked to four recurring drivers: evidence depth, c
 |:--- |:--- |:--- |:--- |:--- |
 | **Zesty Paws** | H&H Group | **$610M** | **~16x EBITDA** | Omnichannel dominance and premium pet brand positioning [S118, Table III.1]. |
 | **NaturVet** | Swedencare | **$447M** | **~21.4x EBITDA** | Manufacturing leverage and portfolio integration [S118, Table III.1]. |
-| **FoodScience** | MSCP | **Undisclosed** | **Premium** | Veterinary channel depth and brand adjacency [UNVERIFIED]. |
+| **FoodScience** | MSCP | **Undisclosed** | **Premium** | Sponsor-linked platform ownership in pet nutraceuticals [S116, Tab: Sheet2]. |
 | **Zoetis MFA** | Phibro | **$350M** | **Asset Sale** | Portfolio refocus and strategic divestiture logic [S115]. |
 | **Blue Buffalo** | General Mills | **$8.0B** | **n/a** | Mass-premium pet nutrition platform acquisition [UNVERIFIED]. |
 | **Neovia** | ADM | **€1.5B** | **n/a** | Livestock premix and additives scale integration [UNVERIFIED]. |
 | **Erber Group (Biomin/Romer)** | DSM | **€980M** | **~20x EBITDA** | Eubiotics and mycotoxin technology moat acquisition [UNVERIFIED]. |
 | **Nom Nom** | Mars Petcare | **~$1.0B (est.)** | **n/a** | Fresh and personalized pet nutrition expansion [UNVERIFIED]. |
 | **Aker BioMarine Feed Ingredients** | American Industrial Partners | **$590M EV** | **n/a** | Upstream krill-based ingredient platform exposure [UNVERIFIED]. |
-| **Vetnique + Lintbells (YuMOVE)** | Gryphon Platform | **Undisclosed** | **Platform Combination** | Chronic-care category aggregation across US/UK markets [UNVERIFIED]. |
+| **Vetnique + Lintbells (YuMOVE)** | Gryphon Platform | **Undisclosed** | **Platform Combination** | Platform combination visible in sponsor portfolio mapping [S116, Tab: Sheet2]. |
 | **Novozymes + Chr. Hansen (Novonesis)** | Strategic Merger | **~$12.3B** | **Merger Value** | Enzyme and microbial library consolidation [UNVERIFIED]. |
 
 **Table III.2: Investor Profiles and Portfolio Signals (Reinstated from v19)**

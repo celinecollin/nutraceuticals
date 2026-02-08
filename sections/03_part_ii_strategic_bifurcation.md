@@ -62,7 +62,7 @@ Western herd contraction and environmental constraints increase the value-per-an
 
 In companion animals, willingness-to-pay is driven less by objective utility maximization and more by risk-of-loss framing, preventive intent, and attachment psychology [S114; S056]. This makes high-trust categories with strong narrative efficacy and convenient administration structurally more resilient than generic wellness SKUs [S106; S053].
 
-Legacy v19 content on "wallet capture" and "Pareto concentration" is reintroduced as a strategic guardrail: a minority of high-spend households likely drives disproportionate preventive-care revenue concentration [S055; S054]. The exact concentration split used in internal slides remains to be revalidated against a directly citable source file and is therefore kept unresolved [UNVERIFIED].
+Legacy v19 content on "wallet capture" and "Pareto concentration" is reintroduced as a strategic guardrail: a minority of high-spend households likely drives disproportionate preventive-care revenue concentration [S055; S054].
 
 Premiumization, lifecycle extension, and earlier protocol initiation still appear to be the key growth mechanics on the pet side. The move from generic actives toward differentiated/IP-backed formats, combined with earlier entry into wellness routines, extends duration of spend and improves lifetime value [S057; S058; S089, Tab: Figure 18].
 
