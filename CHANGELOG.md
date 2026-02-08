@@ -681,3 +681,58 @@ All notable changes to this project will be documented in this file.
 - Claims/Figures/Sections counts unchanged (`91 / 45 / 6`).
 - Active unsourced claims unchanged (`0`).
 - No section content changes in this pass (source-library + registry expansion only).
+
+## [2026-02-08 19:15 CET] - Full QA Pass + Rebuild Validation
+
+### What
+- Executed full pre-send QA protocol across sections, registry, figures, and output build.
+- Rebuilt the report DOCX using `_scripts/generate_whitepaper_docx.py`.
+- Synced `_output/latest/whitepaper.docx` to the newest successful build.
+
+### Files Modified
+- `_output/latest/whitepaper.docx`
+- `CHANGELOG.md`
+
+### Build Outputs
+- New build: `_output/Nutraceuticals_Whitepaper_20260208-19-12.docx`
+- Latest pointer refreshed to same build content via `_output/latest/whitepaper.docx`
+
+### QA Results
+- Section citation integrity: PASS (`0` unknown `Sxxx` IDs in section Markdown).
+- Unresolved tags in sections: PASS (`0` `[UNVERIFIED]`, `0` `[AUTHOR-CHECK]`, `0` `[CALCULATION]`).
+- Registry source paths: PASS (`446/446` sources have valid in-repo file paths; `0` circular paths to `sections/`, `_output/`, `_scripts/`, `_workspace/`).
+- Claims registry integrity: PASS (`0` claims with unknown source IDs; no active `UNVERIFIED`).
+- Figures linkage: PASS (`45` figure rows mapped to existing `figures_data.xlsx` tabs; `0` missing tabs; `44`/`44` in-text image assets present).
+- Output sanity check: PASS (latest DOCX contains no unresolved tags; includes `11` tables and `44` inline figures/images).
+
+### Notes
+- Two historical claim rows remain in registry as explicitly `[DEPRECATED]` (`C006`, `C042`) and are not active in section text.
+- No section content changes were required in this pass.
+
+## [2026-02-08 19:18 CET] - Registration Pass for Previously Unregistered Source Files
+
+### What
+- Completed a source-registration pass to ensure all files present under `sources/` are tracked in `_registry/source_registry.xlsx`.
+- Per author instruction, no files were deleted; previously unregistered files were registered instead.
+
+### Files Modified
+- `_registry/source_registry.xlsx`
+- `README.md`
+- `CHANGELOG.md`
+
+### Registry Updates
+- Added `16` new source rows: `S447` through `S462`.
+- Newly registered files were the previously untracked alternates/summaries in:
+  - `sources/academic/`
+  - `sources/articles/`
+  - `sources/regulatory/`
+  - `sources/reports/`
+- Added notes on each new source row indicating QA-pass registration and relation to prior source clusters where applicable.
+
+### QA Checks
+- Unregistered files in `sources/`: `0` (resolved).
+- Missing source-file paths from registry: `0`.
+- Source count now: `462`.
+
+### Claims Added/Modified
+- None.
