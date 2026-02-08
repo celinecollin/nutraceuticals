@@ -38,7 +38,7 @@ Investors must distinguish between legal classification and commercial utility, 
 | **China** | **Compliance First** | **Strictly Regulated.** | **MoA Decree 20** | **"Pet Feed"** classification is the only viable route. | **MARA License**: Mandatory and rigorous. |
 
 **Defining the Investable Universe ($13 Billion).**
-For the purpose of this investment thesis, we define the "Nutraceutical" asset class as functional bioactive compounds, specifically excluding lower-margin commodities and prescription VMPs (see Figure 4). This strict scoping reveals a **$13 billion** high-quality revenue pool comprising **Pet Supplements (~$6B)** [S089, Tab: Figure 4] and **Livestock Functional Additives (~$7B)** [CALCULATION, figures_data.xlsx, Tab: Figure 4].
+For the purpose of this investment thesis, we define the "Nutraceutical" asset class as functional bioactive compounds, specifically excluding lower-margin commodities and prescription VMPs (see Figure 4). This strict scoping reveals a **$13 billion** serviceable market baseline [S089, Tab: Figure 4], with core pools of **~$6B in Pet** and **~$8B in Livestock/Premix-adjacent exposure** [S089, Tab: Figure 39].
 
 **Figure 4: Market reconciliation excludes commodities to define the investable high-value universe.**
 ![Market reconciliation excludes commodities to define the investable high-value universe.](figures/Figure_TAM_Reconciliation.png)
@@ -97,7 +97,7 @@ The pet sector is shedding its "treats" legacy and adopting a medicalized postur
 *Source: Internal Efficacy Analysis*
 
 **Livestock Segments Prioritize Biological Infrastructure.**
-In the livestock arena, nutraceuticals are replacing antibiotics as the new sanitary infrastructure. **Gut Health ($5.6B)** [S089, Tab: Figure 18] has evolved into a "Eubiosis" strategy, leveraging **Probiotics** and **Postbiotics** to create pathogen-resistant microbiomes (Figure 10). **Immunity ($2.67B)** [S089, Tab: Figure 18] and **Performance Additives ($7.1B)** [S089, Tab: Figure 18] focus on resilience and efficiency, using **Yeast Cultures** and **Enzymes** to optimize Feed Conversion Ratios (FCR) in an era of rising input costs (Figures 11 & 12). Here, the value proposition is purely financial: every dollar spent on additives must return >$3 in yield protection.
+In the livestock arena, nutraceuticals are replacing antibiotics as the new sanitary infrastructure. **Gut Health ($2.913B)** [S089, Tab: Figure 18] has evolved into a "Eubiosis" strategy, leveraging **Probiotics** and **Postbiotics** to create pathogen-resistant microbiomes (Figure 10). **Immunity ($1.841B)** [S089, Tab: Figure 18] and **Performance/FCR ($1.426B)** [S089, Tab: Figure 18] focus on resilience and efficiency, using **Yeast Cultures** and **Enzymes** to optimize Feed Conversion Ratios (FCR) in an era of rising input costs (Figures 11 & 12). Here, the value proposition is purely financial: every additive must produce measurable yield protection.
 
 **Figure 10: Gut Health strategy shifts from generic digestion to precision microbiome modulation.**
 ![Gut Health strategy shifts from generic digestion to precision microbiome modulation.](figures/Figure_II_2_Matrix.png)
@@ -112,7 +112,7 @@ In the livestock arena, nutraceuticals are replacing antibiotics as the new sani
 *Source: Internal Efficacy Analysis*
 
 **Emerging Technologies Define the Next Decade of Value.**
-The future value of the sector lies in **Nutrigenomics ($3.5B)** [S089, Tab: Figure 18] and **Sustainability ($3.35B)** [S089, Tab: Figure 18]. Nutrigenomics is creating a "Moat of Data" by validating ingredients through gene-expression profiles, effectively turning natural extracts into verified technologies (Figure 13). Meanwhile, the Sustainability vector is monetizing environmental compliance, with **Methane Mitigation** (Figure 15) becoming a non-negotiable procurement specification for global dairy chains. Coupled with **Advanced Delivery Systems** (Figure 14) that guarantee bioavailability, these "Deep Tech" segments serve as the bridge between raw ingredients and reliable, claimable performance.
+The future value of the sector lies in **Nutrigenomics ($795M)** [S089, Tab: Figure 18] and **Sustainability ($786M)** [S089, Tab: Figure 18]. Nutrigenomics is creating a "Moat of Data" by validating ingredients through gene-expression profiles, effectively turning natural extracts into verified technologies (Figure 13). Meanwhile, the Sustainability vector is monetizing environmental compliance, with **Methane Mitigation** (Figure 15) becoming a non-negotiable procurement specification for global dairy chains. Coupled with **Advanced Delivery Systems** (Figure 14) that guarantee bioavailability, these "Deep Tech" segments serve as the bridge between raw ingredients and reliable, claimable performance.
 
 **Figure 13: Gene-expression data constructs a defensible moat of validation around ingredients.**
 ![Gene-expression data constructs a defensible moat of validation around ingredients.](figures/Figure_II_9_Matrix.png)

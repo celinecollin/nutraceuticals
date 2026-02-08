@@ -1,26 +1,28 @@
 # Appendices
 
-**A. Methodology & Data Sources**
+## A. Methodology & Data Sources
 This report triangulates primary regulatory filings (FDA, EFSA, MARA) with corporate financial disclosures (10-K, Annual Reports) and scientific literature. Market sizing models account for the "Grey Zone" by strictly filtering for functional/active ingredients and excluding generic commodities.
 
-**B. Key Industry Players**
-*   **Zoetis:** The global standard for the "Continuum of Care".
-*   **DSM-Firmenich:** The leader in upstream nutritional IP and sustainability (Bovaer).
-*   **Swedencare:** The aggregator of premium functional pet brands.
-*   **Elanco:** The pure-play challenge in livestock efficiency.
-*   **Purina / Mars:** The consumer giants defining the "Wellness" shelf.
+## B. Key Industry Players
 
-**C. Regulatory Reference**
-*   **US:** FDA GFI #293 (AFIA), Innovative FEED Act.
-*   **EU:** Reg (EC) 1831/2003 (Zootechnical Additives).
-*   **China:** MARA Decree 20 (Feed Additives Catalogue).
+- **Zoetis:** The global standard for the "Continuum of Care".
+- **DSM-Firmenich:** The leader in upstream nutritional IP and sustainability (Bovaer).
+- **Swedencare:** The aggregator of premium functional pet brands.
+- **Elanco:** The pure-play challenge in livestock efficiency.
+- **Purina / Mars:** The consumer giants defining the "Wellness" shelf.
 
-**Disclaimer**
+## C. Regulatory Reference
+
+- **US:** FDA GFI #293 (AFIA), Innovative FEED Act.
+- **EU:** Reg (EC) 1831/2003 (Zootechnical Additives).
+- **China:** MARA Decree 20 (Feed Additives Catalogue).
+
+## Disclaimer
 *This document is a strategic whitepaper simulating an Equity Research "Initiation of Coverage" report. It is for informational purposes only and does not constitute financial advice.*
 
-**D. Comprehensive Industry Players & References**
+## D. Comprehensive Industry Players & References
 
-**Key Market Players (Detailed)**
+### Key Market Players (Detailed)
 
 | Company | Country | Category | Key Product/Focus | Target Species | Strategic Summary | 
 | --- | --- | --- | --- | --- | --- | 
@@ -70,34 +72,37 @@ This report triangulates primary regulatory filings (FDA, EFSA, MARA) with corpo
 | **Zesty Paws** | USA | Consumer | Multifunctional | Pet | E-commerce leader |
 | **Zoetis** | USA | Pharma | Clarify (Dx) | Multi | Continuum of care |
 
-**Comprehensive References & Market Data**
+### Comprehensive References & Market Data
 
-**Market Intelligence Sources:**
-*   **Grand View Research.** (2024). *Animal Health Market Size & Share Analysis Report, 2030.*
-*   **Euromonitor International.** (2024). *Pet Care Global Market Data 2024.*
-*   **Nutrition Business Journal (NBJ).** (2023). *Supplement Business Report 2023.*
-*   **Future Market Insights.** (2024). *Animal Feed Additives Market Outlook.*
-*   **MarketsandMarkets.** (2023). *Probiotics in Animal Feed Market - Global Forecast to 2028.*
-*   **FEDIAF.** (2024). *European Pet Food Industry: Facts & Figures 2023.*
-*   **American Pet Products Association (APPA).** (2024). *National Pet Owners Survey (2023-2024).*
-*   **FAO (Food and Agriculture Organization).** (2024). *The State of World Fisheries and Aquaculture (SOFIA) 2024.*
-*   **Eurostat.** (2024). *Agricultural Production - Livestock and Meat (2023 Data).*
-*   **Mordor Intelligence.** (2024). *Global Animal Nutraceuticals Market Size & Share Analysis.*
+### Market Intelligence Sources
 
-**Consumer Psychology & Scientific Literature:**
-*   **Nicotra, M., et al.** (2025). "Nutraceuticals, Social Interaction, and Psychophysiological Influence on Pet Health and Well-Being." *Veterinary Sciences* 12.10: 964.
-*   **Roush, J. K., et al.** (2010). "Multicenter veterinary practice assessment of the effects of omega-3 fatty acids on osteoarthritis in dogs." *JAVMA*.
-*   **Gupta, R. C., et al.** (2012). "Comparative therapeutic efficacy and safety of type-II collagen (UC-II)..." *J. Anim. Physiol. Anim. Nutr.*
-*   **Vandeweerd, J. M., et al.** (2012). "Systematic review of efficacy of nutraceuticals to alleviate clinical signs of osteoarthritis." *JVIM*.
-*   **Comblain, F., et al.** (2016). "Review of dietary supplements for the management of osteoarthritis in dogs." *Critical Reviews in Food Science and Nutrition*.
-*   **Kelley, R. L., et al.** (2009). "Clinical efficacy of probiotics in the treatment of acute diarrhea in dogs." *Veterinary Therapeutics*.
-*   **Cowieson, A. J., & Bedford, M. R.** (2020). "Matrix values for exogenous enzymes and their application in the real world." *Journal of Applied Poultry Research*.
+- **Grand View Research.** (2024). *Animal Health Market Size & Share Analysis Report, 2030.*
+- **Euromonitor International.** (2024). *Pet Care Global Market Data 2024.*
+- **Nutrition Business Journal (NBJ).** (2023). *Supplement Business Report 2023.*
+- **Future Market Insights.** (2024). *Animal Feed Additives Market Outlook.*
+- **MarketsandMarkets.** (2023). *Probiotics in Animal Feed Market - Global Forecast to 2028.*
+- **FEDIAF.** (2024). *European Pet Food Industry: Facts & Figures 2023.*
+- **American Pet Products Association (APPA).** (2024). *National Pet Owners Survey (2023-2024).*
+- **FAO (Food and Agriculture Organization).** (2024). *The State of World Fisheries and Aquaculture (SOFIA) 2024.*
+- **Eurostat.** (2024). *Agricultural Production - Livestock and Meat (2023 Data).*
+- **Mordor Intelligence.** (2024). *Global Animal Nutraceuticals Market Size & Share Analysis.*
 
-**Corporate Filings (2023-2025):**
-*   **Zoetis Inc.** (Form 10-K).
-*   **Elanco Animal Health** (Investor Presentations).
-*   **DSM-Firmenich** (Integrated Annual Report).
-*   **Nestlé Purina** (Creating Shared Value).
-*   **Swedencare** (Year-End Report).
-*   **Virbac** (Annual Financial Report).
-*   **Dechra Pharmaceuticals** (Annual Report).
+### Consumer Psychology & Scientific Literature
+
+- **Nicotra, M., et al.** (2025). "Nutraceuticals, Social Interaction, and Psychophysiological Influence on Pet Health and Well-Being." *Veterinary Sciences* 12.10: 964.
+- **Roush, J. K., et al.** (2010). "Multicenter veterinary practice assessment of the effects of omega-3 fatty acids on osteoarthritis in dogs." *JAVMA*.
+- **Gupta, R. C., et al.** (2012). "Comparative therapeutic efficacy and safety of type-II collagen (UC-II)..." *J. Anim. Physiol. Anim. Nutr.*
+- **Vandeweerd, J. M., et al.** (2012). "Systematic review of efficacy of nutraceuticals to alleviate clinical signs of osteoarthritis." *JVIM*.
+- **Comblain, F., et al.** (2016). "Review of dietary supplements for the management of osteoarthritis in dogs." *Critical Reviews in Food Science and Nutrition*.
+- **Kelley, R. L., et al.** (2009). "Clinical efficacy of probiotics in the treatment of acute diarrhea in dogs." *Veterinary Therapeutics*.
+- **Cowieson, A. J., & Bedford, M. R.** (2020). "Matrix values for exogenous enzymes and their application in the real world." *Journal of Applied Poultry Research*.
+
+### Corporate Filings (2023-2025)
+
+- **Zoetis Inc.** (Form 10-K).
+- **Elanco Animal Health** (Investor Presentations).
+- **DSM-Firmenich** (Integrated Annual Report).
+- **Nestlé Purina** (Creating Shared Value).
+- **Swedencare** (Year-End Report).
+- **Virbac** (Annual Financial Report).
+- **Dechra Pharmaceuticals** (Annual Report).
