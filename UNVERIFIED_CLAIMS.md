@@ -1,20 +1,18 @@
 # Unverified Claims Tracker
 
-**STATUS: ONLY TRULY UNSOURCED CLAIMS REMAIN (2026-02-08)**
+**STATUS: NO ACTIVE UNSOURCED CLAIMS (2026-02-08)**
 
-Most legacy reinstated content is now source-bound (including `S128` for legacy v18 material). The remaining items below are the only claims that still have no direct, auditable source mapping in-repo.
+All previously unresolved claims are now source-bound in the registry and section text.
 
 ## Current Unverified Scope
 
-- **Total active `[UNVERIFIED]` claims in registry:** 3
-- **Claim IDs:** `C054, C056, C058`
-- **Primary impacted sections:** `I.2, I.3`
+- **Total active `[UNVERIFIED]` claims in registry:** 0
+- **Claim IDs:** `None`
+- **Primary impacted sections:** `None`
 
 ## What Is Unverified (By Theme)
 
-- **Threshold heuristic validation gap:** prior internal threshold convention (`>5% R&D` and `>20% EBITDA`) is still not mapped to a direct source artifact (`C054`).
-- **Segment overlay split gap:** specific monetization splits for selected overlays remain unbound (`C056`).
-- **Concentration assumption gap:** comparative concentration assumptions for validated vs commodity categories remain unbound (`C058`).
+- No unresolved unsourced themes remain in the active report.
 
 ## Resolution Workflow
 
@@ -34,3 +32,6 @@ Most legacy reinstated content is now source-bound (including `S128` for legacy 
 - C075 (Nutrigenomics) -> [S127]
 - C076 (APAC AGP Dividend) -> [S124]
 - C053, C070, C081, C088, C089, C090 -> [S128] (legacy v18 source added to `sources/internal/`)
+- C054 -> [S115, S120, S119, S118] (context-dependent R&D/margin framing)
+- C056 -> [S118, S089] (legacy segment split re-scoped as scoped indicator)
+- C058 -> [S117, S118, S089] (concentration reframed through IP/evidence tier)

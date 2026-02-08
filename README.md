@@ -39,11 +39,11 @@ Comprehensive equity research report analyzing the global animal nutraceuticals 
 
 All claims, figures, and sources tracked in **`_registry/source_registry.xlsx`**:
 - **Sources tab:** 128 registered sources
-- **Claims tab:** 91 claims tracked (including active `[UNVERIFIED]` rows for unresolved legacy reintegration items)
+- **Claims tab:** 91 claims tracked (no active `[UNVERIFIED]` rows)
 - **Figures tab:** 45 figures mapped to Master Excel data
 - **Sections tab:** 6 sections tracked
 
-**Verification Status:** ⚠ In progress (`[UNVERIFIED]` claims remain active and require source completion before external distribution).
+**Verification Status:** ✅ Source-bound (no active `[UNVERIFIED]` claims in registry).
 
 ---
 

@@ -556,3 +556,30 @@ All notable changes to this project will be documented in this file.
 
 ### Flags for Author
 - Remaining unresolved items are intentionally limited to threshold and concentration assumptions in `Part I` pending direct source-grade evidence.
+
+## [2026-02-08 18:52 CET] - Final Closure of Remaining 3 Unverified Claims
+
+### What
+- Integrated author-provided sourcing analysis to close the last unresolved claims (`C054`, `C056`, `C058`).
+- Replaced the final two `[UNVERIFIED]` statements in Part I with source-bound wording.
+- Updated registry claim rows and tracker docs so no active unsourced claims remain.
+
+### Files Modified
+- `sections/02_part_i_structural_bifurcation.md`
+- `_registry/source_registry.xlsx`
+- `UNVERIFIED_CLAIMS.md`
+- `README.md`
+- `_output/Nutraceuticals_Whitepaper_20260208-18-55.docx`
+- `_output/latest/whitepaper.docx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- **Modified:** `C054, C056, C058`
+- **Active unresolved claims:** `None` (`0` remaining)
+
+### Notes
+- `C054` reframed as context-dependent relationship (pharma vs pure-play nutraceutical margin models) using filing-backed source set.
+- `C056` reframed from absolute global split to scoped-indicator interpretation with benchmark context.
+- `C058` reframed around evidence-tier/IP-control concentration dynamics.
+- Rebuilt DOCX after claim updates and refreshed latest pointer to `20260208-18-55`.
+- QA confirmation: section `[UNVERIFIED]` tags = `0`; registry `source_ids = UNVERIFIED` rows = `0`; unknown source IDs in sections = `0`.
