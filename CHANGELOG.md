@@ -238,3 +238,55 @@ All notable changes to this project will be documented in this file.
   - Updated verification status note to remove outdated unresolved-source language.
   - Replaced outdated section filename examples in `GUIDE_POUR_DOUDOU.md` with current section files.
   - Clarified `[AUTHOR-CHECK]` vs `[UNVERIFIED]` handling in user guidance.
+
+### [2026-02-08] - Final QA Remediation (Sources + Figure Footers + Narrative Tightening)
+- **Timestamp:** 2026-02-08 15:22 CET
+- **What:** Performed final pre-send QA cleanup to remove residual non-ID source footers, tighten unsupported narrative assertions, and align root-status docs with current repository state.
+- **Files modified:**
+  - `sections/00_front_matter.md`
+  - `sections/02_part_i_structural_bifurcation.md`
+  - `sections/03_part_ii_strategic_bifurcation.md`
+  - `sections/04_part_iii_value_chain.md`
+  - `README.md`
+  - `GUIDE_POUR_DOUDOU.md`
+  - `PRD_SOURCE_REGISTRY.md`
+  - `UNVERIFIED_CLAIMS.md`
+  - `_registry/source_registry.xlsx`
+- **Section-level changes:**
+  - Replaced plain-text `*Source: ...*` footers with registry ID tags (`[Sxxx]`) across Parts I–III figure blocks.
+  - Corrected Figure 33 caption/image order in Part III.
+  - Reframed two unsupported narrative passages (methane mitigation and longevity frontier) to sourced, defensible statements.
+  - Added missing source tag to the Part I bifurcation driver paragraph (`S089, Tab: Figure 6`).
+- **Registry updates:**
+  - Sources `S104-S120` notes were normalized to remove stale “SOURCE FILE NOT FOUND” phrasing and reflect current in-repo proxy/filing status.
+- **Final outputs regenerated:**
+  - `_output/Nutraceuticals_Whitepaper_20260208-15-24.docx`
+  - `_output/latest/whitepaper.docx` (updated pointer copy)
+- **Temp build artifact archived:**
+  - `_archive/output/temp_combined_20260208-15-24.md`
+- **Claims added/modified (IDs):**
+  - No new claim IDs added in this pass.
+  - Existing tracked claims were not re-keyed; edits focused on citation normalization and narrative defensibility in section text.
+
+### [2026-02-08] - v19 Reintegration into 3x3 Part Structure
+- **Timestamp:** 2026-02-08 15:36 CET
+- **What:** Reintegrated missing legacy content from `_output/archive/Master_WhitePaper_Final_v19.docx` while preserving the current 3-part architecture and enforcing `3 subparts x 3 narrative paragraphs` per part.
+- **Files modified:**
+  - `sections/02_part_i_structural_bifurcation.md`
+  - `sections/03_part_ii_strategic_bifurcation.md`
+  - `sections/04_part_iii_value_chain.md`
+  - `UNVERIFIED_CLAIMS.md`
+  - `_registry/source_registry.xlsx`
+- **Structure updates:**
+  - Part I, II, III now each contain exactly 3 subparts with 3 narrative paragraphs per subpart.
+  - Legacy missing material (scope detail, ROI algorithm framing, competitive/valuation overlays, frontier outlook) was folded into the existing Part I–III narrative.
+- **Figure reintegration:**
+  - Added Part III visuals and registry rows for: `FIG-38, FIG-39, FIG-40, FIG-41, FIG-42, FIG-43, FIG-44`.
+  - New visual assets used from `_figures/exports/`: `Figure_TAM_SAM_SOM.png`, `Figure_IV_5_Revenue_Comparison.png`, `Figure_IV_6_Capability_Matrix.png`, `Figure_IV_3_Pet.png`, `Figure_IV_4_Margins.png`, `Figure_IV_5_Strategic_matrix.png`, `Opportunity_Matrix.png`.
+- **Claims tracker updates (Claims tab):**
+  - Added claim IDs `C050` through `C081` (32 new claim rows) tied to the rewritten Part I–III narrative.
+  - Active unresolved claims tagged `source_ids = UNVERIFIED`: `C053, C054, C056, C058, C061, C063, C066, C070, C072, C073, C074, C075, C076, C077, C078, C079, C080, C081`.
+- **Unverified workflow updates:**
+  - `UNVERIFIED_CLAIMS.md` switched back to active tracking mode with current unresolved claim IDs and resolution steps.
+- **Notes:**
+  - As requested, unsourced reinstated content is explicitly marked `[UNVERIFIED]` in section text and mirrored in registry claim rows for later author verification.

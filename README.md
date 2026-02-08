@@ -27,7 +27,7 @@ Comprehensive equity research report analyzing the global animal nutraceuticals 
 │   └── internal/                  # Internal analysis files
 ├── _registry/
 │   └── source_registry.xlsx       # 120 sources, 49 tracked claims, 37 figures
-├── _figures/exports/              # 106 chart exports (PNG)
+├── _figures/exports/              # 155 chart exports (PNG)
 ├── _output/                       # Generated DOCX outputs
 ├── _scripts/                      # Automation scripts
 └── _workspace/                    # Working files, drafts, backups
@@ -39,11 +39,11 @@ Comprehensive equity research report analyzing the global animal nutraceuticals 
 
 All claims, figures, and sources tracked in **`_registry/source_registry.xlsx`**:
 - **Sources tab:** 120 registered sources
-- **Claims tab:** 49 claims tracked; audited statuses include `[SXXX]`, `[CALCULATION]`, and `[AUTHOR-CHECK]`
+- **Claims tab:** 49 claims tracked; active report claims are sourced with `[SXXX]` tags (deprecated legacy rows retained for audit history)
 - **Figures tab:** 37 figures mapped to Master Excel data
 - **Sections tab:** 6 sections tracked
 
-**Verification Status:** ⚠ In progress (author review pending on `[AUTHOR-CHECK]` claims).
+**Verification Status:** ⚠ In progress (final author sign-off still required before external distribution).
 
 ---
 
@@ -89,7 +89,7 @@ All claims, figures, and sources tracked in **`_registry/source_registry.xlsx`**
 |-----------|--------|
 | Source Registry | ✅ Linked (120 sources with in-repo file paths) |
 | Sections | ✅ Complete (6 files with inline tags) |
-| Figures | ✅ Ready (37 mapped, 106 exports available) |
+| Figures | ✅ Ready (37 mapped, 155 exports available) |
 | DOCX Generation | ✅ Complete (`_output/latest/whitepaper.docx`) |
 
 **Last Updated:** 2026-02-08

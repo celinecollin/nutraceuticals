@@ -54,7 +54,7 @@ If you ever see `[UNVERIFIED]` — that means no source was identified and it mu
 
 ### When you want to work on the report yourself
 
-1. Open the section file you want to edit (e.g., `sections/04_sector_analysis.md`)
+1. Open the section file you want to edit (e.g., `sections/04_part_iii_value_chain.md`)
 2. Edit directly in the Markdown
 3. When you add a new fact or number, add a source tag: `[S047, p.12]`
 4. If it's a new source, add a row to the Sources tab in your Excel
@@ -64,7 +64,7 @@ If you ever see `[UNVERIFIED]` — that means no source was identified and it mu
 
 Just tell it what you want in natural language. Examples:
 
-> "Update Section 3 with the latest ECB data. The source is in sources/reports/ecb_jan2026.pdf"
+> "Update Part III valuation references using the latest Zoetis filing. The source is in `sources/reports/zoetis_2024_annual_report.pdf`."
 
 > "Add a new subsection in Section 5 about ESG regulation. Use sources S045 and S067."
 
@@ -81,7 +81,7 @@ The agent knows the rules. It will:
 ### When you want to review what the agent changed
 
 1. Open `CHANGELOG.md` — it's at the root of the project. Each entry says: what was changed, which files, which claims, and any flags for you.
-2. Open `source_registry.xlsx` → Claims tab → filter by "agent_generated = Y" and "verified = N" — these are the things the agent wrote that you haven't checked yet.
+2. Open `_registry/source_registry.xlsx` → Claims tab → filter by "agent_generated = Y" and "verified = N" — these are the things the agent wrote that you haven't checked yet.
 3. Go through them, check each claim against the source, and tick "verified" when you're satisfied.
 
 ### When you want to preview the Word document
@@ -169,7 +169,7 @@ It means the claim is not final-source-verified. Three possibilities:
 
 **When you finish a work session, spend 2 minutes on the Excel.**
 
-Open `source_registry.xlsx` → Claims tab → sort by "verified = N" → check off the ones you've confirmed. That's it. Over time, you'll have a fully verified, fully traceable report, and you'll sleep better knowing every number has a source.
+Open `_registry/source_registry.xlsx` → Claims tab → sort by "verified = N" → check off the ones you've confirmed. That's it. Over time, you'll have a fully verified, fully traceable report, and you'll sleep better knowing every number has a source.
 
 ---
 

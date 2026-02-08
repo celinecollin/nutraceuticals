@@ -5,7 +5,7 @@ The global animal nutraceutical market is pivoting. No longer a monolithic commo
 **Economic Mechanics Diverge by Sector:**
 Successful capital allocation demands distinguishing between two mutually exclusive market mechanics.
 
-**Pet Economy (~$6B) Offers Higher Margin Density:** Driven by the "**Silver Economy**" of aging pets and inelastic "humanization" demand, this B2C sector shows structurally higher margin capture.
+**Pet Economy (~$6B) Offers Higher Margin Density:** Driven by the "**Silver Economy**" of aging pets and inelastic "humanization" demand, this B2C sector shows structurally higher margin capture [S089, Tab: Figure 39].
 
 - **Higher Margin Profile:** Pet brands screen around **22% EBITDA** in the benchmark set [S089, Tab: Figure 39].
 - **Premium Valuation for Scaled Assets:** Recent premium transactions imply **~16x to ~21.4x EBITDA** [S118, Table III.1].
