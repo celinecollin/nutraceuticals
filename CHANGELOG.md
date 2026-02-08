@@ -583,3 +583,101 @@ All notable changes to this project will be documented in this file.
 - `C058` reframed around evidence-tier/IP-control concentration dynamics.
 - Rebuilt DOCX after claim updates and refreshed latest pointer to `20260208-18-55`.
 - QA confirmation: section `[UNVERIFIED]` tags = `0`; registry `source_ids = UNVERIFIED` rows = `0`; unknown source IDs in sections = `0`.
+
+## [2026-02-08 18:57 CET] - Legacy `_workspace` Source Migration to Canonical `sources/`
+
+### What
+- Migrated legacy source material from approved `_workspace` legacy folders into canonical `sources/` subfolders.
+- Processed files one-by-one (sorted), moving unique files and removing duplicate copies that already existed in `sources/`.
+- Updated `_registry/source_registry.xlsx` (`Sources` tab) with new sequential source IDs for all moved unique files.
+- Generated migration audit log at `_archive/source_migration_20260208.log`.
+
+### Files Modified
+- `_registry/source_registry.xlsx`
+- `CHANGELOG.md`
+
+### Files Added
+- `_archive/source_migration_20260208.log`
+- `sources/articles/*` (multiple files)
+- `sources/academic/*` (multiple files)
+- `sources/reports/*` (multiple files)
+- `sources/datasets/*` (multiple files)
+- `sources/internal/*` (multiple files)
+- `sources/regulatory/*` (multiple files)
+
+### Migration Summary
+- Selected legacy files: `372`
+- Unique files moved into `sources/`: `273`
+- Duplicate legacy files removed (content already present in `sources/`): `99`
+- `_workspace` remaining files in targeted legacy source folders (allowed source extensions): `0`
+
+### Registry Updates
+- `Sources` tab added IDs: `S129` through `S401` (`273` new source rows)
+- `date_added` set to `2026-02-08`
+- `added_by` set to `agent`
+- `notes` captured original `_workspace` path for traceability
+
+### Claims Added/Modified
+- None
+
+### Flags for Author
+- Scope intentionally limited to legacy source-material folders in `_workspace`:
+  - `_workspace/archive/Adverse effects`
+  - `_workspace/archive/Articles`
+  - `_workspace/archive/OLD_report/20260121_new input`
+  - `_workspace/archive/OLD_report/source_material`
+  - `_workspace/archive/OLD_report/sources`
+  - `_workspace/archive/OLD_report/source`
+  - `_workspace/backup_20260208`
+- Scratch/presentation/tooling areas in `_workspace` were not migrated in this pass.
+
+## [2026-02-08 19:02 CET] - Root Markdown Consistency Refresh
+
+### What
+- Performed root-level `.md` consistency audit and refreshed stale status metadata.
+- No content-level sourcing changes; this pass is documentation alignment only.
+
+### Files Modified
+- `README.md`
+- `report_master.md`
+- `CHANGELOG.md`
+
+### Updates Applied
+- `README.md`:
+  - Updated unresolved-tracker description to reflect current state (`0` active unresolved items).
+  - Refreshed last-updated status note to post-final source closure state.
+- `report_master.md`:
+  - Updated section `~Lines` summary to match current section file lengths.
+  - Updated appendices description from `A–D` to `A–I`.
+
+### QA Notes
+- Root markdown files audited: `AGENTS.md`, `CHANGELOG.md`, `GUIDE_POUR_DOUDOU.md`, `PRD_SOURCE_REGISTRY.md`, `README.md`, `UNVERIFIED_CLAIMS.md`, `report_master.md`.
+- Registry/claim/source state unchanged in this pass.
+
+## [2026-02-08 19:22 CET] - Deep-Research Works-Cited Source Import
+
+### What
+- Imported and tracked the full works-cited URL set provided by the author for the deep-research addendum.
+- Downloaded missing web sources to local `sources/` captures and registered them in `_registry/source_registry.xlsx`.
+- Completed fallback retrieval for initially blocked links and stored successful local captures.
+
+### Files Modified
+- `_registry/source_registry.xlsx`
+- `README.md`
+- `CHANGELOG.md`
+
+### Files Added
+- Added source-capture files for `S402` through `S446` across:
+  - `sources/reports/`
+  - `sources/articles/`
+  - `sources/academic/`
+
+### Registry Updates
+- Added `45` new source rows from provided links.
+- URL coverage check: `45/45` provided URLs are now tracked in `Sources` tab.
+- Updated source count reflected in root docs: `446` total sources.
+
+### QA Notes
+- Claims/Figures/Sections counts unchanged (`91 / 45 / 6`).
+- Active unsourced claims unchanged (`0`).
+- No section content changes in this pass (source-library + registry expansion only).

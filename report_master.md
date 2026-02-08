@@ -24,12 +24,12 @@ sections/05_appendices.md
 
 | # | File | Description | ~Lines |
 |---|------|-------------|--------|
-| 00 | `00_front_matter.md` | Title, Investment Thesis, Scope | ~40 |
-| 01 | `01_executive_summary.md` | Executive Summary | ~12 |
-| 02 | `02_part_i_structural_bifurcation.md` | Part I: Structural Bifurcation (I.1–I.3) | ~130 |
-| 03 | `03_part_ii_strategic_bifurcation.md` | Part II: Strategic Bifurcation (II.1–II.3) | ~110 |
-| 04 | `04_part_iii_value_chain.md` | Part III: Value Chain (III.1–III.3) | ~80 |
-| 05 | `05_appendices.md` | Appendices A–D, References | ~105 |
+| 00 | `00_front_matter.md` | Title, Investment Thesis, Scope | ~7 |
+| 01 | `01_executive_summary.md` | Executive Summary | ~15 |
+| 02 | `02_part_i_structural_bifurcation.md` | Part I: Structural Bifurcation (I.1–I.3) | ~109 |
+| 03 | `03_part_ii_strategic_bifurcation.md` | Part II: Strategic Bifurcation (II.1–II.3) | ~106 |
+| 04 | `04_part_iii_value_chain.md` | Part III: Value Chain (III.1–III.3) | ~152 |
+| 05 | `05_appendices.md` | Appendices A–I, References | ~207 |
 
 ---
 
