@@ -54,6 +54,7 @@ For incumbents, R&D productivity has stalled while the cost to develop new molec
 Valuations reflect the bifurcation of the underlying assets (Table III.1). **Tier 1 (IP-Rich)** companies—those with patented molecules and clinical dossiers—trade at **16x–22x EBITDA** [S118], as investors pay for the defensibility of the cash flow (e.g., Swedencare's acquisition of NaturVet). **Tier 2 (Commodity)** brands, competing on price or generic ingredients, trade at **8x–11x EBITDA** [INTERNAL ANALYSIS]. This arbitrage confirms that the market values **Moats over Revenue**: a smaller, protected revenue stream is worth more than a larger, commoditized one.
 
 **Table III.1: Benchmark Transactions Define the Premium**
+
 | **Target** | **Acquirer** | **Deal Value** | **Implied Valuation** | **Strategic Rationale** |
 |:--- |:--- |:--- |:--- |:--- |
 | **Zesty Paws** | H&H Group | **$610M** | **~16x EBITDA** | Omnichannel dominance + "Pet Humanization" brand equity. |

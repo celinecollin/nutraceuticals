@@ -21,6 +21,7 @@ This report triangulates primary regulatory filings (FDA, EFSA, MARA) with corpo
 **D. Comprehensive Industry Players & References**
 
 **Key Market Players (Detailed)**
+
 | Company | Country | Category | Key Product/Focus | Target Species | Strategic Summary | 
 | --- | --- | --- | --- | --- | --- | 
 | **AB Vista** | UK | Livestock Feed | Econase XT | Poultry | Performance |

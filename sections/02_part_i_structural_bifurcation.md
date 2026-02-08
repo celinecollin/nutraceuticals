@@ -30,6 +30,7 @@ Investors must distinguish between legal classification and commercial utility, 
 *Source: Internal Regulatory Analysis*
 
 **Table I.1: Global Regulatory Access Strategy**
+
 | **Region** | **Strategic Imperative** | **Key Regulation** | **The Grey Zone Strategy** | **Market Access Key** |
 |:--- |:--- |:--- |:--- |:--- |
 | **USA** | **Safety First** | Binary: Food vs. Drug. | **FDA GFI #293** | Position as **"Supplement"** to avoid Drug classification. | **NASC Seal**: The de facto license to operate. |
@@ -51,6 +52,7 @@ For the purpose of this investment thesis, we define the "Nutraceutical" asset c
 In a market saturated with generic "fairy dust," our analysis confirms that **Clinical Validity** is the primary determinant of pricing power and gross margin expansion. We identify a direct, non-linear correlation between the **Level of Evidence (LoE)** and the commercial architecture a product can sustain (see Table I.2). While commodity players fight a race to the bottom, "Pharma-Nutra" players utilize **Level A (Therapeutic)** evidence—Randomized Controlled Trials (RCTs)—to unlock the Veterinary Channel. This is the **"Clinical Cliff"**: products without evidence fall into the commodity abyss, while those with evidence ascend to **Quasi-Drug status**, commanding price premiums of **+40% to +150%** [INTERNAL ANALYSIS].
 
 **Table I.2: The Evidence-Premium Matrix**
+
 | Evidence Level | **Commercial Class** | **Sales Mechanics** | **Price Premium** | **Strategic Implication** |
 | :--- | :--- | :--- | :--- | :--- |
 | **Level A (Therapeutic)** | **Quasi-Drug / Rx** | **Technical Sales (DVMs/PhDs).** High-Touch "Hunter" Model. | **+40% to +150%** | **Moat:** Clinical data creates a barrier to entry that generic competitors cannot breach. Examples: *Multimin 90, Dasuquin*. |

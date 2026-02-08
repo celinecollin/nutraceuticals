@@ -128,4 +128,22 @@ All notable changes to this project will be documented in this file.
 
 ### [2026-02-08] - Section 01 Claims Extraction (Executive Summary)
 
-### [2026-02-08] - Section 01 Claims Extraction (Executive Summary)
+### [2026-02-08] - Final DOCX Generation
+- **What:** Generated complete white paper DOCX from modular sections.
+- **Files created:**
+  - `_scripts/generate_whitepaper_docx.py`: New generation script for modular structure
+  - `_output/Nutraceuticals_Whitepaper_20260208.docx`: Final output (5.3 MB, 6 sections)
+- **Files modified:**
+  - `README.md`: Updated to reflect restructured project
+- **Cleanup:**
+  - Renamed `report/` → `_workspace/archive/OLD_report/` (obsolete legacy folder)
+- **Agent:** Antigravity (Claude)
+- **Notes:** Full report generated with professional styling, cover page, and TOC. All figures embedded via symlink.
+
+### [2026-02-08] - Formatting Fixes
+- **Issue:** Tables in Appendices, Part I, and Part III were rendering as text due to missing blank lines in Markdown.
+- **Fix:** Added blank lines before table headers in:
+  - `sections/05_appendices.md` (Key Market Players table)
+  - `sections/02_part_i_structural_bifurcation.md` (Tables I.1 & I.2)
+  - `sections/04_part_iii_value_chain.md` (Table III.1)
+- **Result:** Regenerated DOCX with correct table formatting.
