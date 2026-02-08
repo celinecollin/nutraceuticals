@@ -128,16 +128,19 @@ If you skip step 3, the citation chain breaks.
 
 ### Procedure C — Add or update a figure
 
-1. Place the figure image in `_figures/exports/`
-2. Add the figure block in section markdown:
+1. Update the figure data tab in `_figures/figures_data.xlsx`.
+2. Regenerate all figures with `python3 _scripts/build_figures_from_excel.py`.
+3. Add (or update) the figure block in section markdown:
    - caption line (`**Figure X: ...**`)
    - image line (`![](...)`)
    - source line (`*Source: [Sxxx]*` or `[UNVERIFIED]`)
-3. Update `_registry/source_registry.xlsx` → **Figures** tab:
+4. Update `_registry/source_registry.xlsx` → **Figures** tab:
    - `figure_id`
    - title
    - `data_source_ids`
    - `excel_tab` (must match an existing tab in `_figures/figures_data.xlsx`)
+
+Do not hand-edit PNG outputs in `_figures/exports/` unless explicitly doing emergency visual hotfixes that are immediately back-ported to renderer/data.
 
 ### Procedure D — Handle unresolved items safely
 

@@ -985,3 +985,32 @@ All notable changes to this project will be documented in this file.
 
 ### Claims Added/Modified
 - None.
+
+### [2026-02-08] - Root MD Enshrinement of Excel-Driven Figure Pipeline
+- **Timestamp:** 2026-02-08 22:41 CET
+- **What:** Updated root markdown documentation to explicitly codify the production architecture: Excel source-of-truth, orchestrator + per-figure renderers, generated figure exports, and build/QA artifact flow.
+
+### Documentation Updates
+- `PRD_SOURCE_REGISTRY.md`
+  - Added `Figure Source-of-Truth Build Architecture` section.
+  - Added deterministic pipeline definition:
+    - `figures_data.xlsx -> build_figures_from_excel.py -> fig_renderers -> exports -> generate_whitepaper_docx.py -> docx`
+  - Added synchronization contract between workbook tabs, renderer specs, and registry figure rows.
+  - Added Figure 46 special-case tracing (`MapChart_Map .pdf` + Figure 46 tab + global_landscape render mode).
+  - Added active build scripts and QA artifact outputs to the PRD.
+  - Added success criterion requiring full figure reproducibility from Excel source tabs.
+- `README.md`
+  - Added `Active Script Stack` section covering orchestrator, renderer registry/modules, shared render logic, and DOCX builder coupling.
+  - Explicitly states that `/_figures/exports/` assets are generated artifacts and obsolete helpers live under `/_archive/scripts/`.
+- `GUIDE_POUR_DOUDOU.md`
+  - Updated `Procedure C` to require editing `figures_data.xlsx` first, then regenerating via `build_figures_from_excel.py`, then updating section + registry references.
+  - Added guardrail against hand-editing exported PNGs except emergency hotfix with immediate back-port.
+
+### Files Modified
+- `PRD_SOURCE_REGISTRY.md`
+- `README.md`
+- `GUIDE_POUR_DOUDOU.md`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None.

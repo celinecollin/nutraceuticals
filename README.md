@@ -69,6 +69,15 @@ All claims, figures, and sources tracked in **`_registry/source_registry.xlsx`**
 
 Do not manually edit exported figure PNGs in `/_figures/exports/`. They are generated artifacts.
 
+### Active Script Stack
+- `_scripts/build_figures_from_excel.py` -> orchestrates all figure renderers and regenerates exports from Excel source tabs.
+- `_scripts/fig_renderers/registry.py` -> ordered list of renderer modules (one per figure).
+- `_scripts/fig_renderers/renderers/*.py` -> figure-specific render specs.
+- `_scripts/fig_renderers/common.py` -> shared render modes and validations.
+- `_scripts/generate_whitepaper_docx.py` -> report assembly + DOCX generation (calls figure build first).
+
+Obsolete one-off helpers are archived in `/_archive/scripts/` and are not part of the active production pipeline.
+
 ### For AI Agents
 1. **Read `AGENTS.md` before ANY edits**
 2. Follow source tagging conventions (`[SXXX]`, `[CALCULATION]`, `[AUTHOR-CHECK]`, `[UNVERIFIED]`)

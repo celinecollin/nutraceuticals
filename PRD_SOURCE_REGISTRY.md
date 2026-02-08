@@ -172,6 +172,55 @@ A running log of every meaningful edit session.
 
 ---
 
+### 4. Figure Source-of-Truth Build Architecture
+
+Figure production is a deterministic pipeline:
+
+`_figures/figures_data.xlsx` -> `_scripts/build_figures_from_excel.py` -> `_scripts/fig_renderers/renderers/*.py` -> `_figures/exports/*.png` -> `_scripts/generate_whitepaper_docx.py` -> `_output/*.docx`
+
+#### Design Rules
+
+1. `/_figures/figures_data.xlsx` is the single source of truth for figure data.
+2. Each figure has one renderer module in `/_scripts/fig_renderers/renderers/`.
+3. The orchestrator (`build_figures_from_excel.py`) imports and runs renderers in fixed registry order.
+4. Build is fail-fast and must output actionable error context (renderer module, tab, output file).
+5. Figure PNGs in `/_figures/exports/` are generated artifacts and should not be manually edited.
+
+#### Figure Registry Coupling
+
+Any figure add/change requires synchronized updates to:
+- `/_figures/figures_data.xlsx`
+- `/_scripts/fig_renderers/renderers/<figure_renderer>.py`
+- `/_scripts/fig_renderers/registry.py`
+- `/_registry/source_registry.xlsx` (Figures tab)
+
+`Figures.excel_tab` must exactly match a workbook tab name used by the renderer `SPEC`.
+
+#### Special Case: Global Ecosystem Map (ES-1 / Figure 46)
+
+- Background map source: `sources/internal/MapChart_Map .pdf` (in-repo).
+- Overlay entity data source: `Figure 46` tab (`Region`, `Category`, `Entity`) in `figures_data.xlsx`.
+- Render mode: `global_landscape` in `_scripts/fig_renderers/common.py`.
+
+---
+
+### 5. Build & QA Artifacts
+
+#### Active Build Scripts
+
+- `python3 _scripts/build_figures_from_excel.py`
+- `python3 _scripts/generate_whitepaper_docx.py`
+
+`generate_whitepaper_docx.py` must run figure rebuild as a required pre-step.
+
+#### QA Evidence Outputs
+
+- `_output/qa/figure_render_last_run.json` -> renderer-by-renderer run status.
+- `_output/qa/figures_before_refactor.json` / `_output/qa/figures_after_refactor_comparison.*` -> figure regression evidence.
+- `_output/qa/pdf_pages_<timestamp>/` -> page PNGs/contact sheets for manual visual final checks.
+
+---
+
 ## Verification Workflow
 
 The author's review process for any section:
@@ -198,3 +247,4 @@ The system is working if:
 4. Figure data lineage is clear: Figure → Excel Tab → Source IDs.
 5. Edit history is always visible via the Changelog.
 6. The author feels in control of the project, not the agent.
+7. Every figure in the final document is reproducible from `figures_data.xlsx` using the active script stack.
