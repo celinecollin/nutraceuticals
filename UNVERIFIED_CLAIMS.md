@@ -6,19 +6,17 @@ The report now intentionally contains unresolved items tagged `[UNVERIFIED]` whe
 
 ## Current Unverified Scope
 
-- **Total active `[UNVERIFIED]` claims in registry:** 18
-- **Claim IDs:** `C053, C054, C056, C058, C061, C063, C070, C072, C073, C074, C075, C076, C081, C084, C086, C088, C089, C090`
-- **Primary impacted sections:** `I.2, I.3, II.1, II.2, II.3, III.1, III.2, III.3`
+- **Total active `[UNVERIFIED]` claims in registry:** 9
+- **Claim IDs:** `C053, C054, C056, C058, C070, C081, C088, C089, C090`
+- **Primary impacted sections:** `I.2, I.3, II.1, II.2, III.1, III.2, III.3`
 
 ## What Is Unverified (By Theme)
 
 - **Evidence-premium thresholds:** legacy Level A/B/C premium ranges and threshold conventions pending direct source linkage (`C053, C054`).
 - **Segment overlays and concentration assumptions:** ectoparasite/pre-senior monetization splits and comparative concentration statements (`C056, C058`).
-- **Demography and ROI heuristics from legacy analysis:** format/channel-demography coupling and livestock 3:1 ROI hurdle assumption (`C061, C063`).
-- **Strategic opportunity sizing assumptions:** legacy SOM target and scenario overlays from prior internal models (`C070, C076`).
-- **Competitive/valuation overlays:** legacy deal baskets, investor clustering, valuation-band overlays, buyer-mix splits, IPO optionality language, and investor AUM tiers (`C072, C073, C084, C086, C088, C089, C090`).
-- **Frontier framework assumptions:** green-label taxonomy details and gene-editing/longevity pathway assumptions (`C074, C075`).
+- **Strategic opportunity sizing assumptions:** legacy SOM target (`C070`).
 - **Figure-source gaps:** Figure 44 currently points to unresolved source provenance (`C081`).
+- **Competitive/valuation overlays:** Legacy buyer-mix splits, IPO optionality language, and investor AUM tiers (`C088, C089, C090`).
 
 ## Resolution Workflow
 
@@ -28,3 +26,12 @@ The report now intentionally contains unresolved items tagged `[UNVERIFIED]` whe
 4. Replace `[UNVERIFIED]` in section text with `[Sxxx]` tags.
 5. Update each claim row (`source_ids`, `source_location`, `verified`, `date_verified`, `notes`).
 6. Update this tracker summary after each verification pass.
+
+**Resolved in this pass (2026-02-08):**
+
+- C061 (Urban/Suburban trends) -> [S123]
+- C063 (ROI 3:1) -> [S122]
+- C072, C073, C084, C086 (Deal Multiples & Consolidation) -> [S125]
+- C074 (Green Claims) -> [S126]
+- C075 (Nutrigenomics) -> [S127]
+- C076 (APAC AGP Dividend) -> [S124]

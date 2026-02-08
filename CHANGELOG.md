@@ -464,3 +464,51 @@ All notable changes to this project will be documented in this file.
 
 ### Unresolved Items (Active)
 - C053, C054, C056, C058, C070, C081, C088, C089, C090 remain as `[UNVERIFIED]` pending internal data retrieval.
+
+## [2026-02-08 16:51 CET] - Source PDF Capture (S122-S127) + P1 QA Fixes
+
+### Changes Made
+- Captured linked web sources as local PDFs for the summary-based source set and stored them in-repo under `sources/articles/`, `sources/regulatory/`, `sources/reports/`, and `sources/academic/`.
+- Repointed `Sources` rows `S122-S127` in `_registry/source_registry.xlsx` from summary `.txt` files to primary captured PDF files, with supporting capture paths documented in `notes`.
+- Replaced dead NaturVet link in `sources/reports/Sector_Deal_Multiples_2020-2024.txt` (old Nasdaq URL) with a reachable Swedencare source URL.
+- Fixed DOCX cover tagline line break rendering in `_scripts/generate_whitepaper_docx.py` (literal `\\n` -> real newline).
+- Updated root status counts in `README.md` to current registry state (`127` sources, `91` claims, `45` figures).
+- Corrected impacted section list in `UNVERIFIED_CLAIMS.md` to include `III.1` and `III.2`.
+
+### Files Modified
+- `_registry/source_registry.xlsx`
+- `_scripts/generate_whitepaper_docx.py`
+- `README.md`
+- `UNVERIFIED_CLAIMS.md`
+- `sources/reports/Sector_Deal_Multiples_2020-2024.txt`
+- `CHANGELOG.md`
+
+### Files Added (Source Captures)
+- `sources/articles/S122_feedandadditive_phytogenic_roi.pdf`
+- `sources/articles/S122_wattagnet_phytogenic_roi.pdf`
+- `sources/articles/S122_ew_nutrition_phytogenics.pdf`
+- `sources/articles/S123_petfoodindustry_urban_suburban.pdf`
+- `sources/regulatory/S124_feedstrategy_china_agp_ban.pdf`
+- `sources/regulatory/S124_moa_announcement_194.pdf`
+- `sources/regulatory/S124_mordor_china_feed_additives_market.pdf`
+- `sources/reports/S125_prnewswire_hh_zesty_paws.pdf`
+- `sources/reports/S125_generalmills_bluebuffalo.pdf`
+- `sources/reports/S125_swedencare_naturvet_press.pdf`
+- `sources/reports/S125_zoetis_mfa_phibro.pdf`
+- `sources/reports/S125_dsm_erber_group.pdf`
+- `sources/regulatory/S126_ec_green_claims.pdf`
+- `sources/regulatory/S126_europarl_green_claims_train.pdf`
+- `sources/academic/S127_frontiers_nutrigenomics_review.pdf`
+- `sources/academic/S127_ncbi_pmc7575754.pdf`
+
+### Build + QA
+- Regenerated DOCX: `_output/Nutraceuticals_Whitepaper_20260208-16-51.docx`.
+- Updated latest pointer: `_output/latest/whitepaper.docx` -> `20260208-16-51` build.
+- Archived combined markdown snapshot: `_archive/output/temp_combined_20260208-16-51.md`.
+- Integrity checks passed:
+  - source filenames missing: `0`
+  - circular source paths: `0`
+  - unknown `Sxxx` in sections: `0`
+  - figure rows vs figure blocks: `45 / 45`
+  - missing figure assets: `0`
+  - active registry unverified claims: `9` (`C053, C054, C056, C058, C070, C081, C088, C089, C090`)

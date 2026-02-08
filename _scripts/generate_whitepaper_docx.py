@@ -250,7 +250,7 @@ def add_cover_page(docx_path):
         
         # Tagline
         tag_para = first_para.insert_paragraph_before()
-        run = tag_para.add_run("A $13B global market split between\\nPet humanization and livestock efficiency")
+        run = tag_para.add_run("A $13B global market split between\nPet humanization and livestock efficiency")
         run.font.name = 'Georgia'
         run.font.size = Pt(14)
         run.font.italic = True

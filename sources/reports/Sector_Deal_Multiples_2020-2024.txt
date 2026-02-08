@@ -2,7 +2,7 @@ Source: Public Financial Data / Transaction Announcements (2018-2024)
 URLs:
 - Zesty Paws: https://www.prnewswire.com/news-releases/hh-group-acquires-zesty-paws-301361559.html
 - Blue Buffalo: https://www.generalmills.com/news/press-releases/2018/general-mills-completes-acquisition-of-blue-buffalo-pet-products
-- NaturVet: https://www.nasdaq.com/articles/swedencare-acquires-naturvet-for-447.5-million
+- NaturVet: https://www.swedencare.com/en/news/swedencare-acquires-naturvet
 - Zoetis MFA (Phibro): https://investor.zoetis.com/news/news-details/2024/Zoetis-to-Sell-Medicated-Feed-Additive-Portfolio-to-Phibro-Animal-Health/default.aspx
 - Erber Group (DSM): https://www.dsm.com/corporate/news/news-archive/2020/2020-06-12-dsm-to-acquire-erber-group.html
 Title: Sector Deal Multiples Analysis: Pet vs Livestock
