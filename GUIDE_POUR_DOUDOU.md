@@ -161,10 +161,11 @@ When you ask for final review, the agent should check all of this:
 ### Procedure F — Build and output routine
 
 Current script flow:
-1. Run `python3 _scripts/generate_whitepaper_docx.py`
-2. Confirm output in `_output/`
-3. Update latest pointer: `_output/latest/whitepaper.docx`
-4. Keep archived versions in `_output/archive/` and `_archive/output/`
+1. Run `python3 _scripts/build_figures_from_excel.py` to regenerate all figures from `/_figures/figures_data.xlsx`.
+2. Run `python3 _scripts/generate_whitepaper_docx.py` (this also runs figure rebuild as a pre-step).
+3. Confirm output in `_output/`.
+4. Export DOCX to PDF and do a visual page pass (full document thumbnails + spot checks on figure pages).
+5. Keep archived versions in `_output/archive/` and `_archive/output/`.
 
 ---
 

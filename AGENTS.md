@@ -142,17 +142,20 @@ The Word conversion (`_scripts/convert.sh`) is triggered by the Author when she'
 
 **To run:** `python3 report/scripts/generate_docx_robust.py`
 
-### 2. `final_content_cleanup.py`
-**Purpose**: Cleans the raw markdown source.
-- Removes `source.name` tags
-- Breaks dense paragraphs
-- Fixes references
+### 2. `build_figures_from_excel.py` (ACTIVE FIGURE PIPELINE)
+**Purpose**: Regenerates all figure PNGs from `/_figures/figures_data.xlsx` (source of truth).
+**Key Features**:
+- One orchestrator imports one renderer module per figure (`_scripts/fig_renderers/renderers/*.py`)
+- Fail-fast behavior with actionable error output (module, tab, output file)
+- Writes run log to `_output/qa/figure_render_last_run.json`
 
-### 3. `fix_figures.py`
-**Purpose**: Repairs markdown figure syntax.
-- Fixes duplicate paths `![](abc)(abc)`
-- Distributes figures evenly throughout Parts I & II
-- Removes unwanted legacy figures
+### 3. `generate_whitepaper_docx.py` (ACTIVE DOCX PIPELINE)
+**Purpose**: Assembles section markdown and builds the investor-ready DOCX.
+**Key Features**:
+- Reads assembly order from `report_master.md`
+- Expands source-line tags with source names from registry
+- Regenerates figures via `build_figures_from_excel.py` before DOCX build
+- Applies style post-processing and cover page
 
 ---
 
@@ -474,11 +477,13 @@ Use this full QA procedure whenever the Author asks for a **final check**, **sen
 
 ### 5. Build QA (When Regeneration Is Requested)
 
-1. Regenerate DOCX using the active script for this repo:
+1. Regenerate figures from source-of-truth workbook:
+   - `python3 _scripts/build_figures_from_excel.py` (or `.venv/bin/python ...`).
+2. Regenerate DOCX using the active script for this repo:
    - `python3 _scripts/generate_whitepaper_docx.py` (or `.venv/bin/python ...`).
-2. Update latest pointer:
+3. Update latest pointer:
    - Copy generated file to `_output/latest/whitepaper.docx`.
-3. Archive `temp_combined.md` to `_archive/output/` with timestamp.
+4. Archive `temp_combined.md` to `_archive/output/` with timestamp.
 
 ### 6. DOCX Output QA
 
@@ -519,6 +524,6 @@ Declare **NOT READY** if any of the below is true:
 ## Workflow for Updates (Quick Reference)
 
 1. **Edit Content**: Edit section files in `sections/` directly.
-2. **Fix & Clean**: Run `python3 _scripts/fix_figures.py` if adding new images.
-3. **Regenerate**: Run `python3 _scripts/generate_whitepaper_docx.py` (current modular flow). Use `generate_docx_robust.py` only for legacy paths.
+2. **Regenerate Figures**: Run `python3 _scripts/build_figures_from_excel.py` after any data change in `/_figures/figures_data.xlsx`.
+3. **Regenerate DOCX**: Run `python3 _scripts/generate_whitepaper_docx.py` (current modular flow). Use `generate_docx_robust.py` only for legacy paths.
 4. **Verify**: Run PDF conversion and inspect visually.

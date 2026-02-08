@@ -60,6 +60,15 @@ All claims, figures, and sources tracked in **`_registry/source_registry.xlsx`**
 3. Add new sources to `sources/` and register in `source_registry.xlsx`
 4. Update `CHANGELOG.md` after changes
 
+### Figure Pipeline (Source of Truth)
+1. Maintain figure input data in `/_figures/figures_data.xlsx` (one tab per figure).
+2. Regenerate all figure PNGs from Excel data using:
+   - `python3 _scripts/build_figures_from_excel.py`
+3. Build the report:
+   - `python3 _scripts/generate_whitepaper_docx.py`
+
+Do not manually edit exported figure PNGs in `/_figures/exports/`. They are generated artifacts.
+
 ### For AI Agents
 1. **Read `AGENTS.md` before ANY edits**
 2. Follow source tagging conventions (`[SXXX]`, `[CALCULATION]`, `[AUTHOR-CHECK]`, `[UNVERIFIED]`)

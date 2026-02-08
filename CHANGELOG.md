@@ -864,3 +864,79 @@ All notable changes to this project will be documented in this file.
 
 ### Claims Added/Modified
 - None in this pass.
+
+### [2026-02-08] - Figure Source-of-Truth Refactor + Renderer Orchestration + Visual QA Pass
+- **Timestamp:** 2026-02-08 22:24 CET
+- **What:** Implemented the new figure architecture where `/_figures/figures_data.xlsx` is the authoritative input, one renderer module exists per figure, and one orchestrator rebuilds all figure exports before DOCX generation.
+
+### Figure Pipeline Changes
+- Added orchestrator script:
+  - `_scripts/build_figures_from_excel.py`
+- Added renderer framework:
+  - `_scripts/fig_renderers/common.py`
+  - `_scripts/fig_renderers/registry.py`
+  - `_scripts/fig_renderers/renderers/*.py` (47 figure-specific renderer modules)
+- Added legacy-dimension lock file for layout stability:
+  - `_scripts/fig_renderers/legacy_dimensions.json`
+- Updated DOCX build script to enforce figure rebuild pre-step:
+  - `_scripts/generate_whitepaper_docx.py`
+
+### Figure 46 (Global Landscape) Recovery
+- Rebuilt `Global_Antigravity_Landscape_Final.png` from in-repo assets (no external dependency):
+  - Uses `sources/internal/MapChart_Map .pdf` as map background source.
+  - Uses `Figure 46` tab (`Region`, `Category`, `Entity`) from `figures_data.xlsx` for overlay content.
+- Implemented deterministic map rendering in `common.py` with in-repo PDF extraction and structured overlay blocks.
+
+### Workbook/Registry Synchronization
+- `/_figures/figures_data.xlsx`
+  - Confirmed Figure 46 is normalized to structured rows (`Region`, `Category`, `Entity`).
+  - Added/maintained tabs for simplified archive figures (`Figure 47`, `Figure 48`).
+- `/_registry/source_registry.xlsx`
+  - Maintained figure-tab mappings and ensured no missing path/link regressions during this pass.
+
+### Comparison + QA Artifacts
+- Saved before/after figure comparison reports:
+  - `_output/qa/figures_before_refactor.json`
+  - `_output/qa/figures_after_refactor_comparison.json`
+  - `_output/qa/figures_after_refactor_comparison.md`
+- Result after dimension-lock tuning:
+  - Baseline scope: 46 referenced figure files
+  - Missing files: 0
+  - Dimension mismatches vs baseline: 0
+  - Hash deltas: expected (all regenerated from source-of-truth pipeline)
+
+### Visual Final Checks (DOCX -> PDF -> Page Images)
+- Rebuilt DOCX multiple times during tuning; final build:
+  - `_output/Nutraceuticals_Whitepaper_20260208-22-20.docx`
+- Exported final PDF via Microsoft Word:
+  - `_output/latest/Nutraceuticals_Whitepaper_20260208-22-20.pdf`
+- Generated full page image sets and contact sheets for manual scan:
+  - `_output/qa/pdf_pages_20260208-22-20/`
+
+### Root Markdown Sync
+- Updated root docs to reflect active figure pipeline and QA flow:
+  - `README.md`
+  - `AGENTS.md`
+  - `GUIDE_POUR_DOUDOU.md`
+
+### Files Modified (This Pass)
+- `CHANGELOG.md`
+- `README.md`
+- `AGENTS.md`
+- `GUIDE_POUR_DOUDOU.md`
+- `_scripts/build_figures_from_excel.py`
+- `_scripts/generate_whitepaper_docx.py`
+- `_scripts/fig_renderers/common.py`
+- `_scripts/fig_renderers/registry.py`
+- `_scripts/fig_renderers/legacy_dimensions.json`
+- `_scripts/fig_renderers/renderers/*.py`
+- `_figures/figures_data.xlsx`
+- `_registry/source_registry.xlsx`
+- `_figures/exports/*.png` (regenerated)
+
+### Claims Added/Modified
+- None in this pass.
+
+### Notes for Author
+- Figures are now fully regenerable from `figures_data.xlsx` through one command (`build_figures_from_excel.py`) and are auto-rebuilt during DOCX generation.
+- The ecosystem map (Figure ES-1) is reconstructed from in-repo map PDF + structured workbook data, and is now tracked in the same renderer pipeline as all other figures.

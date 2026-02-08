@@ -7,6 +7,7 @@ Works with restructured project (sections/*.md → final DOCX).
 import os
 import re
 import subprocess
+import sys
 from datetime import datetime
 from docx import Document
 from docx.shared import Pt, RGBColor, Inches
@@ -381,6 +382,23 @@ def main():
     print("=" * 60)
     print("NUTRACEUTICALS WHITE PAPER - DOCX GENERATOR")
     print("=" * 60)
+
+    # Step 0: Rebuild figure PNG assets from figures_data.xlsx (source of truth).
+    figure_build_script = os.path.join(BASE_DIR, "_scripts", "build_figures_from_excel.py")
+    if os.path.exists(figure_build_script):
+        print("Regenerating figure assets from master Excel...")
+        fig_res = subprocess.run([sys.executable, figure_build_script], capture_output=True, text=True)
+        if fig_res.returncode != 0:
+            print("ERROR: Figure rebuild failed before DOCX generation.")
+            if fig_res.stdout:
+                print(fig_res.stdout)
+            if fig_res.stderr:
+                print(fig_res.stderr)
+            return
+        print("  ✓ Figure asset regeneration complete")
+    else:
+        print(f"ERROR: Missing figure build script: {figure_build_script}")
+        return
     
     # Step 1: Combine sections
     combined_md = combine_sections()
