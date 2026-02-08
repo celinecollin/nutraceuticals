@@ -6,8 +6,8 @@ The report now intentionally contains unresolved items tagged `[UNVERIFIED]` whe
 
 ## Current Unverified Scope
 
-- **Total active `[UNVERIFIED]` claims in registry:** 18
-- **Claim IDs:** `C053, C054, C056, C058, C061, C063, C066, C070, C072, C073, C074, C075, C076, C077, C078, C079, C080, C081`
+- **Total active `[UNVERIFIED]` claims in registry:** 24
+- **Claim IDs:** `C053, C054, C056, C058, C061, C063, C066, C070, C072, C073, C074, C075, C076, C077, C078, C079, C080, C081, C083, C084, C086, C088, C089, C090`
 - **Primary impacted sections:** `I.2, I.3, II.1, II.2, II.3, III.1, III.2, III.3`
 
 ## What Is Unverified (By Theme)
@@ -16,7 +16,8 @@ The report now intentionally contains unresolved items tagged `[UNVERIFIED]` whe
 - **Segment overlays and concentration assumptions:** ectoparasite/pre-senior monetization splits and comparative concentration statements (`C056, C058, C066`).
 - **Demography and ROI heuristics from legacy analysis:** format/channel-demography coupling and livestock 3:1 ROI hurdle assumption (`C061, C063`).
 - **Strategic opportunity sizing assumptions:** legacy SOM target and scenario overlays from prior internal models (`C070, C076, C077`).
-- **Competitive/valuation overlays:** legacy deal baskets, investor clustering, margin-ladder assumptions (`C072, C073, C078, C079, C080`).
+- **Distribution/channel power hypothesis:** gatekeeper concentration impact on owned-label margin capture remains unresolved (`C083`).
+- **Competitive/valuation overlays:** legacy deal baskets, investor clustering, margin-ladder assumptions, valuation-band overlays, buyer-mix splits, IPO optionality language, and investor AUM tiers (`C072, C073, C078, C079, C080, C084, C086, C088, C089, C090`).
 - **Frontier framework assumptions:** green-label taxonomy details and gene-editing/longevity pathway assumptions (`C074, C075`).
 - **Figure-source gaps:** Figures 38, 42, 43, and 44 currently point to unresolved source provenance (`C077, C079, C080, C081`).
 

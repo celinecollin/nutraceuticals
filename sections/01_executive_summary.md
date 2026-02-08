@@ -8,3 +8,7 @@ This bifurcation is not merely cyclical but is being actively catalyzed by two o
 
 **Market Fragmentation Signals a Valuation Arbitrage Opportunity for Science-Backed Platforms.**
 The current landscape, defined by extreme fragmentation in the high-value pet segment, presents a textbook consolidation super-cycle. As the regulatory burden for market entry intensifies, independent operators lacking validated clinical data will face an existential squeeze. This inevitable flight to quality creates a compelling arbitrage window for sophisticated capital to execute a **"Roll-Up"** strategy, aggregating innovative pure-plays under scalable platforms. We assert that the **Top 5 Global Manufacturers** (controlling **~55%** of the market) [S090] will aggressively acquire intellectual property to defend their dominance. Therefore, the premium multiple—and the highest alpha—will accrue to those "Pick and Shovel" technology providers who can authentically deliver **genotypic precision**, **methane reduction**, and **bioreactor-based production**, as these technologies constitute the definitive value drivers of the coming decade.
+
+**Figure ES-1: Global corporate, startup, and investor landscape by region.**
+![Global corporate, startup, and investor landscape by region.](figures/Global_Antigravity_Landscape_Final.png)
+*Source: [S116, Tab: Sheet1; S121]*

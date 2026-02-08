@@ -321,3 +321,86 @@ All notable changes to this project will be documented in this file.
   - Updated section file examples to current actual files (`00` through `05`).
   - Added explicit unresolved-claim tracking instruction tied to `UNVERIFIED_CLAIMS.md`.
   - Expanded quick reference with `run final QA` and unresolved-claims tracking actions.
+
+### [2026-02-08] - v19 Investment Landscape Reinstated (PE/VC, M&A, IPO Layer)
+- **Timestamp:** 2026-02-08 16:05 CET
+- **What:** Reinstated missing v19 Part III investment-landscape content into the current structure, including expanded transactions, investor-profile mapping, and explicit IPO-optionality coverage.
+- **Files modified:**
+  - `sections/04_part_iii_value_chain.md`
+  - `_registry/source_registry.xlsx`
+  - `UNVERIFIED_CLAIMS.md`
+  - `CHANGELOG.md`
+- **Section updates (III.2):**
+  - Reintroduced distribution-gatekeeper framing with named platforms from in-repo internal source mapping (`S116`, Sheet1).
+  - Expanded transaction narrative and `Table III.1` with legacy v19 deals (Blue Buffalo, Neovia, Erber, Nom Nom, Aker BioMarine, Vetnique/Lintbells, Novonesis merger).
+  - Added `Table III.2` (investor profiles and portfolio signals) covering JAB, Gryphon, MSCP, EQT, BC Partners, Cinven, and Ani.VC.
+  - Added explicit IPO-optionality statement and retained unresolved valuation/buyer-mix overlays as `[UNVERIFIED]`.
+- **Claims tracker updates (Claims tab):**
+  - Added claim IDs `C082` through `C090` (9 new claim rows, all `agent_generated = Y`, `verified = N`).
+  - Newly added `UNVERIFIED` claims: `C083, C084, C086, C088, C089, C090`.
+  - Newly added source-backed claims from internal file `S116`: `C082, C085, C087`.
+- **Unverified tracker updates:**
+  - Updated active unresolved count from `18` to `24`.
+  - Updated active unresolved claim list and thematic grouping in `UNVERIFIED_CLAIMS.md`.
+- **Notes/Flags:**
+  - As requested, legacy items without direct traceable source mapping were intentionally restored with explicit `[UNVERIFIED]` tags rather than omitted.
+
+### [2026-02-08] - Executive Summary Figure Added (Global Antigravity Landscape)
+- **Timestamp:** 2026-02-08 16:20 CET
+- **What:** Added the requested image `_figures/exports/Global_Antigravity_Landscape_Final.png` to the Executive Summary and traced provenance into both tracking workbooks.
+- **Files modified:**
+  - `sections/01_executive_summary.md`
+  - `_registry/source_registry.xlsx`
+  - `_figures/figures_data.xlsx`
+  - `CHANGELOG.md`
+- **Section update:**
+  - Inserted `Figure ES-1` in `sections/01_executive_summary.md` with source tag line: `[S116, Tab: Sheet1; S121]`.
+- **Registry updates (`_registry/source_registry.xlsx`):**
+  - Added new source `S121`:
+    - `short_name`: Global Antigravity Landscape Final
+    - `filename`: `_figures/exports/Global_Antigravity_Landscape_Final.png`
+    - `original_url`: `https://www.mapchart.net/world.html`
+    - `notes`: in-repo trace linkage to `sources/internal/20260115_VC_PE_Portfolio.xlsx` (`Sheet1/Sheet2`) plus visible mapchart watermark.
+  - Added new figure row `FIG-ES-1` in `Figures` tab:
+    - `data_source_ids`: `S116, S121`
+    - `excel_tab`: `Figure 46`
+    - `report_section`: `Executive Summary`
+  - Added claim row `C091` in `Claims` tab (`section = 01`, `source_ids = S116, S121`, `verified = N`, `agent_generated = Y`).
+- **Figure data workbook updates (`_figures/figures_data.xlsx`):**
+  - Added new tab `Figure 46` documenting:
+    - image file, dimensions, creation/modified timestamps
+    - source linkage (`S116`, `S121`)
+    - provenance trace summary
+    - lineage candidates (`Global_Map_V10_VCPE` -> `Global_Map_V11_Final` -> `Global_Antigravity_Landscape*` -> `Global_Antigravity_Landscape_Final`)
+  - Appended `Figure 46` entry to `INDEX` sheet.
+
+### [2026-02-08] - Final Regeneration + Full QA Pass (Send-Readiness Check)
+- **Timestamp:** 2026-02-08 16:02 CET
+- **What:** Regenerated final DOCX, fixed a structural compliance drift in Part III, updated latest pointers, and executed full QA gate checks across sections, registry, figures, and output DOCX.
+- **Files modified:**
+  - `sections/04_part_iii_value_chain.md`
+  - `_registry/source_registry.xlsx`
+  - `_output/Nutraceuticals_Whitepaper_20260208-16-00.docx`
+  - `_output/Nutraceuticals_Whitepaper_20260208-16-02.docx`
+  - `_output/latest/whitepaper.docx`
+  - `_archive/output/temp_combined_20260208-16-00.md`
+  - `_archive/output/temp_combined_20260208-16-02.md`
+  - `CHANGELOG.md`
+- **Fix applied before final pass:**
+  - Merged the legacy AUM note back into `III.2` paragraph 3 to restore strict `3 subparts x 3 narrative paragraphs` compliance (Part III had temporarily drifted to 4 narrative paragraphs in III.2).
+  - Updated claim `C090` location metadata to `III.2 paragraph 3` in Claims tab.
+- **Build/packaging steps completed:**
+  - Ran `./.venv/bin/python _scripts/generate_whitepaper_docx.py` twice (initial + post-fix rebuild).
+  - Updated `_output/latest/whitepaper.docx` to the latest regenerated file (`20260208-16-02`).
+  - Archived `_output/temp_combined.md` snapshots to `_archive/output/` with timestamps.
+- **Full QA gate results:**
+  - **PASS** structure constraints (`3 parts / 3 subparts / 3 narrative paragraphs`).
+  - **PASS** figure block integrity (`45` figure captions, all with image + source lines, no broken image paths).
+  - **PASS** source registry integrity (all referenced `Sxxx` exist; source filenames resolve; no circular source paths to `sections/`, `_output/`, `_scripts/`, `report_master.md`).
+  - **PASS** figures registry integrity (all `excel_tab` values valid against `_figures/figures_data.xlsx`; `data_source_ids` format valid).
+  - **PASS** DOCX sanity checks (`45` embedded media for `45` markdown figures, no markdown image artifacts, ES map figure present).
+  - **PASS** embedded image readability check (no images below 600x300 in output package).
+  - `[UNVERIFIED]` tags remain intentionally present by author-approved policy for unresolved legacy claims.
+- **Claims/Figures touched in this pass:**
+  - Claims updated: `C090` (metadata location refinement only).
+  - Figures unchanged in this pass (no new figure IDs beyond prior `FIG-ES-1` addition).
