@@ -1,0 +1,9 @@
+Sector,Component,Value ($)
+Livestock,Sourcing,30
+Livestock,Manufacturing,10
+Livestock,Service/Logistics,8
+Livestock,Net Margin,2
+Pet,COGS,10
+Pet,Pkg/Mfg,15
+Pet,Channel/Mktg,15
+Pet,Net Margin,10

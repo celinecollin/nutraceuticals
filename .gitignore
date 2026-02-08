@@ -1,0 +1,8 @@
+_output/
+_workspace/
+.DS_Store
+*.tmp
+~$*
+.venv/
+report/scripts/venv/
+report/env/

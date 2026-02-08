@@ -1,0 +1,9 @@
+{
+    "name": "docx-converter",
+    "version": "1.0.0",
+    "description": "Convert Markdown to DOCX using docx library",
+    "main": "convert_to_docx_v2.js",
+    "dependencies": {
+        "docx": "^9.0.0"
+    }
+}
