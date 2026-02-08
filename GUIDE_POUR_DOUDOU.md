@@ -26,6 +26,7 @@ Here's the short version: **you now have a control center** (an Excel file) wher
 Instead of one huge Markdown file, each section of the report is now its own file inside the `sections/` folder:
 
 ```
+sections/00_front_matter.md
 sections/01_executive_summary.md
 sections/02_part_i_structural_bifurcation.md
 sections/03_part_ii_strategic_bifurcation.md
@@ -98,6 +99,75 @@ Or just tell the agent to do steps 1-2 for you — it knows how.
 
 ---
 
+## Operational procedures (the useful part)
+
+These are the exact procedures that keep the report clean and send-ready.
+
+### Procedure A — Add a new source correctly
+
+1. Put the file in the right folder under `sources/` (`reports/`, `datasets/`, `academic/`, etc.)
+2. Open `_registry/source_registry.xlsx` → **Sources** tab
+3. Add a new row with:
+   - next `S` number (e.g., `S121`)
+   - short name
+   - type
+   - exact relative filename (example: `sources/reports/abc_2026_report.pdf`)
+4. Use this new `S` ID in section text citations
+
+If you skip step 3, the citation chain breaks.
+
+### Procedure B — Add or edit a factual claim
+
+1. Edit the relevant section in `sections/`
+2. Put source tags directly in the sentence (`[Sxxx]`, `[Sxxx, p.12]`, etc.)
+3. Update `_registry/source_registry.xlsx` → **Claims** tab:
+   - add a new claim row if it's a new claim
+   - update existing row if claim changed
+   - keep `agent_generated = Y`, `verified = N` for agent-added claims
+4. If the claim has no solid source yet, mark it `[UNVERIFIED]` in text and in Claims tab
+
+### Procedure C — Add or update a figure
+
+1. Place the figure image in `_figures/exports/`
+2. Add the figure block in section markdown:
+   - caption line (`**Figure X: ...**`)
+   - image line (`![](...)`)
+   - source line (`*Source: [Sxxx]*` or `[UNVERIFIED]`)
+3. Update `_registry/source_registry.xlsx` → **Figures** tab:
+   - `figure_id`
+   - title
+   - `data_source_ids`
+   - `excel_tab` (must match an existing tab in `_figures/figures_data.xlsx`)
+
+### Procedure D — Handle unresolved items safely
+
+If something cannot be source-verified now:
+1. Keep it in text with `[UNVERIFIED]`
+2. Add/update claim row with `source_ids = UNVERIFIED`
+3. Track it in `UNVERIFIED_CLAIMS.md`
+4. Do not invent a source just to make the tag disappear
+
+### Procedure E — Full final QA before sending
+
+When you ask for final review, the agent should check all of this:
+1. Structure rules are respected (example: 3 parts / 3 subparts / 3 paragraphs)
+2. Every factual/numeric statement has a source tag or explicit `[UNVERIFIED]`
+3. No broken source IDs (`Sxxx`) and no missing source file paths in registry
+4. No circular source paths (nothing in registry should point to `sections/`, `_output/`, `_scripts/`)
+5. Every figure link resolves and every figure has registry mapping + valid `excel_tab`
+6. DOCX formatting pass: no markdown artifacts, expected image/table counts, readable figures
+7. Changelog and unresolved tracker are updated
+
+### Procedure F — Build and output routine
+
+Current script flow:
+1. Run `python3 _scripts/generate_whitepaper_docx.py`
+2. Confirm output in `_output/`
+3. Update latest pointer: `_output/latest/whitepaper.docx`
+4. Keep archived versions in `_output/archive/` and `_archive/output/`
+
+---
+
 ## The folder structure at a glance
 
 ```
@@ -111,9 +181,12 @@ Your project/
 │   └── source_registry.xlsx     ← YOUR CONTROL CENTER 📊
 │
 ├── sections/                    ← The report, one file per section ← YOU WORK HERE
+│   ├── 00_front_matter.md
 │   ├── 01_executive_summary.md
-│   ├── 02_introduction.md
-│   └── ...
+│   ├── 02_part_i_structural_bifurcation.md
+│   ├── 03_part_ii_strategic_bifurcation.md
+│   ├── 04_part_iii_value_chain.md
+│   └── 05_appendices.md
 │
 ├── sources/                     ← All your reference materials, sorted by type
 │   ├── reports/
@@ -163,6 +236,8 @@ It means the claim is not final-source-verified. Three possibilities:
 2. The fact is directionally right but the number/source needs adjustment → revise text and cite correctly
 3. The claim can't be validated → delete it
 
+If you keep unresolved items (option 2 during work-in-progress), they must appear in `UNVERIFIED_CLAIMS.md`.
+
 ---
 
 ## The one habit that makes everything work
@@ -183,6 +258,8 @@ Open `_registry/source_registry.xlsx` → Claims tab → sort by "verified = N" 
 | Find where a figure's data lives | Excel → Figures tab → "excel_tab" column |
 | Find a source PDF | Excel → Sources tab → "filename" column |
 | Preview in Word | Ask agent to convert, or run script. Check `_output/latest/` |
+| Run final QA | Ask: "run full pre-send QA" (sources + claims + figures + DOCX) |
+| Track unresolved claims | Open `UNVERIFIED_CLAIMS.md` + Claims tab filter `source_ids = UNVERIFIED` |
 | Take personal notes | Use `_workspace/` — agent can't see it |
 | Tell the agent what to do | Just describe it in plain language in the chat |
 | Scold the agent | "You broke Rule [X] in AGENTS.md" (it will listen) |

@@ -428,9 +428,97 @@ After completing any edit session, confirm:
 
 ---
 
+## Full QA Procedure (Pre-Send Mandatory)
+
+Use this full QA procedure whenever the Author asks for a **final check**, **send-ready review**, **full status audit**, or any equivalent release decision.
+
+### 1. Scope Lock
+
+1. Confirm the expected structure constraints (example: "3 parts / 3 subparts / 3 paragraphs").
+2. Confirm whether `[UNVERIFIED]` claims are allowed in this pass or must be zero.
+3. Confirm whether DOCX regeneration is required in this pass.
+
+### 2. Section Text QA
+
+1. Verify all requested structural constraints directly in `sections/*.md`.
+2. Verify every factual or numeric claim has an inline source tag.
+3. Verify there are no forbidden unresolved tags unless explicitly allowed:
+   - Forbidden by default: `[UNVERIFIED]`, `[AUTHOR-CHECK]`, `[CALCULATION]`
+   - Allowed only if Author explicitly approves for that pass
+4. Verify no accidental markdown artifacts (`*`, broken tables, malformed figure blocks).
+
+### 3. Source Registry QA (`_registry/source_registry.xlsx`)
+
+1. **Sources tab**
+   - Every referenced `Sxxx` exists.
+   - Every `filename` path exists in-repo.
+   - No circular references to `sections/`, `_output/`, `_scripts/`, or `report_master.md`.
+2. **Claims tab**
+   - Every new/changed claim has a row.
+   - `agent_generated = Y`, `verified = N` for agent-added claims.
+   - Removed/deprecated claims are marked in `notes`; never delete claim rows.
+3. **Figures tab**
+   - Every figure used in section text has a row.
+   - `excel_tab` exactly matches a tab in `_figures/figures_data.xlsx`.
+   - `data_source_ids` are valid (`Sxxx`) or explicitly `UNVERIFIED` if unresolved.
+
+### 4. Figure QA
+
+1. Every figure in `sections/*.md` must have:
+   - Caption line (`Figure X: ...`)
+   - Image link (`![](...)`)
+   - Source line (`*Source: ...*`)
+2. Check all image paths resolve to existing files.
+3. Check numbering is coherent and no unintended duplicates exist.
+4. Reconcile text-vs-figure numeric mismatches; if unresolved, flag in text and registry.
+
+### 5. Build QA (When Regeneration Is Requested)
+
+1. Regenerate DOCX using the active script for this repo:
+   - `python3 _scripts/generate_whitepaper_docx.py` (or `.venv/bin/python ...`).
+2. Update latest pointer:
+   - Copy generated file to `_output/latest/whitepaper.docx`.
+3. Archive `temp_combined.md` to `_archive/output/` with timestamp.
+
+### 6. DOCX Output QA
+
+1. Validate generated DOCX for:
+   - No leaked unresolved tags unless explicitly allowed.
+   - No markdown artifacts.
+   - Expected table and image counts.
+   - Figure readability (no low-resolution or broken images).
+2. Verify heading hierarchy, table rendering, and paragraph flow are acceptable for investor-facing distribution.
+
+### 7. Release Gate (Pass/Fail)
+
+Declare **NOT READY** if any of the below is true:
+1. Missing source path(s) in Sources tab.
+2. Invalid `Sxxx` in claims or figure source IDs.
+3. Missing figure assets or invalid figure-tab links.
+4. Unsourced numeric/factual claims not marked with an approved unresolved tag.
+5. Required structure constraints are not met.
+
+### 8. Mandatory Session Closeout
+
+1. Update `CHANGELOG.md` with:
+   - Timestamp
+   - Files modified
+   - Claims added/changed (IDs)
+   - Figures added/changed (IDs)
+   - Active unresolved flags
+2. If unresolved claims remain, update `UNVERIFIED_CLAIMS.md` with current IDs and themes.
+3. Report back to the Author using:
+   - What I did
+   - Files modified
+   - Claims added/modified
+   - Flags
+   - Questions
+
+---
+
 ## Workflow for Updates (Quick Reference)
 
 1. **Edit Content**: Edit section files in `sections/` directly.
 2. **Fix & Clean**: Run `python3 _scripts/fix_figures.py` if adding new images.
-3. **Regenerate**: Run `python3 _scripts/generate_docx_robust.py`.
+3. **Regenerate**: Run `python3 _scripts/generate_whitepaper_docx.py` (current modular flow). Use `generate_docx_robust.py` only for legacy paths.
 4. **Verify**: Run PDF conversion and inspect visually.

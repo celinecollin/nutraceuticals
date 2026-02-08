@@ -275,6 +275,7 @@ All notable changes to this project will be documented in this file.
   - `sections/02_part_i_structural_bifurcation.md`
   - `sections/03_part_ii_strategic_bifurcation.md`
   - `sections/04_part_iii_value_chain.md`
+  - `README.md`
   - `UNVERIFIED_CLAIMS.md`
   - `_registry/source_registry.xlsx`
 - **Structure updates:**
@@ -290,3 +291,33 @@ All notable changes to this project will be documented in this file.
   - `UNVERIFIED_CLAIMS.md` switched back to active tracking mode with current unresolved claim IDs and resolution steps.
 - **Notes:**
   - As requested, unsourced reinstated content is explicitly marked `[UNVERIFIED]` in section text and mirrored in registry claim rows for later author verification.
+
+### [2026-02-08] - AGENTS.md Full QA Procedure Added
+- **Timestamp:** 2026-02-08 15:39 CET
+- **What:** Added a dedicated end-to-end full QA protocol to `AGENTS.md` for final pre-send review workflows.
+- **Files modified:**
+  - `AGENTS.md`
+  - `CHANGELOG.md`
+- **Key additions in AGENTS manual:**
+  - New section: `Full QA Procedure (Pre-Send Mandatory)`.
+  - Explicit release-gate flow: scope lock, section QA, registry QA, figure QA, build QA, DOCX QA, pass/fail criteria, and mandatory closeout.
+  - Concrete operational checks for claims/sources/figures alignment and unresolved-claim handling.
+  - Updated quick-reference regenerate command to `python3 _scripts/generate_whitepaper_docx.py` for current modular workflow.
+
+### [2026-02-08] - GUIDE_POUR_DOUDOU.md Enhanced (Procedures + QA)
+- **Timestamp:** 2026-02-08 15:41 CET
+- **What:** Enhanced (not replaced) the noob guide with practical operating procedures and final-QA workflow.
+- **Files modified:**
+  - `GUIDE_POUR_DOUDOU.md`
+  - `CHANGELOG.md`
+- **Guide enhancements added:**
+  - New `Operational procedures` section with step-by-step routines for:
+    - adding sources
+    - adding/editing claims
+    - adding figures
+    - handling unresolved claims
+    - full pre-send QA
+    - build/output routine
+  - Updated section file examples to current actual files (`00` through `05`).
+  - Added explicit unresolved-claim tracking instruction tied to `UNVERIFIED_CLAIMS.md`.
+  - Expanded quick reference with `run final QA` and unresolved-claims tracking actions.
