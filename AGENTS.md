@@ -133,23 +133,14 @@ The Word conversion (`_scripts/convert.sh`) is triggered by the Author when she'
 
 ### Location: `report/scripts/` (Legacy) or `_scripts/` (New Structure)
 
-### 1. `generate_docx_robust.py` (LEGACY FALLBACK)
-**Purpose**: Older robust converter kept for fallback/legacy paths.
-**Key Features**:
-- **Pandoc Core**: Uses `pandoc` for robust Markdown parsing (`md -> docx`).
-- **Post-Processing**: Uses `python-docx` to apply corporate styling (navy headers, Arial/Georgia fonts, table shading).
-- **Preprocessing**: Cleans text artifacts (references, brackets) and handles Roman numeral headings.
-
-**To run:** `python3 _scripts/generate_docx_robust.py`
-
-### 2. `build_figures_from_excel.py` (ACTIVE FIGURE PIPELINE)
+### 1. `build_figures_from_excel.py` (ACTIVE FIGURE PIPELINE)
 **Purpose**: Regenerates all figure PNGs from `/_figures/figures_data.xlsx` (source of truth).
 **Key Features**:
 - One orchestrator imports one renderer module per figure (`_scripts/fig_renderers/renderers/*.py`)
 - Fail-fast behavior with actionable error output (module, tab, output file)
 - Writes run log to `_output/qa/figure_render_last_run.json`
 
-### 3. `generate_whitepaper_docx.py` (ACTIVE DOCX PIPELINE)
+### 2. `generate_whitepaper_docx.py` (ACTIVE DOCX PIPELINE)
 **Purpose**: Assembles section markdown and builds the investor-ready DOCX.
 **Key Features**:
 - Reads assembly order from `report_master.md`
@@ -525,5 +516,5 @@ Declare **NOT READY** if any of the below is true:
 
 1. **Edit Content**: Edit section files in `sections/` directly.
 2. **Regenerate Figures**: Run `python3 _scripts/build_figures_from_excel.py` after any data change in `/_figures/figures_data.xlsx`.
-3. **Regenerate DOCX**: Run `python3 _scripts/generate_whitepaper_docx.py` (current modular flow). Use `generate_docx_robust.py` only for legacy paths.
+3. **Regenerate DOCX**: Run `python3 _scripts/generate_whitepaper_docx.py` (current modular flow).
 4. **Verify**: Run PDF conversion and inspect visually.

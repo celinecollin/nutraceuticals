@@ -1014,3 +1014,31 @@ All notable changes to this project will be documented in this file.
 
 ### Claims Added/Modified
 - None.
+
+### [2026-02-08] - Archived Legacy DOCX Script (`generate_docx_robust.py`)
+- **Timestamp:** 2026-02-08 22:46 CET
+- **What:** Archived `/_scripts/generate_docx_robust.py` as obsolete for the current production workflow.
+
+### Script Move (No Deletion)
+- Moved:
+  - `_scripts/generate_docx_robust.py` -> `_archive/scripts/generate_docx_robust.py`
+
+### Documentation Sync
+- Updated active script references to remove legacy fallback mention from primary workflow:
+  - `AGENTS.md`
+  - `README.md`
+
+### Validation
+- Re-ran current build pipeline after archival:
+  - `./.venv/bin/python _scripts/generate_whitepaper_docx.py`
+  - Result: successful DOCX build (`Nutraceuticals_Whitepaper_20260208-22-45.docx`).
+
+### Files Modified
+- `AGENTS.md`
+- `README.md`
+- `CHANGELOG.md`
+- `_archive/scripts/generate_docx_robust.py` (moved)
+- `_scripts/generate_docx_robust.py` (removed from active folder by move)
+
+### Claims Added/Modified
+- None.

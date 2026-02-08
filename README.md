@@ -76,7 +76,7 @@ Do not manually edit exported figure PNGs in `/_figures/exports/`. They are gene
 - `_scripts/fig_renderers/common.py` -> shared render modes and validations.
 - `_scripts/generate_whitepaper_docx.py` -> report assembly + DOCX generation (calls figure build first).
 
-Obsolete one-off helpers are archived in `/_archive/scripts/` and are not part of the active production pipeline.
+Obsolete and legacy helpers are archived in `/_archive/scripts/` (including `generate_docx_robust.py`) and are not part of the active production pipeline.
 
 ### For AI Agents
 1. **Read `AGENTS.md` before ANY edits**
