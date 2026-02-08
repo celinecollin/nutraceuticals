@@ -940,3 +940,48 @@ All notable changes to this project will be documented in this file.
 ### Notes for Author
 - Figures are now fully regenerable from `figures_data.xlsx` through one command (`build_figures_from_excel.py`) and are auto-rebuilt during DOCX generation.
 - The ecosystem map (Figure ES-1) is reconstructed from in-repo map PDF + structured workbook data, and is now tracked in the same renderer pipeline as all other figures.
+
+### [2026-02-08] - _scripts Cleanup (Obsolete Helpers Archived)
+- **Timestamp:** 2026-02-08 22:36 CET
+- **What:** Cleaned `/_scripts` by archiving obsolete one-off helper scripts and keeping only the active build/runtime tooling.
+
+### Scripts Archived (Moved, Not Deleted)
+- Moved from `/_scripts/` to `/_archive/scripts/`:
+  - `get_next_source_id.py`
+  - `read_unverified_claims.py`
+  - `regenerate_key_figures.py`
+  - `resolve_claims_batch.py`
+
+### Active Scripts Kept in `/_scripts`
+- `build_figures_from_excel.py`
+- `generate_whitepaper_docx.py`
+- `generate_docx_robust.py` (legacy fallback)
+- `setup_env.sh`
+- `requirements.txt`
+- `auto_commit.sh`
+- `fig_renderers/` (all per-figure renderer modules)
+
+### Documentation Sync
+- Updated `AGENTS.md` script section:
+  - `generate_docx_robust.py` is now explicitly marked as **LEGACY FALLBACK**.
+  - Command path corrected to `python3 _scripts/generate_docx_robust.py`.
+
+### Validation
+- Re-ran figure pipeline after cleanup:
+  - `./.venv/bin/python _scripts/build_figures_from_excel.py`
+  - Result: `47/47` figures rendered successfully.
+
+### Files Modified
+- `AGENTS.md`
+- `CHANGELOG.md`
+- `_archive/scripts/get_next_source_id.py` (moved)
+- `_archive/scripts/read_unverified_claims.py` (moved)
+- `_archive/scripts/regenerate_key_figures.py` (moved)
+- `_archive/scripts/resolve_claims_batch.py` (moved)
+- `_scripts/get_next_source_id.py` (removed from active folder by move)
+- `_scripts/read_unverified_claims.py` (removed from active folder by move)
+- `_scripts/regenerate_key_figures.py` (removed from active folder by move)
+- `_scripts/resolve_claims_batch.py` (removed from active folder by move)
+
+### Claims Added/Modified
+- None.

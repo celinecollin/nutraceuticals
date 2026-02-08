@@ -133,14 +133,14 @@ The Word conversion (`_scripts/convert.sh`) is triggered by the Author when she'
 
 ### Location: `report/scripts/` (Legacy) or `_scripts/` (New Structure)
 
-### 1. `generate_docx_robust.py` (PRIMARY)
-**Purpose**: The master build script. Converts Markdown to a polished DOCX.
+### 1. `generate_docx_robust.py` (LEGACY FALLBACK)
+**Purpose**: Older robust converter kept for fallback/legacy paths.
 **Key Features**:
 - **Pandoc Core**: Uses `pandoc` for robust Markdown parsing (`md -> docx`).
 - **Post-Processing**: Uses `python-docx` to apply corporate styling (navy headers, Arial/Georgia fonts, table shading).
 - **Preprocessing**: Cleans text artifacts (references, brackets) and handles Roman numeral headings.
 
-**To run:** `python3 report/scripts/generate_docx_robust.py`
+**To run:** `python3 _scripts/generate_docx_robust.py`
 
 ### 2. `build_figures_from_excel.py` (ACTIVE FIGURE PIPELINE)
 **Purpose**: Regenerates all figure PNGs from `/_figures/figures_data.xlsx` (source of truth).
