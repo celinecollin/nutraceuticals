@@ -7,7 +7,7 @@ Value is not distributed evenly; it aggregates at the extremes. Part III maps th
 **The industry's polarization originates upstream. We first verify how intellectual property creates the initial—and most defensible—reservoir of value.**
 
 **Margin Capture Depends on Position and IP Ownership.**
-The value chain is not a monolith; it is split between the "Speed" of Pet/Consumer and the "Scale" of Livestock/Industrial models. Our analysis of the "Value Waterfall" (Figure 32) reveals that pricing power erodes as products move downstream to generic retailers. The highest margins (**EBITDA 25–30%**) accrue to **Ingredient Suppliers** who hold the IP (e.g., DSM-Firmenich, Kemin). These entities are insulated from consumer fickleness and command pricing power through patent protection. Conversely, generic commodity suppliers are trapped in low-margin volatility (**5–12%**), confirming that IP is the primary hedge against commoditization.
+The value chain is not a monolith; it is split between the "Speed" of Pet/Consumer and the "Scale" of Livestock/Industrial models. Our analysis of the "Value Waterfall" (Figure 32) reveals that pricing power erodes as products move downstream to generic retailers. The highest margins (**EBITDA 25–30%**) [INTERNAL ANALYSIS] accrue to **Ingredient Suppliers** who hold the IP (e.g., DSM-Firmenich, Kemin). These entities are insulated from consumer fickleness and command pricing power through patent protection. Conversely, generic commodity suppliers are trapped in low-margin volatility (**5–12%**) [INTERNAL ANALYSIS], confirming that IP is the primary hedge against commoditization.
 
 **Figure 32: Pricing power erodes as products move from IP owners to generic retailers.**
 ![Pricing power erodes as products move from IP owners to generic retailers.](figures/Figure19_Value_Waterfall.png)
@@ -19,7 +19,7 @@ The value chain is not a monolith; it is split between the "Speed" of Pet/Consum
 
 
 **Digital Platforms and CDMOs Reshape Distribution Economics.**
-The middle of the chain is evolving rapidly. **CDMOs** have emerged as hidden engines of value; with >60% of pet brands relying on third-party manufacturing, those commanding complex formats (like Soft Chews) enjoy **15–20% EBITDA** and high stickiness (Figure 33). On the retail front, while DTC offers theoretical margin capture, high Customer Acquisition Costs (CAC) often compress realized margins to **20–25%**, penalizing pure-play digital brands. The winning model is **Omnichannel Dominance**, which balances the reach of digital with the trust of veterinary and retail presence (Figure 34).
+The middle of the chain is evolving rapidly. **CDMOs** have emerged as hidden engines of value; with >60% of pet brands relying on third-party manufacturing [INTERNAL ANALYSIS], those commanding complex formats (like Soft Chews) enjoy **15–20% EBITDA** [INTERNAL ANALYSIS] and high stickiness (Figure 33). On the retail front, while DTC offers theoretical margin capture, high Customer Acquisition Costs (CAC) often compress realized margins to **20–25%** [INTERNAL ANALYSIS], penalizing pure-play digital brands. The winning model is **Omnichannel Dominance**, which balances the reach of digital with the trust of veterinary and retail presence (Figure 34).
 
 **Figure 34: Channel economics favor omnichannel dominance but penalize pure-play DTC.**
 ![Channel economics favor omnichannel dominance but penalize pure-play DTC.](figures/Figure18_Channel_Economics.png)
@@ -44,14 +44,14 @@ For major incumbents like Zoetis and Elanco, nutraceuticals are a strategic "Cus
 The industry has moved beyond fragmentation to a defined **"Barbell Structure"**: Massive, vertically integrated **Titans** (Zoetis, Mars) control the channels and the customer relationship, while agile **Innovators** (BiomEdit, Bond Pet Foods) control the biological IP. The "middle market"—populated by generic re-packagers without clinical differentiation—faces existential margin compression. Surviving this squeeze requires scale or science; there is no safety in the middle.
 
 **M&A Has Replaced Internal R&D as the Primary Growth Engine.**
-For incumbents, R&D productivity has stalled while the cost to develop new molecules has skyrocketed (>$150M). Consequently, M&A has become the primary engine for innovation. Titans are paying **"Time-to-Market Premiums"** to acquire de-risked, clinically validated assets rather than building from scratch (Figure 37). The blueprint, exemplified by Zoetis, is to manage the entire **"Continuum of Care"** (Diagnostics $\rightarrow$ Genetics $\rightarrow$ Therapeutics $\rightarrow$ Wellness), acquiring assets that plug gaps in this holistic loop.
+For incumbents, R&D productivity has stalled while the cost to develop new molecules has skyrocketed (>$150M) [INTERNAL ANALYSIS]. Consequently, M&A has become the primary engine for innovation. Titans are paying **"Time-to-Market Premiums"** to acquire de-risked, clinically validated assets rather than building from scratch (Figure 37). The blueprint, exemplified by Zoetis, is to manage the entire **"Continuum of Care"** (Diagnostics $\rightarrow$ Genetics $\rightarrow$ Therapeutics $\rightarrow$ Wellness), acquiring assets that plug gaps in this holistic loop.
 
 **Figure 37: M&A valuation matrix favors de-risked assets over internal R&D development.**
 ![M&A valuation matrix favors de-risked assets over internal R&D development.](figures/Figure_MA_Matrix.png)
 *Source: Internal Deal Flow Analysis*
 
 **Capital Markets Create Two Distinct Valuation Tiers.**
-Valuations reflect the bifurcation of the underlying assets (Table III.1). **Tier 1 (IP-Rich)** companies—those with patented molecules and clinical dossiers—trade at **16x–22x EBITDA**, as investors pay for the defensibility of the cash flow (e.g., Swedencare's acquisition of NaturVet). **Tier 2 (Commodity)** brands, competing on price or generic ingredients, trade at **8x–11x EBITDA**. This arbitrage confirms that the market values **Moats over Revenue**: a smaller, protected revenue stream is worth more than a larger, commoditized one.
+Valuations reflect the bifurcation of the underlying assets (Table III.1). **Tier 1 (IP-Rich)** companies—those with patented molecules and clinical dossiers—trade at **16x–22x EBITDA** [S118], as investors pay for the defensibility of the cash flow (e.g., Swedencare's acquisition of NaturVet). **Tier 2 (Commodity)** brands, competing on price or generic ingredients, trade at **8x–11x EBITDA** [INTERNAL ANALYSIS]. This arbitrage confirms that the market values **Moats over Revenue**: a smaller, protected revenue stream is worth more than a larger, commoditized one.
 
 **Table III.1: Benchmark Transactions Define the Premium**
 | **Target** | **Acquirer** | **Deal Value** | **Implied Valuation** | **Strategic Rationale** |

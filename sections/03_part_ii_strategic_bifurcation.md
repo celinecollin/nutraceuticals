@@ -7,14 +7,14 @@ The global market has irreversibly split into two gears. Part II analyzes the "T
 **This divergence is most visible in the demographic trends shaping global demand, where the West pursues value while the East pursues volume.**
 
 **The Market Has Irreversibly Bifurcated into Value and Volume.**
-The global animal health market is undergoing a structural schism, creating a "Two-Speed" dynamic that invalidates aggregate market analysis. Investors must now model two distinct asset classes: the **Volume-Driven** livestock sector (correlated with GDP and population) and the **Value-Driven** pet economy (correlated with disposable income and household formation). Top-down analysis confirms that while the broader market is robust (~$123.8B), the alpha generation lies in this divergence. In developed markets, **Pet Nutraceuticals ($6B)** are driven by "Premiumization" and are forecast to double by 2030 (Figure 16), whereas **Livestock Additives ($7B)** are driven by the "Great Divergence"—a structural contraction in Western herds offset by relentless industrialization in the East.
+The global animal health market is undergoing a structural schism, creating a "Two-Speed" dynamic that invalidates aggregate market analysis. Investors must now model two distinct asset classes: the **Volume-Driven** livestock sector (correlated with GDP and population) and the **Value-Driven** pet economy (correlated with disposable income and household formation). Top-down analysis confirms that while the broader market is robust (~$123.8B) [S104], the alpha generation lies in this divergence. In developed markets, **Pet Nutraceuticals ($6B)** [S089, Tab: Figure 4] are driven by "Premiumization" and are forecast to double by 2030 (Figure 16) [S104, S113], whereas **Livestock Additives ($7B)** [UNVERIFIED] are driven by the "Great Divergence"—a structural contraction in Western herds offset by relentless industrialization in the East.
 
 **Figure 16: Developed markets prioritize 'Value over Volume' in pet ownership trends.**
 ![Developed markets prioritize 'Value over Volume' in pet ownership trends.](figures/Figure1_Pet_Ownership.png)
 *Source: FEDIAF (2024), APPA (2024)*
 
 **Regional Nuances define the "Cat Continent" vs. the "Volume Engine".**
-Europe differs fundamentally from the US; it is a **"Cat Continent"** (127M cats vs 104M dogs). The feline segment, growing at **+11%**, outpaces the dog segment due to urbanization and density constraints (Figures 17 & 18). This dictates a strategic pivot from canine-centric chews to feline-friendly liquids and transdermal gels to capture the **$1.9B EU opportunity**, particularly in pharmacy-led markets like France and Germany. Conversely, the US remains the "Valuation Anchor," where the humanization thesis has fully matured, transforming the market from "Ownership" to "Parenting" across 94 million households.
+Europe differs fundamentally from the US; it is a **"Cat Continent"** (127M cats vs 104M dogs) [S109]. The feline segment, growing at **+11%** [S109], outpaces the dog segment due to urbanization and density constraints (Figures 17 & 18). This dictates a strategic pivot from canine-centric chews to feline-friendly liquids and transdermal gels to capture the **$1.9B EU opportunity** [S105], particularly in pharmacy-led markets like France and Germany. Conversely, the US remains the "Valuation Anchor," where the humanization thesis has fully matured, transforming the market from "Ownership" to "Parenting" across 94 million households [S110].
 
 **Figure 17: European demographics show a structural dominance of the feline segment.**
 ![European demographics show a structural dominance of the feline segment.](figures/Figure2_EU_Pet_Pop.png)
@@ -25,7 +25,7 @@ Europe differs fundamentally from the US; it is a **"Cat Continent"** (127M cats
 *Source: FEDIAF (2024)*
 
 **Asia-Pacific Emerges as the Volume Engine of the Next Decade.**
-While the West drives value, APAC drives volume. Urbanization and an emerging middle class are fueling a **12–15% CAGR** in India and China (Figure 19). Notably, China has flipped to a cat-majority market (71.5M cats) driven by the "996" work culture, which precludes dog ownership. This creates a highly specialized demand for stress and urinary health solutions in dense urban environments, signaling that future volume growth will be Asian, feline, and functional.
+While the West drives value, APAC drives volume. Urbanization and an emerging middle class are fueling a **12–15% CAGR** in India and China (Figure 19) [S104, S105]. Notably, China has flipped to a cat-majority market (71.5M cats) [S105] driven by the "996" work culture, which precludes dog ownership. This creates a highly specialized demand for stress and urinary health solutions in dense urban environments, signaling that future volume growth will be Asian, feline, and functional.
 
 **Figure 19: APAC emerging as the primary volume engine for the next decade.**
 ![APAC emerging as the primary volume engine for the next decade.](figures/Figure4_Regional_Market.png)
@@ -36,7 +36,7 @@ While the West drives value, APAC drives volume. Urbanization and an emerging mi
 ## II.2. Livestock Dynamics Prioritize Efficiency
 
 **The "Great Divergence" Favors Poultry and Aquaculture.**
-The livestock sector is characterized by a stark geographical and species split. **Poultry** has emerged as the global winner, dominating meat production (365M tonnes) (Figure 20) and absorbing the majority of the **$6.8B feed additive** spend (Figures 21 & 22). It is a highly industrial, resilient sector where disease outbreaks (HPAI: Highly pathogenic avian influenza) engage a permanent demand for immune-modulating additives (Figure 22). Similarly, **Aquaculture ($250M)** represents the "Blue Transformation"—a permanent shift from wild capture to high-density farming that mandates probiotics as a biological life-support system (Figure 25).
+The livestock sector is characterized by a stark geographical and species split. **Poultry** has emerged as the global winner, dominating meat production (365M tonnes) (Figure 20) [S111] and absorbing the majority of the **$6.8B feed additive** spend (Figures 21 & 22) [S107, S108]. It is a highly industrial, resilient sector where disease outbreaks (HPAI: Highly pathogenic avian influenza) engage a permanent demand for immune-modulating additives (Figure 22). Similarly, **Aquaculture ($250M)** [S111] represents the "Blue Transformation"—a permanent shift from wild capture to high-density farming that mandates probiotics as a biological life-support system (Figure 25).
 
 **Figure 20: Global protein production shifts favor poultry and aquaculture over ruminants.**
 ![Global protein production shifts favor poultry and aquaculture over ruminants.](figures/Figure9_Livestock_Trends.png)
@@ -72,14 +72,14 @@ The most profound shift in livestock dynamics is the pivot to **Methane Mitigati
 **Efficiency drives the industrial buyer, but what drives the pet parent? Having mapped the "ROI Economy" of livestock, we shift our focus to the "Emotional Economy," where the psychology of spend dictates the margin.**
 
 **Buyer Psychology is Driven by "Fear of Loss".**
-Understanding the *why* of purchasing reveals that margin potential is psychological, not just functional. Analysis shows that **"Fear of Loss" (50%)** outweighs "Aspiration" (30%) in pet owner motivation (Figure 26). Owners pay premiums for preventive health to avoid the regret of premature aging, making the **Senior/Geriatric ($1.35B)** category the most price-inelastic. In livestock, the equivalent driver is **"Risk Mitigation"**; while producers operate on a strict ROI, they exhibit inelasticity for "Biological Insurance" (Toxin Binders) that prevents catastrophic herd loss.
+Understanding the *why* of purchasing reveals that margin potential is psychological, not just functional. Analysis shows that **"Fear of Loss" (50%)** outweighs "Aspiration" (30%) in pet owner motivation (Figure 26) [S114]. Owners pay premiums for preventive health to avoid the regret of premature aging, making the **Senior/Geriatric ($1.35B)** [S089, Tab: Figure 18] category the most price-inelastic. In livestock, the equivalent driver is **"Risk Mitigation"**; while producers operate on a strict ROI, they exhibit inelasticity for "Biological Insurance" (Toxin Binders) that prevents catastrophic herd loss.
 
 **Figure 26: Purchasing psychology is driven more by the fear of loss than aspirational health.**
 ![Purchasing psychology is driven more by the fear of loss than aspirational health.](figures/Figure14_Psychology.png)
 *Source: Internal Behavioral Analysis; Contextualized by Nicotra et al. (2025)*
 
 **Palatability and Format Are Proxies for Efficacy.**
-The best active ingredient is worthless if the animal refuses to eat it. **Palatability** and **Format** dictate compliance, which in turn drives the perceived efficacy (Figure 27). In the companion market, the shift from pills to **Soft Chews ($593M)** and functional treats proves that the delivery system is as valuable as the payload. Brands that master palatability—making the "medicine" a "treat"—secure higher compliance rates and, by extension, higher repurchase rates.
+The best active ingredient is worthless if the animal refuses to eat it. **Palatability** and **Format** dictate compliance, which in turn drives the perceived efficacy (Figure 27). In the companion market, the shift from pills to **Soft Chews ($593M)** [S089, Tab: Figure 18] and functional treats proves that the delivery system is as valuable as the payload. Brands that master palatability—making the "medicine" a "treat"—secure higher compliance rates and, by extension, higher repurchase rates.
 
 **Figure 27: Palatability and format dictate compliance, which is a key efficacy driver.**
 ![Palatability and format dictate compliance, which is a key efficacy driver.](figures/Figure11_Formats.png)
