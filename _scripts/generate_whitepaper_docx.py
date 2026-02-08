@@ -19,7 +19,7 @@ BASE_DIR = "/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceut
 SECTIONS_DIR = os.path.join(BASE_DIR, "sections")
 OUTPUT_DIR = os.path.join(BASE_DIR, "_output")
 FIGURES_DIR = os.path.join(BASE_DIR, "figures")  # Symlink to _figures/exports
-TIMESTAMP = datetime.now().strftime("%Y%m%d")
+TIMESTAMP = datetime.now().strftime("%Y%m%d-%H-%M")
 OUTPUT_DOCX = os.path.join(OUTPUT_DIR, f"Nutraceuticals_Whitepaper_{TIMESTAMP}.docx")
 TEMP_MD = os.path.join(OUTPUT_DIR, "temp_combined.md")
 

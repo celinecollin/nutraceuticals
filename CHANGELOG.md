@@ -147,3 +147,7 @@ All notable changes to this project will be documented in this file.
   - `sections/02_part_i_structural_bifurcation.md` (Tables I.1 & I.2)
   - `sections/04_part_iii_value_chain.md` (Table III.1)
 - **Result:** Regenerated DOCX with correct table formatting.
+
+### [2026-02-08] - Script Improvements
+- **Update:** `_scripts/generate_whitepaper_docx.py` now includes timestamps (YYYYMMDD-HH-MM) in output filenames.
+- **Reason:** Prevent OneDrive sync conflicts and file locking issues.
