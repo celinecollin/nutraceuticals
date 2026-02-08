@@ -23,15 +23,25 @@ TIMESTAMP = datetime.now().strftime("%Y%m%d-%H-%M")
 OUTPUT_DOCX = os.path.join(OUTPUT_DIR, f"Nutraceuticals_Whitepaper_{TIMESTAMP}.docx")
 TEMP_MD = os.path.join(OUTPUT_DIR, "temp_combined.md")
 
-# Section order (from report_master.md)
-SECTION_FILES = [
-    "00_front_matter.md",
-    "01_executive_summary.md",
-    "02_part_i_structural_bifurcation.md",
-    "03_part_ii_strategic_bifurcation.md",
-    "04_part_iii_value_chain.md",
-    "05_appendices.md"
-]
+REPORT_MASTER = os.path.join(BASE_DIR, "report_master.md")
+
+def load_section_files_from_master():
+    """Load section order from report_master.md."""
+    section_files = []
+    if not os.path.exists(REPORT_MASTER):
+        raise FileNotFoundError(f"Missing report master file: {REPORT_MASTER}")
+
+    with open(REPORT_MASTER, 'r', encoding='utf-8') as f:
+        for raw_line in f:
+            line = raw_line.strip()
+            if not line or line.startswith('#'):
+                continue
+            if line.startswith('sections/') and line.endswith('.md'):
+                section_files.append(os.path.basename(line))
+
+    if not section_files:
+        raise ValueError("No section files found in report_master.md")
+    return section_files
 
 # Color scheme for styling
 COLORS = {
@@ -44,11 +54,12 @@ COLORS = {
 
 def combine_sections():
     """Combine all section files into single markdown."""
-    print(f"Combining {len(SECTION_FILES)} sections...")
+    section_files = load_section_files_from_master()
+    print(f"Combining {len(section_files)} sections...")
     
     combined_content = []
     
-    for section_file in SECTION_FILES:
+    for section_file in section_files:
         section_path = os.path.join(SECTIONS_DIR, section_file)
         if not os.path.exists(section_path):
             print(f"  ⚠ Skipping missing section: {section_file}")

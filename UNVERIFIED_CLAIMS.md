@@ -1,19 +1,20 @@
 # Unverified Claims Tracker
 
-**STATUS: ALL CLAIMS RESOLVED (Phase 2 Complete)**
+**STATUS: UNVERIFIED TAGS RESOLVED; AUTHOR-CHECK ITEMS PENDING**
 
-All claims previously marked as [UNVERIFIED] have been resolved through Phase 2 cross-section source matching.
+All `[UNVERIFIED]` tags were removed from section Markdown during the 2026-02-08 integrity remediation.
+Claims that still require author substantiation are now tracked as `[AUTHOR-CHECK]` in the section files and `Claims` tab.
 
 ## Resolution Summary
 
-- **Total claims resolved:** 44
-- **Resolution methods:**
+- **Total [UNVERIFIED] claims resolved:** 44
+- **Resolution methods (historical):**
   - Master Excel (S089, Figure 18): 11 claims
   - Market Reports (S104-S113): 12 claims
   - Industry Reports (S109-S112): 8 claims
   - Scientific Literature (S114): 1 claim
   - Corporate Filings (S115-S120): 3 claims
-  - Internal Analysis: 9 claims
+  - Internal Analysis (now reclassified to `[AUTHOR-CHECK]` where unsupported): 9 claims
 
 ## Data Mismatches Identified
 
@@ -26,6 +27,6 @@ Several claims showed significant discrepancies between text and Master Excel da
 
 These mismatches are now documented in the registry with proper source tags pointing to the actual data.
 
-## All Claims Now Verified
+## Current Verification State
 
-See `_registry/source_registry.xlsx` (Claims tab) for complete source attributions.
+See `_registry/source_registry.xlsx` (Claims tab) and filter `source_ids = AUTHOR-CHECK` for pending author review items.

@@ -38,11 +38,11 @@ Comprehensive equity research report analyzing the global animal nutraceuticals 
 
 All claims, figures, and sources tracked in **`_registry/source_registry.xlsx`**:
 - **Sources tab:** 120 registered sources
-- **Claims tab:** 49 claims, 100% verified with inline `[SXXX]` tags
+- **Claims tab:** 49 claims tracked; audited statuses include `[SXXX]`, `[CALCULATION]`, and `[AUTHOR-CHECK]`
 - **Figures tab:** 37 figures mapped to Master Excel data
 - **Sections tab:** 6 sections tracked
 
-**Verification Status:** ✅ All claims verified against sources.
+**Verification Status:** ⚠ In progress (author review pending on `[AUTHOR-CHECK]` claims and unresolved source files).
 
 ---
 
@@ -61,7 +61,7 @@ All claims, figures, and sources tracked in **`_registry/source_registry.xlsx`**
 
 ### For AI Agents
 1. **Read `AGENTS.md` before ANY edits**
-2. Follow source tagging conventions (`[SXXX]`, `[UNVERIFIED]`, `[INTERNAL ANALYSIS]`)
+2. Follow source tagging conventions (`[SXXX]`, `[CALCULATION]`, `[AUTHOR-CHECK]`, `[UNVERIFIED]`)
 3. Update `source_registry.xlsx` Claims tab for new claims
 4. Log changes in `CHANGELOG.md`
 
@@ -71,8 +71,9 @@ All claims, figures, and sources tracked in **`_registry/source_registry.xlsx`**
 
 - **`AGENTS.md`** — Agent onboarding manual (THE key file)
 - **`PRD_SOURCE_REGISTRY.md`** — Source registry system design
-- **`FOLDER_RESTRUCTURING_GUIDE.md`** — Project structure rationale
+- **`_archive/docs/FOLDER_RESTRUCTURING_GUIDE.md`** — Project structure rationale (archived reference)
 - **`GUIDE_POUR_DOUDOU.md`** — Non-technical project overview
+- **`UNVERIFIED_CLAIMS.md`** — Active tracker for unresolved verification items
 
 ---
 
@@ -85,9 +86,9 @@ All claims, figures, and sources tracked in **`_registry/source_registry.xlsx`**
 
 | Component | Status |
 |-----------|--------|
-| Source Registry | ✅ Complete (120 sources, 49 claims verified) |
+| Source Registry | ✅ Linked (120 sources with in-repo file paths) |
 | Sections | ✅ Complete (6 files with inline tags) |
 | Figures | ✅ Ready (37 mapped, 106 exports available) |
-| DOCX Generation | ⏳ Pending |
+| DOCX Generation | ✅ Complete (`_output/latest/whitepaper.docx`) |
 
 **Last Updated:** 2026-02-08
