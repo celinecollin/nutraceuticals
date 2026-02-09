@@ -1659,3 +1659,86 @@ Updated tabs to ensure the attached-design figures are fully reproducible from E
 ### Claims Added/Modified
 - Added derived growth metric statement in core text from existing sourced bounds:
   - Implied 10-year CAGR range for `$13B -> $18B/$24B` scenario (`~3.3%` to `~6.3%`) with `[CALCULATION]` + existing source tags.
+
+### [2026-02-09] - Clean Full Output Refresh in `_output`
+- **Timestamp:** 2026-02-09 20:24:33 CET
+- **What:** Regenerated full report pipeline to produce a clean dated output and synchronized latest pointer.
+  - Ran figure regeneration + DOCX build using active script: `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_scripts/generate_whitepaper_docx.py`
+  - New canonical artifact created: `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-20-21.docx`
+  - Synced latest pointer: `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/latest/whitepaper.docx`
+  - Verified `latest/whitepaper.docx` hash matches canonical dated artifact.
+  - Added output manifest: `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/LATEST_OUTPUTS.md`
+- **Integrity checks:**
+  - DOCX opens and contains expected heading hierarchy and table count.
+  - No deletion of prior outputs; historical dated files retained.
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-20-21.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/latest/whitepaper.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/LATEST_OUTPUTS.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+
+### [2026-02-09] - Removed Confusing Latest Alias DOCX
+- **Timestamp:** 2026-02-09 20:26:40 CET
+- **What:** Removed `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/latest/whitepaper.docx` to avoid ambiguity between alias and dated canonical outputs.
+- **Canonical rule:** Use only dated files under `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/` as the latest deliverables.
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+- Deleted: `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/latest/whitepaper.docx`
+
+### [2026-02-09] - Full Figure/Text Regression Audit and Pipeline Fix
+- **Timestamp:** 2026-02-09 22:43:27 CET
+- **What was audited:** Full consistency pass across section figure references, renderer mappings, master figure workbook tabs, registry figure metadata, and rebuilt DOCX output.
+- **Root causes identified:**
+  - Rebuild from markdown overwrote prior direct-DOCX text edits that had not been backported to `sections/*.md`.
+  - Renderer-to-tab mismatches caused cross-wired charts:
+    - `aquaculture_production_fig_29.py` read `Figure 29` (format data) instead of aquaculture data.
+    - `delivery_formats_fig_30.py` read `Figure 30` (segmentation data) instead of format-compliance data.
+    - `cattle_inventory_fig_27.py` read `Figure 27` (aquaculture data) causing species labels under cattle title.
+- **Fixes implemented:**
+  - Renderer mapping fixes:
+    - `aquaculture_production_fig_29.py` -> tab `Figure 27`
+    - `delivery_formats_fig_30.py` -> tab `Figure 29`
+    - `cattle_inventory_fig_27.py` -> tab `Figure Cattle Inventory`
+  - Restored cattle time-series source tab in `figures_data.xlsx` (`Figure Cattle Inventory`) from in-repo dataset `Figure8_Cattle_Inventory.csv`, including LATAM/India scaled fields for chart comparability.
+  - Backported regressed narrative edits to markdown source files:
+    - expanded nutraceutical definition in executive summary,
+    - added implied CAGR range in core market paragraph,
+    - expanded regional regulatory-path detail and GRAS workflow,
+    - added CAGR method definition in methodology.
+  - Updated registry `Figures` tab `excel_tab` links/notes for impacted figure rows.
+- **Rebuild:**
+  - Regenerated full output via active pipeline: `_scripts/generate_whitepaper_docx.py`
+  - New canonical output: `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-22-40.docx`
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_scripts/fig_renderers/renderers/aquaculture_production_fig_29.py`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_scripts/fig_renderers/renderers/delivery_formats_fig_30.py`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_scripts/fig_renderers/renderers/cattle_inventory_fig_27.py`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_figures/figures_data.xlsx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_registry/source_registry.xlsx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/01_executive_summary.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/02_part_i_structural_bifurcation.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/05_appendices.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-22-40.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+
+### [2026-02-09] - Word Open Prompt Fix (Field Update Dialog)
+- **What:** Eliminated the recurring Microsoft Word dialog "This document contains fields that may refer to other files...".
+- **Root cause:** DOCX files contained Word field instructions (TOC field codes) generated during conversion.
+- **Fix implemented:**
+  - Added post-processing in `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_scripts/generate_whitepaper_docx.py` to unlink/remove field codes (`instrText`, `fldChar`, `fldSimple`) while preserving rendered document text.
+  - Sanitized existing outputs:
+    - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-22-40.docx`
+    - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-20-21.docx`
+- **Verification:** New build confirms zero remaining field-code tags in `word/document.xml`.
+- **New clean output:**
+  - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-22-48.docx`
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_scripts/generate_whitepaper_docx.py`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-22-40.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-20-21.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-22-48.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`

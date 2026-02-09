@@ -4,7 +4,7 @@ from ..common import RenderContext, dispatch_render
 
 # Source-of-truth mapping: figures_data.xlsx tab -> rendered PNG
 SPEC = {
-    "tab": "Figure 30",
+    "tab": "Figure 29",
     "mode": "multi_donut",
     "output_file": "Figure11_Formats.png",
     "title": "Nutraceutical Delivery Format Preferences",

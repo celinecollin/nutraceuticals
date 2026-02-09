@@ -180,7 +180,7 @@ _Appendix cross-reference:_ This economic split view is retained to support quic
 
 ## E. Methodology & Data Sources
 
-This report triangulates regulatory filings, corporate disclosures, curated datasets, and internal strategic mapping. Scope controls exclude generic commodities and non-adjacent prescription revenues to preserve comparability in value-pool and transaction analysis [S089, Tab: Figure 4]. Archive-derived content is explicitly labeled and linked to internal reference material for audit traceability [S128].
+This report triangulates regulatory filings, corporate disclosures, curated datasets, and internal strategic mapping. Scope controls exclude generic commodities and non-adjacent prescription revenues to preserve comparability in value-pool and transaction analysis [S089, Tab: Figure 4]. Archive-derived content is explicitly labeled and linked to internal reference material for audit traceability [S128]. CAGR (Compound Annual Growth Rate) is used to normalize multi-year growth comparisons across categories with different starting scales, using `CAGR = (End Value / Start Value)^(1/n) - 1`, where `n` is the number of years.
 
 ## F. Regulatory Reference
 

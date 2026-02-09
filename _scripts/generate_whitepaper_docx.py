@@ -8,6 +8,7 @@ import os
 import re
 import subprocess
 import sys
+import zipfile
 from datetime import datetime
 from docx import Document
 from docx.shared import Pt, RGBColor, Inches
@@ -15,6 +16,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
+from xml.etree import ElementTree as ET
 
 # === CONFIGURATION ===
 BASE_DIR = "/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals"
@@ -378,6 +380,64 @@ def add_cover_page(docx_path):
     doc.save(docx_path)
     print("  ✓ Cover page added")
 
+
+def unlink_word_fields(docx_path):
+    """
+    Remove Word field instructions (TOC/LINK/etc.) while preserving displayed text.
+    This prevents the 'update fields that may refer to other files' prompt on open.
+    """
+    ns = {"w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"}
+    ET.register_namespace("w", ns["w"])
+    ET.register_namespace("r", "http://schemas.openxmlformats.org/officeDocument/2006/relationships")
+
+    with zipfile.ZipFile(docx_path, "r") as zin:
+        files = {name: zin.read(name) for name in zin.namelist()}
+
+    updated = False
+    for name, content in list(files.items()):
+        if not (name.startswith("word/") and name.endswith(".xml")):
+            continue
+        try:
+            root = ET.fromstring(content)
+        except Exception:
+            continue
+
+        # Drop complex-field tokens that trigger field update prompts.
+        removed = 0
+        for tag in ("fldChar", "instrText"):
+            for node in list(root.findall(f".//w:{tag}", ns)):
+                parent = None
+                for p in root.iter():
+                    if node in list(p):
+                        parent = p
+                        break
+                if parent is not None:
+                    parent.remove(node)
+                    removed += 1
+
+        # Unwrap simple fields by replacing <w:fldSimple> with its children.
+        for parent in root.iter():
+            for child in list(parent):
+                if child.tag == f"{{{ns['w']}}}fldSimple":
+                    idx = list(parent).index(child)
+                    for sub in list(child):
+                        parent.insert(idx, sub)
+                        idx += 1
+                    parent.remove(child)
+                    removed += 1
+
+        if removed:
+            files[name] = ET.tostring(root, encoding="utf-8", xml_declaration=True)
+            updated = True
+
+    if updated:
+        with zipfile.ZipFile(docx_path, "w", compression=zipfile.ZIP_DEFLATED) as zout:
+            for name, content in files.items():
+                zout.writestr(name, content)
+        print("  ✓ Unlinked Word field codes (suppresses update-fields prompt)")
+    else:
+        print("  ✓ No field codes found to unlink")
+
 def main():
     print("=" * 60)
     print("NUTRACEUTICALS WHITE PAPER - DOCX GENERATOR")
@@ -413,6 +473,9 @@ def main():
     
     # Step 4: Add cover page
     add_cover_page(OUTPUT_DOCX)
+
+    # Step 5: Unlink field codes (TOC/LINK) to avoid Word open prompt.
+    unlink_word_fields(OUTPUT_DOCX)
     
     print("=" * 60)
     print(f"✓ COMPLETE: {OUTPUT_DOCX}")

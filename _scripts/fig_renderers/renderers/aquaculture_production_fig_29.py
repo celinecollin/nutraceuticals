@@ -4,7 +4,7 @@ from ..common import RenderContext, dispatch_render
 
 # Source-of-truth mapping: figures_data.xlsx tab -> rendered PNG
 SPEC = {
-    "tab": "Figure 29",
+    "tab": "Figure 27",
     "mode": "bar_horizontal",
     "output_file": "Figure11_Aquaculture_Production.png",
     "title": "Global Aquaculture Production by Species (Million Tonnes)",

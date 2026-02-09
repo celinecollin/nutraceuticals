@@ -4,7 +4,7 @@ from ..common import RenderContext, dispatch_render
 
 # Source-of-truth mapping: figures_data.xlsx tab -> rendered PNG
 SPEC = {
-    "tab": "Figure 27",
+    "tab": "Figure Cattle Inventory",
     "mode": "line",
     "output_file": "Figure8_Cattle_Inventory.png",
     "title": "Global Cattle Inventory: The Western Contraction",
@@ -18,10 +18,10 @@ SPEC = {
         "linewidth": 2.2,
         "legend_loc": "center left",
         "legend_labels": {
-            "USA (m)": "USA",
-            "EU (m)": "EU",
-            "LATAM (/10)": "LATAM (÷10)",
-            "India (/10)": "India (÷10)"
+            "US": "USA",
+            "EU": "EU",
+            "LATAM_scaled": "LATAM (÷10)",
+            "India_scaled": "India (÷10)"
         },
         "annotation": {
             "text": "2024: 87.2M\\n(73-yr low)",
