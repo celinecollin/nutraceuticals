@@ -13,24 +13,27 @@ Europe retains cat-heavy and urban-constrained demand characteristics, the US re
 **Demography and channel design are now coupled operating variables.**
 Dense urban clusters skew toward easier formats and digital-pharmacy-compatible purchase pathways, while suburban/high-income cohorts show stronger recurring preventive-bundle behavior [S123]. This coupling supports differentiated go-to-market design by geography and directly informs assortment, format, and CAC/LTV assumptions in diligence models.
 
-Figures 16-19 are the demographic base layer used in subsequent demand and margin interpretation: they convert qualitative geography narratives into portfolio-weighting inputs.
+Figures 18-21 are the demographic base layer used in subsequent demand and margin interpretation, with ownership-density monetization anchored in (Figure 18): they convert qualitative geography narratives into portfolio-weighting inputs.
 
-**Figure 16: Developed markets prioritize 'Value over Volume' in pet ownership trends.**
+**Figure 18: Developed markets prioritize 'Value over Volume' in pet ownership trends.**
 ![Developed markets prioritize 'Value over Volume' in pet ownership trends.](figures/Figure1_Pet_Ownership.png)
 *Source: [S109, S110]*
 _Figure takeaway:_ Developed pet markets are demand-dense and monetization-heavy, which supports premium product architecture over pure volume expansion.
 
-**Figure 17: European demographics show a structural dominance of the feline segment.**
+European demographics show a structural dominance of the feline segment (Figure 19).
+**Figure 19: European demographics show a structural dominance of the feline segment.**
 ![European demographics show a structural dominance of the feline segment.](figures/Figure2_EU_Pet_Pop.png)
 *Source: [S109]*
 _Figure takeaway:_ Species mix matters for formulation strategy because feline-heavy markets require different format and compliance design.
 
-**Figure 18: Feline segment growth outpaces canine due to urbanization constraints.**
+Feline segment growth outpaces canine due to urbanization constraints (Figure 20).
+**Figure 20: Feline segment growth outpaces canine due to urbanization constraints.**
 ![Feline segment growth outpaces canine due to urbanization constraints.](figures/Figure3_EU_Growth.png)
 *Source: [S109]*
 _Figure takeaway:_ Urbanization-linked household constraints are shifting portfolio opportunities toward cat-compatible preventive categories.
 
-**Figure 19: APAC is emerging as the primary volume engine for the next decade.**
+APAC is emerging as the primary volume engine for the next decade (Figure 21).
+**Figure 21: APAC is emerging as the primary volume engine for the next decade.**
 ![APAC is emerging as the primary volume engine for the next decade.](figures/Figure4_Regional_Market.png)
 *Source: [S104]*
 _Figure takeaway:_ APAC remains the highest-volume expansion vector, but margin quality depends on channel and evidence strategy.
@@ -48,32 +51,38 @@ Methane-linked policy and procurement pressure is shifting portions of sustainab
 
 Figures 20-25 are interpreted as operational stress maps: they define where biological efficiency interventions are most likely to remain budget-protected across cycles.
 
-**Figure 20: Global protein production shifts favor poultry and aquaculture over ruminants.**
+Global protein production shifts favor poultry and aquaculture over ruminants (Figure 22).
+**Figure 22: Global protein production shifts favor poultry and aquaculture over ruminants.**
 ![Global protein production shifts favor poultry and aquaculture over ruminants.](figures/Figure9_Livestock_Trends.png)
 *Source: [S111]*
 _Figure takeaway:_ Protein mix is moving toward faster-cycle species, increasing the strategic weight of productivity additives.
 
-**Figure 21: Probiotics volume share reflects poultry and swine dominance.**
+Probiotics volume share reflects poultry and swine dominance (Figure 23).
+**Figure 23: Probiotics volume share reflects poultry and swine dominance.**
 ![Probiotics volume share reflects poultry and swine dominance.](figures/Figure5_Probiotics_Share.png)
 *Source: [S108]*
 _Figure takeaway:_ Probiotic demand concentration follows intensive species systems where biological variance is financially costly.
 
-**Figure 22: Disease outbreaks act as catalysts for immune-modulating additive demand.**
+Disease outbreaks act as catalysts for immune-modulating additive demand (Figure 24).
+**Figure 24: Disease outbreaks act as catalysts for immune-modulating additive demand.**
 ![Disease outbreaks act as catalysts for immune-modulating additive demand.](figures/Figure6_Poultry_HPAI.png)
 *Source: [S069, S111]*
 _Figure takeaway:_ Outbreak frequency reinforces recurring spend in immune-support and resilience categories.
 
-**Figure 23: Regulatory pressure drives structural contraction in Western swine herds.**
+Regulatory pressure drives structural contraction in Western swine herds (Figure 25).
+**Figure 25: Regulatory pressure drives structural contraction in Western swine herds.**
 ![Regulatory pressure drives structural contraction in Western swine herds.](figures/Figure7_Swine_Decline.png)
 *Source: [S112]*
 _Figure takeaway:_ Compliance pressure can shrink herd size but increase value per animal and input sophistication.
 
-**Figure 24: Western de-ruminization shifts value from herd size to efficiency-per-head.**
+Western de-ruminization shifts value from herd size to efficiency-per-head (Figure 26).
+**Figure 26: Western de-ruminization shifts value from herd size to efficiency-per-head.**
 ![Western de-ruminization shifts value from herd size to efficiency-per-head.](figures/Figure8_Cattle_Inventory.png)
 *Source: [S112, S071]*
 _Figure takeaway:_ The value pool is migrating from herd expansion to precision efficiency and mitigation spend.
 
-**Figure 25: The 'Blue Transformation' drives industrialization and functional additive demand in aqua.**
+The 'Blue Transformation' drives industrialization and functional additive demand in aqua (Figure 27).
+**Figure 27: The 'Blue Transformation' drives industrialization and functional additive demand in aqua.**
 ![The 'Blue Transformation' drives industrialization and functional additive demand in aqua.](figures/Figure11_Aquaculture_Production.png)
 *Source: [S111]*
 _Figure takeaway:_ Aquaculture industrialization creates structurally recurring demand for health and performance inputs.
@@ -91,32 +100,38 @@ The shift from generic actives toward differentiated and IP-backed formats, comb
 
 Figures 26-31 convert behavior into economics by linking emotional demand drivers to format compliance, wallet share, and lifecycle timing.
 
-**Figure 26: Purchasing psychology is driven more by fear of loss than aspirational health.**
+Purchasing psychology is driven more by fear of loss than aspirational health (Figure 28).
+**Figure 28: Purchasing psychology is driven more by fear of loss than aspirational health.**
 ![Purchasing psychology is driven more by fear of loss than aspirational health.](figures/Figure14_Psychology.png)
 *Source: [S114, S056]*
 _Figure takeaway:_ Behavioral framing is a primary monetization lever in companion preventive categories.
 
-**Figure 27: Palatability and format dictate compliance, which becomes an efficacy proxy.**
+Palatability and format dictate compliance, which becomes an efficacy proxy (Figure 29).
+**Figure 29: Palatability and format dictate compliance, which becomes an efficacy proxy.**
 ![Palatability and format dictate compliance, which becomes an efficacy proxy.](figures/Figure11_Formats.png)
 *Source: [S106, S053]*
 _Figure takeaway:_ Administration friction directly affects repeat purchase and realized outcomes.
 
-**Figure 28: High-spending households drive the majority of revenue in pet wellness.**
+High-spending households drive the majority of revenue in pet wellness (Figure 30).
+**Figure 30: High-spending households drive the majority of revenue in pet wellness.**
 ![High-spending households drive the majority of revenue in pet wellness.](figures/Figure13_Segmentation.png)
 *Source: [S055]*
 _Figure takeaway:_ Revenue concentration supports targeted channel economics rather than undifferentiated mass-market CAC strategies.
 
-**Figure 29: Nutraceuticals have captured a dominant share of the preventive wallet.**
+Nutraceuticals have captured a dominant share of the preventive wallet (Figure 31).
+**Figure 31: Nutraceuticals have captured a dominant share of the preventive wallet.**
 ![Nutraceuticals have captured a dominant share of the preventive wallet.](figures/Figure12_Wallet.png)
 *Source: [S110, S054]*
 _Figure takeaway:_ Preventive wallet capture remains a durable driver of category resilience across cycles.
 
-**Figure 30: Category premiumization evolves from generic actives to IP-backed solutions.**
+Category premiumization evolves from generic actives to IP-backed solutions (Figure 32).
+**Figure 32: Category premiumization evolves from generic actives to IP-backed solutions.**
 ![Category premiumization evolves from generic actives to IP-backed solutions.](figures/Figure15_Mobility_Evo.png)
 *Source: [S106, S057]*
 _Figure takeaway:_ IP-backed actives and evidence depth are the main basis for premium pricing persistence.
 
-**Figure 31: Earlier lifecycle targeting expands customer lifetime value.**
+Earlier lifecycle targeting expands customer lifetime value (Figure 33).
+**Figure 33: Earlier lifecycle targeting expands customer lifetime value.**
 ![Earlier lifecycle targeting expands customer lifetime value.](figures/Figure16_Senior_Growth.png)
 *Source: [S058]*
 _Figure takeaway:_ Earlier enrollment into preventive protocols increases duration of spend and retention quality.

@@ -298,6 +298,8 @@ def _render_grouped_bar(df: pd.DataFrame, title: str, output: str, options: Opti
         ax.bar(x + (i - (len(cols) - 1) / 2) * width, df[c].astype(float), width=width, label=c)
 
     ax.set_xticks(x, labels=labels)
+    ax.set_xlabel(str(df.columns[0]))
+    ax.set_ylabel("Value")
     ax.set_title(title, fontsize=18, fontweight="bold")
     ax.grid(axis="y", linestyle=":", alpha=0.35)
     ax.legend(loc="upper right")
@@ -321,6 +323,7 @@ def _render_dual_axis_bar_scatter(df: pd.DataFrame, title: str, output: str, opt
     ax2.set_ylabel(df.columns[2], color="#d04a02")
     ax2.tick_params(axis="y", labelcolor="#d04a02")
 
+    ax1.set_xlabel(str(df.columns[0]))
     ax1.set_title(title, fontsize=16, fontweight="bold")
     l1, lb1 = ax1.get_legend_handles_labels()
     l2, lb2 = ax2.get_legend_handles_labels()
@@ -328,30 +331,125 @@ def _render_dual_axis_bar_scatter(df: pd.DataFrame, title: str, output: str, opt
     return save_figure(fig, output)
 
 
-def _render_simple_bar(df: pd.DataFrame, title: str, output: str, horizontal: bool = False) -> Path:
+def _render_simple_bar(df: pd.DataFrame, title: str, output: str, horizontal: bool = False, options: Optional[Dict[str, Any]] = None) -> Path:
+    opts = options or {}
     labels = df.iloc[:, 0].astype(str)
     values = pd.to_numeric(df.iloc[:, 1], errors="coerce")
-    fig, ax = plt.subplots(figsize=(10.2, 6.0))
+    fig, ax = plt.subplots(figsize=tuple(opts.get("figsize", (10.2, 6.0))))
+    bar_color = str(opts.get("bar_color", "#0b3a63"))
     if horizontal:
-        ax.barh(labels, values, color="#0b3a63")
+        ax.barh(labels, values, color=bar_color)
         ax.invert_yaxis()
+        ax.set_xlabel(str(opts.get("xlabel", df.columns[1])))
+        ax.set_ylabel(str(opts.get("ylabel", df.columns[0])))
+        if opts.get("show_values"):
+            dx = float(opts.get("value_dx", max(values) * 0.01 if len(values) else 0.1))
+            suffix = str(opts.get("value_suffix", ""))
+            for i, v in enumerate(values):
+                ax.text(float(v) + dx, i, f"{float(v):.1f}{suffix}", va="center", fontsize=float(opts.get("value_fontsize", 9)), fontweight="bold", color=str(opts.get("value_color", "#2b2b2b")))
     else:
-        ax.bar(labels, values, color="#0b3a63")
+        ax.bar(labels, values, color=bar_color)
         ax.tick_params(axis="x", rotation=20)
-    ax.set_title(title, fontsize=16, fontweight="bold")
+        ax.set_xlabel(str(opts.get("xlabel", df.columns[0])))
+        ax.set_ylabel(str(opts.get("ylabel", df.columns[1])))
+    ax.set_title(title, fontsize=float(opts.get("title_size", 16)), fontweight="bold")
     ax.grid(axis="y" if not horizontal else "x", linestyle=":", alpha=0.35)
     return save_figure(fig, output)
 
 
-def _render_line(df: pd.DataFrame, title: str, output: str) -> Path:
+def _render_segmented_barh(df: pd.DataFrame, title: str, output: str, options: Optional[Dict[str, Any]] = None) -> Path:
+    opts = options or {}
+    labels = df.iloc[:, 0].astype(str)
+    values = pd.to_numeric(df.iloc[:, 1], errors="coerce")
+    segments = df.iloc[:, 2].astype(str) if df.shape[1] > 2 else pd.Series(["All"] * len(df))
+
+    palette = {
+        "Pet Food & CPG": "#e67e22",
+        "Pharma & Animal Health": "#2f455c",
+        "Feed & Specialty Inputs": "#2daa5f",
+    }
+
+    fig, ax = plt.subplots(figsize=tuple(opts.get("figsize", (11.4, 7.1))))
+    y = np.arange(len(labels))
+    colors = [palette.get(s, "#4c6f86") for s in segments]
+    ax.barh(y, values, color=colors)
+    ax.set_yticks(y, labels=labels)
+    ax.invert_yaxis()
+    ax.set_xlabel(str(opts.get("xlabel", df.columns[1])))
+    ax.set_ylabel(str(opts.get("ylabel", df.columns[0])))
+    ax.set_title(title, fontsize=float(opts.get("title_size", 16)), fontweight="bold")
+    ax.grid(axis="x", linestyle=":", alpha=0.35)
+
+    xpad = float(np.nanmax(values) * 0.02) if len(values) else 0.2
+    for yi, v in zip(y, values):
+        ax.text(float(v) + xpad, yi, f"${float(v):.1f}B", va="center", fontsize=10, fontweight="bold")
+
+    # Legend in deterministic order.
+    from matplotlib.patches import Patch
+
+    legend_order = ["Pet Food & CPG", "Pharma & Animal Health", "Feed & Specialty Inputs"]
+    handles = [Patch(facecolor=palette[s], label=s) for s in legend_order if s in set(segments)]
+    if handles:
+        ax.legend(handles=handles, loc=str(opts.get("legend_loc", "lower right")), frameon=True)
+
+    return save_figure(fig, output)
+
+
+def _render_line(df: pd.DataFrame, title: str, output: str, options: Optional[Dict[str, Any]] = None) -> Path:
+    opts = options or {}
     x = df.iloc[:, 0]
     fig, ax = plt.subplots(figsize=(10.2, 6.0))
-    for c in df.columns[1:]:
-        ax.plot(x, pd.to_numeric(df[c], errors="coerce"), marker="o", linewidth=2.2, label=c)
-    ax.set_title(title, fontsize=16, fontweight="bold")
+    series = list(df.columns[1:])
+    colors = opts.get("colors") or []
+    linestyles = opts.get("linestyles") or []
+    markers = opts.get("markers")
+    linewidth = float(opts.get("linewidth", 2.2))
+    for i, c in enumerate(series):
+        y = pd.to_numeric(df[c], errors="coerce")
+        kw: Dict[str, Any] = {
+            "linewidth": linewidth,
+            "label": str(opts.get("legend_labels", {}).get(c, c)),
+            "linestyle": linestyles[i] if i < len(linestyles) else "-",
+            "color": colors[i] if i < len(colors) else None,
+        }
+        if markers is not False:
+            kw["marker"] = (markers[i] if isinstance(markers, list) and i < len(markers) else str(opts.get("marker", "o")))
+            kw["markersize"] = float(opts.get("markersize", 3.5))
+            kw["markeredgewidth"] = float(opts.get("markeredgewidth", 0))
+        ax.plot(x, y, **kw)
+    if opts.get("ymin") is not None or opts.get("ymax") is not None:
+        ax.set_ylim(opts.get("ymin"), opts.get("ymax"))
+    ax.set_xlabel(str(df.columns[0]))
+    ax.set_ylabel(str(df.columns[1]) if len(df.columns) == 2 else "Value")
+    if opts.get("ylabel"):
+        ax.set_ylabel(str(opts["ylabel"]))
+    if opts.get("xlabel"):
+        ax.set_xlabel(str(opts["xlabel"]))
+    ax.set_title(title, fontsize=float(opts.get("title_size", 16)), fontweight="bold")
     ax.grid(axis="y", linestyle=":", alpha=0.35)
     if len(df.columns) > 2:
-        ax.legend(frameon=False)
+        ax.legend(frameon=False, loc=str(opts.get("legend_loc", "best")))
+    if opts.get("end_labels"):
+        x_vals = pd.to_numeric(df.iloc[:, 0], errors="coerce")
+        x_last = x_vals.iloc[-1] if not x_vals.isna().all() else len(x) - 1
+        for i, c in enumerate(series):
+            y = pd.to_numeric(df[c], errors="coerce")
+            y_last = float(y.iloc[-1])
+            label_fmt = str(opts.get("end_label_fmt", "{name} ({change:+.1f}%)"))
+            change = float(y.iloc[-1] - y.iloc[0])
+            txt = label_fmt.format(name=str(opts.get("legend_labels", {}).get(c, c)), change=change, value=y_last)
+            ax.text(x_last + float(opts.get("end_label_dx", 0.10)), y_last + float(opts.get("end_label_dy", 0)), txt, fontsize=float(opts.get("end_label_size", 11)), fontweight="bold", color=(colors[i] if i < len(colors) else "#1f2937"), va="center")
+    if opts.get("annotation"):
+        ann = opts["annotation"]
+        ax.annotate(
+            ann.get("text", ""),
+            xy=(ann.get("x"), ann.get("y")),
+            xytext=(ann.get("text_x"), ann.get("text_y")),
+            textcoords="data",
+            fontsize=float(ann.get("fontsize", 9)),
+            color=str(ann.get("color", "#111827")),
+            arrowprops=dict(arrowstyle="->", lw=0.8, color=str(ann.get("arrow_color", "#111827"))),
+        )
     return save_figure(fig, output)
 
 
@@ -361,19 +459,25 @@ def _render_area(df: pd.DataFrame, title: str, output: str) -> Path:
     fig, ax = plt.subplots(figsize=(10.2, 6.0))
     ax.fill_between(x, y, color="#2e6ea3", alpha=0.55)
     ax.plot(x, y, color="#0b3a63", linewidth=2)
+    ax.set_xlabel(str(df.columns[0]))
+    ax.set_ylabel(str(df.columns[1]))
     ax.set_title(title, fontsize=16, fontweight="bold")
     ax.grid(axis="y", linestyle=":", alpha=0.35)
     return save_figure(fig, output)
 
 
-def _render_stacked_area(df: pd.DataFrame, title: str, output: str) -> Path:
+def _render_stacked_area(df: pd.DataFrame, title: str, output: str, options: Optional[Dict[str, Any]] = None) -> Path:
+    opts = options or {}
     x = pd.to_numeric(df.iloc[:, 0], errors="coerce")
     ys = [pd.to_numeric(df[c], errors="coerce") for c in df.columns[1:]]
-    fig, ax = plt.subplots(figsize=(10.6, 6.0))
-    ax.stackplot(x, ys, labels=df.columns[1:], alpha=0.85)
-    ax.set_title(title, fontsize=16, fontweight="bold")
+    fig, ax = plt.subplots(figsize=tuple(opts.get("figsize", (10.6, 6.0))))
+    colors = opts.get("colors")
+    ax.stackplot(x, ys, labels=df.columns[1:], alpha=float(opts.get("alpha", 0.85)), colors=colors)
+    ax.set_xlabel(str(df.columns[0]))
+    ax.set_ylabel(str(opts.get("ylabel", "Value")))
+    ax.set_title(title, fontsize=float(opts.get("title_size", 16)), fontweight="bold")
     ax.grid(axis="y", linestyle=":", alpha=0.35)
-    ax.legend(loc="upper right", frameon=False, fontsize=8)
+    ax.legend(loc=str(opts.get("legend_loc", "upper right")), frameon=False, fontsize=float(opts.get("legend_size", 8)))
     return save_figure(fig, output)
 
 
@@ -387,25 +491,57 @@ def _render_stacked_column(df: pd.DataFrame, title: str, output: str) -> Path:
         ax.bar(x, vals, bottom=bottom, label=c)
         bottom += np.nan_to_num(vals)
     ax.set_xticks(x, labels=labels)
+    ax.set_xlabel(str(df.columns[0]))
+    ax.set_ylabel("Value")
     ax.set_title(title, fontsize=16, fontweight="bold")
     ax.legend(frameon=False, fontsize=8)
     ax.grid(axis="y", linestyle=":", alpha=0.35)
     return save_figure(fig, output)
 
 
-def _render_donut(df: pd.DataFrame, title: str, output: str) -> Path:
+def _render_donut(df: pd.DataFrame, title: str, output: str, options: Optional[Dict[str, Any]] = None) -> Path:
     vals = pd.to_numeric(df.iloc[:, 1], errors="coerce")
     labels = df.iloc[:, 0].astype(str)
-    fig, ax = plt.subplots(figsize=(8.6, 6.0))
-    wedges, texts, autotexts = ax.pie(vals, labels=labels, autopct="%1.1f%%", pctdistance=0.82, startangle=90, wedgeprops=dict(width=0.42, edgecolor="white"))
+    opts = options or {}
+    fig, ax = plt.subplots(figsize=tuple(opts.get("figsize", (8.6, 6.0))))
+    colors = opts.get("colors")
+    width = float(opts.get("ring_width", 0.42))
+    pctdistance = float(opts.get("pctdistance", 0.82))
+    startangle = float(opts.get("startangle", 90))
+    wedges, texts, autotexts = ax.pie(
+        vals,
+        labels=labels,
+        colors=colors,
+        autopct="%1.1f%%",
+        pctdistance=pctdistance,
+        startangle=startangle,
+        wedgeprops=dict(width=width, edgecolor="white"),
+    )
     for t in autotexts:
-        t.set_fontsize(8)
+        t.set_fontsize(float(opts.get("pct_fontsize", 8)))
         t.set_color("white")
+    for t in texts:
+        t.set_fontsize(float(opts.get("label_fontsize", 9)))
+        t.set_color(str(opts.get("label_color", "#1f2937")))
+    if opts.get("center_total_text"):
+        ax.text(
+            0,
+            0,
+            str(opts["center_total_text"]),
+            ha="center",
+            va="center",
+            fontsize=float(opts.get("center_fontsize", 14)),
+            fontweight="bold",
+            color=str(opts.get("center_color", "#0b3a63")),
+        )
     ax.set_title(title, fontsize=16, fontweight="bold")
+    ax.set_aspect("equal")
+    fig.tight_layout()
     return save_figure(fig, output)
 
 
-def _render_smile_curve(df: pd.DataFrame, title: str, output: str) -> Path:
+def _render_smile_curve(df: pd.DataFrame, title: str, output: str, options: Optional[Dict[str, Any]] = None) -> Path:
+    opts = options or {}
     # Use stage margins; overlay smooth curve and bars.
     x_lbl = df.iloc[:, 0].astype(str).tolist()
     y = pd.to_numeric(df.iloc[:, 1], errors="coerce").astype(float).to_numpy()
@@ -414,42 +550,77 @@ def _render_smile_curve(df: pd.DataFrame, title: str, output: str) -> Path:
     xp = np.linspace(0, len(x_lbl) - 1, 200)
     yp = np.polyval(coeff, xp)
 
-    fig, ax = plt.subplots(figsize=(10.8, 6.0))
-    ax.bar(x_lbl, y, color="#9fb8cc", alpha=0.55, label="Observed")
-    ax.plot(np.interp(xp, x, x), yp, color="#2e6ea3", linewidth=2.5, label="Smile-curve fit")
-    ax.set_title(title, fontsize=16, fontweight="bold")
+    fig, ax = plt.subplots(figsize=tuple(opts.get("figsize", (10.8, 6.0))))
+    if opts.get("show_bars", True):
+        ax.bar(x_lbl, y, color=str(opts.get("bar_color", "#9fb8cc")), alpha=float(opts.get("bar_alpha", 0.55)), label="Observed")
+    ax.plot(np.interp(xp, x, x), yp, color=str(opts.get("curve_color", "#2e6ea3")), linewidth=float(opts.get("curve_width", 2.5)), label="Smile-curve fit")
+    point_color = str(opts.get("point_color", "#1788c3"))
+    ax.scatter(x, y, s=float(opts.get("point_size", 220)), color=point_color, edgecolor="white", linewidth=1.2, zorder=5)
+    if opts.get("point_labels", True):
+        for xi, yi in zip(x, y):
+            ax.text(xi, yi + float(opts.get("point_dy", 1.5)), f"{yi:.0f}%", color=point_color, ha="center", va="bottom", fontsize=float(opts.get("point_label_size", 12)), fontweight="bold")
+    ax.set_xlabel(str(df.columns[0]))
+    ax.set_ylabel(str(df.columns[1]))
+    ax.set_title(title, fontsize=float(opts.get("title_size", 16)), fontweight="bold", loc=str(opts.get("title_loc", "center")))
     ax.grid(axis="y", linestyle=":", alpha=0.35)
-    ax.legend(frameon=False)
+    if opts.get("category_subtitles"):
+        subtitles = opts["category_subtitles"]
+        for i, txt in enumerate(subtitles):
+            ax.text(i, ax.get_ylim()[0] - (ax.get_ylim()[1] - ax.get_ylim()[0]) * 0.05, txt, ha="center", va="top", fontsize=10, color="#6b7280", style="italic")
+    if opts.get("show_guides", True):
+        for xi, yi in zip(x, y):
+            ax.vlines(xi, 0, yi, colors="#7c93ab", linestyles=":", linewidth=1)
+    if opts.get("legend"):
+        ax.legend(frameon=False)
     return save_figure(fig, output)
 
 
 def _render_value_waterfall(df: pd.DataFrame, title: str, output: str) -> Path:
     labels = df.iloc[:, 0].astype(str)
+    # Wrap long category labels to keep x-axis legible in DOCX scaling.
+    labels_wrapped = labels.str.replace("/", "/\n", regex=False).str.replace(" ", "\n", n=1, regex=False)
     a = pd.to_numeric(df.iloc[:, 1], errors="coerce")
     b = pd.to_numeric(df.iloc[:, 2], errors="coerce")
-    x = np.arange(len(labels))
+    x = np.arange(len(labels_wrapped))
 
-    fig, ax = plt.subplots(figsize=(11.0, 6.2))
+    fig, ax = plt.subplots(figsize=(12.2, 6.6))
     ax.bar(x - 0.18, a, width=0.36, label=df.columns[1], color="#0b3a63")
     ax.bar(x + 0.18, b, width=0.36, label=df.columns[2], color="#d04a02")
-    ax.set_xticks(x, labels=labels, rotation=20)
+    ax.set_xticks(x, labels=labels_wrapped, rotation=12)
+    ax.set_xlabel(str(df.columns[0]))
+    ax.set_ylabel("Relative value split (index)")
     ax.set_title(title, fontsize=16, fontweight="bold")
     ax.legend(frameon=False)
     ax.grid(axis="y", linestyle=":", alpha=0.35)
+    fig.tight_layout()
     return save_figure(fig, output)
 
 
-def _render_risk_reward(df: pd.DataFrame, title: str, output: str) -> Path:
+def _render_risk_reward(df: pd.DataFrame, title: str, output: str, options: Optional[Dict[str, Any]] = None) -> Path:
+    opts = options or {}
     labels = df.iloc[:, 0].astype(str)
     x = pd.to_numeric(df.iloc[:, 1], errors="coerce")
     y = pd.to_numeric(df.iloc[:, 2], errors="coerce")
-    fig, ax = plt.subplots(figsize=(10.6, 6.0))
-    ax.scatter(x, y, s=160, color="#2e6ea3", edgecolor="white", linewidth=1)
+    fig, ax = plt.subplots(figsize=tuple(opts.get("figsize", (10.6, 6.0))))
+    ax.scatter(x, y, s=float(opts.get("marker_size", 160)), color=str(opts.get("marker_color", "#2e6ea3")), edgecolor="white", linewidth=1)
     for xi, yi, lbl in zip(x, y, labels):
         ax.annotate(lbl, (xi, yi), textcoords="offset points", xytext=(4, 4), fontsize=8)
     ax.set_xlabel(df.columns[1])
     ax.set_ylabel(df.columns[2])
     ax.set_title(title, fontsize=16, fontweight="bold")
+    if opts.get("quadrants"):
+        qx = float(opts.get("qx", np.nanmean(x)))
+        qy = float(opts.get("qy", np.nanmean(y)))
+        ax.axvline(qx, color="#6b7280", linestyle="--", linewidth=1)
+        ax.axhline(qy, color="#6b7280", linestyle="--", linewidth=1)
+        qlabels = opts.get("quadrant_labels") or {}
+        if qlabels:
+            xmin, xmax = ax.get_xlim()
+            ymin, ymax = ax.get_ylim()
+            ax.text((qx + xmax) / 2, (qy + ymax) / 2, str(qlabels.get("Q1", "")), ha="center", va="center", fontsize=9, color="#334155")
+            ax.text((qx + xmax) / 2, (ymin + qy) / 2, str(qlabels.get("Q2", "")), ha="center", va="center", fontsize=9, color="#334155")
+            ax.text((xmin + qx) / 2, (ymin + qy) / 2, str(qlabels.get("Q3", "")), ha="center", va="center", fontsize=9, color="#334155")
+            ax.text((xmin + qx) / 2, (qy + ymax) / 2, str(qlabels.get("Q4", "")), ha="center", va="center", fontsize=9, color="#334155")
     ax.grid(linestyle=":", alpha=0.35)
     return save_figure(fig, output)
 
@@ -471,39 +642,128 @@ def _render_funnel(df: pd.DataFrame, title: str, output: str) -> Path:
     return save_figure(fig, output)
 
 
-def _render_capability_matrix(df: pd.DataFrame, title: str, output: str) -> Path:
+def _render_capability_matrix(df: pd.DataFrame, title: str, output: str, options: Optional[Dict[str, Any]] = None) -> Path:
+    opts = options or {}
     labels_y = df.iloc[:, 0].astype(str)
     labels_x = df.columns[1:]
-    mat = df.iloc[:, 1:].apply(pd.to_numeric, errors="coerce").fillna(0).to_numpy(dtype=float)
-    fig, ax = plt.subplots(figsize=(9.6, 6.2))
+    numeric_df = df.iloc[:, 1:].apply(pd.to_numeric, errors="coerce")
+    mat = numeric_df.to_numpy(dtype=float)
+    fig_width = max(12.5, 0.60 * len(labels_x))
+    fig, ax = plt.subplots(figsize=tuple(opts.get("figsize", (fig_width, 6.6))))
+
+    core_color = str(opts.get("core_color", "#2f455c"))
+    emerging_color = str(opts.get("emerging_color", "#9aaeb2"))
+    none_color = str(opts.get("none_color", "#edf2f7"))
+    core_threshold = float(opts.get("core_threshold", 0.75))
+    emerging_threshold = float(opts.get("emerging_threshold", 0.25))
+    marker_size = float(opts.get("marker_size", 260))
 
     for i in range(mat.shape[0]):
         for j in range(mat.shape[1]):
             val = mat[i, j]
-            color = "#0b3a63" if val >= 1 else "#cfd8e3"
-            ax.scatter(j, i, s=260, color=color, edgecolor="white", linewidth=0.8)
-            ax.text(j, i, "●" if val >= 1 else "", ha="center", va="center", color="white", fontsize=9)
+            if np.isnan(val):
+                color = none_color
+                marker = ""
+                text_color = "#5f6b7a"
+            elif val >= core_threshold:
+                color = core_color
+                marker = ""
+                text_color = "white"
+            elif val >= emerging_threshold:
+                color = emerging_color
+                marker = ""
+                text_color = "#213547"
+            else:
+                color = none_color
+                marker = ""
+                text_color = "#4c5b70"
+            ax.scatter(j, i, s=marker_size, color=color, edgecolor="#1f2937", linewidth=0.6)
+            if marker:
+                ax.text(j, i, marker, ha="center", va="center", color=text_color, fontsize=8.5, fontweight="bold")
 
-    ax.set_xticks(range(len(labels_x)), labels=labels_x)
+    ax.set_xticks(range(len(labels_x)), labels=labels_x, rotation=float(opts.get("x_rotation", 40)), ha="right")
+    ax.tick_params(axis="x", labelsize=9.5)
     ax.set_yticks(range(len(labels_y)), labels=labels_y)
-    ax.set_title(title, fontsize=16, fontweight="bold")
+    ax.set_xlabel(str(opts.get("xlabel", "Company")))
+    ax.set_ylabel(str(opts.get("ylabel", df.columns[0])))
+    ax.set_title(title, fontsize=float(opts.get("title_size", 16)), fontweight="bold")
     ax.invert_yaxis()
-    ax.grid(False)
+    ax.grid(axis="both", linestyle="-", alpha=0.15)
+    if opts.get("legend", True):
+        from matplotlib.lines import Line2D
+
+        handles = [
+            Line2D([0], [0], marker="o", color="w", markerfacecolor=core_color, markeredgecolor="#1f2937", markersize=9, label="Core Competency"),
+            Line2D([0], [0], marker="o", color="w", markerfacecolor=emerging_color, markeredgecolor="#1f2937", markersize=9, label="Emerging / Niche"),
+        ]
+        ax.legend(handles=handles, title="Status", loc=str(opts.get("legend_loc", "upper left")), bbox_to_anchor=tuple(opts.get("legend_anchor", (1.01, 1.0))), frameon=True)
+    fig.tight_layout()
+    return save_figure(fig, output)
+
+
+def _render_multi_donut(df: pd.DataFrame, title: str, output: str, options: Optional[Dict[str, Any]] = None) -> Path:
+    opts = options or {}
+    # Expected format: first column = category/format, next columns = each species/value set.
+    labels = df.iloc[:, 0].astype(str).tolist()
+    groups = list(df.columns[1:])
+    colors = opts.get("colors") or ["#0b3a63", "#1788c3", "#d04a02"]
+
+    fig, axes = plt.subplots(1, len(groups), figsize=tuple(opts.get("figsize", (12.8, 4.3))))
+    if len(groups) == 1:
+        axes = [axes]
+
+    for i, g in enumerate(groups):
+        ax = axes[i]
+        vals = pd.to_numeric(df[g], errors="coerce").fillna(0)
+        wedges, texts, autotexts = ax.pie(
+            vals,
+            colors=colors[: len(vals)],
+            startangle=140,
+            autopct="%1.0f%%",
+            pctdistance=0.78,
+            wedgeprops=dict(width=0.42, edgecolor="white"),
+            textprops=dict(color="#111827", fontsize=8),
+        )
+        for t in autotexts:
+            t.set_color("white")
+            t.set_fontsize(9)
+            t.set_fontweight("bold")
+        ax.set_title(str(opts.get("group_titles", {}).get(g, g)), fontsize=12, fontweight="bold", pad=8)
+        ax.set_aspect("equal")
+
+    fig.suptitle(title, fontsize=float(opts.get("title_size", 14)), fontweight="bold", y=0.98)
+    fig.legend(labels, loc="lower center", ncol=min(3, len(labels)), frameon=False, bbox_to_anchor=(0.5, -0.02), fontsize=10)
     return save_figure(fig, output)
 
 
 def _render_concentric(df: pd.DataFrame, title: str, output: str) -> Path:
     labels = df.iloc[:, 0].astype(str).tolist()
     vals = pd.to_numeric(df.iloc[:, 1], errors="coerce").tolist()
-    fig, ax = plt.subplots(figsize=(8.0, 6.2))
-    radii = [1.0, 0.55, 0.22]
+    fig, ax = plt.subplots(figsize=(9.8, 6.8))
+    radii = [1.0, 0.6, 0.28]
     colors = ["#0b3a63", "#2e6ea3", "#d04a02"]
+
     for i, r in enumerate(radii[: len(vals)]):
         circle = plt.Circle((0, 0), r, color=colors[i], ec="white", lw=2)
         ax.add_artist(circle)
-        ax.text(0, r * 0.05, f"{labels[i]}\n{vals[i]:.2f}", color="white", ha="center", va="center", fontsize=8, fontweight="bold")
-    ax.set_xlim(-1.15, 1.15)
-    ax.set_ylim(-1.15, 1.15)
+
+    label_x = 1.45
+    for i, r in enumerate(radii[: len(vals)]):
+        y = 0.72 - i * 0.5
+        ax.plot([r * 0.72, label_x - 0.08], [y, y], color=colors[i], lw=1.6)
+        ax.text(
+            label_x,
+            y,
+            f"{labels[i]}: {vals[i]:.2f} bn",
+            color="#1f2937",
+            ha="left",
+            va="center",
+            fontsize=9.5,
+            fontweight="bold",
+        )
+
+    ax.set_xlim(-1.2, 2.25)
+    ax.set_ylim(-1.2, 1.2)
     ax.set_aspect("equal")
     ax.axis("off")
     ax.set_title(title, fontsize=15, fontweight="bold")
@@ -734,29 +994,33 @@ def dispatch_render(ctx: RenderContext, spec: Dict[str, Any]) -> Path:
     if mode == "dual_axis_bar_scatter":
         return _render_dual_axis_bar_scatter(df, title, output, options)
     if mode == "bar_vertical":
-        return _render_simple_bar(df, title, output, horizontal=False)
+        return _render_simple_bar(df, title, output, horizontal=False, options=options)
     if mode == "bar_horizontal":
-        return _render_simple_bar(df, title, output, horizontal=True)
+        return _render_simple_bar(df, title, output, horizontal=True, options=options)
+    if mode == "segmented_barh":
+        return _render_segmented_barh(df, title, output, options)
     if mode == "line":
-        return _render_line(df, title, output)
+        return _render_line(df, title, output, options)
     if mode == "area":
         return _render_area(df, title, output)
     if mode == "stacked_area":
-        return _render_stacked_area(df, title, output)
+        return _render_stacked_area(df, title, output, options)
     if mode == "stacked_column":
         return _render_stacked_column(df, title, output)
     if mode == "donut":
-        return _render_donut(df, title, output)
+        return _render_donut(df, title, output, options)
     if mode == "smile_curve":
-        return _render_smile_curve(df, title, output)
+        return _render_smile_curve(df, title, output, options)
     if mode == "value_waterfall":
         return _render_value_waterfall(df, title, output)
     if mode == "risk_reward":
-        return _render_risk_reward(df, title, output)
+        return _render_risk_reward(df, title, output, options)
     if mode == "funnel":
         return _render_funnel(df, title, output)
     if mode == "capability_matrix":
-        return _render_capability_matrix(df, title, output)
+        return _render_capability_matrix(df, title, output, options)
+    if mode == "multi_donut":
+        return _render_multi_donut(df, title, output, options)
     if mode == "concentric":
         return _render_concentric(df, title, output)
     if mode == "global_landscape":

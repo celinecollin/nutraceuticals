@@ -8,47 +8,51 @@ Part III converts Parts I and II into executable strategy: where value accrues a
 Upstream science, branded formulation control, and specialized manufacturing continue to capture superior economics relative to undifferentiated downstream resale [S089, Tab: Figure 36; S089, Tab: Figure 39]. In operating terms, the middle layer compresses when claims are weakly protected, while integrated science-plus-channel models preserve margin integrity over cycle turns [S089, Tab: Figure 36].
 
 **Channel architecture is now a direct valuation variable, not a distribution afterthought.**
-The downstream split remains decision-relevant: pet-side value is captured through trust, adherence, and omnichannel control, while livestock-side value is captured through measurable biological performance and procurement fit [S089, Tab: Figure 39; S060]. Figure 34 is built from comparative channel-economics data and should be read as a warning against pure-play single-channel exposure: when retail/media costs rise and conversion quality decays, DTC-only models can lose margin faster than integrated channel portfolios [S060; S089, Tab: Figure 37].
+The downstream split remains decision-relevant: pet-side value is captured through trust, adherence, and omnichannel control, while livestock-side value is captured through measurable biological performance and procurement fit [S089, Tab: Figure 39; S060]. Comparative channel-economics data indicate that pure-play single-channel exposure can lose margin faster than integrated portfolios when retail/media costs rise and conversion quality decays (Figure 46) [S060; S089, Tab: Figure 37].
 
 **Portfolio targeting should prioritize defensible SOM pathways with evidence-backed control points.**
 The TAM-to-SAM-to-SOM framing remains the correct decision scaffold for capital deployment [S104; S089, Tab: Figure 4]. The specific legacy SOM point estimate used in prior internal work is retained as an archive benchmark [S128].
 
-Figures 32-38 should be read jointly as a value-capture diagnostics set: waterfall and smile-curve mechanics, channel sensitivity, risk-reward posture, transaction valuation behavior, and executable opportunity funnel.
+Figures 34-40 should be read jointly as a value-capture diagnostics set: waterfall and smile-curve mechanics, channel sensitivity (Figure 36), funnel conversion asymmetry (Figure 37), risk-reward posture, transaction valuation behavior, and executable opportunity funnel.
 
-**Figure 32: Pricing power erodes as products move from IP owners to generic retailers.**
+Pricing power erodes as products move from IP owners to generic retailers (Figure 34).
+**Figure 34: Pricing power erodes as products move from IP owners to generic retailers.**
 ![Pricing power erodes as products move from IP owners to generic retailers.](figures/Figure19_Value_Waterfall.png)
 *Source: [S061; S089, Tab: Figure 36]*
 _Figure takeaway:_ Pricing power decays along the chain unless the company controls an evidence-backed or IP-protected bottleneck.
 _Calculation note:_ Waterfall levels are internal normalized economics designed to compare relative value capture by chain position.
 
-**Figure 33: Margin capture shifts upstream to IP holders and downstream to specialized CDMOs.**
+Margin capture shifts upstream to IP holders and downstream to specialized CDMOs (Figure 35).
+**Figure 35: Margin capture shifts upstream to IP holders and downstream to specialized CDMOs.**
 ![Margin capture shifts upstream to IP holders and downstream to specialized CDMOs.](figures/Figure33_Smile_Curve.png)
 *Source: [S089, Tab: Figure 33]*
 _Figure takeaway:_ Margin concentration is barbelled toward upstream science assets and downstream execution specialists.
 _Calculation note:_ Smile-curve values are directional modeled ranges for comparative strategy screening.
 
-**Figure 34: Channel economics favor omnichannel dominance but penalize pure-play DTC.**
+**Figure 36: Channel economics favor omnichannel dominance but penalize pure-play DTC.**
 ![Channel economics favor omnichannel dominance but penalize pure-play DTC.](figures/Figure18_Channel_Economics.png)
 *Source: [S060; S089, Tab: Figure 37]*
 _Figure takeaway:_ Channel diversification improves resilience when CAC inflation and conversion volatility increase.
 _Calculation note:_ Channel scores combine observed retail/e-commerce economics with internal scenario normalization.
 
-**Figure 35: Incumbents use nutraceuticals as a low-cost acquisition funnel for future banking.**
+**Figure 37: Incumbents use nutraceuticals as a low-cost acquisition funnel for future banking.**
 ![Incumbents use nutraceuticals as a low-cost acquisition funnel for future banking.](figures/Figure21_Pharma_Funnel.png)
 *Source: [S115, S116]*
 _Figure takeaway:_ The funnel illustrates how broad trial volume converts into smaller high-value therapeutic and Rx opportunities.
 
-**Figure 36: Strategic categorization defines the risk-reward profile for market entrants.**
+Strategic categorization defines the risk-reward profile for market entrants (Figure 38).
+**Figure 38: Strategic categorization defines the risk-reward profile for market entrants.**
 ![Strategic categorization defines the risk-reward profile for market entrants.](figures/Figure20_Risk_Reward.png)
 *Source: [S063]*
 _Figure takeaway:_ Segment positioning should be read through a risk-adjusted lens, not just top-line TAM.
 
-**Figure 37: M&A valuation matrix favors de-risked assets over internal R&D development.**
+**Figure 39: M&A valuation matrix favors de-risked assets over internal R&D development.**
 ![M&A valuation matrix favors de-risked assets over internal R&D development.](figures/Figure_MA_Matrix.png)
 *Source: [S118, S115]*
 _Figure takeaway:_ Transaction history supports a premium for derisked assets with proven commercial execution.
 
-**Figure 38: Strategic opportunity funnel from broad TAM to executable SOM.**
+Strategic opportunity funnel from broad TAM to executable SOM (Figure 40).
+**Figure 40: Strategic opportunity funnel from broad TAM to executable SOM.**
 ![Strategic opportunity funnel from broad TAM to executable SOM.](figures/Figure_TAM_SAM_SOM.png)
 *Source: [S089, Tab: Figure 38]*
 _Figure takeaway:_ Opportunity should be underwritten from executable SOM backward, not from headline TAM forward.
@@ -65,28 +69,36 @@ Premium outcomes continue to cluster around assets with brand defensibility, man
 **Sponsor profiling should be treated as a strategic signal layer for future exits and roll-up velocity.**
 Investor participation remains heterogeneous by thesis type: channel-consolidation PE, specialist growth investors, and biosolutions/food-tech funds each cluster around different moat types and time horizons [S116, Tab: Sheet1; S128]. The extended investor table is restored below to recover the missing institutional map from prior versions.
 
-**Figure 39: Revenue architecture across pharma-linked, feed-linked, and consumer-led models.**
+Figures 39-43 are the operating-screen set for this section: the valuation surface under transaction-risk filters (Figure 39), model-level revenue quality, capability continuity across care touchpoints, category-structure concentration, margin architecture by chain position, and risk-adjusted allocation posture.
+
+Revenue architecture across pharma-linked, feed-linked, and consumer-led models (Figure 41).
+**Figure 41: Revenue architecture across pharma-linked, feed-linked, and consumer-led models.**
 ![Revenue architecture across pharma-linked, feed-linked, and consumer-led models.](figures/Figure_IV_5_Revenue_Comparison.png)
 *Source: [S115, S117, S118, S119, S120]*
 _Figure takeaway:_ Revenue durability differs by model architecture, with integrated science and channel assets showing stronger quality.
 
-**Figure 40: Capability matrix across the Continuum of Care.**
+Capability matrix across the Continuum of Care (Figure 42).
+**Figure 42: Capability matrix across the Continuum of Care.**
 ![Capability matrix across the Continuum of Care.](figures/Figure_IV_6_Capability_Matrix.png)
 *Source: [S115, S117, S118, S119, S120]*
 _Figure takeaway:_ Capability gaps identify where inorganic moves are more efficient than internal build-out.
+_Calculation note:_ The matrix expands the Figure 5 company universe and marks capabilities only where auditable data points are available.
 
-**Figure 41: Pet category structure and disruption long-tail dynamics.**
+Pet category structure and disruption long-tail dynamics (Figure 43).
+**Figure 43: Pet category structure and disruption long-tail dynamics.**
 ![Pet category structure and disruption long-tail dynamics.](figures/Figure_IV_3_Pet.png)
 *Source: [S105]*
 _Figure takeaway:_ Category fragmentation creates selective roll-up opportunities but not uniform quality.
 
-**Figure 42: Margin ladder by value-chain position and model quality.**
+Margin ladder by value-chain position and model quality (Figure 44).
+**Figure 44: Margin ladder by value-chain position and model quality.**
 ![Margin ladder by value-chain position and model quality.](figures/Figure_IV_4_Margins.png)
 *Source: [S089, Tab: Figure 44]*
 _Figure takeaway:_ Margin expansion is linked to control-point depth rather than simple downstream scale.
 _Calculation note:_ Margin ladder values are scenario-based estimates for strategic comparison.
 
-**Figure 43: Strategic capital-allocation matrix for risk/reward positioning.**
+Strategic capital-allocation matrix for risk/reward positioning (Figure 45).
+**Figure 45: Strategic capital-allocation matrix for risk/reward positioning.**
 ![Strategic capital-allocation matrix for risk/reward positioning.](figures/Figure_IV_5_Strategic_matrix.png)
 *Source: [S089, Tab: Figure 45]*
 _Figure takeaway:_ Allocation priority should favor assets where evidence depth and scale reinforce each other.
@@ -165,8 +177,19 @@ The APAC AGP-dividend thesis remains a credible scenario lens: tighter antibioti
 | **India** | ~$0.5B | ~$1.5-2.5B | +$1.0-2.0B | Delayed but potentially material second-wave contributor | [S124; S128] |
 | **Combined Asia** | ~$3.0B | ~$7.0-9.0B | +$4.0-6.0B | Core upside scenario for global TAM trajectory | [S124; S128] |
 
-**Figure 44: Opportunity matrix for post-commodity technology bets.**
+**Figure 46: Opportunity matrix for post-commodity technology bets.**
 ![Opportunity matrix for post-commodity technology bets.](figures/Opportunity_Matrix.png)
 *Source: [S128]*
 _Figure takeaway:_ The strongest forward optionality sits in evidence-intensive categories with low direct commodity substitution risk.
 _Calculation note:_ Opportunity quadrants are internal strategic scores intended for comparative prioritization.
+
+## III.4. Report Conclusion: Investment Roadmap to 2030
+
+**The market should be underwritten as two linked but economically distinct systems.**
+Animal nutraceuticals now behave as a bifurcated asset class where companion-animal value pools are driven by evidence-backed premiumization and channel trust, while livestock value pools are driven by measurable efficiency and compliance-linked adoption [S089, Tab: Figure 39; S086]. Treating both systems under one underwriting model systematically misprices risk, durability, and exit probability.
+
+**The highest-quality returns are concentrated at control points that combine evidence, delivery, and distribution leverage.**
+Across the report, the recurring winners are not generic category participants but platforms that integrate validated claims, manufacturing and formulation control, and privileged route-to-market access [S118, Table III.1; S116, Tab: Sheet1]. This logic supports a two-track portfolio approach: therapeutic-adjacent and protocolized pet platforms on one side, and biology-plus-compliance livestock infrastructure on the other [S089, Tab: Figure 18; S117].
+
+**The forward edge of value creation is now governed by proof architecture as much as by innovation architecture.**
+Green-claim substantiation standards, nutrigenomics-enabled precision, and APAC policy pathways are likely to determine the next leg of valuation dispersion [S124; S126; S127]. The practical implication for investors is clear: prioritize platforms that can industrialize biological outcomes into auditable economics.

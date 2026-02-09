@@ -1042,3 +1042,620 @@ All notable changes to this project will be documented in this file.
 
 ### Claims Added/Modified
 - None.
+
+### [2026-02-09] - Figure-Linkage Pass + Figure 38/40 Corrections + Conclusion Relocation
+- **Timestamp:** 2026-02-09 09:10 CET
+- **What:** Executed targeted QA and remediation pass per release comments:
+  - Verified figure indexing coverage in section text and ensured each embedded figure is explicitly introduced/referenced as `Figure X`.
+  - Fixed **Figure 38** readability issue by updating concentric-funnel rendering to avoid text overlap (external labels + leader lines).
+  - Expanded **Figure 40** company universe to align with **Figure 5** coverage where data is available in workbook; preserved blanks where no auditable capability datapoint is present.
+  - Moved **"Report Conclusion: Investment Roadmap to 2030"** into core text (Part III) and made appendices start at **Glossary and Acronyms**.
+
+### Build / QA
+- Regenerated all figure assets from source-of-truth workbook:
+  - `./.venv/bin/python _scripts/build_figures_from_excel.py`
+  - Result: `47/47` renders successful.
+- Regenerated DOCX:
+  - `./.venv/bin/python _scripts/generate_whitepaper_docx.py`
+  - Output: `_output/Nutraceuticals_Whitepaper_20260209-09-03.docx`
+- Figure linkage check across markdown passed (no figure image blocks missing nearby `Figure X` introduction).
+
+### Files Modified
+- `_scripts/fig_renderers/common.py`
+- `_figures/figures_data.xlsx`
+- `sections/04_part_iii_value_chain.md`
+- `sections/05_appendices.md`
+- `_registry/source_registry.xlsx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None.
+
+### Figures Added/Modified
+- `FIG-38` (layout/readability correction)
+- `FIG-40` (expanded company coverage aligned to Figure 5 universe)
+- Registry alignment correction applied post-build:
+  - `FIG-38.excel_tab` -> `Figure 4` (canonical tab for TAM/SAM/SOM funnel render)
+  - `FIG-40.excel_tab` -> `Figure 42` (canonical tab for capability matrix render)
+
+### [2026-02-09] - Figure Numbering and Cross-Reference QA Pass
+- **Timestamp:** 2026-02-09 10:22 CET
+- **What:** Completed a figure-formatting/citation QA pass to enforce numbering and figure-callout integrity.
+
+### Corrections Applied
+- Fixed simplified figure labels and numbering in core text:
+  - `Figure II.1` -> `Figure 6.1`
+  - `Figure II.12` -> `Figure 6.2`
+- Inserted missing `Figure 4` block in Part I so figure order is continuous and strictly ascending through the core narrative.
+- Updated simplified renderer titles to match the new labels (`Figure 6.1`, `Figure 6.2`).
+- Corrected `Figure 6.1` chart axis labels in renderer:
+  - X-axis -> `Functional Theme`
+  - Y-axis -> `Primary Species Group`
+  - Improved x tick readability to reduce merged label artifacts.
+- Converted appendix duplicate display blocks for simplified figures to exhibits (`Exhibit A.1`, `Exhibit A.2`) to prevent numbering resets after Figure 44 while preserving reference visuals.
+
+### Validation
+- Regenerated figures: `./.venv/bin/python _scripts/build_figures_from_excel.py` -> `47/47` success.
+- Regenerated DOCX: `./.venv/bin/python _scripts/generate_whitepaper_docx.py` -> `_output/Nutraceuticals_Whitepaper_20260209-10-18.docx`.
+- Programmatic check confirms core figure captions are in ascending sequence (`ES-1`, `1..44`, with `6.1` and `6.2` between `6` and `7`).
+- Core figures include explicit caption + source + takeaway discussion blocks (no orphan figure blocks).
+
+### Files Modified
+- `_scripts/fig_renderers/common.py`
+- `_scripts/fig_renderers/renderers/functional_needs_simplified_fig_47.py`
+- `_scripts/fig_renderers/renderers/economic_value_simplified_fig_48.py`
+- `sections/02_part_i_structural_bifurcation.md`
+- `sections/05_appendices.md`
+- `_registry/source_registry.xlsx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None.
+
+### Figures Added/Modified
+- `FIG-Figure_TAM_Reconciliation` (now explicitly inserted as Figure 4 in core flow)
+- `FIG-II-1-S` (relabeled to Figure 6.1 and axis-label corrected)
+- `FIG-II-12-S` (relabeled to Figure 6.2)
+
+### [2026-02-09] - Figure Label / Ordering / Citation Enforcement Pass
+- **Timestamp:** 2026-02-09 10:31 CET
+- **What:** Enforced figure numbering and citation integrity across the core report.
+
+### Fixes Applied
+- Corrected simplified figure labeling in both renderer output and section captions:
+  - `Figure II.1` -> `Figure 6.1`
+  - `Figure II.12` -> `Figure 6.2`
+- Added missing core `Figure 4` panel in Part I to eliminate numbering gap.
+- Updated Figure 6.1 chart axis labels and tick readability in renderer.
+- Reworked range-based references into explicit references so each figure has a narrative callout in core text:
+  - Part I: Figure 7-15 explicitly listed
+  - Part II: Figure 16-19, 20-25, 26-31 explicitly listed
+  - Part III: Figure 32-38 and 39-43 explicitly listed
+- Renamed appendix duplicate displays to exhibits (`Exhibit A.1`, `Exhibit A.2`) to avoid re-starting figure numbering after the core flow.
+
+### Validation
+- Core figure caption order is strictly ascending (ES-1, 1..44 with 6.1 and 6.2 in-place).
+- Programmatic orphan check on core sections: `0` orphan figures.
+- Rebuild successful:
+  - `./.venv/bin/python _scripts/build_figures_from_excel.py` (`47/47` OK)
+  - `./.venv/bin/python _scripts/generate_whitepaper_docx.py`
+
+### Files Modified
+- `_scripts/fig_renderers/common.py`
+- `_scripts/fig_renderers/renderers/functional_needs_simplified_fig_47.py`
+- `_scripts/fig_renderers/renderers/economic_value_simplified_fig_48.py`
+- `sections/02_part_i_structural_bifurcation.md`
+- `sections/03_part_ii_strategic_bifurcation.md`
+- `sections/04_part_iii_value_chain.md`
+- `sections/05_appendices.md`
+- `_registry/source_registry.xlsx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None.
+
+### [2026-02-09] - Global Figure Renumbering + Mandatory Text Citation Enforcement
+- **Timestamp:** 2026-02-09 10:52 CET
+- **What:** Applied full figure-ID normalization to a single global integer sequence and enforced explicit in-body references for every figure ID.
+
+### Renumbering Actions
+- Core figure captions now use one uninterrupted global sequence: `Figure 1` through `Figure 47`.
+- Removed chapter/section-style figure labels from the core narrative.
+- Specifically integrated previously non-integer labels into the integer stream:
+  - former `Figure II.1` -> `Figure 8`
+  - former `Figure II.12` -> `Figure 9`
+- Appendix duplicate visual copies are labeled as exhibits (`Exhibit A.1`, `Exhibit A.2`) to avoid resetting or duplicating the figure counter.
+
+### Citation/Cross-Reference Enforcement
+- For each numbered figure in the core report, ensured the exact string `Figure N` appears in paragraph text (not only caption blocks).
+- Replaced ambiguous range references with explicit per-figure callouts where needed.
+
+### Validation
+- Programmatic QA result:
+  - `47` core figures detected
+  - strict ascending sequence check: `PASS`
+  - missing exact `Figure N` paragraph references: `0`
+- Rebuild result:
+  - `./.venv/bin/python _scripts/build_figures_from_excel.py` -> `47/47` successful renders
+  - `./.venv/bin/python _scripts/generate_whitepaper_docx.py` -> `_output/Nutraceuticals_Whitepaper_20260209-10-50.docx`
+
+### Files Modified
+- `sections/01_executive_summary.md`
+- `sections/02_part_i_structural_bifurcation.md`
+- `sections/03_part_ii_strategic_bifurcation.md`
+- `sections/04_part_iii_value_chain.md`
+- `sections/05_appendices.md`
+- `_scripts/fig_renderers/renderers/functional_needs_simplified_fig_47.py`
+- `_scripts/fig_renderers/renderers/economic_value_simplified_fig_48.py`
+- `_registry/source_registry.xlsx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None.
+
+### [2026-02-09] - Figure Sequence, Citation Integrity, and Appendix Label Normalization
+- **Timestamp:** 2026-02-09 11:21 CET
+- **What:** Completed a full pass to enforce global figure numbering/callouts and corrected remaining legacy labels.
+
+### Fixes Applied
+- Removed residual subject-style phrasing and converted figure references to concept-first parenthetical style in core text.
+- Ensured every core figure (`Figure 1` to `Figure 46`) is explicitly cited in main paragraph text.
+- Corrected stale legacy references in Part I text:
+  - `Figure II.1 simplified` -> `Figure 7`
+  - `Figure II.12 simplified` -> `Figure 8`
+- Kept report figure numbering strictly continuous across the full document by relabeling appendix duplicate visuals:
+  - `Figure 7` (appendix duplicate) -> `Figure 47`
+  - `Figure 8` (appendix duplicate) -> `Figure 48`
+- Updated Appendix index table to map legacy II-series matrix IDs to current global numbering.
+- Improved renderer readability for overlap-prone visuals:
+  - `Figure 38` waterfall axis labels wrapped and spacing increased.
+  - Capability matrix label spacing/width improved to reduce crowding in exported output.
+
+### Validation
+- Figure caption sequence across all section files: strictly increasing (`Figure 1` ... `Figure 48`) with no gaps.
+- Core orphan check: every core captioned figure (`1..46`) has at least one explicit `Figure N` body reference.
+- Rebuild successful:
+  - `./.venv/bin/python _scripts/build_figures_from_excel.py`
+  - `./.venv/bin/python _scripts/generate_whitepaper_docx.py`
+  - Output: `_output/Nutraceuticals_Whitepaper_20260209-11-19.docx`
+
+### Files Modified
+- `sections/01_executive_summary.md`
+- `sections/02_part_i_structural_bifurcation.md`
+- `sections/03_part_ii_strategic_bifurcation.md`
+- `sections/04_part_iii_value_chain.md`
+- `sections/05_appendices.md`
+- `_scripts/fig_renderers/common.py`
+- `_registry/source_registry.xlsx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None.
+
+### Flags / Questions
+- `Figure 42` capability coverage still reflects data availability limits from `Figure 42` tab; companies without auditable inputs remain unfilled by design.
+
+### [2026-02-09] - Figure 4 Legacy Visual Lock + Axis Label Compliance + Figure 19 Restyle
+- **Timestamp:** 2026-02-09 12:01 CET
+- **What:** Applied requested figure-format refinements and rebuilt the report.
+
+### Fixes Applied
+- Locked current **Figure 4** visual to the exact legacy design from:
+  - `_output/Nutraceuticals_Whitepaper_20260208-21-01.docx` -> `word/media/rId20.png`
+  - Output now written as `_figures/exports/Figure_I_3_Regulatory_Matrix.png` through renderer pipeline.
+- Restyled **Figure 19** (EU pet population donut) to match provided design direction:
+  - Updated title, color palette, ring profile, label sizing, and center total text (`281M Total`).
+- Enforced axis-label completeness across Cartesian chart renderers in `_scripts/fig_renderers/common.py`:
+  - Added/standardized `x` and `y` labels for grouped bars, dual-axis bars/scatter, vertical/horizontal bars, line, area, stacked area, stacked columns, smile curve, value waterfall, and capability matrix.
+
+### Validation
+- Rebuilt figures successfully:
+  - `./.venv/bin/python _scripts/build_figures_from_excel.py` -> `47/47` OK
+- Verified Figure 4 output binary equals legacy Figure 3 image from target docx (MD5 match).
+- Rebuilt DOCX successfully:
+  - `./.venv/bin/python _scripts/generate_whitepaper_docx.py`
+  - Output: `_output/Nutraceuticals_Whitepaper_20260209-12-00.docx`
+
+### Files Modified
+- `_scripts/fig_renderers/common.py`
+- `_scripts/fig_renderers/renderers/regulatory_pathways_matrix_fig_03.py`
+- `_scripts/fig_renderers/renderers/eu_pet_population_fig_21.py`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None.
+
+### [2026-02-09] - Targeted Figure Redesign Pass (22, 26, 27, 29, 31, 32, 35, 42, 43)
+- **Timestamp:** 2026-02-09 12:21 CET
+- **What:** Restyled requested figures to match attached design references while keeping `/_figures/figures_data.xlsx` as source-of-truth.
+
+### Figure Styling / Data Updates
+- **Figure 22** (`Figure9_Livestock_Trends.png`): Redesigned as multi-series indexed trend line with endpoint labels and reference-style palette/linetypes.
+- **Figure 26** (`Figure8_Cattle_Inventory.png`): Redesigned as western contraction multi-line chart with USA/EU/LATAM/India series and 2024 annotation callout.
+- **Figure 27** (`Figure11_Aquaculture_Production.png`): Converted to species-level horizontal bar chart with value labels.
+- **Figure 29** (`Figure11_Formats.png`): Converted from stacked column to three-donut species panel format.
+- **Figure 31** (`Figure12_Wallet.png`): Donut restyled with center metric (`$1,500 Avg Annual`) and updated palette/label treatment.
+- **Figure 32** (`Figure15_Mobility_Evo.png`): Stacked-area styling adjusted to reference design (palette/legend/axis treatment).
+- **Figure 35** (`Figure33_Smile_Curve.png`): Smile-curve redesigned with three anchor points, percent callouts, and guide lines.
+- **Figure 42** (`Figure_IV_6_Capability_Matrix.png`): Capability bubble matrix redesigned to core vs emerging status styling and legend.
+- **Figure 43** (`Figure_IV_3_Pet.png`): Donut redesigned to match reference style with center message (`Top 2 players control >45%`).
+- Added quadrant support in risk/reward renderer and enabled it for the strategic matrix (`Figure_IV_5_Strategic_matrix.png`) as requested.
+
+### Workbook Source-of-Truth Updates (`_figures/figures_data.xlsx`)
+Updated tabs to ensure the attached-design figures are fully reproducible from Excel data:
+- `Figure 27`, `Figure 28`, `Figure 29`, `Figure 36`, `Figure 42`, `Figure 43`
+- (Formats/wallet/mobility use existing tabs with renderer-mode/style updates.)
+
+### Renderer/Code Changes
+- Extended renderer engine options in `_scripts/fig_renderers/common.py` for:
+  - `line` (styles, endpoint labels, annotations)
+  - `simple_bar` (value labels + optionized axes)
+  - `stacked_area` (style options)
+  - `smile_curve` (point labels, guides, subtitle options)
+  - `capability_matrix` (core/emerging thresholds + legend)
+  - `risk_reward` (optional quadrants)
+  - new `multi_donut` mode
+- Updated per-figure specs in renderer modules:
+  - `livestock_trends_fig_28.py`
+  - `cattle_inventory_fig_27.py`
+  - `aquaculture_production_fig_29.py`
+  - `delivery_formats_fig_30.py`
+  - `preventive_wallet_fig_31.py`
+  - `mobility_evolution_fig_34.py`
+  - `value_chain_smile_curve_fig_36.py`
+  - `capability_matrix_fig_42.py`
+  - `pet_market_structure_fig_43.py`
+  - `strategic_matrix_fig_45b.py`
+
+### Validation
+- Figure rebuild: `./.venv/bin/python _scripts/build_figures_from_excel.py` -> `47/47` successful.
+- DOCX rebuild: `./.venv/bin/python _scripts/generate_whitepaper_docx.py` ->
+  `_output/Nutraceuticals_Whitepaper_20260209-12-20.docx`.
+
+### Claims Added/Modified
+- None.
+
+### [2026-02-09] - DOCX Append Figure + Table Extraction + figures_data Synchronization
+- **Timestamp:** 2026-02-09 12:31 CET
+- **What:** Appended a new figure to the end of the current DOCX and synchronized source data in `figures_data.xlsx` from the document context.
+
+### Actions Completed
+- Appended new end-of-document figure to:
+  - `_output/Nutraceuticals_Whitepaper_20260209-12-20.docx`
+  - Added caption: `Figure 49: Revenue architecture across pharma-linked, feed-linked, and consumer-led models.`
+  - Added source line: `*Source: [S115, S117, S118, S119, S120]*`
+- Extracted all Word tables (post-append) into CSV for traceability:
+  - `_output/qa/doc_tables_from_word/index.csv`
+  - `_output/qa/doc_tables_from_word/table_01.csv` ... `table_12.csv`
+- Synchronized workbook:
+  - Updated `Figure 41` tab in `_figures/figures_data.xlsx` to full revenue comparison set used in the appended visual.
+  - Added `Figure 49` tab in `_figures/figures_data.xlsx` with matching data.
+  - Added `DOCX_TABLE_SYNC` tab in `_figures/figures_data.xlsx` to register extracted table inventory.
+- Updated figure registry:
+  - Added `FIG-49` row in `_registry/source_registry.xlsx` linked to `Figure 49` tab.
+
+### Files Modified
+- `_output/Nutraceuticals_Whitepaper_20260209-12-20.docx`
+- `_output/qa/doc_tables_from_word/index.csv`
+- `_output/qa/doc_tables_from_word/table_01.csv` ... `_output/qa/doc_tables_from_word/table_12.csv`
+- `_figures/figures_data.xlsx`
+- `_registry/source_registry.xlsx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None.
+
+### Flags
+- Constraint respected: no existing Word content was edited/deleted; only new end-of-document figure block was appended.
+
+### [2026-02-09] - figures_data.xlsx Harmonization Assurance (DOCX-Safe Pass)
+- **Timestamp:** 2026-02-09 13:31 CET
+- **What:** Completed a non-destructive harmonization pass to align `figures_data.xlsx` with the current DOCX figure inventory **without modifying the DOCX**.
+
+### Actions Completed
+- Validated renderer pipeline integrity after synchronization work:
+  - `./.venv/bin/python _scripts/build_figures_from_excel.py` -> `47/47` successful renders.
+- Added explicit harmonization audit sheet in workbook:
+  - `DOCX_FIGURE_HARMONIZATION` (49 rows, one per figure including appended Figure 49)
+  - Tracks: `figure_no`, caption title, image file, renderer source tab, harmonized tab, status, section, renderer module.
+- Preserved intentionally updated figure-design tabs (recent design pass) and `Figure 49` data.
+- Ensured appended figure data remains represented in workbook (`Figure 49` tab) and registry (`FIG-49`).
+
+### Files Modified
+- `_figures/figures_data.xlsx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None.
+
+### Constraint Check
+- DOCX content was **not touched** in this pass.
+
+### [2026-02-09] - Appended New Figure to DOCX + Added Figure 50 Workbook Tab
+- **Timestamp:** 2026-02-09 13:40 CET
+- **What:** Appended one new figure to the end of the current DOCX and synchronized workbook numbering.
+
+### Actions Completed
+- Appended end-of-document figure in:
+  - `_output/Nutraceuticals_Whitepaper_20260209-12-20.docx`
+- Figure numbering adjusted sequentially:
+  - New figure inserted as `Figure 50` (following existing `Figure 49`).
+- Added workbook sheet:
+  - `_figures/figures_data.xlsx` -> `Figure 50`
+  - Contains company, estimated 2024 revenue (USD bn), and segment data matching the inserted chart.
+- Updated figure registry:
+  - Added `FIG-50` in `_registry/source_registry.xlsx` mapped to `Figure 50`.
+
+### Files Modified
+- `_output/Nutraceuticals_Whitepaper_20260209-12-20.docx`
+- `_figures/figures_data.xlsx`
+- `_registry/source_registry.xlsx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None.
+
+### Constraint Check
+- No existing DOCX content was edited/deleted; only a new end-of-document figure block was appended.
+
+### [2026-02-09] - Figure 41 Replacement (DOCX) + Figure 41 Sheet Sync (Excel)
+- **Timestamp:** 2026-02-09 13:55 CET
+- **What:** Replaced the embedded `Figure 41` visual in the current DOCX with the provided chart design and synchronized `Figure 41` data in `figures_data.xlsx`.
+
+### Actions Completed
+- Updated DOCX in-place:
+  - `_output/Nutraceuticals_Whitepaper_20260209-12-20.docx`
+  - Replaced only `word/media/image41.png` (the image object used by Figure 41).
+- Updated Excel source tab:
+  - `_figures/figures_data.xlsx` -> `Figure 41`
+  - Set title to `2024 Competitive Landscape: Revenue Scale Comparison`
+  - Updated headers and data rows to match chart values/order.
+
+### Validation
+- Binary check passed: embedded `word/media/image41.png` MD5 matches replacement figure PNG.
+- No other DOCX objects/content were changed in this operation.
+
+### Files Modified
+- `_output/Nutraceuticals_Whitepaper_20260209-12-20.docx`
+- `_figures/figures_data.xlsx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None.
+
+### [2026-02-09] - Figure 41 Re-generated from Full Figure 41 Dataset
+- **Timestamp:** 2026-02-09 14:06 CET
+- **What:** Switched Figure 41 renderer to a dataset-driven segmented horizontal bar chart and regenerated assets from the full `Figure 41` sheet.
+
+### Actions Completed
+- Updated renderer mode and options:
+  - `_scripts/fig_renderers/renderers/revenue_comparison_fig_41.py`
+  - from `bar_vertical` -> `segmented_barh`
+- Added new render mode in engine:
+  - `_scripts/fig_renderers/common.py` -> `_render_segmented_barh`
+  - Uses all rows in `Figure 41` tab, colors by segment, includes legend and value labels.
+- Rebuilt figure assets successfully:
+  - `./.venv/bin/python _scripts/build_figures_from_excel.py` (`47/47` OK)
+- Updated current DOCX Figure 41 image in-place to regenerated output:
+  - `_output/Nutraceuticals_Whitepaper_20260209-12-20.docx` (`word/media/image41.png` replaced)
+
+### Files Modified
+- `_scripts/fig_renderers/common.py`
+- `_scripts/fig_renderers/renderers/revenue_comparison_fig_41.py`
+- `_figures/exports/Figure_IV_5_Revenue_Comparison.png`
+- `_output/Nutraceuticals_Whitepaper_20260209-12-20.docx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None.
+
+### [2026-02-09] - Full Figure Citation Integration Pass + DOCX Regeneration
+- **Timestamp:** 2026-02-09 14:39 CET
+- **What:** Enforced figure cross-referencing coverage by ensuring each figure ID (`Figure 1` to `Figure 48`) appears in narrative text, then regenerated the investor DOCX.
+
+### Actions Completed
+- Added/normalized explicit narrative call-outs for previously uncited figure IDs:
+  - `Figure 4` in Part I regulatory-transition paragraph.
+  - `Figure 18` in Part II demographic base-layer paragraph.
+  - `Figure 36`, `Figure 37`, and `Figure 39` in Part III diagnostics/operating-screen framing paragraphs.
+  - `Figure 47` and `Figure 48` in appendix figure cross-reference lines.
+- Corrected stale demographic bundle reference from `Figures 16-19` to `Figures 18-21`.
+- Regenerated full DOCX with active pipeline:
+  - `./.venv/bin/python _scripts/generate_whitepaper_docx.py`
+  - Output: `_output/Nutraceuticals_Whitepaper_20260209-14-38.docx`
+
+### Validation
+- Automated pass confirms:
+  - No missing exact figure-string references (`Figure N`) across all captioned figures.
+  - No missing parenthetical references (`(Figure N)`) across all captioned figures.
+
+### Files Modified
+- `sections/02_part_i_structural_bifurcation.md`
+- `sections/03_part_ii_strategic_bifurcation.md`
+- `sections/04_part_iii_value_chain.md`
+- `sections/05_appendices.md`
+- `_output/Nutraceuticals_Whitepaper_20260209-14-38.docx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- None (cross-reference and flow updates only).
+
+### Flags
+- None.
+
+### [2026-02-09] - In-Place Body Paragraph Expansion Pass (Subparts I-III + Executive)
+- **Timestamp:** 2026-02-09 15:02 CET
+- **What:** Expanded core body paragraphs in-place to improve scientific depth, integrate nearby figure interpretation, and add sourced quantitative context without changing heading hierarchy or image assets.
+
+### Actions Completed
+- Expanded body narrative across:
+  - `sections/01_executive_summary.md`
+  - `sections/02_part_i_structural_bifurcation.md`
+  - `sections/03_part_ii_strategic_bifurcation.md`
+  - `sections/04_part_iii_value_chain.md`
+- Kept structure invariant:
+  - No headings/subheadings renamed, added, or removed.
+  - No figure files modified.
+  - No paragraph blocks split into new paragraph blocks.
+- Added figure-linked quantitative detail directly in existing paragraphs (examples: developed-market ownership rates, EU species split, category value stacks, TAM/SAM/SOM interpretation, transaction and capability-screen context).
+- Rebuilt DOCX with active pipeline:
+  - `./.venv/bin/python _scripts/generate_whitepaper_docx.py`
+  - Output: `_output/Nutraceuticals_Whitepaper_20260209-15-01.docx`
+
+### Files Modified
+- `sections/01_executive_summary.md`
+- `sections/02_part_i_structural_bifurcation.md`
+- `sections/03_part_ii_strategic_bifurcation.md`
+- `sections/04_part_iii_value_chain.md`
+- `_output/Nutraceuticals_Whitepaper_20260209-15-01.docx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- Existing sourced claims expanded and contextualized; no new unresolved tags introduced.
+
+### Flags
+- None.
+
+### [2026-02-09] - In-Place DOCX Text-Layer Expansion (No Image Binary Changes)
+- **Timestamp:** 2026-02-09 16:13 CET
+- **What:** Expanded document body text directly in the existing DOCX by editing only `word/document.xml` paragraph strings; no figure/media objects were regenerated, replaced, or reinserted.
+
+### Actions Completed
+- Target file edited in place:
+  - `_output/Nutraceuticals_Whitepaper_20260209-15-01.docx`
+- Edit method:
+  - Extracted `word/document.xml`
+  - Rewrote only paragraph text content (`w:p` / `w:t`) with longer scientific narrative clauses and quantitative interpretation markers.
+  - Updated only `word/document.xml` back into the same DOCX container.
+- Text expansion scope:
+  - 49 body paragraphs expanded.
+
+### Binary Preservation Verification (CRITICAL)
+- Pre/post SHA-256 checks on all `word/media/*` parts:
+  - Media objects before: 46
+  - Media objects after: 46
+  - Changed binaries: 0
+  - Added/removed binaries: 0
+- Result: figure/image binaries are bit-identical before vs after.
+
+### Files Modified
+- `_output/Nutraceuticals_Whitepaper_20260209-15-01.docx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- Text-layer elaboration only; no new registry claim IDs added in this pass.
+
+### Flags
+- None.
+
+### [2026-02-09] - Scoped Regulatory/CAGR/Text-Figure Integration + Figure Asset Remediation
+- **Timestamp:** 2026-02-09 17:12 CET
+- **What:** Applied the requested scoped updates: expanded Regulatory Paths with explicit GRAS workflow, enriched figure-result integration in body text, added CAGR where start/end values were available, repaired corrupted figure assets (22/32), and converted figures 35/38/39/45 from images to descriptive text blocks.
+
+### Actions Completed
+- **Part A (Content & Logic)**
+  - Expanded `I.1 Regulatory Fragmentation Creates Defensible Moats` with a sourced GRAS definition and procedural workflow (intended use, safety dossier, expert recognition, claims-boundary alignment).
+  - Added sourced CAGR calculations where source series endpoints were available:
+    - Figure 22 series (2018-2023 species index trajectories).
+    - Figure 32 share evolution (2015-2030 mobility premiumization stack).
+  - Strengthened text-to-figure integration in relevant body paragraphs by explicitly stating key quantitative outcomes.
+
+- **Part B (Asset Management)**
+  - Repaired figure assets by correcting source-of-truth workbook tabs and re-rendering:
+    - Figure 22 display path (`Figure9_Livestock_Trends.png`) remediated from corrected `Figure 28` tab data.
+    - Figure 32 display path (`Figure15_Mobility_Evo.png`) remediated from corrected `Figure 34` tab data.
+  - Converted the following figure blocks to descriptive text (image placeholders removed):
+    - Figure 35
+    - Figure 38
+    - Figure 39
+    - Figure 45
+
+- **Registry/Tracking Updates**
+  - Added Claims rows:
+    - `C096` (GRAS workflow expansion)
+    - `C097` (Figure 22 CAGR series interpretation)
+    - `C098` (Figure 32 share-CAGR interpretation)
+  - Updated Figures tracker notes/status for repaired mapped assets:
+    - `FIG-09` (report Figure 22 placement)
+    - `FIG-15` (report Figure 32 placement)
+
+- **Build**
+  - Rebuilt figures and DOCX with active pipeline.
+  - Final DOCX: `_output/Nutraceuticals_Whitepaper_20260209-17-12.docx`
+
+### Files Modified
+- `sections/02_part_i_structural_bifurcation.md`
+- `sections/03_part_ii_strategic_bifurcation.md`
+- `sections/04_part_iii_value_chain.md`
+- `_figures/figures_data.xlsx`
+- `_figures/exports/Figure9_Livestock_Trends.png`
+- `_figures/exports/Figure15_Mobility_Evo.png`
+- `_registry/source_registry.xlsx`
+- `_output/Nutraceuticals_Whitepaper_20260209-17-12.docx`
+- `CHANGELOG.md`
+
+### Claims Added/Modified
+- Added: `C096`, `C097`, `C098`
+
+### Flags
+- Figure renderer naming remains legacy-mapped (output filenames do not always numerically match report figure numbering), but source data for the two reported corrupted displays was corrected and regenerated successfully.
+
+### [2026-02-09] - Protocol Run on Target File `Nutraceuticals_Whitepaper_20260208-21-01`
+- **Timestamp:** 2026-02-09 17:35 CET
+- **What:** Executed scoped protocol on requested base artifact: figure repair (22/32), figure-to-text conversion (35/38/39/45), regulatory-path GRAS elaboration, CAGR insertion from cited start/end series, and figure-result text alignment; then synced output back onto the target filename.
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/02_part_i_structural_bifurcation.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/03_part_ii_strategic_bifurcation.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/04_part_iii_value_chain.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_figures/figures_data.xlsx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_registry/source_registry.xlsx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-17-12.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260208-21-01.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+
+### Claims Added/Modified
+- Added: `C096`, `C097`, `C098`.
+
+### [2026-02-09] - DOCX In-Place Modules on `Nutraceuticals_Whitepaper_20260208-21-01`
+- **Timestamp:** 2026-02-09 17:57:59 CET
+- **What:** Applied direct in-place DOCX updates per requested modules without rebuilding structure.
+  - Expanded Executive Summary definition of nutraceuticals to include strict scientific framing and broader market/commercial framing.
+  - Expanded Regulatory Paths logic and GRAS procedural workflow details.
+  - Added explicit CAGR definition and usage rationale in Methodology.
+  - Replaced image objects for Figure 33, Figure 34, Figure 36, and Figure 37 with detailed text-only analytical summaries in the same paragraph blocks.
+  - Performed in-place enrichment of core body paragraphs (no heading/TOC/hierarchy changes) with additional analytical context.
+  - Validated figure-reference coverage after edits (`Figure 1` to `Figure 48` all present in text at least once).
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260208-21-01.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+
+### Claims Added/Modified
+- Modified narrative language only inside existing documented sections of the target DOCX; no new claim IDs registered in this pass.
+
+### Flags
+- Safety backup created before in-place write:
+  - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260208-21-01.docx.bak_before_module_update`
+
+### [2026-02-09] - Non-Destructive DOCX Expansion (GRAS/Regional/CAGR/20% Body Growth)
+- **Timestamp:** 2026-02-09 18:12:51 CET
+- **What:** Applied text-only in-place expansion on `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260208-21-01.docx` under structure-lock constraints.
+  - Expanded Regulatory section with explicit region-by-region pathway distinctions (US vs EU vs Asia/China) and requirements.
+  - Expanded GRAS definition and added significance to commercialization speed, risk, and economics.
+  - Added sourced CAGR range to the core market baseline trajectory where start/end values are present.
+  - Added CAGR method context in Methodology section.
+  - Performed broad in-place body-paragraph expansion (~20% target) by appending analytical context sentences without deleting existing text.
+- **Integrity checks:**
+  - Figure/table assets untouched (drawing objects unchanged: `40 -> 40`).
+  - TOC and heading hierarchy left unchanged.
+- **Backup created:**
+  - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260208-21-01.docx.bak_before_20pct_expansion`
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260208-21-01.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+
+### Claims Added/Modified
+- Added derived growth metric statement in core text from existing sourced bounds:
+  - Implied 10-year CAGR range for `$13B -> $18B/$24B` scenario (`~3.3%` to `~6.3%`) with `[CALCULATION]` + existing source tags.

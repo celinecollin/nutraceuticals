@@ -7,7 +7,22 @@ SPEC = {
     "tab": "Figure 42",
     "mode": "capability_matrix",
     "output_file": "Figure_IV_6_Capability_Matrix.png",
-    "title": "Capability Matrix: Continuum of Care Coverage"
+    "title": "Strategic Portfolio Capabilities: The \"Continuum of Care\"",
+    "options": {
+        "figsize": [12.2, 6.9],
+        "core_color": "#2f455c",
+        "emerging_color": "#9aaeb2",
+        "none_color": "#ffffff",
+        "core_threshold": 0.75,
+        "emerging_threshold": 0.25,
+        "marker_size": 260,
+        "x_rotation": 40,
+        "xlabel": "",
+        "ylabel": "",
+        "legend": True,
+        "legend_loc": "upper left",
+        "legend_anchor": [1.01, 1.0]
+    }
 }
 
 

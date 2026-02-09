@@ -1,17 +1,6 @@
 # Appendices
 
-## A. Report Conclusion: Investment Roadmap to 2030
-
-**The market should be underwritten as two linked but economically distinct systems.**
-Animal nutraceuticals now behave as a bifurcated asset class where companion-animal value pools are driven by evidence-backed premiumization and channel trust, while livestock value pools are driven by measurable efficiency and compliance-linked adoption [S089, Tab: Figure 39; S086]. Treating both systems under one underwriting model systematically misprices risk, durability, and exit probability.
-
-**The highest-quality returns are concentrated at control points that combine evidence, delivery, and distribution leverage.**
-Across the report, the recurring winners are not generic category participants but platforms that integrate validated claims, manufacturing and formulation control, and privileged route-to-market access [S118, Table III.1; S116, Tab: Sheet1]. This logic supports a two-track portfolio approach: therapeutic-adjacent and protocolized pet platforms on one side, and biology-plus-compliance livestock infrastructure on the other [S089, Tab: Figure 18; S117].
-
-**The forward edge of value creation is now governed by proof architecture as much as by innovation architecture.**
-Green-claim substantiation standards, nutrigenomics-enabled precision, and APAC policy pathways are likely to determine the next leg of valuation dispersion [S124; S126; S127]. The practical implication for investors is clear: prioritize platforms that can industrialize biological outcomes into auditable economics.
-
-## B. Glossary and Acronyms
+## A. Glossary and Acronyms
 
 | Acronym / Term | Meaning |
 |:---|:---|
@@ -38,9 +27,9 @@ Green-claim substantiation standards, nutrigenomics-enabled precision, and APAC 
 | **TAM** | Total Addressable Market |
 | **VMP** | Veterinary Medicinal Product |
 
-## C. Key Market Players (Expanded Strategic Coverage)
+## B. Key Market Players (Expanded Strategic Coverage)
 
-### Table C.1: Priority Platform Coverage
+### Table B.1: Priority Platform Coverage
 
 | Company | Country | Category | Key Product/Focus | Target Species | Strategic Summary | Source |
 |:---|:---|:---|:---|:---|:---|:---|
@@ -75,9 +64,9 @@ Green-claim substantiation standards, nutrigenomics-enabled precision, and APAC 
 | **Vetoquinol** | France | Pharma | Flexadin | Pet | Joint-health therapeutic-adjacent exposure in vet-trusted chronic-care categories. | [S116; S128] |
 | **YuMOVE** | UK | Consumer/Pet Nutra | Mobility formulations | Pet | Mobility leader with strong adherence profile and platform-combination relevance. | [S116, Tab: Sheet2] |
 
-## D. Extended Legacy Player Universe (Archive-Ported)
+## C. Extended Legacy Player Universe (Archive-Ported)
 
-### Table D.1: Additional Companies Reinstated from Legacy Coverage
+### Table C.1: Additional Companies Reinstated from Legacy Coverage
 
 | Company | Category | Key Product/Focus | Target Species | Strategic Summary | Source |
 |:---|:---|:---|:---|:---|:---|
@@ -114,9 +103,9 @@ Green-claim substantiation standards, nutrigenomics-enabled precision, and APAC 
 
 *Source for reinstated archive coverage: [S128, Appendix B / Part IV-V excerpts].*
 
-## E. Part II Index Pack (Tables and Figures)
+## D. Part II Index Pack (Tables and Figures)
 
-### Table E.1: Index of Tables II.1 to II.11
+### Table D.1: Index of Tables II.1 to II.11
 
 | Table ID | Focus | Current Placement | Primary Source |
 |:---|:---|:---|:---|
@@ -132,34 +121,36 @@ Green-claim substantiation standards, nutrigenomics-enabled precision, and APAC 
 | **Table II.10** | Advanced Delivery Systems | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S128] |
 | **Table II.11** | Sustainability and Green Claim Targets | Part I (I.3 matrix coverage) | [S089, Tab: Figure 18; S126; S128] |
 
-### Table E.2: Index of Figures II.1 to II.12
+### Table D.2: Index of Legacy Matrix Figures Mapped to Current Numbering
 
 | Figure ID | Focus | Current Placement | Primary Source |
 |:---|:---|:---|:---|
-| **Figure II.1** | Functional needs across companion and production species | Part I (I.3 extended) | [S089, Tab: Figure 18; S116, Tab: Sheet1] |
-| **Figure II.2** | Gut Health positioning | Part I Figure 10 | [S089, Tab: Figure 18] |
-| **Figure II.3** | Immunity positioning | Part I Figure 11 | [S089, Tab: Figure 18] |
-| **Figure II.4** | Cognitive positioning | Part I Figure 8 | [S089, Tab: Figure 18] |
-| **Figure II.5** | Behavioral positioning | Part I Figure 9 | [S089, Tab: Figure 18] |
-| **Figure II.6** | Performance/FCR positioning | Part I Figure 12 | [S089, Tab: Figure 18] |
-| **Figure II.7** | Special niches positioning | Part I matrix pack | [S089, Tab: Figure 18] |
-| **Figure II.8** | Ectoparasite positioning | Part I matrix pack | [S089, Tab: Figure 18] |
-| **Figure II.9** | Nutrigenomics positioning | Part I Figure 13 | [S089, Tab: Figure 18] |
-| **Figure II.10** | Delivery systems positioning | Part I Figure 14 | [S089, Tab: Figure 18] |
-| **Figure II.11** | Sustainability positioning | Part I Figure 15 | [S089, Tab: Figure 18] |
-| **Figure II.12** | Comparative economic value by segment and primary sector | Part I (I.3 extended) | [S089, Tab: Figure 18; S089, Tab: Figure 39] |
+| **Figure 7** | Functional needs across companion and production species | Part I (I.3 extended) | [S089, Tab: Figure 18; S116, Tab: Sheet1] |
+| **Figure 12** | Gut Health positioning | Part I Figure 12 | [S089, Tab: Figure 18] |
+| **Figure 13** | Immunity positioning | Part I Figure 13 | [S089, Tab: Figure 18] |
+| **Figure 10** | Cognitive positioning | Part I Figure 10 | [S089, Tab: Figure 18] |
+| **Figure 11** | Behavioral positioning | Part I Figure 11 | [S089, Tab: Figure 18] |
+| **Figure 14** | Performance/FCR positioning | Part I Figure 14 | [S089, Tab: Figure 18] |
+| **Matrix pack only** | Special niches positioning | Part I matrix pack | [S089, Tab: Figure 18] |
+| **Matrix pack only** | Ectoparasite positioning | Part I matrix pack | [S089, Tab: Figure 18] |
+| **Figure 15** | Nutrigenomics positioning | Part I Figure 15 | [S089, Tab: Figure 18] |
+| **Figure 16** | Delivery systems positioning | Part I Figure 16 | [S089, Tab: Figure 18] |
+| **Figure 17** | Sustainability positioning | Part I Figure 17 | [S089, Tab: Figure 18] |
+| **Figure 8** | Comparative economic value by segment and primary sector | Part I (I.3 extended) | [S089, Tab: Figure 18; S089, Tab: Figure 39] |
 
-**Figure II.1 (Simplified): Functional needs across companion and production species.**
+**Figure 47: Functional needs across companion and production species.**
 ![Functional needs across companion and production species (simplified).](figures/Figure_II_1_Simplified.png)
 *Source: [S089, Tab: Figure 18; S116, Tab: Sheet1]*
 _Figure takeaway:_ Companion and production species share biological needs but differ in value-capture logic, which changes product and channel strategy.
+_Appendix cross-reference:_ This matrix is kept as a visual annex to the core segmentation discussion (Figure 47).
 
-**Figure II.12 (Simplified): Comparative economic value by functional segment and primary sector.**
+**Figure 48: Comparative economic value by functional segment and primary sector.**
 ![Comparative economic value by functional segment and primary sector (simplified).](figures/Figure_II_12_Simplified.png)
 *Source: [S089, Tab: Figure 18; S089, Tab: Figure 39]*
 _Figure takeaway:_ Segment economics are uneven, so allocation should prioritize clusters with both scale and defensibility.
+_Appendix cross-reference:_ This economic split view is retained to support quick comparison with the Part I extended synthesis (Figure 48).
 
-### Table E.3: Major Transactions >$100M (Legacy Cross-Check)
+### Table D.3: Major Transactions >$100M (Legacy Cross-Check)
 
 | Year | Target | Acquirer | Deal Value | Category | Source |
 |:---|:---|:---|:---|:---|:---|
@@ -172,7 +163,7 @@ _Figure takeaway:_ Segment economics are uneven, so allocation should prioritize
 | **2024** | Aker BioMarine Feed Ingredients | AIP | $590M EV | Upstream Ingredients | [S125; S128] |
 | **2024** | Zoetis MFA | Phibro | $350M | Medicated Feed Additives | [S115; S125] |
 
-### Table E.4: Extended Investor Coverage (Legacy Cross-Check)
+### Table D.4: Extended Investor Coverage (Legacy Cross-Check)
 
 | Investor | Representative Assets | Strategic Focus | Source |
 |:---|:---|:---|:---|
@@ -187,21 +178,21 @@ _Figure takeaway:_ Segment economics are uneven, so allocation should prioritize
 | **S2G Investments** | Enthos, Pasture Bio | Sustainable food-system transition | [S128] |
 | **Seventure Partners** | ViroVet, Proteon | Microbiome and biotech pathways | [S128] |
 
-## F. Methodology & Data Sources
+## E. Methodology & Data Sources
 
 This report triangulates regulatory filings, corporate disclosures, curated datasets, and internal strategic mapping. Scope controls exclude generic commodities and non-adjacent prescription revenues to preserve comparability in value-pool and transaction analysis [S089, Tab: Figure 4]. Archive-derived content is explicitly labeled and linked to internal reference material for audit traceability [S128].
 
-## G. Regulatory Reference
+## F. Regulatory Reference
 
 - **United States:** FDA guidance and feed/supplement pathway conventions [S085]
 - **European Union:** Reg (EC) 1831/2003 framework and associated claim controls [S015]
 - **China:** MARA licensing and post-AGP policy implementation context [S124]
 
-## H. Disclaimer
+## G. Disclaimer
 
 *This document is a strategic whitepaper simulating an equity-research initiation framework. It is provided for informational and analytical purposes and does not constitute investment advice.*
 
-## I. Comprehensive References & Market Data
+## H. Comprehensive References & Market Data
 
 ### Market Intelligence Sources
 

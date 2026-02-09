@@ -13,19 +13,21 @@ The AGP ban sequence (EU 2006, US 2017, China 2020) and the EU zinc-oxide restri
 **Scope discipline is required to avoid blending investable biology with low-signal commodity exposure.**
 For screening and valuation consistency, the report perimeter includes functional bioactives and validated delivery systems, and excludes generic commodity streams and prescription VMP revenues unless nutraceutical adjacency is explicitly demonstrated [S089, Tab: Figure 4]. This scope discipline preserves comparability across regions and keeps the serviceable baseline anchored to auditable value pools [S089, Tab: Figure 4; S089, Tab: Figure 39].
 
-The next three visuals are the regulatory operating toolkit: Figure 1 compares jurisdiction mechanics across the US, EU, UK, and China, Figure 2 sequences the policy shocks that reset adoption behavior, and Figure 3 links pathway design to unit-economics consequences.
+The regulatory operating toolkit covers cross-jurisdiction mechanics, policy-shock sequencing, and pathway-to-economics effects (Figures 2-4).
 
-**Figure 1: Regulatory divergence creates structural barriers to entry for non-compliant actors.**
+Regulatory divergence creates structural barriers to entry for non-compliant actors (Figure 2).
+**Figure 2: Regulatory divergence creates structural barriers to entry for non-compliant actors.**
 ![Regulatory divergence creates structural barriers to entry for non-compliant actors.](figures/Table_US_vs_EU.png)
 *Source: [S085, S015, S124]*
 _Figure takeaway:_ Regulatory architecture is not harmonized; market-entry friction differs materially across the four key jurisdictions and should be underwritten explicitly.
 
-**Figure 2: Regulatory timeline of post-antibiotic and compliance-driven substitution.**
+Regulatory timeline of post-antibiotic and compliance-driven substitution (Figure 3), with the claims-versus-cost pathway trade-off formalized in the jurisdiction matrix (Figure 4).
+**Figure 3: Regulatory timeline of post-antibiotic and compliance-driven substitution.**
 ![Regulatory timeline of post-antibiotic and compliance-driven substitution.](figures/Regulatory_Timeline_RightArrow.png)
 *Source: [S086]*
 _Figure takeaway:_ Policy sequencing created a staggered but durable demand floor for antibiotic-replacement additive categories.
 
-**Figure 3: Regulatory pathways dictate unit economics and allowable claims.**
+**Figure 4: Regulatory pathways dictate unit economics and allowable claims.**
 ![Regulatory pathways dictate unit economics and allowable claims.](figures/Figure_I_3_Regulatory_Matrix.png)
 *Source: [S089, Tab: Figure 3]*
 _Figure takeaway:_ Claim perimeter and approval burden shape both gross-margin potential and speed-to-revenue.
@@ -53,7 +55,7 @@ Cross-sectional benchmarking indicates that high R&D intensity and >20% EBITDA c
 **Clinical credibility compounds across the full customer journey, not just at shelf-level pricing.**
 Stronger evidence profiles can influence route-to-market access, protocol adherence, and retention durability, which makes the value of evidence cumulative across acquisition, conversion, and lifetime value [S089, Tab: Figure 5]. Representative category examples include differentiated mobility/oral-health platforms across Nutramax, Vetoquinol, Virbac, and Swedencare [S116, Tab: Sheet1; S118; S120].
 
-Figure 5 should be read as the economic translation layer from evidence intensity to margin profile, while Figure 6 frames the strategic split between the emotional/preventive pet logic and the throughput/ROI livestock logic.
+The economic translation from evidence intensity to margin profile is shown in a comparable cross-company framework (Figure 5), while the strategic split between emotional/preventive pet logic and throughput/ROI livestock logic is shown in the bifurcation panel (Figure 6).
 
 **Figure 5: R&D intensity correlates directly with EBITDA margin expansion/premium.**
 ![R&D intensity correlates directly with EBITDA margin expansion/premium.](figures/Figure_II_0_1_Innovation_Matrix.png)
@@ -78,69 +80,78 @@ Gut health (**$2,913M**), immunity (**$1,841M**), and performance/FCR (**$1,426M
 **The portfolio lens should remain outcome-first across pet, livestock, and aqua.**
 The 11-segment matrix remains useful as a cross-cycle allocation scaffold, especially when pairing evidence strength with category concentration risk [S089, Tab: Figure 18]. In practice, the highest-quality exposures combine ingredient defensibility and repeatable compliance pathways rather than broad undifferentiated category exposure [S117; S118; S089, Tab: Figure 18].
 
-To smooth the transition from segment logic to instrument-level screening, the next panel first restates the full species-need map (Figure II.1 simplified), then the relative economic stack by segment (Figure II.12 simplified), and finally the detailed category matrices (Figures 7-15).
+To smooth the transition from segment logic to instrument-level screening, the next panel first restates the full species-need map (Figure 7), then the relative economic stack by segment (Figure 8), and finally the detailed category matrices (Figures 9-17).
 
-**Figure II.1 (Simplified): Functional needs across companion and production species.**
+**Figure 7: Functional needs across companion and production species.**
 ![Functional needs across companion and production species (simplified).](figures/Figure_II_1_Simplified.png)
 *Source: [S089, Tab: Figure 18; S116, Tab: Sheet1]*
 _Figure takeaway:_ Companion and production systems share some functional needs but differ in buying logic, channel structure, and validation threshold.
 _Calculation note:_ Segment-to-species mapping is an internally normalized synthesis built from the functional segment model and company exposure map.
 
-**Figure II.12 (Simplified): Comparative economic value by functional segment and primary sector.**
+**Figure 8: Comparative economic value by functional segment and primary sector.**
 ![Comparative economic value by functional segment and primary sector (simplified).](figures/Figure_II_12_Simplified.png)
 *Source: [S089, Tab: Figure 18; S089, Tab: Figure 39]*
 _Figure takeaway:_ Revenue concentration is not uniform; preventive pet categories and productivity-linked livestock categories dominate the monetized opportunity stack.
 _Calculation note:_ Values are expressed on a comparable modeled basis to contrast segment weight and sector concentration.
 
-**Figure 7: Efficacy levels in Mobility define market positioning and pricing power.**
+Efficacy levels in Mobility define market positioning and pricing power (Figure 9).
+**Figure 9: Efficacy levels in Mobility define market positioning and pricing power.**
 ![Efficacy levels in Mobility define market positioning and pricing power.](figures/Figure_II_1_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Mobility is the clearest example of premium capture when clinical evidence and route-to-market credibility are both present.
 The modeled mobility opportunity remains the largest companion-led category in this framework at **$776M** [S089, Tab: Figure 18].
 
-**Figure 8: Cognitive support monetizes the Silver Economy via neuro-preservation.**
+Cognitive support monetizes the Silver Economy via neuro-preservation (Figure 10).
+**Figure 10: Cognitive support monetizes the Silver Economy via neuro-preservation.**
 ![Cognitive support monetizes the Silver Economy via neuro-preservation.](figures/Figure_II_4_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Cognitive products remain earlier-stage than mobility but offer high-growth optionality as pet aging protocols mature.
 The cognitive segment is smaller but material at **$312M**, with concentration in senior-care protocol extensions [S089, Tab: Figure 18].
 
-**Figure 9: Non-sedative anxiolysis replaces pharmacological interventions in behavior management.**
+Non-sedative anxiolysis replaces pharmacological interventions in behavior management (Figure 11).
+**Figure 11: Non-sedative anxiolysis replaces pharmacological interventions in behavior management.**
 ![Non-sedative anxiolysis replaces pharmacological interventions in behavior management.](figures/Figure_II_5_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Behavioral wellness monetizes recurring, high-adherence use cases when claims remain credible and administration is easy.
 Behavioral wellness is mapped at **$239M** and remains one of the strongest adherence-driven use cases in companion channels [S089, Tab: Figure 18].
 
-**Figure 10: Gut Health strategy shifts from generic digestion to precision microbiome modulation.**
+Gut Health strategy shifts from generic digestion to precision microbiome modulation (Figure 12).
+**Figure 12: Gut Health strategy shifts from generic digestion to precision microbiome modulation.**
 ![Gut Health strategy shifts from generic digestion to precision microbiome modulation.](figures/Figure_II_2_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Gut health is a scale category where differentiated strains and protocolized use drive value above commodity blends.
 At **$2,913M**, gut health is the largest segment in the current model and a core anchor for both companion and production systems [S089, Tab: Figure 18].
 
-**Figure 11: Immunity solutions build biological resilience for the post-antibiotic era.**
+Immunity solutions build biological resilience for the post-antibiotic era (Figure 13).
+**Figure 13: Immunity solutions build biological resilience for the post-antibiotic era.**
 ![Immunity solutions build biological resilience for the post-antibiotic era.](figures/Figure_II_3_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Immunity demand is supported by both companion prevention behavior and livestock biosecurity economics.
 The immunity segment is estimated at **$1,841M**, reflecting cross-species demand linked to resilience and outbreak-risk management [S089, Tab: Figure 18].
 
-**Figure 12: Enzymes and yeast cultures drive Feed Conversion Ratios (FCR) in livestock.**
+Enzymes and yeast cultures drive Feed Conversion Ratios (FCR) in livestock (Figure 14).
+**Figure 14: Enzymes and yeast cultures drive Feed Conversion Ratios (FCR) in livestock.**
 ![Enzymes and yeast cultures drive Feed Conversion Ratios (FCR) in livestock.](figures/Figure_II_6_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Performance-linked additives are budget-protected when they convert directly into feed-efficiency outcomes.
 Performance/FCR applications are modeled at **$1,426M**, with value concentration in intensive poultry and swine systems [S089, Tab: Figure 18].
 
-**Figure 13: Gene-expression data constructs a defensible moat of validation around ingredients.**
+Gene-expression data constructs a defensible moat of validation around ingredients (Figure 15).
+**Figure 15: Gene-expression data constructs a defensible moat of validation around ingredients.**
 ![Gene-expression data constructs a defensible moat of validation around ingredients.](figures/Figure_II_9_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Nutrigenomics adds defensibility where biomarker evidence can be translated into repeatable product claims.
 Nutrigenomics is currently modeled at **$795M** and should be treated as a high-optionality, high-evidence-demand frontier [S089, Tab: Figure 18].
 
-**Figure 14: Advanced delivery formats ensure bioavailability and maximize compliance.**
+Advanced delivery formats ensure bioavailability and maximize compliance (Figure 16).
+**Figure 16: Advanced delivery formats ensure bioavailability and maximize compliance.**
 ![Advanced delivery formats ensure bioavailability and maximize compliance.](figures/Figure_II_10_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Delivery-system quality is a margin lever because compliance and bioavailability determine realized efficacy.
 Delivery systems represent a modeled **$2,749M** value pool, underscoring that formulation engineering is itself a monetizable moat [S089, Tab: Figure 18].
 
-**Figure 15: Sustainability metrics are becoming procurement-critical in livestock value chains.**
+Sustainability metrics are becoming procurement-critical in livestock value chains (Figure 17).
+**Figure 17: Sustainability metrics are becoming procurement-critical in livestock value chains.**
 ![Sustainability metrics are becoming procurement-critical in livestock value chains.](figures/Figure_II_11_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Sustainability claims are shifting from marketing narrative to procurement requirement in selected production corridors.
