@@ -46,4 +46,5 @@ FIGURE_RENDERER_MODULES = [
     "_scripts.fig_renderers.renderers.margin_ladder_fig_44",
     "_scripts.fig_renderers.renderers.strategic_matrix_fig_45b",
     "_scripts.fig_renderers.renderers.opportunity_matrix_fig_44b",
+    "_scripts.fig_renderers.renderers.actor_ecosystem_logo_map_fig_49",
 ]

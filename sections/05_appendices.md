@@ -31,38 +31,49 @@
 
 ### Table B.1: Priority Platform Coverage
 
-| Company | Country | Category | Key Product/Focus | Target Species | Strategic Summary | Source |
+| Company | HQ (Flag) | Category | Key Product/Focus | Target Species | Strategic Summary | Source |
 |:---|:---|:---|:---|:---|:---|:---|
-| **Zoetis** | USA | Pharma | Clarify (Dx), Companion portfolio | Multi | Continuum-of-care scale platform combining diagnostics, therapeutics, and premium care pathways. | [S115; S116] |
-| **DSM-Firmenich** | Switzerland | Ingredients | Bovaer (3-NOP), Vitamins | Ruminants, Multi | Upstream biosolutions leader with methane-abatement exposure and strong compliance-linked demand tailwinds. | [S117; S116] |
-| **Novonesis** | Denmark | Biosolutions | Enzymes, microbial platforms | Multi | Large fermentation and microbial library platform with high strategic relevance for feed efficiency and substitution economics. | [S125; S116] |
-| **Elanco** | USA | Animal Health | Experior, livestock health lines | Cattle, Livestock | Livestock-exposed platform levered to industrial efficiency and post-antibiotic operating needs. | [S115; S116] |
-| **Swedencare** | Sweden | Consumer/Pet Nutra | ProDen PlaqueOff, NaturVet platform | Pet | Premium pet nutraceutical consolidator with strong manufacturing leverage and oral-health adjacency. | [S118; S125] |
-| **Nutramax** | USA | Consumer/Pet Nutra | Cosequin | Pet | Category-defining mobility brand with long-standing veterinary credibility and recurring demand. | [S116; S128] |
-| **Mars Petcare** | USA | Conglomerate | Royal Canin, ecosystem brands | Pet | Large integrated ecosystem strategy linking food, services, and data-enabled retention economics. | [S116; S128] |
-| **Nestle Purina** | Switzerland | Conglomerate | Pro Plan, FortiFlora | Pet | Scale incumbent in premium and veterinary-adjacent pet nutrition with broad channel control. | [S116; S128] |
-| **Hill's** | USA | Pet Nutrition | Prescription Diet | Pet | Clinical-positioned therapeutic nutrition leader with strong veterinary-channel defensibility. | [S116; S128] |
-| **Dechra** | UK | Pharma | Specific Diets | Pet | Specialist veterinary platform with therapeutic-channel know-how and chronic-care exposure. | [S116; S119] |
-| **Virbac** | France | Pharma | HPM Diets | Pet | Vet-focused therapeutic nutrition exposure with cross-border distribution depth. | [S120; S116] |
-| **Phibro** | USA | Additives | OmniGen, MFA portfolio | Dairy, Livestock | Industrial nutrition platform strengthened by acquisition of Zoetis MFA assets. | [S115; S125] |
-| **H&H Group** | HK | Consumer | Zesty Paws | Pet | Digital-first premium supplement exposure validated by strategic acquisition at scale. | [S125; S118] |
-| **Gryphon-backed Vetnique/Lintbells** | USA/UK | Platform | Glandex, YuMOVE | Pet | Cross-border chronic-care platform spanning gut-health and mobility categories. | [S116, Tab: Sheet2; S128] |
-| **FoodScience** | USA | Pet Nutra / Manufacturing | VetriScience, Pet Naturals | Pet | Vertically integrated manufacturer-brand model with sponsor-backed platform optionality. | [S116, Tab: Sheet2; S128] |
-| **Innovafeed** | France | Novel Ingredients | BSF protein | Aqua/Pet | Industrial insect-protein platform positioned for fishmeal substitution and sustainability-linked demand. | [S116; S128] |
-| **Veramaris** | Netherlands | Ingredients | Algal omega-3 | Aqua/Pet | Strategic omega-3 supply de-risking platform for aquaculture and premium pet formulations. | [S116; S128] |
-| **Rumin8** | Australia | Climate Tech | Methane-reduction solutions | Cattle | High-optionality methane-abatement exposure tied to emerging compliance procurement trends. | [S116; S128] |
-| **Mootral** | Switzerland | AgTech | Ruminant methane solutions | Cattle | Biological mitigation play in enteric-emissions efficiency and compliance positioning. | [S116; S128] |
-| **Symbrosia** | USA | Climate Tech | SeaGraze | Cattle | Seaweed-linked methane mitigation platform with climate-compliance narrative leverage. | [S116; S128] |
-| **Gnubiotics** | Switzerland | Biotech | Glycans/HMO analogs | Pet | Precision-microbiome and immunity-adjacent platform with differentiated ingredient profile. | [S116; S128] |
-| **MicroHarvest** | Germany | Biotech | Single-cell protein | Aqua/Pet | Fermentation-based alternative protein route with attractive production-speed economics. | [S116; S128] |
-| **AnimalBiome** | USA | Pet Health | FMT Capsules, microbiome diagnostics | Pet | Microbiome restoration and data-enabled care platform aligned with preventive protocolization. | [S116; S128] |
-| **Native Microbials** | USA | Biotech | Galaxis | Dairy | Rumen-native microbiome strategy linked to biological productivity improvements. | [S116; S128] |
-| **Loyal** | USA | Biotech | LOY-001 | Dog | Longevity thesis exposure at the intersection of therapeutic design and companion-animal demand. | [S116; S128] |
-| **Kemin** | USA | Ingredients | Betafin and preservation systems | Multi | Ingredient platform with functional systems positioning across multiple production environments. | [S116; S128] |
-| **Roquette** | France | Ingredients | Pea-protein ingredients | Multi | Plant-based ingredient platform with broad formulation optionality across feed and pet applications. | [S116; S128] |
-| **Proteon** | Poland | Biotech | BAFASAL | Poultry | Bacteriophage platform aligned with antimicrobial-substitution and biosecurity themes. | [S116; S128] |
-| **Vetoquinol** | France | Pharma | Flexadin | Pet | Joint-health therapeutic-adjacent exposure in vet-trusted chronic-care categories. | [S116; S128] |
-| **YuMOVE** | UK | Consumer/Pet Nutra | Mobility formulations | Pet | Mobility leader with strong adherence profile and platform-combination relevance. | [S116, Tab: Sheet2] |
+| **Zoetis** | 🇺🇸 US | Pharma | Clarify (Dx), Companion portfolio | Multi | Continuum-of-care scale platform combining diagnostics, therapeutics, and premium care pathways. | [S115; S116] |
+| **DSM-Firmenich** | 🇨🇭 CH | Ingredients | Bovaer (3-NOP), Vitamins | Ruminants, Multi | Upstream biosolutions leader with methane-abatement exposure and strong compliance-linked demand tailwinds. | [S117; S116] |
+| **Novonesis** | 🇩🇰 DK | Biosolutions | Enzymes, microbial platforms | Multi | Large fermentation and microbial library platform with high strategic relevance for feed efficiency and substitution economics. | [S125; S116] |
+| **Elanco** | 🇺🇸 US | Animal Health | Experior, livestock health lines | Cattle, Livestock | Livestock-exposed platform levered to industrial efficiency and post-antibiotic operating needs. | [S115; S116] |
+| **Swedencare** | 🇸🇪 SE | Consumer/Pet Nutra | ProDen PlaqueOff, NaturVet platform | Pet | Premium pet nutraceutical consolidator with strong manufacturing leverage and oral-health adjacency. | [S118; S125] |
+| **Nutramax** | 🇺🇸 US | Consumer/Pet Nutra | Cosequin | Pet | Category-defining mobility brand with long-standing veterinary credibility and recurring demand. | [S116; S128] |
+| **Mars Petcare** | 🇺🇸 US | Conglomerate | Royal Canin, ecosystem brands | Pet | Large integrated ecosystem strategy linking food, services, and data-enabled retention economics. | [S116; S128] |
+| **Nestle Purina** | 🇨🇭 CH | Conglomerate | Pro Plan, FortiFlora | Pet | Scale incumbent in premium and veterinary-adjacent pet nutrition with broad channel control. | [S116; S128] |
+| **Hill's** | 🇺🇸 US | Pet Nutrition | Prescription Diet | Pet | Clinical-positioned therapeutic nutrition leader with strong veterinary-channel defensibility. | [S116; S128] |
+| **Dechra** | 🇬🇧 UK | Pharma | Specific Diets | Pet | Specialist veterinary platform with therapeutic-channel know-how and chronic-care exposure. | [S116; S119] |
+| **Virbac** | 🇫🇷 FR | Pharma | HPM Diets | Pet | Vet-focused therapeutic nutrition exposure with cross-border distribution depth. | [S120; S116] |
+| **Phibro** | 🇺🇸 US | Additives | OmniGen, MFA portfolio | Dairy, Livestock | Industrial nutrition platform strengthened by acquisition of Zoetis MFA assets. | [S115; S125] |
+| **H&H Group** | 🇭🇰 HK | Consumer | Zesty Paws | Pet | Digital-first premium supplement exposure validated by strategic acquisition at scale. | [S125; S118] |
+| **Gryphon-backed Vetnique/Lintbells** | 🇺🇸 US / 🇬🇧 UK | Platform | Glandex, YuMOVE | Pet | Cross-border chronic-care platform spanning gut-health and mobility categories. | [S116, Tab: Sheet2; S128] |
+| **FoodScience** | 🇺🇸 US | Pet Nutra / Manufacturing | VetriScience, Pet Naturals | Pet | Vertically integrated manufacturer-brand model with sponsor-backed platform optionality. | [S116, Tab: Sheet2; S128] |
+| **Innovafeed** | 🇫🇷 FR | Novel Ingredients | BSF protein | Aqua/Pet | Industrial insect-protein platform positioned for fishmeal substitution and sustainability-linked demand. | [S116; S128] |
+| **Veramaris** | 🇳🇱 NL | Ingredients | Algal omega-3 | Aqua/Pet | Strategic omega-3 supply de-risking platform for aquaculture and premium pet formulations. | [S116; S128] |
+| **Rumin8** | 🇦🇺 AU | Climate Tech | Methane-reduction solutions | Cattle | High-optionality methane-abatement exposure tied to emerging compliance procurement trends. | [S116; S128] |
+| **Mootral** | 🇨🇭 CH | AgTech | Ruminant methane solutions | Cattle | Biological mitigation play in enteric-emissions efficiency and compliance positioning. | [S116; S128] |
+| **Symbrosia** | 🇺🇸 US | Climate Tech | SeaGraze | Cattle | Seaweed-linked methane mitigation platform with climate-compliance narrative leverage. | [S116; S128] |
+| **Gnubiotics** | 🇨🇭 CH | Biotech | Glycans/HMO analogs | Pet | Precision-microbiome and immunity-adjacent platform with differentiated ingredient profile. | [S116; S128] |
+| **MicroHarvest** | 🇩🇪 DE | Biotech | Single-cell protein | Aqua/Pet | Fermentation-based alternative protein route with attractive production-speed economics. | [S116; S128] |
+| **AnimalBiome** | 🇺🇸 US | Pet Health | FMT Capsules, microbiome diagnostics | Pet | Microbiome restoration and data-enabled care platform aligned with preventive protocolization. | [S116; S128] |
+| **Native Microbials** | 🇺🇸 US | Biotech | Galaxis | Dairy | Rumen-native microbiome strategy linked to biological productivity improvements. | [S116; S128] |
+| **Loyal** | 🇺🇸 US | Biotech | LOY-001 | Dog | Longevity thesis exposure at the intersection of therapeutic design and companion-animal demand. | [S116; S128] |
+| **Kemin** | 🇺🇸 US | Ingredients | Betafin and preservation systems | Multi | Ingredient platform with functional systems positioning across multiple production environments. | [S116; S128] |
+| **Roquette** | 🇫🇷 FR | Ingredients | Pea-protein ingredients | Multi | Plant-based ingredient platform with broad formulation optionality across feed and pet applications. | [S116; S128] |
+| **Proteon** | 🇵🇱 PL | Biotech | BAFASAL | Poultry | Bacteriophage platform aligned with antimicrobial-substitution and biosecurity themes. | [S116; S128] |
+| **Vetoquinol** | 🇫🇷 FR | Pharma | Flexadin | Pet | Joint-health therapeutic-adjacent exposure in vet-trusted chronic-care categories. | [S116; S128] |
+| **YuMOVE** | 🇬🇧 UK | Consumer/Pet Nutra | Mobility formulations | Pet | Mobility leader with strong adherence profile and platform-combination relevance. | [S116, Tab: Sheet2] |
+| **Chewy** | 🇺🇸 US | Retail / E-commerce | Companion e-commerce distribution | Pet | High-frequency digital channel and key conversion endpoint for supplement and nutrition brands. | [S128] |
+| **Amazon (Pet)** | 🇺🇸 US | Retail / E-commerce | Marketplace and private-label infrastructure | Pet | Dominant digital shelf with strong pricing pressure and rapid assortment scaling dynamics. | [S128] |
+| **Petco** | 🇺🇸 US | Specialty Retail | Omnichannel pet-care and wellness distribution | Pet | Specialty retail channel with high relevance for premiumization and advisory conversion. | [S128] |
+| **PetSmart** | 🇺🇸 US | Specialty Retail | National retail platform with services adjacency | Pet | Integrated retail-services model supporting recurring preventive-care basket expansion. | [S128] |
+| **Walmart (Pet)** | 🇺🇸 US | Mass Retail | Broad-access pet shelf and value segment | Pet | Scale retail anchor shaping mainstream pricing corridors and category penetration. | [S128] |
+
+The actor ecosystem is summarized in Figure 49, which groups pharma platforms, nutraceutical specialists, feed/ingredient leaders, retail endpoints, and investor platforms into one screening view aligned with Tables B.1 and C.1.
+**Figure 49: Strategic actor ecosystem map using in-repo company logo badges.**
+![Strategic actor ecosystem map using in-repo company logo badges.](figures/Figure_49_Actor_Ecosystem_Map.png)
+*Source: [S116, Tab: Sheet1; S128]*
+_Figure takeaway:_ Cross-group adjacency is concentrated around integrated pharma-plus-channel platforms, nutraceutical specialists with compliance-ready portfolios, and investor-backed scaling pathways.
 
 ## C. Extended Legacy Player Universe (Archive-Ported)
 
@@ -137,6 +148,7 @@
 | **Figure 16** | Delivery systems positioning | Part I Figure 16 | [S089, Tab: Figure 18] |
 | **Figure 17** | Sustainability positioning | Part I Figure 17 | [S089, Tab: Figure 18] |
 | **Figure 8** | Comparative economic value by segment and primary sector | Part I (I.3 extended) | [S089, Tab: Figure 18; S089, Tab: Figure 39] |
+| **Figure 49** | Strategic actor ecosystem by platform group | Appendix B | [S116, Tab: Sheet1; S128] |
 
 ### Table D.3: Major Transactions >$100M (Legacy Cross-Check)
 

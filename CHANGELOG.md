@@ -1830,3 +1830,35 @@ Updated tabs to ensure the attached-design figures are fully reproducible from E
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/04_part_iii_value_chain.md`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-11-05.docx`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+
+### [2026-02-10] - Batch D: Appendix/Table Presentation Upgrade (Flags + Logo Badges + Actor Map)
+- **Timestamp:** 2026-02-10 11:19:42 CET
+- **What:** Executed Batch D presentation and appendix upgrades aligned with the approved plan.
+  - Updated `Table III.1` to include target/acquirer country columns with flags and logo-badge cells for both parties.
+  - Updated `Table III.2` to include investor HQ flags and logo-badge cells.
+  - Renamed Part III.3 heading from `Deep Tech Defines the Future Frontier` to `Asia AGP Pathways Define the Next Frontier` to match section content focus.
+  - Updated `Table B.1` country column to `HQ (Flag)` and populated flag-formatted country entries.
+  - Added major retailer rows to `Table B.1` (`Chewy`, `Amazon (Pet)`, `Petco`, `PetSmart`, `Walmart (Pet)`).
+  - Added new appendix figure:
+    - `Figure 49: Strategic actor ecosystem map using in-repo company logo badges.`
+    - Figure source tab added in `figures_data.xlsx` (`Figure 49`) and integrated into figure-render pipeline.
+    - Added renderer module: `actor_ecosystem_logo_map_fig_49.py`.
+  - Updated figure registry metadata to map `FIG-49` to the new actor ecosystem figure.
+- **Build output:**
+  - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-11-17.docx`
+- **Validation:**
+  - Figure regeneration succeeded (`48/48` renderers).
+  - Markdown image-reference check passed for modified sections (no missing local assets).
+- **Claims added/modified:** None (table presentation and mapping structure updates only).
+- **Notes:** Logo visuals are standardized in-repo badge assets generated for consistent document rendering and reproducibility in the current workflow.
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/04_part_iii_value_chain.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/05_appendices.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_figures/figures_data.xlsx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_registry/source_registry.xlsx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_scripts/fig_renderers/registry.py`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_scripts/fig_renderers/renderers/actor_ecosystem_logo_map_fig_49.py`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_figures/exports/Figure_49_Actor_Ecosystem_Map.png`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_figures/exports/logos/*.png`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`

@@ -90,49 +90,50 @@ Capital allocation should prioritize assets where evidence depth and scale reinf
 
 **Table III.1: Expanded Benchmark Transactions (Archive-Ported and Updated).**
 
-| Year | Target | Acquirer | Deal Value | Implied Valuation / Multiple | Strategic Rationale | Reference |
-|:---|:---|:---|:---|:---|:---|:---|
-| **2018** | **Blue Buffalo** | General Mills | **$8.0B** | **~25x EBITDA (legacy estimate)** | Mass-premium pet platform consolidation | [S125; S128] |
-| **2018** | **Neovia** | ADM | **€1.5B** | **n/a** | Livestock premix and additive scale integration | [S125; S128] |
-| **2020** | **Erber Group (Biomin/Romer)** | DSM | **€980M** | **~14x-20x (range in legacy sources)** | Eubiotics/mycotoxin technology moat acquisition | [S125; S128] |
-| **2021** | **Zesty Paws** | H&H Group | **$610M** | **~16x to high-20x (method-dependent)** | Digital-first premium pet brand acquisition | [S118, Table III.1; S125] |
-| **2022** | **NaturVet** | Swedencare | **$447M** | **~21.4x EBITDA** | Manufacturing leverage plus omnichannel expansion | [S118, Table III.1; S125] |
-| **2022** | **Nom Nom** | Mars Petcare | **~$1.0B (est.)** | **n/a** | Fresh/personalized pet nutrition scale-up | [S125; S128] |
-| **2024** | **FoodScience** | MSCP | **Undisclosed** | **Premium (undisclosed)** | Vertical integration and brand/ownership of strategic control points | [S116, Tab: Sheet2; S128] |
-| **2024** | **Vetnique + Lintbells (YuMOVE)** | Gryphon Platform | **Undisclosed** | **Platform Combination** | Cross-border chronic-care platform build | [S116, Tab: Sheet2; S128] |
-| **2024** | **Zoetis MFA Portfolio** | Phibro | **$350M** | **Asset Sale** | Portfolio refocus and industrial nutrition scale fit | [S115; S125] |
-| **2024** | **Aker BioMarine Feed Ingredients** | American Industrial Partners | **$590M EV** | **n/a** | Upstream ingredient platform ownership | [S125; S128] |
-| **2024** | **Novozymes + Chr. Hansen (Novonesis)** | Strategic Merger | **~$12.3B** | **Merger Value** | Microbial/enzyme library consolidation | [S125; S128] |
-| **n/a** | **Veramaris JV** | DSM + Evonik | **~$200M (CapEx)** | **n/a** | Algal omega-3 supply-chain de-risking | [S128] |
+| Year | Target (Logo) | Target HQ | Acquirer (Logo) | Acquirer HQ | Deal Value | Implied Valuation / Multiple | Strategic Rationale | Reference |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| **2018** | ![Blue Buffalo](figures/logos/blue_buffalo.png) **Blue Buffalo** | 🇺🇸 US | ![General Mills](figures/logos/general_mills.png) **General Mills** | 🇺🇸 US | **$8.0B** | **~25x EBITDA (legacy estimate)** | Mass-premium pet platform consolidation | [S125; S128] |
+| **2018** | ![Neovia](figures/logos/neovia.png) **Neovia** | 🇫🇷 FR | ![ADM](figures/logos/adm.png) **ADM** | 🇺🇸 US | **€1.5B** | **n/a** | Livestock premix and additive scale integration | [S125; S128] |
+| **2020** | ![Erber](figures/logos/erber_group.png) **Erber Group (Biomin/Romer)** | 🇦🇹 AT | ![DSM](figures/logos/dsm.png) **DSM** | 🇨🇭 CH | **€980M** | **~14x-20x (range in legacy sources)** | Eubiotics/mycotoxin technology moat acquisition | [S125; S128] |
+| **2021** | ![Zesty Paws](figures/logos/zesty_paws.png) **Zesty Paws** | 🇺🇸 US | ![H&H](figures/logos/h_h_group.png) **H&H Group** | 🇭🇰 HK | **$610M** | **~16x to high-20x (method-dependent)** | Digital-first premium pet brand acquisition | [S118, Table III.1; S125] |
+| **2022** | ![NaturVet](figures/logos/naturvet.png) **NaturVet** | 🇺🇸 US | ![Swedencare](figures/logos/swedencare.png) **Swedencare** | 🇸🇪 SE | **$447M** | **~21.4x EBITDA** | Manufacturing leverage plus omnichannel expansion | [S118, Table III.1; S125] |
+| **2022** | ![Nom Nom](figures/logos/nom_nom.png) **Nom Nom** | 🇺🇸 US | ![Mars Petcare](figures/logos/mars_petcare.png) **Mars Petcare** | 🇺🇸 US | **~$1.0B (est.)** | **n/a** | Fresh/personalized pet nutrition scale-up | [S125; S128] |
+| **2024** | ![FoodScience](figures/logos/foodscience.png) **FoodScience** | 🇺🇸 US | ![MSCP](figures/logos/morgan_stanley_capital_partners.png) **MSCP** | 🇺🇸 US | **Undisclosed** | **Premium (undisclosed)** | Vertical integration and brand/ownership of strategic control points | [S116, Tab: Sheet2; S128] |
+| **2024** | ![Vetnique/Lintbells](figures/logos/vetnique.png) **Vetnique + Lintbells (YuMOVE)** | 🇺🇸 US / 🇬🇧 UK | ![Gryphon](figures/logos/gryphon.png) **Gryphon Platform** | 🇺🇸 US | **Undisclosed** | **Platform Combination** | Cross-border chronic-care platform build | [S116, Tab: Sheet2; S128] |
+| **2024** | ![Zoetis](figures/logos/zoetis.png) **Zoetis MFA Portfolio** | 🇺🇸 US | ![Phibro](figures/logos/phibro.png) **Phibro** | 🇺🇸 US | **$350M** | **Asset Sale** | Portfolio refocus and industrial nutrition scale fit | [S115; S125] |
+| **2024** | ![Aker](figures/logos/aker_biomarine.png) **Aker BioMarine Feed Ingredients** | 🇳🇴 NO | ![AIP](figures/logos/american_industrial_partners.png) **American Industrial Partners** | 🇺🇸 US | **$590M EV** | **n/a** | Upstream ingredient platform ownership | [S125; S128] |
+| **2024** | ![Novonesis](figures/logos/novonesis.png) **Novozymes + Chr. Hansen (Novonesis)** | 🇩🇰 DK | ![Novonesis](figures/logos/novonesis.png) **Strategic Merger** | 🇩🇰 DK | **~$12.3B** | **Merger Value** | Microbial/enzyme library consolidation | [S125; S128] |
+| **n/a** | ![Veramaris](figures/logos/veramaris.png) **Veramaris JV** | 🇳🇱 NL | ![DSM/Evonik](figures/logos/evonik.png) **DSM + Evonik** | 🇨🇭 CH / 🇩🇪 DE | **~$200M (CapEx)** | **n/a** | Algal omega-3 supply-chain de-risking | [S128] |
+| **2023-2025 (<$50M disclosed)** | n/a | n/a | n/a | n/a | **No fully disclosed <$50M transaction values in current in-repo auditable set** | **n/a** | Smaller platform-add-on activity is visible but mostly value-undisclosed in available records | [S116, Tab: Sheet2; S128] |
 
 **Table III.2: Expanded Investor Profiles and Portfolio Signals (Archive-Ported).**
 
-| Investor Platform | Representative Assets | Strategic Focus | Indicative Scale | Reference |
-|:---|:---|:---|:---|:---|
-| **JAB Holding Company** | NVA; Ethos Veterinary Health | Veterinary-services consolidation and referral-network scale | n/a | [S116, Tab: Sheet1] |
-| **Gryphon Investors** | Vetnique Labs; Lintbells (YuMOVE) | Vet-endorsed brand platform building | n/a | [S116, Tab: Sheet1] |
-| **Morgan Stanley Capital Partners** | FoodScience; Manna Pro (Compana) | Manufacturing and ownership of strategic control points | n/a | [S116, Tab: Sheet1] |
-| **EQT Group** | IVC Evidensia; Zooplus; Dechra | Care-continuum and distribution access | ~€270B (legacy) | [S116, Tab: Sheet1; S128] |
-| **BC Partners** | PetSmart; Gambol Pet Group | Retail-scale roll-up strategy | >$40B (legacy) | [S116, Tab: Sheet1; S128] |
-| **Cinven** | Partner in Pet Food; Arcaplanet | EU pet-food and specialty-retail exposure | ~€44B (legacy) | [S116, Tab: Sheet1; S128] |
-| **Advent International** | Seek Pet Food; Felix Pharms (legacy map) | Cross-border platform and healthcare scaling | ~$100B (legacy) | [S128] |
-| **Clearlake Capital** | Wellness Pet Company (legacy map) | Consumer/pet brand scaling | >$90B (legacy) | [S128] |
-| **Verlinvest** | Tom & Co; Nesto (legacy map) | Consumer brand and retail exposure | >€2B (legacy) | [S128] |
-| **Vestar Capital Partners** | PetHonesty | Pet wellness growth platform | ~$3.2B (legacy) | [S128] |
-| **Digitalis Ventures** | Native Pet; Gallant; Astra Therapeutics | Early-stage health-tech and pet biotech | >$800M (legacy) | [S128] |
-| **Ani.VC** | Vetmab Biosciences; MI:RNA; Cat Health Company | Early-stage specialist exposure | Undisclosed | [S116, Tab: Sheet1; S128] |
-| **Borealis Ventures** | Embark; Fidocure; Vetcove (legacy map) | Diagnostics and care-platform enablement | >$300M (legacy) | [S128] |
-| **S2G Investments** | Enthos; Pasture Bio; Kingdom Supercultures | Agri-food and sustainability transition | >$2B (legacy) | [S128] |
-| **Seventure Partners** | ViroVet; Proteon | Microbiome and biotech platform investing | ~$1.1B (legacy) | [S128] |
-| **Anterra Capital** | BiomEdit | Precision-biology and feed innovation | >$400M (legacy) | [S128] |
-| **Aqua-Spark** | Protix; Sea6 Energy | Aquaculture and sustainable protein systems | ~€500M (legacy) | [S128] |
-| **Five Seasons Ventures** | Mammaly; Butternut Box | Consumer and functional nutrition growth | >€250M (legacy) | [S128] |
-| **Blue Horizon** | Wild Earth; Mosa Meat | Alternative proteins and sustainable nutrition | ~$300M (legacy) | [S128] |
-| **Ocean 14 Capital** | SyAqua; Enthos | Blue-economy and aquaculture input thesis | ~€200M (legacy) | [S128] |
-| **Stray Dog Capital** | Wild Earth; Bond Pet Foods | Mission-driven pet nutrition venture investing | Undisclosed | [S128] |
-| **Cavallo Ventures** | Native Microbials; Bond Pet Foods | Corporate venture adjacency in agri-food | Corporate VC | [S128] |
+| Investor (Logo) | HQ | Representative Assets | Strategic Focus | Indicative Scale | Reference |
+|:---|:---|:---|:---|:---|:---|
+| ![JAB](figures/logos/jab_holding_company.png) **JAB Holding Company** | 🇱🇺 LU | NVA; Ethos Veterinary Health | Veterinary-services consolidation and referral-network scale | n/a | [S116, Tab: Sheet1] |
+| ![Gryphon](figures/logos/gryphon_investors.png) **Gryphon Investors** | 🇺🇸 US | Vetnique Labs; Lintbells (YuMOVE) | Vet-endorsed brand platform building | n/a | [S116, Tab: Sheet1] |
+| ![MSCP](figures/logos/morgan_stanley_capital_partners.png) **Morgan Stanley Capital Partners** | 🇺🇸 US | FoodScience; Manna Pro (Compana) | Manufacturing and ownership of strategic control points | n/a | [S116, Tab: Sheet1] |
+| ![EQT](figures/logos/eqt_group.png) **EQT Group** | 🇸🇪 SE | IVC Evidensia; Zooplus; Dechra | Care-continuum and distribution access | ~€270B (legacy) | [S116, Tab: Sheet1; S128] |
+| ![BC](figures/logos/bc_partners.png) **BC Partners** | 🇬🇧 UK | PetSmart; Gambol Pet Group | Retail-scale roll-up strategy | >$40B (legacy) | [S116, Tab: Sheet1; S128] |
+| ![Cinven](figures/logos/cinven.png) **Cinven** | 🇬🇧 UK | Partner in Pet Food; Arcaplanet | EU pet-food and specialty-retail exposure | ~€44B (legacy) | [S116, Tab: Sheet1; S128] |
+| ![Advent](figures/logos/advent_international.png) **Advent International** | 🇺🇸 US | Seek Pet Food; Felix Pharms (legacy map) | Cross-border platform and healthcare scaling | ~$100B (legacy) | [S128] |
+| ![Clearlake](figures/logos/clearlake_capital.png) **Clearlake Capital** | 🇺🇸 US | Wellness Pet Company (legacy map) | Consumer/pet brand scaling | >$90B (legacy) | [S128] |
+| ![Verlinvest](figures/logos/verlinvest.png) **Verlinvest** | 🇧🇪 BE | Tom & Co; Nesto (legacy map) | Consumer brand and retail exposure | >€2B (legacy) | [S128] |
+| ![Vestar](figures/logos/vestar_capital_partners.png) **Vestar Capital Partners** | 🇺🇸 US | PetHonesty | Pet wellness growth platform | ~$3.2B (legacy) | [S128] |
+| ![Digitalis](figures/logos/digitalis_ventures.png) **Digitalis Ventures** | 🇺🇸 US | Native Pet; Gallant; Astra Therapeutics | Early-stage health-tech and pet biotech | >$800M (legacy) | [S128] |
+| ![AniVC](figures/logos/ani_vc.png) **Ani.VC** | 🇺🇸 US | Vetmab Biosciences; MI:RNA; Cat Health Company | Early-stage specialist exposure | Undisclosed | [S116, Tab: Sheet1; S128] |
+| ![Borealis](figures/logos/borealis_ventures.png) **Borealis Ventures** | 🇺🇸 US | Embark; Fidocure; Vetcove (legacy map) | Diagnostics and care-platform enablement | >$300M (legacy) | [S128] |
+| ![S2G](figures/logos/s2g_investments.png) **S2G Investments** | 🇺🇸 US | Enthos; Pasture Bio; Kingdom Supercultures | Agri-food and sustainability transition | >$2B (legacy) | [S128] |
+| ![Seventure](figures/logos/seventure_partners.png) **Seventure Partners** | 🇫🇷 FR | ViroVet; Proteon | Microbiome and biotech platform investing | ~$1.1B (legacy) | [S128] |
+| ![Anterra](figures/logos/anterra_capital.png) **Anterra Capital** | 🇳🇱 NL | BiomEdit | Precision-biology and feed innovation | >$400M (legacy) | [S128] |
+| ![AquaSpark](figures/logos/aqua_spark.png) **Aqua-Spark** | 🇳🇱 NL | Protix; Sea6 Energy | Aquaculture and sustainable protein systems | ~€500M (legacy) | [S128] |
+| ![Five Seasons](figures/logos/five_seasons_ventures.png) **Five Seasons Ventures** | 🇫🇷 FR | Mammaly; Butternut Box | Consumer and functional nutrition growth | >€250M (legacy) | [S128] |
+| ![Blue Horizon](figures/logos/blue_horizon.png) **Blue Horizon** | 🇨🇭 CH | Wild Earth; Mosa Meat | Alternative proteins and sustainable nutrition | ~$300M (legacy) | [S128] |
+| ![Ocean14](figures/logos/ocean_14_capital.png) **Ocean 14 Capital** | 🇬🇧 UK | SyAqua; Enthos | Blue-economy and aquaculture input thesis | ~€200M (legacy) | [S128] |
+| ![Stray Dog](figures/logos/stray_dog_capital.png) **Stray Dog Capital** | 🇺🇸 US | Wild Earth; Bond Pet Foods | Mission-driven pet nutrition venture investing | Undisclosed | [S128] |
+| ![Cavallo](figures/logos/cavallo_ventures.png) **Cavallo Ventures** | 🇺🇸 US | Native Microbials; Bond Pet Foods | Corporate venture adjacency in agri-food | Corporate VC | [S128] |
 
-## III.3. Deep Tech Defines the Future Frontier
+## III.3. Asia AGP Pathways Define the Next Frontier
 
 **Outlook quality now depends on evidence governance as much as on technology promise.**
 Green-claim institutionalization is tightening the acceptable claim perimeter, especially where lifecycle and substantiation standards are being formalized [S015; S117]. The practical implication is that platforms with auditable evidence stacks, not just sustainability messaging, are likely to retain pricing and distribution access as compliance thresholds rise [S126]. This shift increases the strategic importance of documentation quality, traceability, and repeatable claim substantiation in both investor diligence and customer procurement [S126]. In effect, evidence governance is moving from a legal-control function to a commercial moat variable [S117; S126].
