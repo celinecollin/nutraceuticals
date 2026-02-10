@@ -1807,3 +1807,26 @@ Updated tabs to ensure the attached-design figures are fully reproducible from E
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_scripts/fig_renderers/renderers/market_bifurcation_economics_fig_06.py`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_figures/exports/Figure_II_0_2_Market_Bifurcation.png`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+
+### [2026-02-10] - Batch C: Controlled Core-Text Expansion + Figure Integration Reinforcement
+- **Timestamp:** 2026-02-10 11:05:50 CET
+- **What:** Executed Batch C narrative pass across Parts II and III while preserving hierarchy and figure assets.
+  - Expanded core body paragraphs in `Part II` and `Part III` with additional analytical context, operating interpretation, and source-anchored quantitative guidance.
+  - Reinforced figure-to-text integration by explicitly tying argument statements to the relevant figures in adjacent prose.
+  - Preserved existing 3-part structure and all subpart headings; no heading or TOC edits.
+- **Measured expansion (word count):**
+  - `sections/03_part_ii_strategic_bifurcation.md`: `1391 -> 1813` words (`+30.3%`)
+  - `sections/04_part_iii_value_chain.md`: `2646 -> 3196` words (`+20.8%`)
+- **Build output:**
+  - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-11-05.docx`
+- **Validation:**
+  - Figure-reference coverage check passed for all core sections (`Figure X` appears at least once outside each caption line).
+  - Build completed successfully with field-code unlinking preserved.
+- **Claims added/modified:** None (no new standalone claim IDs; expansion uses existing source framework and tags).
+- **Flags for next batch:** Remaining design-specific table upgrades (logos/flags), Figure 19-20 US-data variant request (if source data is confirmed), and advanced appendix/table presentation upgrades.
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/03_part_ii_strategic_bifurcation.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/04_part_iii_value_chain.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-11-05.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
