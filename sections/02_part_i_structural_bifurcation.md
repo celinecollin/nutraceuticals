@@ -17,8 +17,8 @@ The AGP ban sequence (EU 2006, US 2017, China 2020) and the EU zinc-oxide restri
 For screening and valuation consistency, the report perimeter includes functional bioactives and validated delivery systems, and excludes generic commodity streams and prescription VMP revenues unless nutraceutical adjacency is explicitly demonstrated [S089, Tab: Figure 4]. This perimeter definition preserves comparability across regions and maintains a traceable serviceable baseline to auditable value pools [S089, Tab: Figure 4; S089, Tab: Figure 39].
 
 The regulatory operating toolkit covers cross-jurisdiction mechanics, policy-shock sequencing, and pathway-to-economics effects (Figures 2-3), complemented by the detailed regulatory-pathway comparison in text.
+The jurisdiction matrix clarifies why commercialization friction differs between the US, EU, UK, and China and therefore must be priced explicitly in underwriting assumptions (Figure 2) [S085; S015; S124].
 
-Figure 2 illustrates this relationship with the underlying comparative data.
 **Figure 2: Regulatory divergence creates structural barriers to entry for participants that do not satisfy compliance requirements.**
 ![Regulatory divergence creates structural barriers to entry for participants that do not satisfy compliance requirements.](figures/Table_US_vs_EU.png)
 *Source: [S085, S015, S124]*
@@ -76,13 +76,13 @@ _Interpretation note:_ Price sensitivity is shown as direct sensitivity (higher 
 ## I.3. Functional Segmentation Pivots to Outcomes
 
 **Value migrates toward categories where biological outcomes are measurable and clinically interpretable.**
-On the companion side, mobility remains the largest mapped pool at **$776M**, while cognition (**$312M**) and behavioral wellness (**$239M**) form the next high-priority demand clusters in aging-pet cohorts [S089, Tab: Figure 18]. At the broader market level, global pet supplements were estimated at **$2.26B in 2024** with **5.9% CAGR (2025-2030)**, reinforcing the durability of evidence-backed category expansion [S416]. In company terms, the pattern is visible across Nutramax, Vetoquinol, Virbac, and YuMOVE-oriented portfolios [S116, Tab: Sheet1; S120].
+In developed companion markets, especially the US and Western Europe, mobility remains the largest mapped pool at **$776M**, while cognition (**$312M**) and behavioral wellness (**$239M**) form the next high-priority demand clusters in aging-pet cohorts [S089, Tab: Figure 18; S109; S110]. Together these three companion-led pools represent **$1,327M** of mapped demand, which explains why premium protocol design remains concentrated around chronic use cases rather than one-off wellness SKUs [CALCULATION, FIG_18_segment_model; S089, Tab: Figure 18]. At the broader market level, global pet supplements were estimated at **$2.26B in 2024** with **5.9% CAGR (2025-2030)**, reinforcing the durability of evidence-backed category expansion under ongoing pet humanization dynamics [S416; S114]. In company terms, the same structure is visible across Nutramax, Vetoquinol, Virbac, and YuMOVE-oriented portfolios where evidence depth converts into repeat purchasing and pricing persistence (Figures 7-11) [S116, Tab: Sheet1; S120].
 
 **In production systems, adoption concentrates where additives defend biological efficiency and compliance simultaneously.**
-Gut health (**$2,913M**), immunity (**$1,841M**), and performance/FCR (**$1,426M**) remain the primary value engines, while nutrigenomics (**$795M**) and sustainability (**$786M**) represent the optionality frontier [S089, Tab: Figure 18]. This mirrors the operating logic of ingredient and biosolutions leaders where procurement decisions increasingly combine cost-per-outcome with compliance and documentation quality [S111; S117].
+In livestock and aquaculture systems, where budgets are tied to measurable output economics, gut health (**$2,913M**), immunity (**$1,841M**), and performance/FCR (**$1,426M**) remain the primary value engines [S089, Tab: Figure 18]. These three segments total **$6,180M**, which is materially larger than the combined frontier pool represented by nutrigenomics (**$795M**) and sustainability (**$786M**) at **$1,581M** [CALCULATION, FIG_18_segment_model; S089, Tab: Figure 18]. The implication is not that frontier themes are marginal, but that they should be underwritten as premium overlays on top of high-throughput efficiency categories, particularly in APAC poultry and aqua corridors where compliance and feed-cost pressure are structurally high (Figures 12-17) [S111; S117; S124].
 
 **The portfolio lens should remain outcome-first across pet, livestock, and aqua.**
-The 11-segment matrix remains useful as a cross-cycle allocation scaffold, especially when pairing evidence strength with category concentration risk [S089, Tab: Figure 18]. In practice, the highest-quality exposures combine ingredient defensibility and repeatable compliance pathways rather than broad undifferentiated category exposure [S117; S118; S089, Tab: Figure 18].
+The 11-segment matrix remains useful as a cross-cycle allocation scaffold, especially when evidence strength is read jointly with category concentration risk and route-to-market friction [S089, Tab: Figure 18]. Species-level mapping shows that companion and production systems share several functional domains but diverge in purchase logic, which is why the same ingredient can monetize differently depending on protocol burden and buyer incentives (Figure 7) [S089, Tab: Figure 18; S116, Tab: Sheet1]. The comparative stack further shows that value concentration is not uniform across the matrix, so allocation decisions should prioritize segments where measurable outcomes and compliance pathways compound rather than conflict (Figure 8) [S089, Tab: Figure 39]. In practical terms, the highest-quality exposures combine ingredient defensibility, clinical or field-evidence depth, and repeatable adoption workflows instead of broad undifferentiated category exposure [S117; S118; S089, Tab: Figure 18].
 
 To smooth the transition from segment logic to instrument-level screening, the next panel first restates the full species-need map (Figure 7), then the relative economic stack by segment (Figure 8), and finally the detailed category matrices (Figures 9-17).
 
@@ -98,67 +98,58 @@ _Calculation note:_ Segment-to-species mapping is an internally normalized synth
 _Figure takeaway:_ Revenue concentration is not uniform; preventive pet categories and productivity-linked livestock categories dominate the monetized opportunity stack.
 _Calculation note:_ Values are expressed on a comparable modeled basis to contrast segment weight and sector concentration.
 
-The pattern is quantified in Figure 9.
 **Figure 9: Efficacy levels in Mobility define market positioning and pricing power.**
 ![Efficacy levels in Mobility define market positioning and pricing power.](figures/Figure_II_1_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Mobility is the clearest example of premium capture when clinical evidence and route-to-market credibility are both present.
-The modeled mobility opportunity remains the largest companion-led category in this framework at **$776M** [S089, Tab: Figure 18].
+The modeled mobility opportunity remains the largest companion-led category in this framework at **$776M**, supporting its role as the anchor category in clinical-premium companion portfolios (Figure 9) [S089, Tab: Figure 18].
 
-Figure 10 illustrates this relationship with the underlying comparative data.
 **Figure 10: Cognitive support monetizes the Silver Economy via neuro-preservation.**
 ![Cognitive support monetizes the Silver Economy via neuro-preservation.](figures/Figure_II_4_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Cognitive products remain earlier-stage than mobility but offer high-growth optionality as pet aging protocols mature.
-The cognitive segment is smaller but material at **$312M**, with concentration in senior-care protocol extensions [S089, Tab: Figure 18].
+The cognitive segment is smaller but material at **$312M**, with concentration in senior-care protocol extensions and higher relevance in older companion populations (Figure 10) [S089, Tab: Figure 18].
 
-This effect is explicitly shown in Figure 11.
 **Figure 11: Non-sedative anxiolysis replaces pharmacological interventions in behavior management.**
 ![Non-sedative anxiolysis replaces pharmacological interventions in behavior management.](figures/Figure_II_5_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Behavioral wellness monetizes recurring, high-adherence use cases when claims remain credible and administration is easy.
-Behavioral wellness is mapped at **$239M** and remains one of the strongest adherence-driven use cases in companion channels [S089, Tab: Figure 18].
+Behavioral wellness is mapped at **$239M** and remains one of the strongest adherence-driven use cases in companion channels where owner behavior and administration simplicity drive repeat purchase (Figure 11) [S089, Tab: Figure 18].
 
-Figure 12 provides supporting evidence for this conclusion.
 **Figure 12: Gut Health strategy shifts from generic digestion to precision microbiome modulation.**
 ![Gut Health strategy shifts from generic digestion to precision microbiome modulation.](figures/Figure_II_2_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Gut health is a scale category where differentiated strains and protocolized use drive value above commodity blends.
-At **$2,913M**, gut health is the largest segment in the current model and a core anchor for both companion and production systems [S089, Tab: Figure 18].
+At **$2,913M**, gut health is the largest segment in the current model and a core anchor for both companion and production systems, especially where microbiome claims are linked to auditable outcomes (Figure 12) [S089, Tab: Figure 18].
 
-The pattern is quantified in Figure 13.
 **Figure 13: Immunity solutions build biological resilience for the post-antibiotic era.**
 ![Immunity solutions build biological resilience for the post-antibiotic era.](figures/Figure_II_3_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Immunity demand is supported by both companion prevention behavior and livestock biosecurity economics.
-The immunity segment is estimated at **$1,841M**, reflecting cross-species demand linked to resilience and outbreak-risk management [S089, Tab: Figure 18].
+The immunity segment is estimated at **$1,841M**, reflecting cross-species demand linked to resilience and outbreak-risk management in both pet clinics and production settings (Figure 13) [S089, Tab: Figure 18].
 
-Figure 14 illustrates this relationship with the underlying comparative data.
 **Figure 14: Enzymes and yeast cultures drive Feed Conversion Ratios (FCR) in livestock.**
 ![Enzymes and yeast cultures drive Feed Conversion Ratios (FCR) in livestock.](figures/Figure_II_6_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Performance-linked additives are budget-protected when they convert directly into feed-efficiency outcomes.
-Performance/FCR applications are modeled at **$1,426M**, with value concentration in intensive poultry and swine systems [S089, Tab: Figure 18].
+Performance/FCR applications are modeled at **$1,426M**, with value concentration in intensive poultry and swine systems where producers underwrite spend against measurable biological return (Figure 14) [S089, Tab: Figure 18].
 
-This effect is explicitly shown in Figure 15.
 **Figure 15: Gene-expression data constructs a defensible moat of validation around ingredients.**
 ![Gene-expression data constructs a defensible moat of validation around ingredients.](figures/Figure_II_9_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Nutrigenomics adds defensibility where biomarker evidence can be translated into repeatable product claims.
-Nutrigenomics is currently modeled at **$795M** and should be treated as a high-optionality, high-evidence-demand frontier [S089, Tab: Figure 18].
+Nutrigenomics is currently modeled at **$795M** and should be treated as a high-optionality, high-evidence-demand frontier with the strongest medium-term upside in advanced companion and precision-feed pathways (Figure 15) [S089, Tab: Figure 18; S127].
 
-Figure 16 provides supporting evidence for this conclusion.
 **Figure 16: Advanced delivery formats ensure bioavailability and maximize compliance.**
 ![Advanced delivery formats ensure bioavailability and maximize compliance.](figures/Figure_II_10_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Delivery-system quality is a margin lever because compliance and bioavailability determine realized efficacy.
-Delivery systems represent a modeled **$2,749M** value pool, underscoring that formulation engineering is itself a monetizable moat [S089, Tab: Figure 18].
+Delivery systems represent a modeled **$2,749M** value pool, underscoring that formulation engineering is itself a monetizable moat when palatability and dosing friction are treated as core product design variables (Figure 16) [S089, Tab: Figure 18; S053].
 
-The pattern is quantified in Figure 17.
 **Figure 17: Sustainability metrics are becoming procurement-critical in livestock value chains.**
 ![Sustainability metrics are becoming procurement-critical in livestock value chains.](figures/Figure_II_11_Matrix.png)
 *Source: [S089, Tab: Figure 18]*
 _Figure takeaway:_ Sustainability claims are shifting from marketing narrative to procurement requirement in selected production corridors.
-Sustainability-linked applications are estimated at **$786M** and increasingly tied to procurement and reporting requirements [S089, Tab: Figure 18].
+Sustainability-linked applications are estimated at **$786M** and increasingly tied to procurement and reporting requirements in EU and APAC supply chains, where claim substantiation is becoming commercially binding (Figure 17) [S089, Tab: Figure 18; S126; S124].
 
 With the structural evidence map established, Part II examines how these category mechanics convert into real demand behavior across regions, species systems, and buyer psychology.

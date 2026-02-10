@@ -11,9 +11,8 @@ First, regulatory divergence and post-antibiotic policy shocks continue to creat
 **Outlook: The Highest-Probability Alpha Sits at the Intersection of Evidence, Compliance, and Scalable Delivery.**
 Our base case is that excess returns will accrue to operators that can prove measurable outcomes, navigate increasingly strict claim standards, and industrialize adoption in high-friction channels [S015; S117]. In pet, this favors therapeutic-adjacent brands and ingredient platforms with sustained clinical differentiation; in livestock, this favors suppliers that convert regulatory pressure into quantifiable feed, health, or emissions performance [S089, Tab: Figure 18; S125]. The report moves from coverage-perimeter definition (Part I), to demand mechanics (Part II), to executable value-capture and transaction pathways (Part III), then closes with annexed diligence tools.
 
-The pattern is quantified in Figure 1.
 **Figure 1: Global corporate, startup, and investor landscape by region.**
-Figure 1 combines the ecosystem entity base from the portfolio mapping workbook with a geographic rendering layer to show where corporate, startup, and investor density clusters are most visible [S116, Tab: Sheet1; S121]. The figure should be interpreted as an orientation map for pipeline sourcing and not as a market-share chart.
+Ecosystem density clusters remain most visible in North America and Europe, with selective but rising platform depth in APAC and LATAM, which should be interpreted as pipeline-origination signal rather than market-share signal (Figure 1) [S116, Tab: Sheet1; S121].
 ![Global corporate, startup, and investor landscape by region.](figures/Global_Antigravity_Landscape_Final.png)
 *Source: [S121; S116, Tab: Sheet1]*
 _Figure takeaway:_ The highest concentration of activity remains in North America and Europe, with APAC and LATAM showing selective but increasing platform density.

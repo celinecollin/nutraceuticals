@@ -1886,3 +1886,28 @@ Updated tabs to ensure the attached-design figures are fully reproducible from E
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/04_part_iii_value_chain.md`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-11-26.docx`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+
+### [2026-02-10] - Narrative Integration Pass: Figure-to-Text Cohesion + Geographic Precision
+- **Timestamp:** 2026-02-10 12:44:38 CET
+- **What:** Executed a full narrative integration pass across Parts I-III based on review feedback.
+  - Removed boilerplate figure lead-ins (e.g., "Figure X provides supporting evidence") and replaced with rationale-first analytical phrasing embedded in core paragraphs.
+  - Expanded `I.3` core text to better match figure density, with additional quantitative context and explicit segment totals.
+  - Added explicit figure-ID references in core text for all active figures to avoid orphan figure IDs and improve scientific-style readability.
+  - Improved geographic precision in market-trend statements (US, EU/Western Europe, APAC, North America distinctions).
+  - Strengthened market-facing whitepaper tone with clearer investment framing and selective inclusion of "pet humanization" where relevant.
+  - Renamed Part III.3 heading to reflect full scope beyond AGP: `Asia Pathways: AGP Transition, Nutrigenomics, and Green-Claim Optionality`.
+- **Build output:**
+  - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-12-43.docx`
+- **Validation:**
+  - No unresolved `[UNVERIFIED]` / `[AUTHOR-CHECK]` tags in `sections/*.md`.
+  - No remaining boilerplate figure-intro phrasing patterns detected.
+  - Figure reference coverage check passed for all captioned figures (each figure ID appears at least once in core text in addition to caption lines).
+- **Claims added/modified:** None (no new claim IDs introduced; existing source framework preserved).
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/01_executive_summary.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/02_part_i_structural_bifurcation.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/03_part_ii_strategic_bifurcation.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/04_part_iii_value_chain.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-12-43.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`

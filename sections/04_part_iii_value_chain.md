@@ -13,16 +13,14 @@ The downstream split remains decision-relevant: pet-side value is captured throu
 **Portfolio targeting should prioritize defensible SOM pathways with evidence-backed control points.**
 The TAM-to-SAM-to-SOM framing remains the correct decision framework for capital deployment [S104; S089, Tab: Figure 4]. The specific legacy SOM point estimate used in prior internal work is retained as an archive benchmark [S128]. The analytical priority is execution realism: a large TAM is not a sufficient allocation argument unless claim perimeter, evidence burden, and route-to-market friction support conversion into serviceable and obtainable pools [S089, Tab: Figure 4; S104]. This framing is especially important in nutraceutical-adjacent assets, where commercial ambition often exceeds pathway-constrained addressability [S015; S085].
 
-The following diagnostics should be read jointly as one value-capture set: waterfall and smile-curve mechanics (Figures 34-35), funnel conversion asymmetry (Figure 37), and the executable opportunity funnel (Figure 40), complemented by text-based analysis of channel resilience, strategic positioning, and transaction valuation behavior.
+The following diagnostics should be read jointly as one value-capture set: waterfall mechanics in Figure 34, smile-curve concentration in Figure 35, funnel conversion asymmetry in Figure 37, and the executable opportunity funnel in Figure 40, complemented by text-based analysis of channel resilience, strategic positioning, and transaction valuation behavior.
 
-Figure 34 illustrates this relationship with the underlying comparative data.
 **Figure 34: Pricing power erodes as products move from IP owners to generic retailers.**
 ![Pricing power erodes as products move from IP owners to generic retailers.](figures/Figure19_Value_Waterfall.png)
 *Source: [S061; S089, Tab: Figure 36]*
 _Figure takeaway:_ Pricing power decays along the chain unless the company controls an evidence-backed or IP-protected bottleneck.
 _Calculation note:_ Waterfall levels are internal normalized economics designed to compare relative value capture by chain position.
 
-This effect is explicitly shown in Figure 35.
 **Figure 35: Margin capture shifts upstream to IP holders and downstream to specialized CDMOs.**
 ![Margin capture shifts upstream to IP holders and downstream to specialized CDMOs.](figures/Figure33_Smile_Curve.png)
 *Source: [S089, Tab: Figure 33]*
@@ -38,9 +36,8 @@ _Figure takeaway:_ The funnel illustrates how broad trial volume converts into s
 
 Strategic categorization remains essential for entry decisions: categories with high evidence depth and scalable distribution pathways offer stronger risk-adjusted outcomes than categories that depend primarily on undifferentiated volume growth [S063]. For allocation purposes, segment positioning should be interpreted through risk-adjusted quality filters rather than headline TAM alone [S063; S089, Tab: Figure 39].
 
-Transaction evidence still supports valuation premia for de-risked assets with validated claims, channel execution, and operational control, while early-stage or weakly differentiated assets clear materially lower valuation bands [S118, S115]. This M&A dispersion reinforces the report’s core underwriting logic that proof architecture and commercialization quality drive exit outcomes more than category participation alone [S125; S118].
+Transaction evidence still supports valuation premia for de-risked assets with validated claims, channel execution, and operational control, while early-stage or weakly differentiated assets clear materially lower valuation bands [S118, S115]. The opportunity funnel visualized here is intentionally conservative: a broad **$123.0B** TAM compresses to **$13.0B** SAM and then to about **$0.25B** executable SOM, implying that less than 2% of the serviceable layer typically survives strict pathway, claim, and execution filters (Figure 40) [S089, Tab: Figure 38; S104]. This M&A dispersion reinforces the report’s core underwriting logic that proof architecture and commercialization quality drive exit outcomes more than category participation alone [S125; S118].
 
-Figure 40 provides supporting evidence for this conclusion.
 **Figure 40: Strategic opportunity funnel from broad TAM to executable SOM.**
 ![Strategic opportunity funnel from broad TAM to executable SOM.](figures/Figure_TAM_SAM_SOM.png)
 *Source: [S089, Tab: Figure 38]*
@@ -50,43 +47,39 @@ _Calculation note:_ Funnel filtering process uses internal filters to isolate re
 ## III.2. Consolidation Favors Vertical Titans
 
 **The market is consolidating around a barbell of integrated scale platforms and specialist IP platforms.**
-Large integrated incumbents continue to control access-heavy care pathways, while specialist innovators control high-value biological and formulation moats [S115; S118; S117]. This structure leaves weakly differentiated middle-layer assets most exposed to multiple compression, especially when channel access is rented rather than owned [S089, Tab: Figure 39]. In practice, the barbell dynamic reduces strategic degrees of freedom for mid-tier operators that lack either proprietary science assets or privileged channel control [S115; S118]. This is why ownership of control points, not simple category exposure, remains the most reliable predictor of valuation durability [S089, Tab: Figure 39].
+Large integrated incumbents continue to control access-heavy care pathways, while specialist innovators control high-value biological and formulation moats [S115; S118; S117]. This structure leaves weakly differentiated middle-layer assets most exposed to multiple compression, especially when channel access is rented rather than owned [S089, Tab: Figure 39]. In practice, the barbell dynamic reduces strategic degrees of freedom for mid-tier operators that lack either proprietary science assets or privileged channel control [S115; S118]. This is why ownership of control points, not simple category exposure, remains the most reliable predictor of valuation durability [S089, Tab: Figure 39]. The current revenue architecture highlights this split: large consumer and pet-food platforms operate at **$22.4B** and **$22.0B** scale, while high-quality pharma/animal-health operators cluster between roughly **$4.4B** and **$9.3B**, and feed-specialty players form a smaller but strategic **$1.4B-$3.6B** tier (Figure 41) [S115; S117; S118; S119; S120].
 
 **Transaction evidence confirms a durable bifurcated valuation regime across pet and livestock exposures.**
-Premium outcomes continue to cluster around assets with brand defensibility, manufacturing control, and validated claims, while lower-differentiation or commodity-adjacent deals clear materially lower bands [S118, Table III.1; S115; S125]. The expanded transaction stack is retained below to preserve full comparative context for sponsor and strategic behavior across 2018-2025 [S125; S128]. Recent benchmark transactions reinforce this dispersion, from large strategic-quality acquisitions in premium pet platforms to lower-visibility outcomes in undifferentiated assets [S118, Table III.1; S125]. For portfolio construction, this supports selective concentration in assets with documented claim defensibility and repeatable integration pathways [S118; S128].
+Premium outcomes continue to cluster around assets with brand defensibility, manufacturing control, and validated claims, while lower-differentiation or commodity-adjacent deals clear materially lower bands [S118, Table III.1; S115; S125]. The expanded transaction stack is retained below to preserve full comparative context for sponsor and strategic behavior across 2018-2025 [S125; S128]. Recent benchmark transactions reinforce this dispersion, from large strategic-quality acquisitions in premium pet platforms to lower-visibility outcomes in undifferentiated assets [S118, Table III.1; S125]. Capability mapping reinforces the same point: only a minority of platforms show continuity across therapeutics, vaccines, nutraceuticals, nutrition, and diagnostics, while most players remain concentrated in two to four care layers (Figure 42) [S115; S117; S118; S119; S120]. For portfolio construction, this supports selective concentration in assets with documented claim defensibility and repeatable integration pathways [S118; S128].
 
 **Sponsor profiling should be treated as a strategic signal layer for future exits and roll-up velocity.**
 Investor participation remains heterogeneous by thesis type: channel-consolidation PE, specialist growth investors, and biosolutions/food-tech funds each cluster around different moat types and time horizons [S116, Tab: Sheet1; S128]. The extended investor table is restored below to recover the missing institutional map from prior versions. This heterogeneity should be interpreted as useful signal, because sponsor type often implies different post-acquisition operating playbooks and exit paths [S116, Tab: Sheet1]. Aligning asset profile with sponsor archetype improves probabilistic underwriting of hold period, leverage tolerance, and value-creation mechanics [S128].
 
 The operating-screen set for this section combines transaction-risk filters (text analysis), model-level revenue quality (Figure 41), capability continuity across care touchpoints (Figure 42), category-structure concentration (Figure 43), and margin architecture by chain position (Figure 44).
 
-The pattern is quantified in Figure 41.
 **Figure 41: Revenue architecture across pharma-linked, feed-linked, and consumer-led models.**
 ![Revenue architecture across pharma-linked, feed-linked, and consumer-led models.](figures/Figure_IV_5_Revenue_Comparison.png)
 *Source: [S115, S117, S118, S119, S120]*
 _Figure takeaway:_ Revenue durability differs by model architecture, with integrated science and channel assets showing stronger quality.
 
-Figure 42 illustrates this relationship with the underlying comparative data.
 **Figure 42: Capability matrix across the Continuum of Care.**
 ![Capability matrix across the Continuum of Care.](figures/Figure_IV_6_Capability_Matrix.png)
 *Source: [S115, S117, S118, S119, S120]*
 _Figure takeaway:_ Capability gaps identify where inorganic moves are more efficient than internal build-out.
 _Calculation note:_ The matrix expands the Figure 5 company universe and marks capabilities only where auditable data points are available.
 
-This effect is explicitly shown in Figure 43.
 **Figure 43: Pet category structure and disruption long-tail dynamics.**
 ![Pet category structure and disruption long-tail dynamics.](figures/Figure_IV_3_Pet.png)
 *Source: [S105]*
 _Figure takeaway:_ Category fragmentation creates selective roll-up opportunities but not uniform quality.
 
-Figure 44 provides supporting evidence for this conclusion.
 **Figure 44: Margin ladder by value-chain position and model quality.**
 ![Margin ladder by value-chain position and model quality.](figures/Figure_IV_4_Margins.png)
 *Source: [S089, Tab: Figure 44]*
 _Figure takeaway:_ Margin expansion is linked to control-point depth rather than simple downstream scale.
 _Calculation note:_ Margin ladder values are scenario-based estimates for strategic comparison.
 
-Capital allocation should prioritize assets where evidence depth and scale reinforce each other, with secondary allocation to assets that are strong on one dimension but still scaling on the other [S089, Tab: Figure 45]. The underlying scoring logic combines reported commercial and clinical indicators into comparable strategic coordinates, enabling consistent prioritization across heterogeneous asset profiles [CALCULATION, Figure 45].
+Capital allocation should prioritize assets where evidence depth and scale reinforce each other, with secondary allocation to assets that are strong on one dimension but still scaling on the other [S089, Tab: Figure 45]. In the current category-structure panel, the combined share of the top two branded platforms is above **45%** while a fragmented long tail remains significant, which is precisely the setup that rewards selective consolidation but punishes undisciplined roll-up execution (Figure 43) [S105]. Margin ladders reinforce this selectivity logic by showing that control-point depth, rather than pure downstream volume, explains most quality dispersion in operating outcomes (Figure 44) [S089, Tab: Figure 44]. The underlying scoring logic combines reported commercial and clinical indicators into comparable strategic coordinates, enabling consistent prioritization across heterogeneous asset profiles [CALCULATION, Figure 45].
 
 **Table III.1: Expanded Benchmark Transactions (Archive-Ported and Updated).**
 
@@ -133,7 +126,7 @@ Capital allocation should prioritize assets where evidence depth and scale reinf
 | ![Stray Dog](figures/logos/stray_dog_capital.png) **Stray Dog Capital** | 🇺🇸 US | Wild Earth; Bond Pet Foods | Mission-driven pet nutrition venture investing | Undisclosed | [S128] |
 | ![Cavallo](figures/logos/cavallo_ventures.png) **Cavallo Ventures** | 🇺🇸 US | Native Microbials; Bond Pet Foods | Corporate venture adjacency in agri-food | Corporate VC | [S128] |
 
-## III.3. Asia AGP Pathways Define the Next Frontier
+## III.3. Asia Pathways: AGP Transition, Nutrigenomics, and Green-Claim Optionality
 
 **Outlook quality now depends on evidence governance as much as on technology promise.**
 Green-claim institutionalization is tightening the acceptable claim perimeter, especially where lifecycle and substantiation standards are being formalized [S015; S117]. The practical implication is that platforms with auditable evidence stacks, not just sustainability messaging, are likely to retain pricing and distribution access as compliance thresholds rise [S126]. This shift increases the strategic importance of documentation quality, traceability, and repeatable claim substantiation in both investor diligence and customer procurement [S126]. In effect, evidence governance is moving from a legal-control function to a commercial moat variable [S117; S126].
