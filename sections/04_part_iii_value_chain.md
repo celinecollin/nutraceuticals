@@ -8,21 +8,21 @@ Part III converts Parts I and II into executable strategy: where value accrues a
 Upstream science, branded formulation control, and specialized manufacturing continue to capture superior economics relative to undifferentiated downstream resale [S089, Tab: Figure 36; S089, Tab: Figure 39]. In operating terms, the middle layer compresses when claims are weakly protected, while integrated science-plus-channel models preserve margin integrity over cycle turns [S089, Tab: Figure 36].
 
 **Channel architecture is now a direct valuation variable, not a distribution afterthought.**
-The downstream split remains decision-relevant: pet-side value is captured through trust, adherence, and omnichannel control, while livestock-side value is captured through measurable biological performance and procurement fit [S089, Tab: Figure 39; S060]. Comparative channel-economics data indicate that pure-play single-channel exposure can lose margin faster than integrated portfolios when retail/media costs rise and conversion quality decays (Figure 46) [S060; S089, Tab: Figure 37].
+The downstream split remains decision-relevant: pet-side value is captured through trust, adherence, and omnichannel control, while livestock-side value is captured through measurable biological performance and procurement fit [S089, Tab: Figure 39; S060]. Comparative channel-economics data indicate that single-channel concentration can lose margin faster than integrated portfolios when retail/media costs rise and conversion quality decays (Figure 46) [S060; S089, Tab: Figure 37].
 
 **Portfolio targeting should prioritize defensible SOM pathways with evidence-backed control points.**
-The TAM-to-SAM-to-SOM framing remains the correct decision scaffold for capital deployment [S104; S089, Tab: Figure 4]. The specific legacy SOM point estimate used in prior internal work is retained as an archive benchmark [S128].
+The TAM-to-SAM-to-SOM framing remains the correct decision framework for capital deployment [S104; S089, Tab: Figure 4]. The specific legacy SOM point estimate used in prior internal work is retained as an archive benchmark [S128].
 
-Figures 34-40 should be read jointly as a value-capture diagnostics set: waterfall and smile-curve mechanics, channel sensitivity (Figure 36), funnel conversion asymmetry (Figure 37), risk-reward posture, transaction valuation behavior, and executable opportunity funnel.
+Figures 34-40 should be read jointly as a value-capture diagnostics set: waterfall and smile-curve mechanics, channel sensitivity (Figure 36), funnel conversion asymmetry (Figure 37), risk-return profile, transaction valuation behavior, and executable opportunity funnel.
 
-Pricing power erodes as products move from IP owners to generic retailers (Figure 34).
+Figure 34 illustrates this relationship with the underlying comparative data.
 **Figure 34: Pricing power erodes as products move from IP owners to generic retailers.**
 ![Pricing power erodes as products move from IP owners to generic retailers.](figures/Figure19_Value_Waterfall.png)
 *Source: [S061; S089, Tab: Figure 36]*
 _Figure takeaway:_ Pricing power decays along the chain unless the company controls an evidence-backed or IP-protected bottleneck.
 _Calculation note:_ Waterfall levels are internal normalized economics designed to compare relative value capture by chain position.
 
-Margin capture shifts upstream to IP holders and downstream to specialized CDMOs (Figure 35).
+This effect is explicitly shown in Figure 35.
 **Figure 35: Margin capture shifts upstream to IP holders and downstream to specialized CDMOs.**
 ![Margin capture shifts upstream to IP holders and downstream to specialized CDMOs.](figures/Figure33_Smile_Curve.png)
 *Source: [S089, Tab: Figure 33]*
@@ -40,7 +40,7 @@ _Calculation note:_ Channel scores combine observed retail/e-commerce economics 
 *Source: [S115, S116]*
 _Figure takeaway:_ The funnel illustrates how broad trial volume converts into smaller high-value therapeutic and Rx opportunities.
 
-Strategic categorization defines the risk-reward profile for market entrants (Figure 38).
+Figure 38 illustrates this relationship with the underlying comparative data.
 **Figure 38: Strategic categorization defines the risk-reward profile for market entrants.**
 ![Strategic categorization defines the risk-reward profile for market entrants.](figures/Figure20_Risk_Reward.png)
 *Source: [S063]*
@@ -51,19 +51,19 @@ _Figure takeaway:_ Segment positioning should be read through a risk-adjusted le
 *Source: [S118, S115]*
 _Figure takeaway:_ Transaction history supports a premium for derisked assets with proven commercial execution.
 
-Strategic opportunity funnel from broad TAM to executable SOM (Figure 40).
+Figure 40 provides supporting evidence for this conclusion.
 **Figure 40: Strategic opportunity funnel from broad TAM to executable SOM.**
 ![Strategic opportunity funnel from broad TAM to executable SOM.](figures/Figure_TAM_SAM_SOM.png)
 *Source: [S089, Tab: Figure 38]*
 _Figure takeaway:_ Opportunity should be underwritten from executable SOM backward, not from headline TAM forward.
-_Calculation note:_ Funnel cut-down uses internal filters to isolate realistically captureable pools.
+_Calculation note:_ Funnel filtering process uses internal filters to isolate realistically captureable pools.
 
 ## III.2. Consolidation Favors Vertical Titans
 
 **The market is consolidating around a barbell of integrated scale platforms and specialist IP platforms.**
 Large integrated incumbents continue to control access-heavy care pathways, while specialist innovators control high-value biological and formulation moats [S115; S118; S117]. This structure leaves weakly differentiated middle-layer assets most exposed to multiple compression, especially when channel access is rented rather than owned [S089, Tab: Figure 39].
 
-**Transaction evidence confirms a durable two-speed valuation regime across pet and livestock exposures.**
+**Transaction evidence confirms a durable bifurcated valuation regime across pet and livestock exposures.**
 Premium outcomes continue to cluster around assets with brand defensibility, manufacturing control, and validated claims, while lower-differentiation or commodity-adjacent deals clear materially lower bands [S118, Table III.1; S115; S125]. The expanded transaction stack is retained below to preserve full comparative context for sponsor and strategic behavior across 2018-2025 [S125; S128].
 
 **Sponsor profiling should be treated as a strategic signal layer for future exits and roll-up velocity.**
@@ -71,33 +71,33 @@ Investor participation remains heterogeneous by thesis type: channel-consolidati
 
 Figures 39-43 are the operating-screen set for this section: the valuation surface under transaction-risk filters (Figure 39), model-level revenue quality, capability continuity across care touchpoints, category-structure concentration, margin architecture by chain position, and risk-adjusted allocation posture.
 
-Revenue architecture across pharma-linked, feed-linked, and consumer-led models (Figure 41).
+The pattern is quantified in Figure 41.
 **Figure 41: Revenue architecture across pharma-linked, feed-linked, and consumer-led models.**
 ![Revenue architecture across pharma-linked, feed-linked, and consumer-led models.](figures/Figure_IV_5_Revenue_Comparison.png)
 *Source: [S115, S117, S118, S119, S120]*
 _Figure takeaway:_ Revenue durability differs by model architecture, with integrated science and channel assets showing stronger quality.
 
-Capability matrix across the Continuum of Care (Figure 42).
+Figure 42 illustrates this relationship with the underlying comparative data.
 **Figure 42: Capability matrix across the Continuum of Care.**
 ![Capability matrix across the Continuum of Care.](figures/Figure_IV_6_Capability_Matrix.png)
 *Source: [S115, S117, S118, S119, S120]*
 _Figure takeaway:_ Capability gaps identify where inorganic moves are more efficient than internal build-out.
 _Calculation note:_ The matrix expands the Figure 5 company universe and marks capabilities only where auditable data points are available.
 
-Pet category structure and disruption long-tail dynamics (Figure 43).
+This effect is explicitly shown in Figure 43.
 **Figure 43: Pet category structure and disruption long-tail dynamics.**
 ![Pet category structure and disruption long-tail dynamics.](figures/Figure_IV_3_Pet.png)
 *Source: [S105]*
 _Figure takeaway:_ Category fragmentation creates selective roll-up opportunities but not uniform quality.
 
-Margin ladder by value-chain position and model quality (Figure 44).
+Figure 44 provides supporting evidence for this conclusion.
 **Figure 44: Margin ladder by value-chain position and model quality.**
 ![Margin ladder by value-chain position and model quality.](figures/Figure_IV_4_Margins.png)
 *Source: [S089, Tab: Figure 44]*
 _Figure takeaway:_ Margin expansion is linked to control-point depth rather than simple downstream scale.
 _Calculation note:_ Margin ladder values are scenario-based estimates for strategic comparison.
 
-Strategic capital-allocation matrix for risk/reward positioning (Figure 45).
+The pattern is quantified in Figure 45.
 **Figure 45: Strategic capital-allocation matrix for risk/reward positioning.**
 ![Strategic capital-allocation matrix for risk/reward positioning.](figures/Figure_IV_5_Strategic_matrix.png)
 *Source: [S089, Tab: Figure 45]*
@@ -114,7 +114,7 @@ _Calculation note:_ Matrix coordinates use internal scoring calibrated from repo
 | **2021** | **Zesty Paws** | H&H Group | **$610M** | **~16x to high-20x (method-dependent)** | Digital-first premium pet brand acquisition | [S118, Table III.1; S125] |
 | **2022** | **NaturVet** | Swedencare | **$447M** | **~21.4x EBITDA** | Manufacturing leverage plus omnichannel expansion | [S118, Table III.1; S125] |
 | **2022** | **Nom Nom** | Mars Petcare | **~$1.0B (est.)** | **n/a** | Fresh/personalized pet nutrition scale-up | [S125; S128] |
-| **2024** | **FoodScience** | MSCP | **Undisclosed** | **Premium (undisclosed)** | Vertical integration and brand/control-point ownership | [S116, Tab: Sheet2; S128] |
+| **2024** | **FoodScience** | MSCP | **Undisclosed** | **Premium (undisclosed)** | Vertical integration and brand/ownership of strategic control points | [S116, Tab: Sheet2; S128] |
 | **2024** | **Vetnique + Lintbells (YuMOVE)** | Gryphon Platform | **Undisclosed** | **Platform Combination** | Cross-border chronic-care platform build | [S116, Tab: Sheet2; S128] |
 | **2024** | **Zoetis MFA Portfolio** | Phibro | **$350M** | **Asset Sale** | Portfolio refocus and industrial nutrition scale fit | [S115; S125] |
 | **2024** | **Aker BioMarine Feed Ingredients** | American Industrial Partners | **$590M EV** | **n/a** | Upstream ingredient platform ownership | [S125; S128] |
@@ -127,7 +127,7 @@ _Calculation note:_ Matrix coordinates use internal scoring calibrated from repo
 |:---|:---|:---|:---|:---|
 | **JAB Holding Company** | NVA; Ethos Veterinary Health | Veterinary-services consolidation and referral-network scale | n/a | [S116, Tab: Sheet1] |
 | **Gryphon Investors** | Vetnique Labs; Lintbells (YuMOVE) | Vet-endorsed brand platform building | n/a | [S116, Tab: Sheet1] |
-| **Morgan Stanley Capital Partners** | FoodScience; Manna Pro (Compana) | Manufacturing and control-point ownership | n/a | [S116, Tab: Sheet1] |
+| **Morgan Stanley Capital Partners** | FoodScience; Manna Pro (Compana) | Manufacturing and ownership of strategic control points | n/a | [S116, Tab: Sheet1] |
 | **EQT Group** | IVC Evidensia; Zooplus; Dechra | Care-continuum and distribution access | ~€270B (legacy) | [S116, Tab: Sheet1; S128] |
 | **BC Partners** | PetSmart; Gambol Pet Group | Retail-scale roll-up strategy | >$40B (legacy) | [S116, Tab: Sheet1; S128] |
 | **Cinven** | Partner in Pet Food; Arcaplanet | EU pet-food and specialty-retail exposure | ~€44B (legacy) | [S116, Tab: Sheet1; S128] |

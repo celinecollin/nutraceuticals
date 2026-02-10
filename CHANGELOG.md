@@ -1742,3 +1742,21 @@ Updated tabs to ensure the attached-design figures are fully reproducible from E
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-20-21.docx`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260209-22-48.docx`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+
+### [2026-02-10] - Narrative Mode Phrase Cleanup + Figure Intro De-duplication
+- **Timestamp:** 2026-02-10 10:21:37 CET
+- **What:** Applied approved narrative-mode editorial cleanup across core sections.
+  - Rewrote duplicate pre-caption figure intro lines into analytical lead-ins (kept figure call-outs, removed title duplication).
+  - Rephrased colloquial/cliche wording into more professional language (examples: "stress-tested" -> "rigorously evaluated", "scope discipline" -> "coverage perimeter", "low-signal" -> "low-information", "first-order value driver" -> "primary determinant of value").
+  - Preserved section hierarchy, figure numbering, sources, and table structures.
+- **Validation:** automated scan confirms `dup_count = 0` for duplicate pre-caption title lines.
+- **Rebuild:** generated updated output:
+  - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-10-20.docx`
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/01_executive_summary.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/02_part_i_structural_bifurcation.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/03_part_ii_strategic_bifurcation.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/04_part_iii_value_chain.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-10-20.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
