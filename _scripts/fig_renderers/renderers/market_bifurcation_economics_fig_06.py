@@ -7,7 +7,14 @@ SPEC = {
     "tab": "Figure 6",
     "mode": "grouped_bar",
     "output_file": "Figure_II_0_2_Market_Bifurcation.png",
-    "title": "The Innovation Divergence: Pet vs. Livestock Structural Economics"
+    "title": "The Innovation Divergence: Pet vs. Livestock Structural Economics",
+    "options": {
+        "xlabel": "Structural Dimension",
+        "ylabel": "Relative Intensity (1-10 scale)",
+        "xtick_rotation": 10,
+        "legend_loc": "upper right",
+        "ymin": 0,
+    },
 }
 
 

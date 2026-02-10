@@ -288,6 +288,7 @@ def _render_innovation_matrix(df: pd.DataFrame, title: str, output: str, options
 
 
 def _render_grouped_bar(df: pd.DataFrame, title: str, output: str, options: Optional[Dict[str, Any]] = None) -> Path:
+    opts = options or {}
     labels = df.iloc[:, 0].astype(str)
     cols = df.columns[1:]
     x = np.arange(len(labels))
@@ -297,12 +298,21 @@ def _render_grouped_bar(df: pd.DataFrame, title: str, output: str, options: Opti
     for i, c in enumerate(cols):
         ax.bar(x + (i - (len(cols) - 1) / 2) * width, df[c].astype(float), width=width, label=c)
 
+    rotation = float(opts.get("xtick_rotation", 12))
     ax.set_xticks(x, labels=labels)
-    ax.set_xlabel(str(df.columns[0]))
-    ax.set_ylabel("Value")
+    for tick in ax.get_xticklabels():
+        tick.set_rotation(rotation)
+        tick.set_ha("right" if rotation else "center")
+
+    ax.set_xlabel(str(opts.get("xlabel", df.columns[0])))
+    ax.set_ylabel(str(opts.get("ylabel", "Value")))
     ax.set_title(title, fontsize=18, fontweight="bold")
+    if "ymin" in opts or "ymax" in opts:
+        ymin = float(opts.get("ymin", ax.get_ylim()[0]))
+        ymax = float(opts.get("ymax", ax.get_ylim()[1]))
+        ax.set_ylim(ymin, ymax)
     ax.grid(axis="y", linestyle=":", alpha=0.35)
-    ax.legend(loc="upper right")
+    ax.legend(loc=str(opts.get("legend_loc", "upper right")))
     return save_figure(fig, output)
 
 

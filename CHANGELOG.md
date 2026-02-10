@@ -1784,3 +1784,26 @@ Updated tabs to ensure the attached-design figures are fully reproducible from E
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/05_appendices.md`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-10-32.docx`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+
+### [2026-02-10] - Batch B: Regulatory Pathway Table Expansion + Figure 6 Sensitivity Fix
+- **Timestamp:** 2026-02-10 10:50:03 CET
+- **What:** Executed Batch B of the approved major pass.
+  - Expanded `Table I.1` into a route-level regulatory map (feed/supplement vs zootechnical/additive vs veterinary-drug pathways) with explicit claim perimeter, evidence requirements, time-to-market profile, and reclassification/switch triggers by region.
+  - Corrected Figure 6 source data in `figures_data.xlsx` by replacing inverted sensitivity semantics with direct interpretation (`Price Sensitivity`: Pet `2`, Livestock `8`).
+  - Updated grouped-bar rendering controls to enforce explicit x/y axis labels and improve readability for Figure 6.
+  - Added an interpretation note under Figure 6 clarifying sensitivity direction.
+- **Build output:**
+  - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-10-48.docx`
+- **Validation:**
+  - Figure build pipeline completed successfully (`47/47` renderers).
+  - DOCX check confirms the expanded Table I.1 (7 columns, route-level rows) and the Figure 6 interpretation note are present.
+- **Claims added/modified:** None (clarification and pathway expansion grounded in existing cited sources; no new claim IDs introduced).
+- **Flags for next batch:** Part-by-part +20% narrative expansion, figure-introduction sentence normalization, and remaining legend-guidance improvements.
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/02_part_i_structural_bifurcation.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_figures/figures_data.xlsx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_scripts/fig_renderers/common.py`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_scripts/fig_renderers/renderers/market_bifurcation_economics_fig_06.py`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_figures/exports/Figure_II_0_2_Market_Bifurcation.png`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`

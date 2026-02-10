@@ -32,14 +32,18 @@ _Figure takeaway:_ Policy sequencing created a staggered but durable demand floo
 
 Across pathways, the economics are structurally asymmetric: feed-positioned routes offer faster launch velocity but narrower claim language, zootechnical routes can support stronger functional claims with higher dossier burden, and veterinary drug routes provide the broadest therapeutic perimeter at materially higher cost and time-to-revenue [S089, Tab: Figure 3; S015; S085]. This pathway gradient is central to underwriting because claim perimeter, evidence burden, and review complexity jointly determine gross-margin durability and adoption speed in each region [S089, Tab: Figure 3].
 
-**Table I.1: Global Regulatory Access Strategy (Summary).**
+**Table I.1: Global Regulatory Access Strategy (Expanded Pathway Map).**
 
-| Region | Nutraceutical Status | Primary Rule Set | Practical Go-to-Market Strategy | Access Key |
-|:---|:---|:---|:---|:---|
-| **United States** | Binary: Food vs Drug | FDA framework + AAFCO conventions [S085] | Position as feed/supplement and avoid disease-treatment language in commercial claims [S085] | Labeling and safety dossier execution |
-| **European Union** | Feed vs VMP | Reg (EC) 1831/2003 pathway [S015] | Use zootechnical route when efficacy claims are central and evidence can support dossier burden [S015] | EFSA-style efficacy defensibility |
-| **United Kingdom** | Feed vs VMP | UK post-Brexit feed/vet framework [S015] | Prioritize precise claim perimeter and regulatory sequencing for faster market entry [S015] | Route-specific claim discipline |
-| **China** | Strictly licensed | MARA registration model [S015; S124] | Classify correctly at filing stage and align formulation/claims to MARA category limits [S124] | MARA-compliant filing execution |
+| Region | Route Type | Typical Product Positioning | Permitted Claim Perimeter | Core Evidence / Procedural Requirement | Typical Time-to-Market Profile | Key Exceptions / Switch Triggers |
+|:---|:---|:---|:---|:---|:---|:---|
+| **United States** | Feed material / supplement route | Nutraceutical ingredients, blends, and wellness-support products under food/feed positioning [S085] | Structure-function and wellness language; no disease-treatment claims unless drug pathway is used [S085] | GRAS-aligned safety substantiation, formulation/specification controls, and label discipline under FDA/AAFCO practice [S085; S403] | Faster when claim perimeter remains non-therapeutic and dossier scope is safety-led [S085] | Disease or cure language, or implied therapeutic intent, can force reclassification pressure toward drug expectations [S085] |
+| **United States** | Veterinary drug route | Therapeutic products with explicit disease prevention/treatment intent [S085] | Therapeutic and disease claims permitted after regulatory approval [S085] | Full drug-development evidence package with efficacy and safety to drug standards [S085] | Slowest and most capital-intensive pathway; highest approval burden [S085] | Used when commercial thesis depends on explicit therapeutic claims rather than wellness framing [S085] |
+| **European Union** | Feed additive (zootechnical) route | Performance and functional feed additives, including productivity and health-support outcomes [S015] | Functional/zootechnical claims permitted when dossier evidence supports mechanism and effect [S015] | Reg (EC) 1831/2003 dossier process with EFSA-centered efficacy and safety assessment [S015] | Slower than US feed positioning due to dossier depth and formal review sequencing [S015] | If evidence package is weak or claims exceed authorized perimeter, positioning must be narrowed or reformulated [S015] |
+| **European Union** | Veterinary medicinal product (VMP) route | Explicit veterinary therapeutic products [S015] | Therapeutic claims after VMP authorization [S015] | VMP-grade authorization standards, including clinical efficacy and safety requirements [S015] | Slowest route with highest regulatory burden, but broadest therapeutic claim scope [S015] | Chosen when go-to-market economics rely on therapeutic claim breadth rather than feed-claim speed [S015] |
+| **United Kingdom** | Feed route (post-Brexit) | Feed and nutraceutical-adjacent products aligned to UK feed law and claim constraints [S015] | Non-therapeutic functional claims within feed-compliant perimeter [S015] | UK route-specific dossier, labeling, and compliance sequencing [S015] | Medium-speed pathway when claim perimeter and route classification are tightly controlled [S015] | Therapeutic claim ambition or classification drift increases probability of route escalation [S015] |
+| **United Kingdom** | VMP route | Veterinary therapeutic products under UK VMP controls [S015] | Therapeutic claims with authorization [S015] | UK VMP evidentiary and authorization requirements [S015] | Slower, high-burden route with broader claim capability [S015] | Triggered by therapeutic positioning and disease-claim strategy [S015] |
+| **China** | MARA feed / additive route | Feed additives and health-support formulations registered under MARA category architecture [S124] | Category-bounded functional language with strict classification discipline [S124] | MARA registration sequence, classification correctness, and route-consistent formulation package [S124] | Medium-to-slow; highly sensitive to classification accuracy at filing stage [S124] | Misclassification at filing can materially delay access and require dossier rework [S124] |
+| **China** | Veterinary-drug-style therapeutic route | Products positioned with explicit treatment/prevention intent in veterinary channels [S124] | Therapeutic claims only under the relevant authorization perimeter [S124] | Higher clinical and regulatory burden than feed/additive route [S124] | Slowest pathway; highest burden and longest commercialization cycle [S124] | Used when therapeutic claim scope is required for commercial strategy [S124] |
 
 *Source: [S015; S085; S124]*
 
@@ -67,6 +71,7 @@ _Calculation note:_ Company positioning is normalized from reported annual metri
 *Source: [S089, Tab: Figure 6]*
 _Figure takeaway:_ The pet side monetizes trust and adherence, while livestock monetizes measurable biological productivity; valuation frameworks should not be blended.
 _Calculation note:_ Relative-intensity scores are internal normalized indices intended for directional comparison, not audited absolute accounting values.
+_Interpretation note:_ Price sensitivity is shown as direct sensitivity (higher score = more price-sensitive demand), so companion-pet demand is structurally less price-sensitive than livestock demand in this framework.
 
 ## I.3. Functional Segmentation Pivots to Outcomes
 
