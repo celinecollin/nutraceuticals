@@ -1,6 +1,6 @@
 # PART II: Strategic Bifurcation Drives Two-Speed Economics
 
-Part II translates Part I scope discipline into observable demand behavior: who buys, why they buy, and how demographic, production, and channel constraints reprice asset quality. It links regulatory/evidence architecture to real purchasing and production decisions.
+Part II translates Part I coverage-perimeter definitions into observable demand behavior: who buys, why they buy, and how demographic, production, and channel constraints reprice asset quality. It links regulatory/evidence architecture to real purchasing and production decisions.
 
 ## II.1. Demographic Divergence Decouples Growth
 

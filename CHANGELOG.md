@@ -1862,3 +1862,27 @@ Updated tabs to ensure the attached-design figures are fully reproducible from E
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_figures/exports/Figure_49_Actor_Ecosystem_Map.png`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_figures/exports/logos/*.png`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+
+### [2026-02-10] - Batch E: Final QA Sweep + Phrase Polish + Release Build
+- **Timestamp:** 2026-02-10 11:28:09 CET
+- **What:** Executed final QA/polish batch after Batch D.
+  - Replaced remaining phrasing instances:
+    - `scope discipline` -> `coverage-perimeter definition(s)`
+    - `stress-tested` -> `evaluated under distinct control variables`
+  - Regenerated final dated output from active pipeline.
+  - Performed consistency checks across section markdown and generated DOCX:
+    - No unresolved `[UNVERIFIED]` / `[AUTHOR-CHECK]` tags in `sections/*.md`.
+    - No duplicate pre-caption title lines detected.
+    - Figure citation coverage check passed (`Figure X` appears in text where caption exists).
+    - Figure asset integrity checks passed on referenced PNGs (no missing assets; no low-variance/blank image flags in fallback statistical scan).
+- **Build output:**
+  - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-11-26.docx`
+- **Visual QA note:** `soffice`/`pdftoppm` are unavailable in this environment, so visual pass used fallback image-integrity checks and DOCX structural verification.
+- **Claims added/modified:** None.
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/01_executive_summary.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/03_part_ii_strategic_bifurcation.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/04_part_iii_value_chain.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-11-26.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
