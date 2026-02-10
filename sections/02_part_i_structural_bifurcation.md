@@ -16,7 +16,7 @@ The AGP ban sequence (EU 2006, US 2017, China 2020) and the EU zinc-oxide restri
 **A clearly defined coverage perimeter is required to separate investable biological innovation from low-information commodity exposure.**
 For screening and valuation consistency, the report perimeter includes functional bioactives and validated delivery systems, and excludes generic commodity streams and prescription VMP revenues unless nutraceutical adjacency is explicitly demonstrated [S089, Tab: Figure 4]. This perimeter definition preserves comparability across regions and maintains a traceable serviceable baseline to auditable value pools [S089, Tab: Figure 4; S089, Tab: Figure 39].
 
-The regulatory operating toolkit covers cross-jurisdiction mechanics, policy-shock sequencing, and pathway-to-economics effects (Figures 2-4).
+The regulatory operating toolkit covers cross-jurisdiction mechanics, policy-shock sequencing, and pathway-to-economics effects (Figures 2-3), complemented by the detailed regulatory-pathway comparison in text.
 
 Figure 2 illustrates this relationship with the underlying comparative data.
 **Figure 2: Regulatory divergence creates structural barriers to entry for participants that do not satisfy compliance requirements.**
@@ -24,17 +24,13 @@ Figure 2 illustrates this relationship with the underlying comparative data.
 *Source: [S085, S015, S124]*
 _Figure takeaway:_ Regulatory architecture is not harmonized; market-entry friction differs materially across the four key jurisdictions and should be underwritten explicitly.
 
-Regulatory timeline of post-antibiotic and compliance-driven substitution (Figure 3), with the claims-versus-cost pathway trade-off formalized in the jurisdiction matrix (Figure 4).
+Regulatory timeline of post-antibiotic and compliance-driven substitution (Figure 3), with the claims-versus-cost pathway trade-off formalized in the jurisdiction operating comparison below.
 **Figure 3: Regulatory timeline of post-antibiotic and compliance-driven substitution.**
 ![Regulatory timeline of post-antibiotic and compliance-driven substitution.](figures/Regulatory_Timeline_RightArrow.png)
 *Source: [S086]*
 _Figure takeaway:_ Policy sequencing created a staggered but durable demand floor for antibiotic-replacement additive categories.
 
-**Figure 4: Regulatory pathways dictate unit economics and allowable claims.**
-![Regulatory pathways dictate unit economics and allowable claims.](figures/Figure_I_3_Regulatory_Matrix.png)
-*Source: [S089, Tab: Figure 3]*
-_Figure takeaway:_ Claim perimeter and approval burden shape both gross-margin potential and speed-to-revenue.
-_Calculation note:_ This matrix uses internally harmonized pathway assumptions to compare jurisdictions on a like-for-like decision basis.
+Across pathways, the economics are structurally asymmetric: feed-positioned routes offer faster launch velocity but narrower claim language, zootechnical routes can support stronger functional claims with higher dossier burden, and veterinary drug routes provide the broadest therapeutic perimeter at materially higher cost and time-to-revenue [S089, Tab: Figure 3; S015; S085]. This pathway gradient is central to underwriting because claim perimeter, evidence burden, and review complexity jointly determine gross-margin durability and adoption speed in each region [S089, Tab: Figure 3].
 
 **Table I.1: Global Regulatory Access Strategy (Summary).**
 

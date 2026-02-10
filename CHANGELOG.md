@@ -1760,3 +1760,27 @@ Updated tabs to ensure the attached-design figures are fully reproducible from E
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/04_part_iii_value_chain.md`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-10-20.docx`
 - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`
+
+### [2026-02-10] - Batch A: Figure-to-Text Conversion and Appendix Figure Cleanup
+- **Timestamp:** 2026-02-10 10:37:05 CET
+- **What:** Executed Batch A of the approved major pass with no heading-structure changes.
+  - Removed Figure 4 from Part I and replaced with explanatory core text in the same section block.
+  - Removed Figures 36, 38, 39, and 45 from Part III and replaced each with in-paragraph explanatory text carrying the same analytical message.
+  - Removed Figures 47 and 48 from appendices.
+  - Corrected one executive-summary figure reference regression (`Figure 4` -> `Figure 1`).
+  - Rebuilt DOCX through active pipeline.
+- **Build output:**
+  - `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-10-32.docx`
+- **Validation:**
+  - Post-build document scan confirms zero occurrences of figure captions for 4, 36, 38, 39, 45, 47, and 48.
+  - Remaining Part III figures 41, 42, 43, 44, and 46 remain present.
+- **Claims added/modified:** None (text reframing only; no new numeric claims introduced).
+- **Flags for next batch:** Regulatory table expansion (`Table I.1`), Figure 6 axis correction and sensitivity direction fix, and structured +20% narrative expansion remain pending.
+
+### Files Modified
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/01_executive_summary.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/02_part_i_structural_bifurcation.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/04_part_iii_value_chain.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/sections/05_appendices.md`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/_output/Nutraceuticals_Whitepaper_20260210-10-32.docx`
+- `/Users/celinecollin/Library/CloudStorage/OneDrive-Personal/Nutraceuticals/CHANGELOG.md`

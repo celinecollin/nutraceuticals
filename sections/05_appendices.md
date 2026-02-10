@@ -138,18 +138,6 @@
 | **Figure 17** | Sustainability positioning | Part I Figure 17 | [S089, Tab: Figure 18] |
 | **Figure 8** | Comparative economic value by segment and primary sector | Part I (I.3 extended) | [S089, Tab: Figure 18; S089, Tab: Figure 39] |
 
-**Figure 47: Functional needs across companion and production species.**
-![Functional needs across companion and production species (simplified).](figures/Figure_II_1_Simplified.png)
-*Source: [S089, Tab: Figure 18; S116, Tab: Sheet1]*
-_Figure takeaway:_ Companion and production species share biological needs but differ in value-capture logic, which changes product and channel strategy.
-_Appendix cross-reference:_ This matrix is kept as a visual annex to the core segmentation discussion (Figure 47).
-
-**Figure 48: Comparative economic value by functional segment and primary sector.**
-![Comparative economic value by functional segment and primary sector (simplified).](figures/Figure_II_12_Simplified.png)
-*Source: [S089, Tab: Figure 18; S089, Tab: Figure 39]*
-_Figure takeaway:_ Segment economics are uneven, so allocation should prioritize clusters with both scale and defensibility.
-_Appendix cross-reference:_ This economic split view is retained to support quick comparison with the Part I extended synthesis (Figure 48).
-
 ### Table D.3: Major Transactions >$100M (Legacy Cross-Check)
 
 | Year | Target | Acquirer | Deal Value | Category | Source |

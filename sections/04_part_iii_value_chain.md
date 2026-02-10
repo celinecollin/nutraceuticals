@@ -13,7 +13,7 @@ The downstream split remains decision-relevant: pet-side value is captured throu
 **Portfolio targeting should prioritize defensible SOM pathways with evidence-backed control points.**
 The TAM-to-SAM-to-SOM framing remains the correct decision framework for capital deployment [S104; S089, Tab: Figure 4]. The specific legacy SOM point estimate used in prior internal work is retained as an archive benchmark [S128].
 
-Figures 34-40 should be read jointly as a value-capture diagnostics set: waterfall and smile-curve mechanics, channel sensitivity (Figure 36), funnel conversion asymmetry (Figure 37), risk-return profile, transaction valuation behavior, and executable opportunity funnel.
+The following diagnostics should be read jointly as one value-capture set: waterfall and smile-curve mechanics (Figures 34-35), funnel conversion asymmetry (Figure 37), and the executable opportunity funnel (Figure 40), complemented by text-based analysis of channel resilience, strategic positioning, and transaction valuation behavior.
 
 Figure 34 illustrates this relationship with the underlying comparative data.
 **Figure 34: Pricing power erodes as products move from IP owners to generic retailers.**
@@ -29,27 +29,16 @@ This effect is explicitly shown in Figure 35.
 _Figure takeaway:_ Margin concentration is barbelled toward upstream science assets and downstream execution specialists.
 _Calculation note:_ Smile-curve values are directional modeled ranges for comparative strategy screening.
 
-**Figure 36: Channel economics favor omnichannel dominance but penalize pure-play DTC.**
-![Channel economics favor omnichannel dominance but penalize pure-play DTC.](figures/Figure18_Channel_Economics.png)
-*Source: [S060; S089, Tab: Figure 37]*
-_Figure takeaway:_ Channel diversification improves resilience when CAC inflation and conversion volatility increase.
-_Calculation note:_ Channel scores combine observed retail/e-commerce economics with internal scenario normalization.
+Channel economics continue to favor diversified distribution rather than single-channel concentration: when customer-acquisition costs rise and conversion quality decays, omnichannel models preserve retention and gross-margin quality more effectively than pure-play digital routes [S060; S089, Tab: Figure 37]. In this framework, channel diversification is not a branding preference but a structural resilience mechanism that protects cash-flow quality under volatile demand conditions [S060].
 
 **Figure 37: Incumbents use nutraceuticals as a low-cost acquisition funnel for future banking.**
 ![Incumbents use nutraceuticals as a low-cost acquisition funnel for future banking.](figures/Figure21_Pharma_Funnel.png)
 *Source: [S115, S116]*
 _Figure takeaway:_ The funnel illustrates how broad trial volume converts into smaller high-value therapeutic and Rx opportunities.
 
-Figure 38 illustrates this relationship with the underlying comparative data.
-**Figure 38: Strategic categorization defines the risk-reward profile for market entrants.**
-![Strategic categorization defines the risk-reward profile for market entrants.](figures/Figure20_Risk_Reward.png)
-*Source: [S063]*
-_Figure takeaway:_ Segment positioning should be read through a risk-adjusted lens, not just top-line TAM.
+Strategic categorization remains essential for entry decisions: categories with high evidence depth and scalable distribution pathways offer stronger risk-adjusted outcomes than categories that depend primarily on undifferentiated volume growth [S063]. For allocation purposes, segment positioning should be interpreted through risk-adjusted quality filters rather than headline TAM alone [S063; S089, Tab: Figure 39].
 
-**Figure 39: M&A valuation matrix favors de-risked assets over internal R&D development.**
-![M&A valuation matrix favors de-risked assets over internal R&D development.](figures/Figure_MA_Matrix.png)
-*Source: [S118, S115]*
-_Figure takeaway:_ Transaction history supports a premium for derisked assets with proven commercial execution.
+Transaction evidence still supports valuation premia for de-risked assets with validated claims, channel execution, and operational control, while early-stage or weakly differentiated assets clear materially lower valuation bands [S118, S115]. This M&A dispersion reinforces the report’s core underwriting logic that proof architecture and commercialization quality drive exit outcomes more than category participation alone [S125; S118].
 
 Figure 40 provides supporting evidence for this conclusion.
 **Figure 40: Strategic opportunity funnel from broad TAM to executable SOM.**
@@ -69,7 +58,7 @@ Premium outcomes continue to cluster around assets with brand defensibility, man
 **Sponsor profiling should be treated as a strategic signal layer for future exits and roll-up velocity.**
 Investor participation remains heterogeneous by thesis type: channel-consolidation PE, specialist growth investors, and biosolutions/food-tech funds each cluster around different moat types and time horizons [S116, Tab: Sheet1; S128]. The extended investor table is restored below to recover the missing institutional map from prior versions.
 
-Figures 39-43 are the operating-screen set for this section: the valuation surface under transaction-risk filters (Figure 39), model-level revenue quality, capability continuity across care touchpoints, category-structure concentration, margin architecture by chain position, and risk-adjusted allocation posture.
+The operating-screen set for this section combines transaction-risk filters (text analysis), model-level revenue quality (Figure 41), capability continuity across care touchpoints (Figure 42), category-structure concentration (Figure 43), and margin architecture by chain position (Figure 44).
 
 The pattern is quantified in Figure 41.
 **Figure 41: Revenue architecture across pharma-linked, feed-linked, and consumer-led models.**
@@ -97,12 +86,7 @@ Figure 44 provides supporting evidence for this conclusion.
 _Figure takeaway:_ Margin expansion is linked to control-point depth rather than simple downstream scale.
 _Calculation note:_ Margin ladder values are scenario-based estimates for strategic comparison.
 
-The pattern is quantified in Figure 45.
-**Figure 45: Strategic capital-allocation matrix for risk/reward positioning.**
-![Strategic capital-allocation matrix for risk/reward positioning.](figures/Figure_IV_5_Strategic_matrix.png)
-*Source: [S089, Tab: Figure 45]*
-_Figure takeaway:_ Allocation priority should favor assets where evidence depth and scale reinforce each other.
-_Calculation note:_ Matrix coordinates use internal scoring calibrated from reported commercial and clinical indicators.
+Capital allocation should prioritize assets where evidence depth and scale reinforce each other, with secondary allocation to assets that are strong on one dimension but still scaling on the other [S089, Tab: Figure 45]. The underlying scoring logic combines reported commercial and clinical indicators into comparable strategic coordinates, enabling consistent prioritization across heterogeneous asset profiles [CALCULATION, Figure 45].
 
 **Table III.1: Expanded Benchmark Transactions (Archive-Ported and Updated).**
 

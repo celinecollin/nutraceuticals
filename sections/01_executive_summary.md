@@ -13,7 +13,7 @@ Our base case is that excess returns will accrue to operators that can prove mea
 
 The pattern is quantified in Figure 1.
 **Figure 1: Global corporate, startup, and investor landscape by region.**
-Figure 4 combines the ecosystem entity base from the portfolio mapping workbook with a geographic rendering layer to show where corporate, startup, and investor density clusters are most visible [S116, Tab: Sheet1; S121]. The figure should be interpreted as an orientation map for pipeline sourcing and not as a market-share chart.
+Figure 1 combines the ecosystem entity base from the portfolio mapping workbook with a geographic rendering layer to show where corporate, startup, and investor density clusters are most visible [S116, Tab: Sheet1; S121]. The figure should be interpreted as an orientation map for pipeline sourcing and not as a market-share chart.
 ![Global corporate, startup, and investor landscape by region.](figures/Global_Antigravity_Landscape_Final.png)
 *Source: [S121; S116, Tab: Sheet1]*
 _Figure takeaway:_ The highest concentration of activity remains in North America and Europe, with APAC and LATAM showing selective but increasing platform density.
